@@ -1,3 +1,11 @@
+读取国服lua数据,生成对应日服数据
+
+
+
+
+
+
+
 # AzurLaneLuaScripts
 
 ![](versions/CN.svg)

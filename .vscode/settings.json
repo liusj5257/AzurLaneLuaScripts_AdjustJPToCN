@@ -14,7 +14,7 @@
   "clangd.arguments": [
     "--compile-commands-dir=build",
     "--completion-style=bundled",
-    "--fallback-style=microsoft",
+    "--fallback-style=google",
     "--enable-config",
     "--function-arg-placeholders=false",
     "--header-insertion-decorators",

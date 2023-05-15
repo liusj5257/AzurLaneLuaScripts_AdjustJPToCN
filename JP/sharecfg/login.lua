@@ -775,6 +775,15 @@ pg.login = {
 			}
 		}
 	},
+	[27] = {
+		id = 27,
+		login_static = "login",
+		date = "stop",
+		op_play = 1,
+		op_time = "stop",
+		login_cri = "",
+		bgm = "doa_guanqia"
+	},
 	all = {
 		1,
 		2,
@@ -795,6 +804,7 @@ pg.login = {
 		21,
 		22,
 		23,
-		26
+		26,
+		27
 	}
 }

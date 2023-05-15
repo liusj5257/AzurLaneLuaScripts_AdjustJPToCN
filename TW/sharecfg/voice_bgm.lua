@@ -455,5 +455,11 @@ pg.voice_bgm = {
 		special_bgm = "battle-deepecho",
 		time = "",
 		bgm = "bgm-cccp3"
+	},
+	DOAPPMiniGameView = {
+		default_bgm = "doa_minigame",
+		special_bgm = "",
+		time = "",
+		bgm = "doa_minigame"
 	}
 }

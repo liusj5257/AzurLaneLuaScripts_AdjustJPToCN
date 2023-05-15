@@ -3,39 +3,13 @@ pg.activity_link_button = {
 	{
 		param = "0",
 		name = "event_all",
-		type = 3,
+		time = "stop",
 		text_pic = "text_event_all",
+		type = 3,
+		pic = "event_all",
 		id = 1,
 		group_id = 1,
-		pic = "event_all",
-		order = 1,
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					4,
-					13
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					4,
-					27
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		order = 1
 	},
 	{
 		param = "0",
@@ -62,39 +36,13 @@ pg.activity_link_button = {
 	[10] = {
 		param = "0",
 		name = "event_map",
-		type = 0,
+		time = "stop",
 		text_pic = "text_event_map",
+		type = 0,
+		pic = "event_map",
 		id = 10,
 		group_id = 2,
-		pic = "event_map",
-		order = 1,
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					4,
-					13
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					4,
-					27
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		order = 1
 	},
 	[20] = {
 		param = "0",
@@ -107,22 +55,19 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			41028
+			4780
 		}
 	},
 	[30] = {
 		param = "0",
 		name = "event_boss",
-		type = 0,
+		time = "stop",
 		text_pic = "text_event_boss",
+		type = 0,
+		pic = "event_boss",
 		id = 30,
 		group_id = 3,
-		pic = "event_boss",
-		order = 1,
-		time = {
-			"default",
-			41105
-		}
+		order = 1
 	},
 	[40] = {
 		param = "0",
@@ -205,6 +150,20 @@ pg.activity_link_button = {
 			"default"
 		}
 	},
+	[100] = {
+		param = "0",
+		name = "event_doa",
+		type = 0,
+		text_pic = "",
+		id = 100,
+		group_id = 10,
+		pic = "event_doa",
+		order = 1,
+		time = {
+			"default",
+			4779
+		}
+	},
 	get_id_list_by_name = {
 		event_all = {
 			1,
@@ -235,6 +194,9 @@ pg.activity_link_button = {
 		},
 		event_series = {
 			90
+		},
+		event_doa = {
+			100
 		}
 	},
 	all = {
@@ -249,6 +211,7 @@ pg.activity_link_button = {
 		70,
 		80,
 		1000,
-		90
+		90,
+		100
 	}
 }

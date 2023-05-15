@@ -167,6 +167,7 @@ pg.furniture_data_template = setmetatable({
 			100045,
 			100046,
 			100047,
+			100048,
 			200001,
 			200002,
 			200003,
@@ -4711,6 +4712,7 @@ pg.furniture_data_template = setmetatable({
 			100045,
 			100046,
 			100047,
+			100048,
 			54104,
 			54105
 		},
@@ -7247,7 +7249,8 @@ pg.furniture_data_template = setmetatable({
 		[14] = {
 			214,
 			100019,
-			100037
+			100037,
+			100048
 		},
 		[13] = {
 			100015,
@@ -8123,6 +8126,7 @@ pg.furniture_data_template = setmetatable({
 		100045,
 		100046,
 		100047,
+		100048,
 		200001,
 		200002,
 		200003,
@@ -14361,7 +14365,7 @@ pg.base.furniture_data_template = {
 		belong = 1,
 		themeId = 0,
 		is_3d_obj = 0,
-		count = 1,
+		count = 2,
 		tag = 6,
 		icon = "doaxunzhangicon",
 		deblocking = 1,
@@ -18807,7 +18811,7 @@ pg.base.furniture_data_template = {
 	},
 	[100038] = {
 		spine_extra = "",
-		describe = "SF풍으로 가득한…… 합성 장치?",
+		describe = "SF 느낌의…… 합성 장치?",
 		gain_by = "",
 		type = 7,
 		dir = 0,
@@ -18817,7 +18821,7 @@ pg.base.furniture_data_template = {
 		belong = 1,
 		count = 1,
 		is_3d_obj = 0,
-		name = "'맛있는 음식' 합성기",
+		name = "“맛”합성기",
 		themeId = 0,
 		icon = "zongzihechengqiicon",
 		deblocking = 1,
@@ -19496,6 +19500,56 @@ pg.base.furniture_data_template = {
 		followBone = {
 			"char",
 			1
+		},
+		interAction_group = {}
+	},
+	[100048] = {
+		spine_extra = "",
+		describe = "내가 단순한 보물상자인 줄 안다면 큰코다칠 거다쥬!",
+		gain_by = "",
+		type = 14,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "baoxiangguaiicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "만쥬 미믹",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 100048,
+		can_rotate = 0,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"baoxiangguai",
+				"normal"
+			},
+			[3] = {
+				{
+					-286,
+					59
+				},
+				"walk"
+			}
 		},
 		interAction_group = {}
 	},

@@ -27715,6 +27715,304 @@ _G.pg.base.task_data_template[5737] = {
 	}
 }
 
+_G.pg.base.task_data_template[5751] = {
+	name = "為什麼秘書艦是我？",
+	guild_coin_award = 0,
+	award = 5541,
+	type = 5,
+	desc = "提交3個《魚雷天婦羅》",
+	count_inherit = 0,
+	sub_type = 1000,
+	target_id_2 = "",
+	story_icon = "aidingbao",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "50003",
+	next_task = "5752",
+	auto_commit = 0,
+	story_id = "AIDINGBAO1",
+	id = 5751,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	},
+	scene = {
+		"BACKYARD"
+	}
+}
+
+_G.pg.base.task_data_template[5752] = {
+	name = "失落和笑容",
+	guild_coin_award = 0,
+	award = 5542,
+	type = 5,
+	desc = "強化任意角色10次",
+	count_inherit = 0,
+	sub_type = 34,
+	target_id_2 = "",
+	story_icon = "aidingbao",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "AIDINGBAO2",
+	target_id = "0",
+	next_task = "5753",
+	auto_commit = 0,
+	scene = "",
+	id = 5752,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5753] = {
+	name = "嘆息的午後",
+	guild_coin_award = 0,
+	award = 5543,
+	type = 5,
+	desc = "愛丁堡上陣出擊(關卡)勝利20次",
+	count_inherit = 0,
+	sub_type = 18,
+	target_id_2 = "",
+	story_icon = "aidingbao",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "AIDINGBAO3",
+	target_id = "20211",
+	next_task = "5754",
+	auto_commit = 0,
+	scene = "",
+	id = 5753,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5754] = {
+	name = "冒冒失失也要向前看",
+	guild_coin_award = 0,
+	award = 5544,
+	type = 5,
+	desc = "愛丁堡上陣完成3次每日挑戰",
+	count_inherit = 0,
+	sub_type = 19,
+	target_id_2 = "",
+	story_icon = "aidingbao",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "AIDINGBAO4",
+	target_id = "20211",
+	next_task = "5755",
+	auto_commit = 0,
+	scene = "",
+	id = 5754,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5755] = {
+	name = "意想不到的邀請",
+	guild_coin_award = 0,
+	award = 5545,
+	type = 5,
+	desc = "愛丁堡好感度達到100",
+	count_inherit = 0,
+	sub_type = 1012,
+	target_id_2 = "",
+	story_icon = "aidingbao",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "AIDINGBAO5",
+	target_id = "20211",
+	next_task = "5756",
+	auto_commit = 0,
+	scene = "",
+	id = 5755,
+	target_num = 10000,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			5
+		},
+		{
+			2,
+			16002,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5756] = {
+	name = "同甘共苦的兩人",
+	guild_coin_award = 0,
+	award = 5546,
+	type = 5,
+	desc = "愛丁堡突破至滿星",
+	count_inherit = 0,
+	sub_type = 35,
+	target_id_2 = "",
+	story_icon = "aidingbao",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "AIDINGBAO6",
+	target_id = "202114",
+	next_task = "5757",
+	auto_commit = 0,
+	scene = "",
+	id = 5756,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			10
+		},
+		{
+			2,
+			18012,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5757] = {
+	name = "她的價值，大家都知道",
+	guild_coin_award = 0,
+	award = 5547,
+	type = 5,
+	desc = "愛丁堡等級達到100",
+	count_inherit = 0,
+	sub_type = 1013,
+	target_id_2 = "",
+	story_icon = "aidingbao",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "AIDINGBAO7",
+	target_id = "20211",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 5757,
+	target_num = 100,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			10
+		},
+		{
+			2,
+			18012,
+			2
+		}
+	}
+}
+
 _G.pg.base.task_data_template[6001] = {
 	name = "困難·近海演習",
 	guild_coin_award = 0,
@@ -128163,6 +128461,1397 @@ _G.pg.base.task_data_template[17468] = {
 	}
 }
 
+_G.pg.base.task_data_template[17521] = {
+	name = "小欧根npc临时加入",
+	guild_coin_award = 0,
+	award = 97290,
+	type = 6,
+	desc = "不该看到",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17521,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			4,
+			403121,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17555] = {
+	name = "小欧根通常任务1",
+	guild_coin_award = 0,
+	award = 97331,
+	type = 6,
+	desc = "艦隊出擊，獲得20次勝利",
+	count_inherit = 17556,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "17556",
+	auto_commit = 0,
+	story_id = "",
+	id = 17555,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			252,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17556] = {
+	name = "小欧根通常任务2",
+	guild_coin_award = 0,
+	award = 97332,
+	type = 6,
+	desc = "艦隊出擊，獲得40次勝利",
+	count_inherit = 17557,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "17557",
+	auto_commit = 0,
+	story_id = "",
+	id = 17556,
+	target_num = 40,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			252,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17557] = {
+	name = "小欧根通常任务3",
+	guild_coin_award = 0,
+	award = 97333,
+	type = 6,
+	desc = "艦隊出擊，獲得60次勝利",
+	count_inherit = 17558,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "17558",
+	auto_commit = 0,
+	story_id = "",
+	id = 17557,
+	target_num = 60,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			252,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17558] = {
+	name = "小欧根通常任务4",
+	guild_coin_award = 0,
+	award = 97334,
+	type = 6,
+	desc = "艦隊出擊，獲得80次勝利",
+	count_inherit = 17559,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "17559",
+	auto_commit = 0,
+	story_id = "",
+	id = 17558,
+	target_num = 80,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			252,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17559] = {
+	name = "小欧根通常任务5",
+	guild_coin_award = 0,
+	award = 97335,
+	type = 6,
+	desc = "艦隊出擊，獲得100次勝利",
+	count_inherit = 17560,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "17560",
+	auto_commit = 0,
+	story_id = "",
+	id = 17559,
+	target_num = 100,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			252,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17560] = {
+	name = "小欧根通常任务6",
+	guild_coin_award = 0,
+	award = 97336,
+	type = 6,
+	desc = "艦隊出擊，獲得120次勝利",
+	count_inherit = 17561,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "17561",
+	auto_commit = 0,
+	story_id = "",
+	id = 17560,
+	target_num = 120,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			252,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17561] = {
+	name = "小欧根通常任务7",
+	guild_coin_award = 0,
+	award = 97337,
+	type = 6,
+	desc = "艦隊出擊，獲得140次勝利",
+	count_inherit = 17562,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "17562",
+	auto_commit = 0,
+	story_id = "",
+	id = 17561,
+	target_num = 140,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			252,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17562] = {
+	name = "小欧根通常任务8",
+	guild_coin_award = 0,
+	award = 97338,
+	type = 6,
+	desc = "艦隊出擊，獲得160次勝利",
+	count_inherit = 17563,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "17563",
+	auto_commit = 0,
+	story_id = "",
+	id = 17562,
+	target_num = 160,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			252,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17563] = {
+	name = "小欧根通常任务9",
+	guild_coin_award = 0,
+	award = 97339,
+	type = 6,
+	desc = "艦隊出擊，獲得180次勝利",
+	count_inherit = 17564,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "17564",
+	auto_commit = 0,
+	story_id = "",
+	id = 17563,
+	target_num = 180,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			252,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17564] = {
+	name = "小欧根通常任务10",
+	guild_coin_award = 0,
+	award = 97340,
+	type = 6,
+	desc = "艦隊出擊，獲得200次勝利",
+	count_inherit = 17565,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "17565",
+	auto_commit = 0,
+	story_id = "",
+	id = 17564,
+	target_num = 200,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			252,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17565] = {
+	name = "小欧根通常任务11",
+	guild_coin_award = 0,
+	award = 97341,
+	type = 6,
+	desc = "艦隊出擊，獲得240次勝利",
+	count_inherit = 17566,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "17566",
+	auto_commit = 0,
+	story_id = "",
+	id = 17565,
+	target_num = 240,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			252,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17566] = {
+	name = "小欧根通常任务12",
+	guild_coin_award = 0,
+	award = 97342,
+	type = 6,
+	desc = "艦隊出擊，獲得280次勝利",
+	count_inherit = 17567,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "17567",
+	auto_commit = 0,
+	story_id = "",
+	id = 17566,
+	target_num = 280,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			252,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17567] = {
+	name = "小欧根通常任务13",
+	guild_coin_award = 0,
+	award = 97343,
+	type = 6,
+	desc = "艦隊出擊，獲得320次勝利",
+	count_inherit = 17568,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "17568",
+	auto_commit = 0,
+	story_id = "",
+	id = 17567,
+	target_num = 320,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			252,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17568] = {
+	name = "小欧根通常任务14",
+	guild_coin_award = 0,
+	award = 97344,
+	type = 6,
+	desc = "艦隊出擊，獲得360次勝利",
+	count_inherit = 17569,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "17569",
+	auto_commit = 0,
+	story_id = "",
+	id = 17568,
+	target_num = 360,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			252,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17569] = {
+	name = "小欧根通常任务15",
+	guild_coin_award = 0,
+	award = 97345,
+	type = 6,
+	desc = "艦隊出擊，獲得400次勝利",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17569,
+	target_num = 400,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			252,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17570] = {
+	name = "小欧根通常任务16",
+	guild_coin_award = 0,
+	award = 97346,
+	type = 6,
+	desc = "{namecode:458}上陣出擊，獲得20次勝利",
+	count_inherit = 17571,
+	sub_type = 18,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "40312",
+	next_task = "17571",
+	auto_commit = 0,
+	story_id = "",
+	id = 17570,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			252,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17571] = {
+	name = "小欧根通常任务17",
+	guild_coin_award = 0,
+	award = 97347,
+	type = 6,
+	desc = "{namecode:458}上陣出擊，獲得40次勝利",
+	count_inherit = 17572,
+	sub_type = 18,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "40312",
+	next_task = "17572",
+	auto_commit = 0,
+	story_id = "",
+	id = 17571,
+	target_num = 40,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			252,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17572] = {
+	name = "小欧根通常任务18",
+	guild_coin_award = 0,
+	award = 97348,
+	type = 6,
+	desc = "{namecode:458}上陣出擊，獲得60次勝利",
+	count_inherit = 17573,
+	sub_type = 18,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "40312",
+	next_task = "17573",
+	auto_commit = 0,
+	story_id = "",
+	id = 17572,
+	target_num = 60,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			252,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17573] = {
+	name = "小欧根通常任务19",
+	guild_coin_award = 0,
+	award = 97349,
+	type = 6,
+	desc = "{namecode:458}上陣出擊，獲得80次勝利",
+	count_inherit = 17574,
+	sub_type = 18,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "40312",
+	next_task = "17574",
+	auto_commit = 0,
+	story_id = "",
+	id = 17573,
+	target_num = 80,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			252,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17574] = {
+	name = "小欧根通常任务20",
+	guild_coin_award = 0,
+	award = 97350,
+	type = 6,
+	desc = "{namecode:458}上陣出擊，獲得100次勝利",
+	count_inherit = 0,
+	sub_type = 18,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "40312",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17574,
+	target_num = 100,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			252,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17575] = {
+	name = "小欧根通常任务21",
+	guild_coin_award = 0,
+	award = 97351,
+	type = 6,
+	desc = "{namecode:458}等級達到10",
+	count_inherit = 0,
+	sub_type = 1013,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "40312",
+	next_task = "17576",
+	auto_commit = 0,
+	story_id = "",
+	id = 17575,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			252,
+			600
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17576] = {
+	name = "小欧根通常任务22",
+	guild_coin_award = 0,
+	award = 97352,
+	type = 6,
+	desc = "{namecode:458}等級達到20",
+	count_inherit = 0,
+	sub_type = 1013,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "40312",
+	next_task = "17577",
+	auto_commit = 0,
+	story_id = "",
+	id = 17576,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			252,
+			600
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17577] = {
+	name = "小欧根通常任务23",
+	guild_coin_award = 0,
+	award = 97353,
+	type = 6,
+	desc = "{namecode:458}等級達到30",
+	count_inherit = 0,
+	sub_type = 1013,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "40312",
+	next_task = "17578",
+	auto_commit = 0,
+	story_id = "",
+	id = 17577,
+	target_num = 30,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			252,
+			600
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17578] = {
+	name = "小欧根通常任务24",
+	guild_coin_award = 0,
+	award = 97354,
+	type = 6,
+	desc = "{namecode:458}等級達到40",
+	count_inherit = 0,
+	sub_type = 1013,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "40312",
+	next_task = "17579",
+	auto_commit = 0,
+	story_id = "",
+	id = 17578,
+	target_num = 40,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			252,
+			600
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17579] = {
+	name = "小欧根通常任务25",
+	guild_coin_award = 0,
+	award = 97355,
+	type = 6,
+	desc = "{namecode:458}等級達到50",
+	count_inherit = 0,
+	sub_type = 1013,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "40312",
+	next_task = "17580",
+	auto_commit = 0,
+	story_id = "",
+	id = 17579,
+	target_num = 50,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			252,
+			600
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17580] = {
+	name = "小欧根通常任务26",
+	guild_coin_award = 0,
+	award = 97356,
+	type = 6,
+	desc = "{namecode:458}等級達到70",
+	count_inherit = 0,
+	sub_type = 1013,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "40312",
+	next_task = "17581",
+	auto_commit = 0,
+	story_id = "",
+	id = 17580,
+	target_num = 70,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			252,
+			1000
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17581] = {
+	name = "小欧根通常任务27",
+	guild_coin_award = 0,
+	award = 97357,
+	type = 6,
+	desc = "{namecode:458}等級達到90",
+	count_inherit = 0,
+	sub_type = 1013,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "40312",
+	next_task = "17582",
+	auto_commit = 0,
+	story_id = "",
+	id = 17581,
+	target_num = 90,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			252,
+			1000
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17582] = {
+	name = "小欧根通常任务28",
+	guild_coin_award = 0,
+	award = 97358,
+	type = 6,
+	desc = "{namecode:458}等級達到100",
+	count_inherit = 0,
+	sub_type = 1013,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "40312",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17582,
+	target_num = 100,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			252,
+			1000
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17583] = {
+	name = "小欧根通常任务29",
+	guild_coin_award = 0,
+	award = 97359,
+	type = 6,
+	desc = "{namecode:458}突破到3星",
+	count_inherit = 0,
+	sub_type = 33,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "40312",
+	next_task = "17584",
+	auto_commit = 0,
+	story_id = "",
+	id = 17583,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			252,
+			1000
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17584] = {
+	name = "小欧根通常任务30",
+	guild_coin_award = 0,
+	award = 97360,
+	type = 6,
+	desc = "{namecode:458}突破到4星",
+	count_inherit = 0,
+	sub_type = 33,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "40312",
+	next_task = "17585",
+	auto_commit = 0,
+	story_id = "",
+	id = 17584,
+	target_num = 4,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			252,
+			1500
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17585] = {
+	name = "小欧根通常任务31",
+	guild_coin_award = 0,
+	award = 97361,
+	type = 6,
+	desc = "{namecode:458}突破到5星",
+	count_inherit = 0,
+	sub_type = 33,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "40312",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17585,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			252,
+			2000
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17586] = {
+	name = "小欧根每日任务1",
+	guild_coin_award = 0,
+	award = 97362,
+	type = 36,
+	desc = "艦隊出擊，獲得15次勝利。",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17586,
+	target_num = 15,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			252,
+			200
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17587] = {
+	name = "小欧根每日任务2",
+	guild_coin_award = 0,
+	award = 97363,
+	type = 36,
+	desc = "通關3次任意困難關卡",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "10101",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17587,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			252,
+			200
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
 _G.pg.base.task_data_template[17620] = {
 	name = "小柴郡通常任务1",
 	guild_coin_award = 0,
@@ -138792,6 +140481,1190 @@ _G.pg.base.task_data_template[18321] = {
 	},
 	scene = {
 		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[18472] = {
+	name = "『DOA复刻』通关EX1",
+	guild_coin_award = 0,
+	award = 94434,
+	type = 6,
+	desc = "通關EX1",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1450051",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18472,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15008,
+			500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1450003,
+			chapterId = 1450052
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18473] = {
+	name = "『DOA复刻』外观装备箱保底",
+	guild_coin_award = 0,
+	award = 94404,
+	type = 6,
+	desc = "開啟20個外觀裝備箱(維納斯假期)",
+	count_inherit = 0,
+	sub_type = 52,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "30323",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18473,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30521,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18474] = {
+	name = "『DOA复刻』日常建造",
+	guild_coin_award = 0,
+	award = 94409,
+	type = 36,
+	desc = "建造艦船3次。",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18474,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59420,
+			300
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18475] = {
+	name = "『DOA复刻』日常出击",
+	guild_coin_award = 0,
+	award = 94410,
+	type = 36,
+	desc = "艦隊出擊，獲得15次勝利。",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18475,
+	target_num = 15,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59420,
+			300
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[18476] = {
+	name = "『DOA复刻』日常困难本",
+	guild_coin_award = 0,
+	award = 94411,
+	type = 36,
+	desc = "通關1次任意困難關卡",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "10101",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18476,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59420,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18477] = {
+	name = "『DOA复刻』完成「活动特殊委托」1次",
+	guild_coin_award = 0,
+	award = 94412,
+	type = 6,
+	desc = "完成「活動特殊委託」1次",
+	count_inherit = 0,
+	sub_type = 82,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18477,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		50001,
+		50002,
+		50003,
+		50004,
+		50005,
+		50006,
+		50007,
+		50008,
+		50009,
+		50010,
+		50011,
+		50012,
+		50013,
+		50014
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59420,
+			200
+		},
+		{
+			8,
+			70128,
+			1
+		}
+	},
+	scene = {
+		"EVENT"
+	}
+}
+
+_G.pg.base.task_data_template[18478] = {
+	name = "『DOA复刻』完成「活动特殊委托」3次（新增）",
+	guild_coin_award = 0,
+	award = 94413,
+	type = 6,
+	desc = "完成「活動特殊委託」3次",
+	count_inherit = 0,
+	sub_type = 82,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18478,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		50001,
+		50002,
+		50003,
+		50004,
+		50005,
+		50006,
+		50007,
+		50008,
+		50009,
+		50010,
+		50011,
+		50012,
+		50013,
+		50014
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59420,
+			300
+		},
+		{
+			8,
+			70143,
+			1
+		}
+	},
+	scene = {
+		"EVENT"
+	}
+}
+
+_G.pg.base.task_data_template[18479] = {
+	name = "『DOA复刻』累计建造10次",
+	guild_coin_award = 0,
+	award = 94414,
+	type = 6,
+	desc = "建造艦船10次",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18479,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59420,
+			500
+		},
+		{
+			8,
+			70127,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18480] = {
+	name = "『DOA复刻』累计建造20次",
+	guild_coin_award = 0,
+	award = 94415,
+	type = 6,
+	desc = "建造艦船20次",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18480,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59420,
+			500
+		},
+		{
+			8,
+			70141,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18481] = {
+	name = "『DOA复刻』关卡情绪高涨状态下获得60次胜利",
+	guild_coin_award = 0,
+	award = 94416,
+	type = 6,
+	desc = "關卡情緒高漲狀態下獲得60次勝利",
+	count_inherit = 0,
+	sub_type = 13,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18481,
+	target_num = 60,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		8761
+	},
+	open_need = {},
+	award_display = {
+		{
+			8,
+			70134,
+			1
+		},
+		{
+			5,
+			188,
+			1
+		},
+		{
+			21,
+			10900,
+			1
+		},
+		{
+			2,
+			59420,
+			300
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4773
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18482] = {
+	name = "『DOA复刻』通关SP1",
+	guild_coin_award = 0,
+	award = 94417,
+	type = 6,
+	desc = "通關SP1",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1450001",
+	next_task = "18483",
+	auto_commit = 0,
+	story_id = "",
+	id = 18482,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59420,
+			200
+		},
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			8,
+			70130,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1450001,
+			chapterId = 1450001
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18483] = {
+	name = "『DOA复刻』通关SP2",
+	guild_coin_award = 0,
+	award = 94418,
+	type = 6,
+	desc = "通關SP2",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1450002",
+	next_task = "18484",
+	auto_commit = 0,
+	story_id = "",
+	id = 18483,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59420,
+			400
+		},
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			8,
+			70132,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1450001,
+			chapterId = 1450002
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18484] = {
+	name = "『DOA复刻』通关SP3",
+	guild_coin_award = 0,
+	award = 94419,
+	type = 6,
+	desc = "通關SP3",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1450003",
+	next_task = "18485",
+	auto_commit = 0,
+	story_id = "",
+	id = 18484,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59420,
+			600
+		},
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			8,
+			70126,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1450001,
+			chapterId = 1450003
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18485] = {
+	name = "『DOA复刻』通关SP4",
+	guild_coin_award = 0,
+	award = 94420,
+	type = 6,
+	desc = "通關SP4",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1450004",
+	next_task = "18486",
+	auto_commit = 0,
+	story_id = "",
+	id = 18485,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59420,
+			800
+		},
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			8,
+			70136,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1450001,
+			chapterId = 1450004
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18486] = {
+	name = "『DOA复刻』通关VSP",
+	guild_coin_award = 0,
+	award = 94421,
+	type = 6,
+	desc = "通關VSP",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1450041",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18486,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			8,
+			70138,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1450002,
+			chapterId = 1450041
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18487] = {
+	name = "『DOA复刻』SP1三星",
+	guild_coin_award = 0,
+	award = 94422,
+	type = 6,
+	desc = "完成SP1的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1450001",
+	next_task = "18488",
+	auto_commit = 0,
+	story_id = "",
+	id = 18487,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30323,
+			1
+		},
+		{
+			8,
+			70131,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1450001,
+			chapterId = 1450001
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18488] = {
+	name = "『DOA复刻』SP2三星",
+	guild_coin_award = 0,
+	award = 94423,
+	type = 6,
+	desc = "完成SP2的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1450002",
+	next_task = "18489",
+	auto_commit = 0,
+	story_id = "",
+	id = 18488,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30323,
+			1
+		},
+		{
+			8,
+			70135,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1450001,
+			chapterId = 1450002
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18489] = {
+	name = "『DOA复刻』SP3三星",
+	guild_coin_award = 0,
+	award = 94424,
+	type = 6,
+	desc = "完成SP3的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1450003",
+	next_task = "18490",
+	auto_commit = 0,
+	story_id = "",
+	id = 18489,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30323,
+			1
+		},
+		{
+			8,
+			70129,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1450001,
+			chapterId = 1450003
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18490] = {
+	name = "『DOA复刻』SP4三星",
+	guild_coin_award = 0,
+	award = 94425,
+	type = 6,
+	desc = "完成SP4的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1450004",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18490,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30323,
+			1
+		},
+		{
+			8,
+			70137,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1450001,
+			chapterId = 1450004
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18491] = {
+	name = "『DOA复刻』累计消耗石油",
+	guild_coin_award = 0,
+	award = 94426,
+	type = 6,
+	desc = "累計消耗石油5000",
+	count_inherit = 0,
+	sub_type = 121,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18491,
+	target_num = 5000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			21,
+			10820,
+			1
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[18492] = {
+	name = "『DOA复刻』通关EX2",
+	guild_coin_award = 0,
+	award = 94436,
+	type = 6,
+	desc = "通關EX2",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1450052",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18492,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15012,
+			50
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1450003,
+			chapterId = 1450052
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18493] = {
+	name = "登录送皮肤体验券活动",
+	guild_coin_award = 0,
+	award = 94441,
+	type = 6,
+	desc = "登入遊戲",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18493,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			316,
+			5
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18494] = {
+	name = "『DOA复刻』通关任务10次",
+	guild_coin_award = 0,
+	award = 94442,
+	type = 6,
+	desc = "通關10次『假日航線』特別作戰關卡",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18494,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1450001,
+		1450002,
+		1450003,
+		1450004,
+		1450041
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59420,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18495] = {
+	name = "『DOA复刻』通关任务30次",
+	guild_coin_award = 0,
+	award = 94443,
+	type = 6,
+	desc = "通關30次『假日航線』特別作戰關卡",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18495,
+	target_num = 30,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1450001,
+		1450002,
+		1450003,
+		1450004,
+		1450041
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59420,
+			1500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18496] = {
+	name = "『DOA复刻』通关任务60次",
+	guild_coin_award = 0,
+	award = 94444,
+	type = 6,
+	desc = "通關60次『假日航線』特別作戰關卡",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18496,
+	target_num = 60,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1450001,
+		1450002,
+		1450003,
+		1450004,
+		1450041
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59420,
+			3000
+		}
 	}
 }
 
@@ -193063,6 +195936,1980 @@ _G.pg.base.task_data_template[60229] = {
 	scene = "",
 	id = 60229,
 	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60231] = {
+	name = "普利茅斯開啟研發前置任務",
+	guild_coin_award = 0,
+	award = 0,
+	type = 9,
+	desc = "",
+	count_inherit = 0,
+	sub_type = 1050,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 30,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "2",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60231,
+	target_num = 900,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60232] = {
+	name = "皇家先鋒技術測試I",
+	guild_coin_award = 0,
+	award = 0,
+	type = 8,
+	desc = "<color=#a2a2a2>為確保研發工程的順利進行，獲取足夠多的測試數據是非常有必要的，而最真實有效的數據，無疑來自實戰</color>\n\n——使用皇家先鋒角色，在任意關卡中累計獲得<color=#92fc63>120萬</color>經驗（不同角色可累加）",
+	count_inherit = 0,
+	sub_type = 1041,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 30,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60232,
+	target_num = 1200000,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		{
+			2,
+			1
+		},
+		{
+			2,
+			2
+		},
+		{
+			2,
+			3
+		},
+		{
+			2,
+			18
+		},
+		{
+			2,
+			19
+		},
+		{
+			2,
+			20
+		}
+	},
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60233] = {
+	name = "大型技術理論I",
+	guild_coin_award = 0,
+	award = 0,
+	type = 8,
+	desc = "<color=#a2a2a2>每一次的研發都意味著大量新技術的引入。在此之前，工程師們已經積累了大量的研發理論，如果能證明這些理論的可行性，勢必將加速研發的進程</color>\n\n——完成<color=#92fc63>8次</color>科研項目的研發",
+	count_inherit = 0,
+	sub_type = 110,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 30,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60233,
+	target_num = 8,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60234] = {
+	name = "巡洋技術突破I",
+	guild_coin_award = 0,
+	award = 0,
+	type = 8,
+	desc = "<color=#a2a2a2>大量的實戰數據和前沿理論讓研發工作迎來了一次突破，這將會是一件完全不同與以往的工程，但在細節部分還需要參考之前的設計圖進行比照確認</color>\n\n——提交<color=#92fc63>3張</color>巡洋改造圖T3",
+	count_inherit = 0,
+	sub_type = 1000,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 30,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "18013",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60234,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60235] = {
+	name = "皇家先鋒技術測試II",
+	guild_coin_award = 0,
+	award = 0,
+	type = 8,
+	desc = [[
+<color=#a2a2a2><color=#92fc63>「需先完成皇家先鋒技術測試I」</color>
+研發進入了新的階段，儘管改良後的設計方案在理論上具有更出色的性能，但紙面數據終究不如實戰測試來得可靠</color>
+
+——使用皇家先鋒角色，在任意關卡中累計獲得<color=#92fc63>240萬</color>經驗（不同角色可累加）]],
+	count_inherit = 0,
+	sub_type = 1041,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 30,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60235,
+	target_num = 2400000,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		{
+			2,
+			1
+		},
+		{
+			2,
+			2
+		},
+		{
+			2,
+			3
+		},
+		{
+			2,
+			18
+		},
+		{
+			2,
+			19
+		},
+		{
+			2,
+			20
+		}
+	},
+	open_need = {
+		60232
+	},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60236] = {
+	name = "大型技術理論II",
+	guild_coin_award = 0,
+	award = 0,
+	type = 8,
+	desc = [[
+<color=#a2a2a2><color=#92fc63>「需先完成大型技術理論I」</color>
+支撐技術不斷革新的理論建設從來沒有停下過腳步，工程師們的腦海中無時無刻不在迸發更為大膽、更為激進的想法，現在是時候將這些想法落地了</color>
+
+——完成<color=#92fc63>12次</color>科研項目的研發]],
+	count_inherit = 0,
+	sub_type = 110,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 30,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60236,
+	target_num = 12,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {
+		60233
+	},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60237] = {
+	name = "巡洋技術突破II",
+	guild_coin_award = 0,
+	award = 0,
+	type = 8,
+	desc = "<color=#a2a2a2>在更多的數據和理論的幫助下，研發工作迎來了一次巨大的突破，在諸多領域應用了全新的技術。但有幾個點，工程師們並沒有達成一致，他們需要以往的技術資料進行參考</color>\n\n——提交<color=#92fc63>8張</color>巡洋改造圖T3",
+	count_inherit = 0,
+	sub_type = 1000,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 30,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "18013",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60237,
+	target_num = 8,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60238] = {
+	name = "普利茅斯艦體塑造I",
+	guild_coin_award = 0,
+	award = 0,
+	type = 8,
+	desc = "<color=#a2a2a2>漫長而又艱辛的研發工程終於來到了終點，現在只需要完成最後的艦體部分，就能享受來自港區山呼海嘯般的祝賀了</color>\n\n——提交<color=#92fc63>4萬</color>物資",
+	count_inherit = 0,
+	sub_type = 1002,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 30,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "1",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60238,
+	target_num = 40000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60239] = {
+	name = "普利茅斯艦體塑造II",
+	guild_coin_award = 0,
+	award = 0,
+	type = 8,
+	desc = "<color=#a2a2a2>漫長而又艱辛的研發工程終於來到了終點，現在只需要完成最後的艦體部分，就能享受來自港區山呼海嘯般的祝賀了</color>\n\n——提交<color=#92fc63>10個</color>心智魔方",
+	count_inherit = 0,
+	sub_type = 1000,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 30,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "20001",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60239,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60241] = {
+	name = "魯普雷希特親王開啟研發前置任務",
+	guild_coin_award = 0,
+	award = 0,
+	type = 9,
+	desc = "",
+	count_inherit = 0,
+	sub_type = 1050,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 30,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "4",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60241,
+	target_num = 700,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60242] = {
+	name = "鐵血主力技術測試I",
+	guild_coin_award = 0,
+	award = 0,
+	type = 8,
+	desc = "<color=#a2a2a2>為確保研發工程的順利進行，獲取足夠多的測試數據是非常有必要的，而最真實有效的數據，無疑來自實戰</color>\n\n——使用鐵血主力角色，在任意關卡中累計獲得<color=#92fc63>100萬</color>經驗（不同角色可累加）",
+	count_inherit = 0,
+	sub_type = 1041,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 30,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60242,
+	target_num = 1000000,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		{
+			4,
+			4
+		},
+		{
+			4,
+			5
+		},
+		{
+			4,
+			6
+		},
+		{
+			4,
+			7
+		},
+		{
+			4,
+			9
+		},
+		{
+			4,
+			10
+		},
+		{
+			4,
+			12
+		},
+		{
+			4,
+			13
+		},
+		{
+			4,
+			21
+		}
+	},
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60243] = {
+	name = "大型技術理論I",
+	guild_coin_award = 0,
+	award = 0,
+	type = 8,
+	desc = "<color=#a2a2a2>每一次的研發都意味著大量新技術的引入。在此之前，工程師們已經積累了大量的研發理論，如果能證明這些理論的可行性，勢必將加速研發的進程</color>\n\n——完成<color=#92fc63>5次</color>科研項目的研發",
+	count_inherit = 0,
+	sub_type = 110,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 30,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60243,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60244] = {
+	name = "主力技術突破I",
+	guild_coin_award = 0,
+	award = 0,
+	type = 8,
+	desc = "<color=#a2a2a2>大量的實戰數據和前沿理論讓研發工作迎來了一次突破，這將會是一件完全不同與以往的工程，但在細節部分還需要參考之前的設計圖進行比照確認</color>\n\n——提交<color=#92fc63>10張</color>戰列改造圖T2",
+	count_inherit = 0,
+	sub_type = 1000,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 30,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "18022",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60244,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60245] = {
+	name = "鐵血主力技術測試II",
+	guild_coin_award = 0,
+	award = 0,
+	type = 8,
+	desc = [[
+<color=#a2a2a2><color=#92fc63>「需先完成鐵血主力技術測試I」</color>
+研發進入了新的階段，儘管改良後的設計方案在理論上具有更出色的性能，但紙面數據終究不如實戰測試來得可靠</color>
+
+——使用鐵血主力角色，在任意關卡中累計獲得<color=#92fc63>200萬</color>經驗（不同角色可累加）]],
+	count_inherit = 0,
+	sub_type = 1041,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 30,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60245,
+	target_num = 2000000,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		{
+			4,
+			4
+		},
+		{
+			4,
+			5
+		},
+		{
+			4,
+			6
+		},
+		{
+			4,
+			7
+		},
+		{
+			4,
+			9
+		},
+		{
+			4,
+			10
+		},
+		{
+			4,
+			12
+		},
+		{
+			4,
+			13
+		},
+		{
+			4,
+			21
+		}
+	},
+	open_need = {
+		60242
+	},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60246] = {
+	name = "大型技術理論II",
+	guild_coin_award = 0,
+	award = 0,
+	type = 8,
+	desc = [[
+<color=#a2a2a2><color=#92fc63>「需先完成大型技術理論I」</color>
+支撐技術不斷革新的理論建設從來沒有停下過腳步，工程師們的腦海中無時無刻不在迸發更為大膽、更為激進的想法，現在是時候將這些想法落地了</color>
+
+——完成<color=#92fc63>8次</color>科研項目的研發]],
+	count_inherit = 0,
+	sub_type = 110,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 30,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60246,
+	target_num = 8,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {
+		60243
+	},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60247] = {
+	name = "主力技術突破II",
+	guild_coin_award = 0,
+	award = 0,
+	type = 8,
+	desc = "<color=#a2a2a2>在更多的數據和理論的幫助下，研發工作迎來了一次巨大的突破，在諸多領域應用了全新的技術。但有幾個點，工程師們並沒有達成一致，他們需要以往的技術資料進行參考</color>\n\n——提交<color=#92fc63>5張</color>戰列改造圖T3",
+	count_inherit = 0,
+	sub_type = 1000,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 30,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "18023",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60247,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60248] = {
+	name = "{namecode:484}艦體塑造I",
+	guild_coin_award = 0,
+	award = 0,
+	type = 8,
+	desc = "<color=#a2a2a2>漫長而又艱辛的研發工程終於來到了終點，現在只需要完成最後的艦體部分，就能享受來自港區山呼海嘯般的祝賀了</color>\n\n——提交<color=#92fc63>3萬</color>物資",
+	count_inherit = 0,
+	sub_type = 1002,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 30,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "1",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60248,
+	target_num = 30000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60249] = {
+	name = "{namecode:484}艦體塑造II",
+	guild_coin_award = 0,
+	award = 0,
+	type = 8,
+	desc = "<color=#a2a2a2>漫長而又艱辛的研發工程終於來到了終點，現在只需要完成最後的艦體部分，就能享受來自港區山呼海嘯般的祝賀了</color>\n\n——提交<color=#92fc63>5個</color>心智魔方",
+	count_inherit = 0,
+	sub_type = 1000,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 30,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "20001",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60249,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60251] = {
+	name = "哈爾濱開啟研發前置任務",
+	guild_coin_award = 0,
+	award = 0,
+	type = 9,
+	desc = "",
+	count_inherit = 0,
+	sub_type = 1050,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 30,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "5",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60251,
+	target_num = 160,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60252] = {
+	name = "東煌先鋒技術測試I",
+	guild_coin_award = 0,
+	award = 0,
+	type = 8,
+	desc = "<color=#a2a2a2>為確保研發工程的順利進行，獲取足夠多的測試數據是非常有必要的，而最真實有效的數據，無疑來自實戰</color>\n\n——使用東煌先鋒角色，在任意關卡中累計獲得<color=#92fc63>100萬</color>經驗（不同角色可累加）",
+	count_inherit = 0,
+	sub_type = 1041,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 30,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60252,
+	target_num = 1000000,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		{
+			5,
+			1
+		},
+		{
+			5,
+			2
+		},
+		{
+			5,
+			3
+		},
+		{
+			5,
+			18
+		},
+		{
+			5,
+			19
+		},
+		{
+			5,
+			20
+		}
+	},
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60253] = {
+	name = "大型技術理論I",
+	guild_coin_award = 0,
+	award = 0,
+	type = 8,
+	desc = "<color=#a2a2a2>每一次的研發都意味著大量新技術的引入。在此之前，工程師們已經積累了大量的研發理論，如果能證明這些理論的可行性，勢必將加速研發的進程</color>\n\n——完成<color=#92fc63>5次</color>科研項目的研發",
+	count_inherit = 0,
+	sub_type = 110,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 30,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60253,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60254] = {
+	name = "先鋒技術突破I",
+	guild_coin_award = 0,
+	award = 0,
+	type = 8,
+	desc = "<color=#a2a2a2>大量的實戰數據和前沿理論讓研發工作迎來了一次突破，這將會是一件完全不同與以往的工程，但在細節部分還需要參考之前的設計圖進行比照確認</color>\n\n——提交<color=#92fc63>10張</color>巡洋改造圖T2",
+	count_inherit = 0,
+	sub_type = 1000,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 30,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "18012",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60254,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60255] = {
+	name = "東煌先鋒技術測試II",
+	guild_coin_award = 0,
+	award = 0,
+	type = 8,
+	desc = [[
+<color=#a2a2a2><color=#92fc63>「需先完成東煌先鋒技術測試I」</color>
+研發進入了新的階段，儘管改良後的設計方案在理論上具有更出色的性能，但紙面數據終究不如實戰測試來得可靠</color>
+
+——使用東煌先鋒角色，在任意關卡中累計獲得<color=#92fc63>200萬</color>經驗（不同角色可累加）]],
+	count_inherit = 0,
+	sub_type = 1041,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 30,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60255,
+	target_num = 2000000,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		{
+			5,
+			1
+		},
+		{
+			5,
+			2
+		},
+		{
+			5,
+			3
+		},
+		{
+			5,
+			18
+		},
+		{
+			5,
+			19
+		},
+		{
+			5,
+			20
+		}
+	},
+	open_need = {
+		60252
+	},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60256] = {
+	name = "大型技術理論II",
+	guild_coin_award = 0,
+	award = 0,
+	type = 8,
+	desc = [[
+<color=#a2a2a2><color=#92fc63>「需先完成大型技術理論I」</color>
+支撐技術不斷革新的理論建設從來沒有停下過腳步，工程師們的腦海中無時無刻不在迸發更為大膽、更為激進的想法，現在是時候將這些想法落地了</color>
+
+——完成<color=#92fc63>8次</color>科研項目的研發]],
+	count_inherit = 0,
+	sub_type = 110,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 30,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60256,
+	target_num = 8,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {
+		60253
+	},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60257] = {
+	name = "先鋒技術突破II",
+	guild_coin_award = 0,
+	award = 0,
+	type = 8,
+	desc = "<color=#a2a2a2>在更多的數據和理論的幫助下，研發工作迎來了一次巨大的突破，在諸多領域應用了全新的技術。但有幾個點，工程師們並沒有達成一致，他們需要以往的技術資料進行參考</color>\n\n——提交<color=#92fc63>5張</color>巡洋改造圖T3",
+	count_inherit = 0,
+	sub_type = 1000,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 30,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "18013",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60257,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60258] = {
+	name = "哈爾濱艦體塑造I",
+	guild_coin_award = 0,
+	award = 0,
+	type = 8,
+	desc = "<color=#a2a2a2>漫長而又艱辛的研發工程終於來到了終點，現在只需要完成最後的艦體部分，就能享受來自港區山呼海嘯般的祝賀了</color>\n\n——提交<color=#92fc63>2萬</color>物資",
+	count_inherit = 0,
+	sub_type = 1002,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 30,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "1",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60258,
+	target_num = 20000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60259] = {
+	name = "哈爾濱艦體塑造II",
+	guild_coin_award = 0,
+	award = 0,
+	type = 8,
+	desc = "<color=#a2a2a2>漫長而又艱辛的研發工程終於來到了終點，現在只需要完成最後的艦體部分，就能享受來自港區山呼海嘯般的祝賀了</color>\n\n——提交<color=#92fc63>5個</color>心智魔方",
+	count_inherit = 0,
+	sub_type = 1000,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 30,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "20001",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60259,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60260] = {
+	name = "契卡洛夫開啟研發前置任務1",
+	guild_coin_award = 0,
+	award = 0,
+	type = 9,
+	desc = "",
+	count_inherit = 0,
+	sub_type = 1050,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 30,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "1",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60260,
+	target_num = 760,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60261] = {
+	name = "契卡洛夫開啟研發前置任務2",
+	guild_coin_award = 0,
+	award = 0,
+	type = 9,
+	desc = "",
+	count_inherit = 0,
+	sub_type = 1050,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 30,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "6",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60261,
+	target_num = 300,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60262] = {
+	name = "薩丁主力技術測試I",
+	guild_coin_award = 0,
+	award = 0,
+	type = 8,
+	desc = "<color=#a2a2a2>為確保研發工程的順利進行，獲取足夠多的測試數據是非常有必要的，而最真實有效的數據，無疑來自實戰</color>\n\n——使用薩丁或北方聯合主力角色，在任意關卡中累計獲得<color=#92fc63>100萬</color>經驗（不同角色可累加）",
+	count_inherit = 0,
+	sub_type = 1041,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 30,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60262,
+	target_num = 1000000,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		{
+			6,
+			4
+		},
+		{
+			6,
+			5
+		},
+		{
+			6,
+			6
+		},
+		{
+			6,
+			7
+		},
+		{
+			6,
+			9
+		},
+		{
+			6,
+			10
+		},
+		{
+			6,
+			12
+		},
+		{
+			6,
+			13
+		},
+		{
+			6,
+			21
+		},
+		{
+			7,
+			4
+		},
+		{
+			7,
+			5
+		},
+		{
+			7,
+			6
+		},
+		{
+			7,
+			7
+		},
+		{
+			7,
+			9
+		},
+		{
+			7,
+			10
+		},
+		{
+			7,
+			12
+		},
+		{
+			7,
+			13
+		},
+		{
+			7,
+			21
+		}
+	},
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60263] = {
+	name = "大型技術理論I",
+	guild_coin_award = 0,
+	award = 0,
+	type = 8,
+	desc = "<color=#a2a2a2>每一次的研發都意味著大量新技術的引入。在此之前，工程師們已經積累了大量的研發理論，如果能證明這些理論的可行性，勢必將加速研發的進程</color>\n\n——完成<color=#92fc63>5次</color>科研項目的研發",
+	count_inherit = 0,
+	sub_type = 110,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 30,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60263,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60264] = {
+	name = "主力技術突破I",
+	guild_coin_award = 0,
+	award = 0,
+	type = 8,
+	desc = "<color=#a2a2a2>大量的實戰數據和前沿理論讓研發工作迎來了一次突破，這將會是一件完全不同與以往的工程，但在細節部分還需要參考之前的設計圖進行比照確認</color>\n\n——提交<color=#92fc63>10張</color>航母改造圖T2",
+	count_inherit = 0,
+	sub_type = 1000,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 30,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "18032",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60264,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60265] = {
+	name = "白鷹主力技術測試II",
+	guild_coin_award = 0,
+	award = 0,
+	type = 8,
+	desc = [[
+<color=#a2a2a2><color=#92fc63>「需先完成薩丁主力技術測試I」</color>
+研發進入了新的階段，儘管改良後的設計方案在理論上具有更出色的性能，但紙面數據終究不如實戰測試來得可靠</color>
+
+——使用白鷹或北方聯合主力角色，在任意關卡中累計獲得<color=#92fc63>200萬</color>經驗（不同角色可累加）]],
+	count_inherit = 0,
+	sub_type = 1041,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 30,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60265,
+	target_num = 2000000,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		{
+			1,
+			4
+		},
+		{
+			1,
+			5
+		},
+		{
+			1,
+			6
+		},
+		{
+			1,
+			7
+		},
+		{
+			1,
+			9
+		},
+		{
+			1,
+			10
+		},
+		{
+			1,
+			12
+		},
+		{
+			1,
+			13
+		},
+		{
+			1,
+			21
+		},
+		{
+			7,
+			4
+		},
+		{
+			7,
+			5
+		},
+		{
+			7,
+			6
+		},
+		{
+			7,
+			7
+		},
+		{
+			7,
+			9
+		},
+		{
+			7,
+			10
+		},
+		{
+			7,
+			12
+		},
+		{
+			7,
+			13
+		},
+		{
+			7,
+			21
+		}
+	},
+	open_need = {
+		60262
+	},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60266] = {
+	name = "大型技術理論II",
+	guild_coin_award = 0,
+	award = 0,
+	type = 8,
+	desc = [[
+<color=#a2a2a2><color=#92fc63>「需先完成大型技術理論I」</color>
+支撐技術不斷革新的理論建設從來沒有停下過腳步，工程師們的腦海中無時無刻不在迸發更為大膽、更為激進的想法，現在是時候將這些想法落地了</color>
+
+——完成<color=#92fc63>8次</color>科研項目的研發]],
+	count_inherit = 0,
+	sub_type = 110,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 30,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60266,
+	target_num = 8,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {
+		60263
+	},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60267] = {
+	name = "主力技術突破II",
+	guild_coin_award = 0,
+	award = 0,
+	type = 8,
+	desc = "<color=#a2a2a2>在更多的數據和理論的幫助下，研發工作迎來了一次巨大的突破，在諸多領域應用了全新的技術。但有幾個點，工程師們並沒有達成一致，他們需要以往的技術資料進行參考</color>\n\n——提交<color=#92fc63>5張</color>航母改造圖T3",
+	count_inherit = 0,
+	sub_type = 1000,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 30,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "18033",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60267,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60268] = {
+	name = "契卡洛夫艦體塑造I",
+	guild_coin_award = 0,
+	award = 0,
+	type = 8,
+	desc = "<color=#a2a2a2>漫長而又艱辛的研發工程終於來到了終點，現在只需要完成最後的艦體部分，就能享受來自港區山呼海嘯般的祝賀了</color>\n\n——提交<color=#92fc63>3萬</color>物資",
+	count_inherit = 0,
+	sub_type = 1002,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 30,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "1",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60268,
+	target_num = 30000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60269] = {
+	name = "契卡洛夫艦體塑造II",
+	guild_coin_award = 0,
+	award = 0,
+	type = 8,
+	desc = "<color=#a2a2a2>漫長而又艱辛的研發工程終於來到了終點，現在只需要完成最後的艦體部分，就能享受來自港區山呼海嘯般的祝賀了</color>\n\n——提交<color=#92fc63>5個</color>心智魔方",
+	count_inherit = 0,
+	sub_type = 1000,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 30,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "20001",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60269,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60271] = {
+	name = "布雷斯特開啟研發前置任務",
+	guild_coin_award = 0,
+	award = 0,
+	type = 9,
+	desc = "",
+	count_inherit = 0,
+	sub_type = 1050,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 30,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "8",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60271,
+	target_num = 250,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60272] = {
+	name = "鳶尾主力技術測試I",
+	guild_coin_award = 0,
+	award = 0,
+	type = 8,
+	desc = "<color=#a2a2a2>為確保研發工程的順利進行，獲取足夠多的測試數據是非常有必要的，而最真實有效的數據，無疑來自實戰</color>\n\n——使用自由鳶尾或維希教廷主力角色，在任意關卡中累計獲得<color=#92fc63>120萬</color>經驗（不同角色可累加）",
+	count_inherit = 0,
+	sub_type = 1041,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 30,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60272,
+	target_num = 1200000,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		{
+			8,
+			4
+		},
+		{
+			8,
+			5
+		},
+		{
+			8,
+			6
+		},
+		{
+			8,
+			7
+		},
+		{
+			8,
+			9
+		},
+		{
+			8,
+			10
+		},
+		{
+			8,
+			12
+		},
+		{
+			8,
+			13
+		},
+		{
+			8,
+			21
+		},
+		{
+			9,
+			4
+		},
+		{
+			9,
+			5
+		},
+		{
+			9,
+			6
+		},
+		{
+			9,
+			7
+		},
+		{
+			9,
+			9
+		},
+		{
+			9,
+			10
+		},
+		{
+			9,
+			12
+		},
+		{
+			9,
+			13
+		},
+		{
+			9,
+			21
+		}
+	},
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60273] = {
+	name = "大型技術理論I",
+	guild_coin_award = 0,
+	award = 0,
+	type = 8,
+	desc = "<color=#a2a2a2>每一次的研發都意味著大量新技術的引入。在此之前，工程師們已經積累了大量的研發理論，如果能證明這些理論的可行性，勢必將加速研發的進程</color>\n\n——完成<color=#92fc63>8次</color>科研項目的研發",
+	count_inherit = 0,
+	sub_type = 110,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 30,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60273,
+	target_num = 8,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60274] = {
+	name = "主力技術突破I",
+	guild_coin_award = 0,
+	award = 0,
+	type = 8,
+	desc = "<color=#a2a2a2>大量的實戰數據和前沿理論讓研發工作迎來了一次突破，這將會是一件完全不同與以往的工程，但在細節部分還需要參考之前的設計圖進行比照確認</color>\n\n——提交<color=#92fc63>3張</color>戰列改造圖T3",
+	count_inherit = 0,
+	sub_type = 1000,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 30,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "18023",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60274,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60275] = {
+	name = "鳶尾先鋒技術測試II",
+	guild_coin_award = 0,
+	award = 0,
+	type = 8,
+	desc = [[
+<color=#a2a2a2><color=#92fc63>「需先完成鳶尾主力技術測試I」</color>
+研發進入了新的階段，儘管改良後的設計方案在理論上具有更出色的性能，但紙面數據終究不如實戰測試來得可靠</color>
+
+——使用自由鳶尾或維希教廷先鋒角色，在任意關卡中累計獲得<color=#92fc63>240萬</color>經驗（不同角色可累加）]],
+	count_inherit = 0,
+	sub_type = 1041,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 30,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60275,
+	target_num = 2400000,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		{
+			8,
+			1
+		},
+		{
+			8,
+			2
+		},
+		{
+			8,
+			3
+		},
+		{
+			8,
+			18
+		},
+		{
+			8,
+			19
+		},
+		{
+			8,
+			20
+		},
+		{
+			9,
+			1
+		},
+		{
+			9,
+			2
+		},
+		{
+			9,
+			3
+		},
+		{
+			9,
+			18
+		},
+		{
+			9,
+			19
+		},
+		{
+			9,
+			20
+		}
+	},
+	open_need = {
+		60272
+	},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60276] = {
+	name = "大型技術理論II",
+	guild_coin_award = 0,
+	award = 0,
+	type = 8,
+	desc = [[
+<color=#a2a2a2><color=#92fc63>「需先完成大型技術理論I」</color>
+支撐技術不斷革新的理論建設從來沒有停下過腳步，工程師們的腦海中無時無刻不在迸發更為大膽、更為激進的想法，現在是時候將這些想法落地了</color>
+
+——完成<color=#92fc63>12次</color>科研項目的研發]],
+	count_inherit = 0,
+	sub_type = 110,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 30,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60276,
+	target_num = 12,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {
+		60273
+	},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60277] = {
+	name = "先鋒技術突破II",
+	guild_coin_award = 0,
+	award = 0,
+	type = 8,
+	desc = "<color=#a2a2a2>在更多的數據和理論的幫助下，研發工作迎來了一次巨大的突破，在諸多領域應用了全新的技術。但有幾個點，工程師們並沒有達成一致，他們需要以往的技術資料進行參考</color>\n\n——提交<color=#92fc63>8張</color>巡洋改造圖T3",
+	count_inherit = 0,
+	sub_type = 1000,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 30,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "18013",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60277,
+	target_num = 8,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60278] = {
+	name = "布雷斯特艦體塑造I",
+	guild_coin_award = 0,
+	award = 0,
+	type = 8,
+	desc = "<color=#a2a2a2>漫長而又艱辛的研發工程終於來到了終點，現在只需要完成最後的艦體部分，就能享受來自港區山呼海嘯般的祝賀了</color>\n\n——提交<color=#92fc63>5萬</color>物資",
+	count_inherit = 0,
+	sub_type = 1002,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 30,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "1",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60278,
+	target_num = 50000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {}
+}
+
+_G.pg.base.task_data_template[60279] = {
+	name = "布雷斯特艦體塑造II",
+	guild_coin_award = 0,
+	award = 0,
+	type = 8,
+	desc = "<color=#a2a2a2>漫長而又艱辛的研發工程終於來到了終點，現在只需要完成最後的艦體部分，就能享受來自港區山呼海嘯般的祝賀了</color>\n\n——提交<color=#92fc63>10個</color>心智魔方",
+	count_inherit = 0,
+	sub_type = 1000,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 30,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "20001",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 60279,
+	target_num = 10,
 	fix_task = 0,
 	added_tip = 0,
 	open_need = {},

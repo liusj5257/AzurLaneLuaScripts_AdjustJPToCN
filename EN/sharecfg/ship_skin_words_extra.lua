@@ -195,7 +195,9 @@ pg.ship_skin_words_extra = setmetatable({
 		206020,
 		702070,
 		703020,
-		705070
+		705070,
+		10600080,
+		10600090
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -13060,6 +13062,150 @@ pg.base.ship_skin_words_extra = {
 			{
 				1100,
 				"C-Comrade Commander... What was the point of that, exactly?"
+			}
+		}
+	},
+	[10600080] = {
+		mail = "",
+		feeling3 = "",
+		lose = "",
+		main = "",
+		expedition = "",
+		upgrade = "",
+		home = "",
+		unlock = "",
+		feeling2 = "",
+		feeling4 = "",
+		skill = "",
+		profile = "",
+		id = 10600080,
+		touch = "",
+		headtouch = "",
+		feeling1 = "",
+		login = {
+			{
+				1100,
+				"Good morning, Commander. Let's continue our field work together."
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"I defeated an enemy horde! ...You can praise me, you know."
+			}
+		},
+		battle = {
+			{
+				1100,
+				"Here goooes. Leave it all to Luna... Hop."
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Commander... It's snack time. Want to share a roasted sweet potato with me? Though I do hate to share it..."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Bunnies are cute... But what about me? Hippity, hoppity... Am I cute?|Commander, I'm so interested in you and this world... Can we go on a date? Or, I mean... Field work?|Are you taking a break, too? Then... Wanna eat together? Roasted baked potatoes... would taste even better... if I ate them with you!|You'll teach me a good way to roast sweet potatoes, Edinburgh? ...Heheh, if it goes well, I'll treat the Commander.|Information on the Commander? Hmmrgh... What if I traded you this sweet potato, Aoba? ...No?"
+			}
+		},
+		mission = {
+			{
+				1100,
+				"Are you still working? Then I'll help you. Leave it to me... Hop."
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"...You're finished working, so come and eat roasted sweet potato with me, Commander."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Umm, Commander... That tickles..."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"This place is full of such interesting things. The vast sea, the shipgirls, the delicious food... And you, Commander. I want to keep researching it all... So may I stay by your side longer?"
+			}
+		}
+	},
+	[10600090] = {
+		mail = "",
+		feeling3 = "",
+		lose = "",
+		main = "",
+		expedition = "",
+		upgrade = "",
+		home = "",
+		unlock = "",
+		feeling2 = "",
+		feeling4 = "",
+		skill = "",
+		profile = "",
+		id = 10600090,
+		touch = "",
+		headtouch = "",
+		feeling1 = "",
+		login = {
+			{
+				1100,
+				"Morning, Commander. What are we doing today? The both of us, of course♪"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"Alright! Let's have some drinks tonight to celebrate this victory♪"
+			}
+		},
+		battle = {
+			{
+				1100,
+				"Go get 'em! Don't let them out of your sight!"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Great scenery and even better liquor. I imagine we're going to have a lovely time together."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Don't burn yourself out, Commander. Practice at least a little self-care, okay? For instance, by taking a break to drink with me♥|It's ridiculous how many cuties live here. While I love eye candy as much as the next person... everyone can see you staring, Commander.|What a lovely breeze... Hey, is your work done yet? Let's have dinner on the terrace, and then, when we're all alone... You know what comes.|Even I find myself hypnotized by your curves, Atago... Say, what kind of skin care do you do?|Your outfit is eye-poppingly gorgeous, Taihou! Hey, do you mind if I take a little inspiration from you? Oh, and Commander, no peeping♥"
+			}
+		},
+		mission = {
+			{
+				1100,
+				"Oh, you've still got work to do? Let me help you wrap it up quickly so we can go drinking♥"
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"This mission's already finished. Impressive work."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Yeees? If you want to learn more about me... I'll tell you all you want to know."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Heehee♥ A lot's happened since I came here, and I didn't expect I'd stick around THIS long. But... when I'm with you, gazing at the gorgeous horizon... time just starts to fly."
 			}
 		}
 	}

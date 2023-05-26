@@ -315,8 +315,27 @@ function slot0.triggerEvent(slot0, slot1)
 		id = slot1.eventId
 	}):getConfig("type"), {
 		[3] = function ()
-			uv0:emit(SixthAnniversaryIslandMediator.OPEN_QTE_GAME, uv1:getConfig("params")[1], function (slot0)
-				uv0:emit(SixthAnniversaryIslandMediator.TRIGGER_NODE_EVENT, uv1.id, slot0 or 0)
+			slot0 = {}
+
+			if uv0:getConfig("story") and slot1 ~= "" then
+				table.insert(slot0, function (slot0)
+					if uv0.isAutoPlayStory then
+						pg.NewStoryMgr.GetInstance():ForceAutoPlay(uv1, slot0)
+					else
+						pg.NewStoryMgr.GetInstance():ForceManualPlay(uv1, slot0)
+					end
+				end)
+				table.insert(slot0, function (slot0, slot1, slot2, slot3)
+					uv0.isAutoPlayStory = slot3
+
+					slot0(slot2)
+				end)
+			end
+
+			seriesAsync(slot0, function (slot0)
+				uv0:emit(SixthAnniversaryIslandMediator.OPEN_QTE_GAME, uv1:getConfig("params")[1], function (slot0)
+					uv0:emit(SixthAnniversaryIslandMediator.TRIGGER_NODE_EVENT, uv1.id, slot0 or 0)
+				end)
 			end)
 		end
 	}, function ()
@@ -449,7 +468,7 @@ function slot0.didEnter(slot0)
 
 	slot1 = {}
 
-	if slot0.contextData.nodeIds then
+	if slot0.contextData.nodeIds and #slot0.contextData.nodeIds > 0 then
 		table.insert(slot1, function (slot0)
 			if not uv0:focusList(uv0.contextData.nodeIds) then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("islandnode_tips8"))

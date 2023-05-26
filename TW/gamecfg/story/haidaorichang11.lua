@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"海風與夏日的無人島\n\n<size=45>另类捕鱼法</size>",
+					"海風與夏日的無人島\n\n<size=45>另類捕魚法</size>",
 					1
 				}
 			}
@@ -225,7 +225,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "看起來是正在圍觀她們釣魚的活動……也不知道它們能不能看得懂。",
+			say = "看起來是正在圍觀她們釣魚的活動……也不知道牠們能不能看得懂。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"海風與夏日的無人島\n\n<size=45>椰林的“赠礼”</size>",
+					"海風與夏日的無人島\n\n<size=45>椰林的“贈禮”</size>",
 					1
 				}
 			}
@@ -99,7 +99,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202090,
-			say = "啊，指揮官也是來這裡收集甜點素材的麼~",
+			say = "啊，指揮官也是來這裡收集甜點素材的嗎~",
 			painting = {
 				alpha = 0.3,
 				time = 1

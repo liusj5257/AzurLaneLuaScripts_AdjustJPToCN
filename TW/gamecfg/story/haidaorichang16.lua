@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"海風與夏日的無人島\n\n<size=45>丽日茶会</size>",
+					"海風與夏日的無人島\n\n<size=45>麗日茶會</size>",
 					1
 				}
 			}
@@ -227,7 +227,7 @@ return {
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "比如說海上游樂園、度假別墅，還有美食街什麼的！",
+			say = "比如說海上遊樂園、度假別墅，還有美食街什麼的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -3714,9 +3714,9 @@ pg.item_data_template = {
 		other_resource_cost = "[]",
 		display_effect = "",
 		limit = "[]",
-		usage = "usage_sos",
+		usage = "usage_drop",
 		other_item_cost = "[]",
-		usage_arg = "[]",
+		usage_arg = "15010",
 		id = 15010,
 		compose_number = 0,
 		target_id = 0
@@ -5076,6 +5076,17 @@ pg.item_data_template = {
 		compose_number = 0,
 		target_id = 0
 	},
+	[21023] = {
+		other_resource_cost = "[]",
+		display_effect = "",
+		limit = "[]",
+		usage = "usage_undefined",
+		other_item_cost = "[]",
+		usage_arg = "[]",
+		id = 21023,
+		compose_number = 0,
+		target_id = 0
+	},
 	[21101] = {
 		other_resource_cost = "[]",
 		display_effect = "",
@@ -5227,6 +5238,17 @@ pg.item_data_template = {
 		other_item_cost = "[]",
 		usage_arg = "[]",
 		id = 21910,
+		compose_number = 0,
+		target_id = 0
+	},
+	[21911] = {
+		other_resource_cost = "[]",
+		display_effect = "",
+		limit = "[]",
+		usage = "usage_undefined",
+		other_item_cost = "[]",
+		usage_arg = "[]",
+		id = 21911,
 		compose_number = 0,
 		target_id = 0
 	},
@@ -10285,6 +10307,17 @@ pg.item_data_template = {
 		other_item_cost = "[]",
 		usage_arg = "4926",
 		id = 40926,
+		compose_number = 0,
+		target_id = 0
+	},
+	[40927] = {
+		other_resource_cost = "[]",
+		display_effect = "",
+		limit = "[]",
+		usage = "usage_drop",
+		other_item_cost = "[]",
+		usage_arg = "4927",
+		id = 40927,
 		compose_number = 0,
 		target_id = 0
 	},
@@ -28317,6 +28350,17 @@ pg.item_data_template = {
 		compose_number = 0,
 		target_id = 0
 	},
+	[99995] = {
+		other_resource_cost = "[]",
+		display_effect = "",
+		limit = "[]",
+		usage = "usage_drop",
+		other_item_cost = "[]",
+		usage_arg = "78320",
+		id = 99995,
+		compose_number = 0,
+		target_id = 0
+	},
 	all = {
 		1,
 		2,
@@ -28761,6 +28805,7 @@ pg.item_data_template = {
 		21020,
 		21021,
 		21022,
+		21023,
 		21101,
 		21111,
 		21121,
@@ -28775,6 +28820,7 @@ pg.item_data_template = {
 		21908,
 		21909,
 		21910,
+		21911,
 		30001,
 		30011,
 		30012,
@@ -29006,6 +29052,7 @@ pg.item_data_template = {
 		40924,
 		40925,
 		40926,
+		40927,
 		41001,
 		41002,
 		41003,
@@ -30578,6 +30625,7 @@ pg.item_data_template = {
 		99991,
 		99992,
 		99993,
-		99994
+		99994,
+		99995
 	}
 }

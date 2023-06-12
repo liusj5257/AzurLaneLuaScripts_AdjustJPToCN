@@ -107,6 +107,7 @@ pg.memory_group = setmetatable({
 		216,
 		217,
 		218,
+		219,
 		220,
 		221,
 		227,
@@ -117,6 +118,7 @@ pg.memory_group = setmetatable({
 		243,
 		246,
 		247,
+		248,
 		501,
 		502,
 		503,
@@ -2390,6 +2392,19 @@ pg.base.memory_group = {
 			2166
 		}
 	},
+	[219] = {
+		icon = "title_event",
+		subtype = 3,
+		type = 2,
+		id = 219,
+		title = "合雅之宴",
+		memories = {
+			2167,
+			2168,
+			2169,
+			2170
+		}
+	},
 	[220] = {
 		icon = "title_event",
 		subtype = 3,
@@ -2576,6 +2591,16 @@ pg.base.memory_group = {
 		title = "清茶氤氳",
 		memories = {
 			2751
+		}
+	},
+	[248] = {
+		icon = "title_event",
+		subtype = 3,
+		type = 2,
+		id = 248,
+		title = "翩若飛仙",
+		memories = {
+			2781
 		}
 	},
 	[501] = {

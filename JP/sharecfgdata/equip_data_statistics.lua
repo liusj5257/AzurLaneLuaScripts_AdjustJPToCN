@@ -23189,7 +23189,7 @@ _G.pg.base.equip_data_statistics[7000] = {
 	type = 2,
 	rarity = 1,
 	ammo = 3,
-	damage = "16 x 3",
+	damage = "21 x 3",
 	nationality = 7,
 	descrip = "0",
 	id = 7000,
@@ -23244,7 +23244,7 @@ _G.pg.base.equip_data_statistics[7000] = {
 
 _G.pg.base.equip_data_statistics[7001] = {
 	id = 7001,
-	damage = "18 x 3",
+	damage = "23 x 3",
 	base = 7000,
 	weapon_id = {
 		7001
@@ -23254,7 +23254,7 @@ _G.pg.base.equip_data_statistics[7001] = {
 
 _G.pg.base.equip_data_statistics[7002] = {
 	id = 7002,
-	damage = "20 x 3",
+	damage = "25 x 3",
 	base = 7000,
 	weapon_id = {
 		7002
@@ -23264,7 +23264,7 @@ _G.pg.base.equip_data_statistics[7002] = {
 
 _G.pg.base.equip_data_statistics[7003] = {
 	id = 7003,
-	damage = "22 x 3",
+	damage = "27 x 3",
 	base = 7000,
 	weapon_id = {
 		7003
@@ -23279,7 +23279,7 @@ _G.pg.base.equip_data_statistics[7020] = {
 	type = 2,
 	descrip = "0",
 	ammo = 3,
-	damage = "18 x 3",
+	damage = "23 x 3",
 	nationality = 7,
 	rarity = 2,
 	id = 7020,
@@ -23335,7 +23335,7 @@ _G.pg.base.equip_data_statistics[7020] = {
 
 _G.pg.base.equip_data_statistics[7021] = {
 	id = 7021,
-	damage = "20 x 3",
+	damage = "25 x 3",
 	base = 7020,
 	weapon_id = {
 		7021
@@ -23345,7 +23345,7 @@ _G.pg.base.equip_data_statistics[7021] = {
 
 _G.pg.base.equip_data_statistics[7022] = {
 	id = 7022,
-	damage = "22 x 3",
+	damage = "27 x 3",
 	base = 7020,
 	weapon_id = {
 		7022
@@ -23355,7 +23355,7 @@ _G.pg.base.equip_data_statistics[7022] = {
 
 _G.pg.base.equip_data_statistics[7023] = {
 	id = 7023,
-	damage = "24 x 3",
+	damage = "29 x 3",
 	base = 7020,
 	weapon_id = {
 		7023
@@ -23370,7 +23370,7 @@ _G.pg.base.equip_data_statistics[7040] = {
 	type = 2,
 	descrip = "0",
 	ammo = 3,
-	damage = "20 x 3",
+	damage = "28 x 3",
 	nationality = 7,
 	rarity = 3,
 	id = 7040,
@@ -23426,7 +23426,7 @@ _G.pg.base.equip_data_statistics[7040] = {
 
 _G.pg.base.equip_data_statistics[7041] = {
 	id = 7041,
-	damage = "22 x 3",
+	damage = "30 x 3",
 	base = 7040,
 	weapon_id = {
 		7041
@@ -23436,7 +23436,7 @@ _G.pg.base.equip_data_statistics[7041] = {
 
 _G.pg.base.equip_data_statistics[7042] = {
 	id = 7042,
-	damage = "24 x 3",
+	damage = "32 x 3",
 	base = 7040,
 	weapon_id = {
 		7042
@@ -23446,7 +23446,7 @@ _G.pg.base.equip_data_statistics[7042] = {
 
 _G.pg.base.equip_data_statistics[7043] = {
 	id = 7043,
-	damage = "26 x 3",
+	damage = "34 x 3",
 	base = 7040,
 	weapon_id = {
 		7043
@@ -23456,7 +23456,7 @@ _G.pg.base.equip_data_statistics[7043] = {
 
 _G.pg.base.equip_data_statistics[7044] = {
 	id = 7044,
-	damage = "28 x 3",
+	damage = "36 x 3",
 	base = 7040,
 	weapon_id = {
 		7044
@@ -23466,7 +23466,7 @@ _G.pg.base.equip_data_statistics[7044] = {
 
 _G.pg.base.equip_data_statistics[7045] = {
 	id = 7045,
-	damage = "32 x 3",
+	damage = "40 x 3",
 	base = 7040,
 	weapon_id = {
 		7045
@@ -23476,7 +23476,7 @@ _G.pg.base.equip_data_statistics[7045] = {
 
 _G.pg.base.equip_data_statistics[7046] = {
 	id = 7046,
-	damage = "34 x 3",
+	damage = "42 x 3",
 	base = 7040,
 	weapon_id = {
 		7046
@@ -23486,7 +23486,7 @@ _G.pg.base.equip_data_statistics[7046] = {
 
 _G.pg.base.equip_data_statistics[7047] = {
 	id = 7047,
-	damage = "34 x 3",
+	damage = "42 x 3",
 	base = 7040,
 	weapon_id = {
 		7047
@@ -23501,7 +23501,7 @@ _G.pg.base.equip_data_statistics[7100] = {
 	type = 2,
 	rarity = 1,
 	ammo = 3,
-	damage = "14 x 3",
+	damage = "18 x 3",
 	nationality = 5,
 	descrip = "0",
 	id = 7100,
@@ -23556,7 +23556,7 @@ _G.pg.base.equip_data_statistics[7100] = {
 
 _G.pg.base.equip_data_statistics[7101] = {
 	id = 7101,
-	damage = "16 x 3",
+	damage = "20 x 3",
 	base = 7100,
 	weapon_id = {
 		7101
@@ -23566,7 +23566,7 @@ _G.pg.base.equip_data_statistics[7101] = {
 
 _G.pg.base.equip_data_statistics[7102] = {
 	id = 7102,
-	damage = "18 x 3",
+	damage = "22 x 3",
 	base = 7100,
 	weapon_id = {
 		7102
@@ -23576,7 +23576,7 @@ _G.pg.base.equip_data_statistics[7102] = {
 
 _G.pg.base.equip_data_statistics[7103] = {
 	id = 7103,
-	damage = "20 x 3",
+	damage = "24 x 3",
 	base = 7100,
 	weapon_id = {
 		7103
@@ -23591,7 +23591,7 @@ _G.pg.base.equip_data_statistics[7120] = {
 	type = 2,
 	descrip = "0",
 	ammo = 3,
-	damage = "16 x 3",
+	damage = "21 x 3",
 	nationality = 5,
 	rarity = 2,
 	id = 7120,
@@ -23647,7 +23647,7 @@ _G.pg.base.equip_data_statistics[7120] = {
 
 _G.pg.base.equip_data_statistics[7121] = {
 	id = 7121,
-	damage = "18 x 3",
+	damage = "23 x 3",
 	base = 7120,
 	weapon_id = {
 		7121
@@ -23657,7 +23657,7 @@ _G.pg.base.equip_data_statistics[7121] = {
 
 _G.pg.base.equip_data_statistics[7122] = {
 	id = 7122,
-	damage = "20 x 3",
+	damage = "25 x 3",
 	base = 7120,
 	weapon_id = {
 		7122
@@ -23667,7 +23667,7 @@ _G.pg.base.equip_data_statistics[7122] = {
 
 _G.pg.base.equip_data_statistics[7123] = {
 	id = 7123,
-	damage = "22 x 3",
+	damage = "27 x 3",
 	base = 7120,
 	weapon_id = {
 		7123
@@ -23682,7 +23682,7 @@ _G.pg.base.equip_data_statistics[7140] = {
 	type = 2,
 	descrip = "0",
 	ammo = 3,
-	damage = "18 x 3",
+	damage = "25 x 3",
 	nationality = 5,
 	rarity = 3,
 	id = 7140,
@@ -23738,7 +23738,7 @@ _G.pg.base.equip_data_statistics[7140] = {
 
 _G.pg.base.equip_data_statistics[7141] = {
 	id = 7141,
-	damage = "20 x 3",
+	damage = "27 x 3",
 	base = 7140,
 	weapon_id = {
 		7141
@@ -23748,7 +23748,7 @@ _G.pg.base.equip_data_statistics[7141] = {
 
 _G.pg.base.equip_data_statistics[7142] = {
 	id = 7142,
-	damage = "22 x 3",
+	damage = "29 x 3",
 	base = 7140,
 	weapon_id = {
 		7142
@@ -23758,7 +23758,7 @@ _G.pg.base.equip_data_statistics[7142] = {
 
 _G.pg.base.equip_data_statistics[7143] = {
 	id = 7143,
-	damage = "24 x 3",
+	damage = "31 x 3",
 	base = 7140,
 	weapon_id = {
 		7143
@@ -23768,7 +23768,7 @@ _G.pg.base.equip_data_statistics[7143] = {
 
 _G.pg.base.equip_data_statistics[7144] = {
 	id = 7144,
-	damage = "26 x 3",
+	damage = "33 x 3",
 	base = 7140,
 	weapon_id = {
 		7144
@@ -23778,7 +23778,7 @@ _G.pg.base.equip_data_statistics[7144] = {
 
 _G.pg.base.equip_data_statistics[7145] = {
 	id = 7145,
-	damage = "28 x 3",
+	damage = "35 x 3",
 	base = 7140,
 	weapon_id = {
 		7145
@@ -23788,7 +23788,7 @@ _G.pg.base.equip_data_statistics[7145] = {
 
 _G.pg.base.equip_data_statistics[7146] = {
 	id = 7146,
-	damage = "32 x 3",
+	damage = "39 x 3",
 	base = 7140,
 	weapon_id = {
 		7146
@@ -23798,7 +23798,7 @@ _G.pg.base.equip_data_statistics[7146] = {
 
 _G.pg.base.equip_data_statistics[7147] = {
 	id = 7147,
-	damage = "32 x 3",
+	damage = "39 x 3",
 	base = 7140,
 	weapon_id = {
 		7147
@@ -26456,7 +26456,7 @@ _G.pg.base.equip_data_statistics[12000] = {
 	type = 2,
 	rarity = 1,
 	ammo = 3,
-	damage = "7 x 4",
+	damage = "9 x 4",
 	nationality = 1,
 	descrip = "0",
 	id = 12000,
@@ -26511,7 +26511,7 @@ _G.pg.base.equip_data_statistics[12000] = {
 
 _G.pg.base.equip_data_statistics[12001] = {
 	id = 12001,
-	damage = "8 x 4",
+	damage = "10 x 4",
 	base = 12000,
 	weapon_id = {
 		12001
@@ -26521,7 +26521,7 @@ _G.pg.base.equip_data_statistics[12001] = {
 
 _G.pg.base.equip_data_statistics[12002] = {
 	id = 12002,
-	damage = "9 x 4",
+	damage = "11 x 4",
 	base = 12000,
 	weapon_id = {
 		12002
@@ -26531,7 +26531,7 @@ _G.pg.base.equip_data_statistics[12002] = {
 
 _G.pg.base.equip_data_statistics[12003] = {
 	id = 12003,
-	damage = "10 x 4",
+	damage = "12 x 4",
 	base = 12000,
 	weapon_id = {
 		12003
@@ -26546,7 +26546,7 @@ _G.pg.base.equip_data_statistics[12020] = {
 	type = 2,
 	descrip = "0",
 	ammo = 3,
-	damage = "8 x 4",
+	damage = "10 x 4",
 	nationality = 1,
 	rarity = 2,
 	id = 12020,
@@ -26602,7 +26602,7 @@ _G.pg.base.equip_data_statistics[12020] = {
 
 _G.pg.base.equip_data_statistics[12021] = {
 	id = 12021,
-	damage = "9 x 4",
+	damage = "11 x 4",
 	base = 12020,
 	weapon_id = {
 		12021
@@ -26612,7 +26612,7 @@ _G.pg.base.equip_data_statistics[12021] = {
 
 _G.pg.base.equip_data_statistics[12022] = {
 	id = 12022,
-	damage = "10 x 4",
+	damage = "12 x 4",
 	base = 12020,
 	weapon_id = {
 		12022
@@ -26622,7 +26622,7 @@ _G.pg.base.equip_data_statistics[12022] = {
 
 _G.pg.base.equip_data_statistics[12023] = {
 	id = 12023,
-	damage = "11 x 4",
+	damage = "13 x 4",
 	base = 12020,
 	weapon_id = {
 		12023
@@ -26637,7 +26637,7 @@ _G.pg.base.equip_data_statistics[12040] = {
 	type = 2,
 	descrip = "0",
 	ammo = 3,
-	damage = "9 x 4",
+	damage = "12 x 4",
 	nationality = 1,
 	rarity = 3,
 	id = 12040,
@@ -26693,7 +26693,7 @@ _G.pg.base.equip_data_statistics[12040] = {
 
 _G.pg.base.equip_data_statistics[12041] = {
 	id = 12041,
-	damage = "10 x 4",
+	damage = "13 x 4",
 	base = 12040,
 	weapon_id = {
 		12041
@@ -26703,7 +26703,7 @@ _G.pg.base.equip_data_statistics[12041] = {
 
 _G.pg.base.equip_data_statistics[12042] = {
 	id = 12042,
-	damage = "11 x 4",
+	damage = "14 x 4",
 	base = 12040,
 	weapon_id = {
 		12042
@@ -26713,7 +26713,7 @@ _G.pg.base.equip_data_statistics[12042] = {
 
 _G.pg.base.equip_data_statistics[12043] = {
 	id = 12043,
-	damage = "12 x 4",
+	damage = "15 x 4",
 	base = 12040,
 	weapon_id = {
 		12043
@@ -26723,7 +26723,7 @@ _G.pg.base.equip_data_statistics[12043] = {
 
 _G.pg.base.equip_data_statistics[12044] = {
 	id = 12044,
-	damage = "13 x 4",
+	damage = "16 x 4",
 	base = 12040,
 	weapon_id = {
 		12044
@@ -26733,7 +26733,7 @@ _G.pg.base.equip_data_statistics[12044] = {
 
 _G.pg.base.equip_data_statistics[12045] = {
 	id = 12045,
-	damage = "14 x 4",
+	damage = "17 x 4",
 	base = 12040,
 	weapon_id = {
 		12045
@@ -26743,7 +26743,7 @@ _G.pg.base.equip_data_statistics[12045] = {
 
 _G.pg.base.equip_data_statistics[12046] = {
 	id = 12046,
-	damage = "15 x 4",
+	damage = "18 x 4",
 	base = 12040,
 	weapon_id = {
 		12046
@@ -26753,7 +26753,7 @@ _G.pg.base.equip_data_statistics[12046] = {
 
 _G.pg.base.equip_data_statistics[12047] = {
 	id = 12047,
-	damage = "15 x 4",
+	damage = "18 x 4",
 	base = 12040,
 	weapon_id = {
 		12047
@@ -26768,7 +26768,7 @@ _G.pg.base.equip_data_statistics[12060] = {
 	type = 2,
 	descrip = "0",
 	ammo = 3,
-	damage = "10 x 4",
+	damage = "13 x 4",
 	nationality = 1,
 	rarity = 3,
 	id = 12060,
@@ -26824,7 +26824,7 @@ _G.pg.base.equip_data_statistics[12060] = {
 
 _G.pg.base.equip_data_statistics[12061] = {
 	id = 12061,
-	damage = "11 x 4",
+	damage = "14 x 4",
 	base = 12060,
 	weapon_id = {
 		12061
@@ -26834,7 +26834,7 @@ _G.pg.base.equip_data_statistics[12061] = {
 
 _G.pg.base.equip_data_statistics[12062] = {
 	id = 12062,
-	damage = "12 x 4",
+	damage = "15 x 4",
 	base = 12060,
 	weapon_id = {
 		12062
@@ -26844,7 +26844,7 @@ _G.pg.base.equip_data_statistics[12062] = {
 
 _G.pg.base.equip_data_statistics[12063] = {
 	id = 12063,
-	damage = "13 x 4",
+	damage = "16 x 4",
 	base = 12060,
 	weapon_id = {
 		12063
@@ -26854,7 +26854,7 @@ _G.pg.base.equip_data_statistics[12063] = {
 
 _G.pg.base.equip_data_statistics[12064] = {
 	id = 12064,
-	damage = "14 x 4",
+	damage = "17 x 4",
 	base = 12060,
 	weapon_id = {
 		12064
@@ -26864,7 +26864,7 @@ _G.pg.base.equip_data_statistics[12064] = {
 
 _G.pg.base.equip_data_statistics[12065] = {
 	id = 12065,
-	damage = "15 x 4",
+	damage = "18 x 4",
 	base = 12060,
 	weapon_id = {
 		12065
@@ -26874,7 +26874,7 @@ _G.pg.base.equip_data_statistics[12065] = {
 
 _G.pg.base.equip_data_statistics[12066] = {
 	id = 12066,
-	damage = "16 x 4",
+	damage = "19 x 4",
 	base = 12060,
 	weapon_id = {
 		12066
@@ -26884,7 +26884,7 @@ _G.pg.base.equip_data_statistics[12066] = {
 
 _G.pg.base.equip_data_statistics[12067] = {
 	id = 12067,
-	damage = "16 x 4",
+	damage = "19 x 4",
 	base = 12060,
 	weapon_id = {
 		12067
@@ -26899,7 +26899,7 @@ _G.pg.base.equip_data_statistics[12100] = {
 	type = 2,
 	descrip = "0",
 	ammo = 3,
-	damage = "7 x 6",
+	damage = "9 x 6",
 	nationality = 1,
 	rarity = 2,
 	id = 12100,
@@ -26955,7 +26955,7 @@ _G.pg.base.equip_data_statistics[12100] = {
 
 _G.pg.base.equip_data_statistics[12101] = {
 	id = 12101,
-	damage = "8 x 6",
+	damage = "10 x 6",
 	base = 12100,
 	weapon_id = {
 		12101
@@ -26965,7 +26965,7 @@ _G.pg.base.equip_data_statistics[12101] = {
 
 _G.pg.base.equip_data_statistics[12102] = {
 	id = 12102,
-	damage = "9 x 6",
+	damage = "11 x 6",
 	base = 12100,
 	weapon_id = {
 		12102
@@ -26975,7 +26975,7 @@ _G.pg.base.equip_data_statistics[12102] = {
 
 _G.pg.base.equip_data_statistics[12103] = {
 	id = 12103,
-	damage = "10 x 6",
+	damage = "12 x 6",
 	base = 12100,
 	weapon_id = {
 		12103
@@ -26990,7 +26990,7 @@ _G.pg.base.equip_data_statistics[12120] = {
 	type = 2,
 	descrip = "0",
 	ammo = 3,
-	damage = "8 x 6",
+	damage = "11 x 6",
 	nationality = 1,
 	rarity = 3,
 	id = 12120,
@@ -27046,7 +27046,7 @@ _G.pg.base.equip_data_statistics[12120] = {
 
 _G.pg.base.equip_data_statistics[12121] = {
 	id = 12121,
-	damage = "9 x 6",
+	damage = "12 x 6",
 	base = 12120,
 	weapon_id = {
 		12121
@@ -27056,7 +27056,7 @@ _G.pg.base.equip_data_statistics[12121] = {
 
 _G.pg.base.equip_data_statistics[12122] = {
 	id = 12122,
-	damage = "10 x 6",
+	damage = "13 x 6",
 	base = 12120,
 	weapon_id = {
 		12122
@@ -27066,7 +27066,7 @@ _G.pg.base.equip_data_statistics[12122] = {
 
 _G.pg.base.equip_data_statistics[12123] = {
 	id = 12123,
-	damage = "11 x 6",
+	damage = "14 x 6",
 	base = 12120,
 	weapon_id = {
 		12123
@@ -27076,7 +27076,7 @@ _G.pg.base.equip_data_statistics[12123] = {
 
 _G.pg.base.equip_data_statistics[12124] = {
 	id = 12124,
-	damage = "12 x 6",
+	damage = "15 x 6",
 	base = 12120,
 	weapon_id = {
 		12124
@@ -27086,7 +27086,7 @@ _G.pg.base.equip_data_statistics[12124] = {
 
 _G.pg.base.equip_data_statistics[12125] = {
 	id = 12125,
-	damage = "13 x 6",
+	damage = "16 x 6",
 	base = 12120,
 	weapon_id = {
 		12125
@@ -27096,7 +27096,7 @@ _G.pg.base.equip_data_statistics[12125] = {
 
 _G.pg.base.equip_data_statistics[12126] = {
 	id = 12126,
-	damage = "14 x 6",
+	damage = "17 x 6",
 	base = 12120,
 	weapon_id = {
 		12126
@@ -27111,7 +27111,7 @@ _G.pg.base.equip_data_statistics[12140] = {
 	type = 2,
 	descrip = "0",
 	ammo = 2,
-	damage = "9 x 6",
+	damage = "13 x 6",
 	nationality = 1,
 	rarity = 4,
 	id = 12140,
@@ -27168,7 +27168,7 @@ _G.pg.base.equip_data_statistics[12140] = {
 
 _G.pg.base.equip_data_statistics[12141] = {
 	id = 12141,
-	damage = "10 x 6",
+	damage = "14 x 6",
 	base = 12140,
 	weapon_id = {
 		12141
@@ -27178,7 +27178,7 @@ _G.pg.base.equip_data_statistics[12141] = {
 
 _G.pg.base.equip_data_statistics[12142] = {
 	id = 12142,
-	damage = "11 x 6",
+	damage = "15 x 6",
 	base = 12140,
 	weapon_id = {
 		12142
@@ -27188,7 +27188,7 @@ _G.pg.base.equip_data_statistics[12142] = {
 
 _G.pg.base.equip_data_statistics[12143] = {
 	id = 12143,
-	damage = "12 x 6",
+	damage = "16 x 6",
 	base = 12140,
 	weapon_id = {
 		12143
@@ -27198,7 +27198,7 @@ _G.pg.base.equip_data_statistics[12143] = {
 
 _G.pg.base.equip_data_statistics[12144] = {
 	id = 12144,
-	damage = "13 x 6",
+	damage = "17 x 6",
 	base = 12140,
 	weapon_id = {
 		12144
@@ -27208,7 +27208,7 @@ _G.pg.base.equip_data_statistics[12144] = {
 
 _G.pg.base.equip_data_statistics[12145] = {
 	id = 12145,
-	damage = "14 x 6",
+	damage = "18 x 6",
 	base = 12140,
 	weapon_id = {
 		12145
@@ -27218,7 +27218,7 @@ _G.pg.base.equip_data_statistics[12145] = {
 
 _G.pg.base.equip_data_statistics[12146] = {
 	id = 12146,
-	damage = "15 x 6",
+	damage = "19 x 6",
 	base = 12140,
 	weapon_id = {
 		12146
@@ -27228,7 +27228,7 @@ _G.pg.base.equip_data_statistics[12146] = {
 
 _G.pg.base.equip_data_statistics[12147] = {
 	id = 12147,
-	damage = "16 x 6",
+	damage = "20 x 6",
 	base = 12140,
 	weapon_id = {
 		12147
@@ -27238,7 +27238,7 @@ _G.pg.base.equip_data_statistics[12147] = {
 
 _G.pg.base.equip_data_statistics[12148] = {
 	id = 12148,
-	damage = "17 x 6",
+	damage = "21 x 6",
 	base = 12140,
 	weapon_id = {
 		12148
@@ -27248,7 +27248,7 @@ _G.pg.base.equip_data_statistics[12148] = {
 
 _G.pg.base.equip_data_statistics[12149] = {
 	id = 12149,
-	damage = "18 x 6",
+	damage = "22 x 6",
 	base = 12140,
 	weapon_id = {
 		12149
@@ -27258,7 +27258,7 @@ _G.pg.base.equip_data_statistics[12149] = {
 
 _G.pg.base.equip_data_statistics[12150] = {
 	id = 12150,
-	damage = "19 x 6",
+	damage = "23 x 6",
 	base = 12140,
 	weapon_id = {
 		12150
@@ -27269,7 +27269,7 @@ _G.pg.base.equip_data_statistics[12150] = {
 _G.pg.base.equip_data_statistics[12151] = {
 	id = 12151,
 	anti_siren = 100,
-	damage = "19 x 6",
+	damage = "23 x 6",
 	base = 12140,
 	weapon_id = {
 		12151
@@ -27284,7 +27284,7 @@ _G.pg.base.equip_data_statistics[12160] = {
 	type = 2,
 	descrip = "0",
 	ammo = 2,
-	damage = "10 x 6",
+	damage = "14 x 6",
 	nationality = 1,
 	rarity = 5,
 	id = 12160,
@@ -27341,7 +27341,7 @@ _G.pg.base.equip_data_statistics[12160] = {
 
 _G.pg.base.equip_data_statistics[12161] = {
 	id = 12161,
-	damage = "11 x 6",
+	damage = "15 x 6",
 	base = 12160,
 	weapon_id = {
 		12161
@@ -27351,7 +27351,7 @@ _G.pg.base.equip_data_statistics[12161] = {
 
 _G.pg.base.equip_data_statistics[12162] = {
 	id = 12162,
-	damage = "12 x 6",
+	damage = "16 x 6",
 	base = 12160,
 	weapon_id = {
 		12162
@@ -27361,7 +27361,7 @@ _G.pg.base.equip_data_statistics[12162] = {
 
 _G.pg.base.equip_data_statistics[12163] = {
 	id = 12163,
-	damage = "13 x 6",
+	damage = "17 x 6",
 	base = 12160,
 	weapon_id = {
 		12163
@@ -27371,7 +27371,7 @@ _G.pg.base.equip_data_statistics[12163] = {
 
 _G.pg.base.equip_data_statistics[12164] = {
 	id = 12164,
-	damage = "14 x 6",
+	damage = "18 x 6",
 	base = 12160,
 	weapon_id = {
 		12164
@@ -27381,7 +27381,7 @@ _G.pg.base.equip_data_statistics[12164] = {
 
 _G.pg.base.equip_data_statistics[12165] = {
 	id = 12165,
-	damage = "15 x 6",
+	damage = "19 x 6",
 	base = 12160,
 	weapon_id = {
 		12165
@@ -27391,7 +27391,7 @@ _G.pg.base.equip_data_statistics[12165] = {
 
 _G.pg.base.equip_data_statistics[12166] = {
 	id = 12166,
-	damage = "16 x 6",
+	damage = "20 x 6",
 	base = 12160,
 	weapon_id = {
 		12166
@@ -27401,7 +27401,7 @@ _G.pg.base.equip_data_statistics[12166] = {
 
 _G.pg.base.equip_data_statistics[12167] = {
 	id = 12167,
-	damage = "17 x 6",
+	damage = "21 x 6",
 	base = 12160,
 	weapon_id = {
 		12167
@@ -27411,7 +27411,7 @@ _G.pg.base.equip_data_statistics[12167] = {
 
 _G.pg.base.equip_data_statistics[12168] = {
 	id = 12168,
-	damage = "18 x 6",
+	damage = "22 x 6",
 	base = 12160,
 	weapon_id = {
 		12168
@@ -27421,7 +27421,7 @@ _G.pg.base.equip_data_statistics[12168] = {
 
 _G.pg.base.equip_data_statistics[12169] = {
 	id = 12169,
-	damage = "19 x 6",
+	damage = "23 x 6",
 	base = 12160,
 	weapon_id = {
 		12169
@@ -27431,7 +27431,7 @@ _G.pg.base.equip_data_statistics[12169] = {
 
 _G.pg.base.equip_data_statistics[12170] = {
 	id = 12170,
-	damage = "20 x 6",
+	damage = "24 x 6",
 	base = 12160,
 	weapon_id = {
 		12170
@@ -27442,7 +27442,7 @@ _G.pg.base.equip_data_statistics[12170] = {
 _G.pg.base.equip_data_statistics[12171] = {
 	id = 12171,
 	anti_siren = 100,
-	damage = "20 x 6",
+	damage = "24 x 6",
 	base = 12160,
 	weapon_id = {
 		12171
@@ -27453,7 +27453,7 @@ _G.pg.base.equip_data_statistics[12171] = {
 _G.pg.base.equip_data_statistics[12172] = {
 	id = 12172,
 	anti_siren = 200,
-	damage = "20 x 6",
+	damage = "24 x 6",
 	base = 12160,
 	weapon_id = {
 		12172
@@ -27464,7 +27464,7 @@ _G.pg.base.equip_data_statistics[12172] = {
 _G.pg.base.equip_data_statistics[12173] = {
 	id = 12173,
 	anti_siren = 300,
-	damage = "20 x 6",
+	damage = "24 x 6",
 	base = 12160,
 	weapon_id = {
 		12173
@@ -27479,7 +27479,7 @@ _G.pg.base.equip_data_statistics[12200] = {
 	type = 2,
 	tech = 0,
 	ammo = 2,
-	damage = "5 x 6",
+	damage = "8 x 6",
 	nationality = 1,
 	descrip = "0",
 	rarity = 5,
@@ -27537,7 +27537,7 @@ _G.pg.base.equip_data_statistics[12200] = {
 
 _G.pg.base.equip_data_statistics[12201] = {
 	id = 12201,
-	damage = "6 x 6",
+	damage = "9 x 6",
 	base = 12200,
 	weapon_id = {
 		12201
@@ -27547,7 +27547,7 @@ _G.pg.base.equip_data_statistics[12201] = {
 
 _G.pg.base.equip_data_statistics[12202] = {
 	id = 12202,
-	damage = "7 x 6",
+	damage = "10 x 6",
 	base = 12200,
 	weapon_id = {
 		12202
@@ -27557,7 +27557,7 @@ _G.pg.base.equip_data_statistics[12202] = {
 
 _G.pg.base.equip_data_statistics[12203] = {
 	id = 12203,
-	damage = "8 x 6",
+	damage = "11 x 6",
 	base = 12200,
 	weapon_id = {
 		12203
@@ -27567,7 +27567,7 @@ _G.pg.base.equip_data_statistics[12203] = {
 
 _G.pg.base.equip_data_statistics[12204] = {
 	id = 12204,
-	damage = "9 x 6",
+	damage = "12 x 6",
 	base = 12200,
 	weapon_id = {
 		12204
@@ -27577,7 +27577,7 @@ _G.pg.base.equip_data_statistics[12204] = {
 
 _G.pg.base.equip_data_statistics[12205] = {
 	id = 12205,
-	damage = "10 x 6",
+	damage = "13 x 6",
 	base = 12200,
 	weapon_id = {
 		12205
@@ -27587,7 +27587,7 @@ _G.pg.base.equip_data_statistics[12205] = {
 
 _G.pg.base.equip_data_statistics[12206] = {
 	id = 12206,
-	damage = "11 x 6",
+	damage = "14 x 6",
 	base = 12200,
 	weapon_id = {
 		12206
@@ -27597,7 +27597,7 @@ _G.pg.base.equip_data_statistics[12206] = {
 
 _G.pg.base.equip_data_statistics[12207] = {
 	id = 12207,
-	damage = "12 x 6",
+	damage = "15 x 6",
 	base = 12200,
 	weapon_id = {
 		12207
@@ -27607,7 +27607,7 @@ _G.pg.base.equip_data_statistics[12207] = {
 
 _G.pg.base.equip_data_statistics[12208] = {
 	id = 12208,
-	damage = "13 x 6",
+	damage = "16 x 6",
 	base = 12200,
 	weapon_id = {
 		12208
@@ -27617,7 +27617,7 @@ _G.pg.base.equip_data_statistics[12208] = {
 
 _G.pg.base.equip_data_statistics[12209] = {
 	id = 12209,
-	damage = "14 x 6",
+	damage = "17 x 6",
 	base = 12200,
 	weapon_id = {
 		12209
@@ -27627,7 +27627,7 @@ _G.pg.base.equip_data_statistics[12209] = {
 
 _G.pg.base.equip_data_statistics[12210] = {
 	id = 12210,
-	damage = "15 x 6",
+	damage = "18 x 6",
 	base = 12200,
 	weapon_id = {
 		12210
@@ -27638,7 +27638,7 @@ _G.pg.base.equip_data_statistics[12210] = {
 _G.pg.base.equip_data_statistics[12211] = {
 	id = 12211,
 	anti_siren = 100,
-	damage = "15 x 6",
+	damage = "18 x 6",
 	base = 12200,
 	weapon_id = {
 		12211
@@ -27649,7 +27649,7 @@ _G.pg.base.equip_data_statistics[12211] = {
 _G.pg.base.equip_data_statistics[12212] = {
 	id = 12212,
 	anti_siren = 200,
-	damage = "15 x 6",
+	damage = "18 x 6",
 	base = 12200,
 	weapon_id = {
 		12212
@@ -27660,7 +27660,7 @@ _G.pg.base.equip_data_statistics[12212] = {
 _G.pg.base.equip_data_statistics[12213] = {
 	id = 12213,
 	anti_siren = 300,
-	damage = "15 x 6",
+	damage = "18 x 6",
 	base = 12200,
 	weapon_id = {
 		12213
@@ -28107,6 +28107,178 @@ _G.pg.base.equip_data_statistics[13067] = {
 	base = 13060,
 	weapon_id = {
 		13067
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[13080] = {
+	tech = 0,
+	name = "三連装203mm主砲Mk14",
+	speciality = "追尾",
+	type = 3,
+	descrip = "说明未填写",
+	ammo = 1,
+	damage = "29 x 6",
+	nationality = 1,
+	rarity = 4,
+	id = 13080,
+	value_3 = 0,
+	torpedo_ammo = 0,
+	value_2 = 25,
+	icon = "13080",
+	attribute_2 = "cannon",
+	property_rate = {},
+	ammo_icon = {
+		2
+	},
+	ammo_info = {
+		{
+			1,
+			1401
+		}
+	},
+	equip_info = {
+		1,
+		2,
+		{
+			3,
+			1401
+		},
+		{
+			4,
+			1214
+		},
+		6,
+		10,
+		11,
+		12
+	},
+	weapon_id = {
+		13080
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		3,
+		18
+	},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"USS",
+		"CA",
+		"MG",
+		"AP"
+	}
+}
+
+_G.pg.base.equip_data_statistics[13081] = {
+	id = 13081,
+	damage = "31 x 6",
+	base = 13080,
+	weapon_id = {
+		13081
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[13082] = {
+	id = 13082,
+	damage = "33 x 6",
+	base = 13080,
+	weapon_id = {
+		13082
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[13083] = {
+	id = 13083,
+	damage = "35 x 6",
+	base = 13080,
+	weapon_id = {
+		13083
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[13084] = {
+	id = 13084,
+	damage = "37 x 6",
+	base = 13080,
+	weapon_id = {
+		13084
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[13085] = {
+	id = 13085,
+	damage = "39 x 6",
+	base = 13080,
+	weapon_id = {
+		13085
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[13086] = {
+	id = 13086,
+	damage = "41 x 6",
+	base = 13080,
+	weapon_id = {
+		13086
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[13087] = {
+	id = 13087,
+	damage = "43 x 6",
+	base = 13080,
+	weapon_id = {
+		13087
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[13088] = {
+	id = 13088,
+	damage = "45 x 6",
+	base = 13080,
+	weapon_id = {
+		13088
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[13089] = {
+	id = 13089,
+	damage = "47 x 6",
+	base = 13080,
+	weapon_id = {
+		13089
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[13090] = {
+	id = 13090,
+	damage = "49 x 6",
+	base = 13080,
+	weapon_id = {
+		13090
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[13091] = {
+	id = 13091,
+	anti_siren = 100,
+	damage = "49 x 6",
+	base = 13080,
+	weapon_id = {
+		13091
 	},
 	hidden_skill_id = {}
 }
@@ -32948,6 +33120,212 @@ _G.pg.base.equip_data_statistics[15253] = {
 	base = 15240,
 	weapon_id = {
 		15253
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[15300] = {
+	tech = 0,
+	name = "533mm魚雷Mark35（四連射）",
+	speciality = "雷撃",
+	type = 5,
+	descrip = "说明未填写",
+	ammo = 4,
+	damage = "77 x 4",
+	nationality = 1,
+	rarity = 5,
+	id = 15300,
+	value_3 = 0,
+	torpedo_ammo = 0,
+	value_2 = 45,
+	icon = "15300",
+	attribute_2 = "torpedo",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {
+		{
+			3,
+			1838
+		}
+	},
+	equip_info = {
+		1,
+		2,
+		{
+			3,
+			1838
+		},
+		{
+			4,
+			1420
+		},
+		6,
+		10,
+		11,
+		12
+	},
+	weapon_id = {
+		15300
+	},
+	skill_id = {
+		60360
+	},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		2,
+		3,
+		18,
+		20,
+		21
+	},
+	part_sub = {
+		1,
+		2,
+		3,
+		18,
+		20,
+		21
+	},
+	equip_parameters = {},
+	label = {
+		"USS",
+		"ST",
+		"TP",
+		"QUAD",
+		"SGS"
+	}
+}
+
+_G.pg.base.equip_data_statistics[15301] = {
+	id = 15301,
+	damage = "84 x 4",
+	base = 15300,
+	weapon_id = {
+		15301
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[15302] = {
+	id = 15302,
+	damage = "92 x 4",
+	base = 15300,
+	weapon_id = {
+		15302
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[15303] = {
+	id = 15303,
+	damage = "99 x 4",
+	base = 15300,
+	weapon_id = {
+		15303
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[15304] = {
+	id = 15304,
+	damage = "107 x 4",
+	base = 15300,
+	weapon_id = {
+		15304
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[15305] = {
+	id = 15305,
+	damage = "114 x 4",
+	base = 15300,
+	weapon_id = {
+		15305
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[15306] = {
+	id = 15306,
+	damage = "122 x 4",
+	base = 15300,
+	weapon_id = {
+		15306
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[15307] = {
+	id = 15307,
+	damage = "129 x 4",
+	base = 15300,
+	weapon_id = {
+		15307
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[15308] = {
+	id = 15308,
+	damage = "137 x 4",
+	base = 15300,
+	weapon_id = {
+		15308
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[15309] = {
+	id = 15309,
+	damage = "144 x 4",
+	base = 15300,
+	weapon_id = {
+		15309
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[15310] = {
+	id = 15310,
+	damage = "152 x 4",
+	base = 15300,
+	weapon_id = {
+		15310
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[15311] = {
+	id = 15311,
+	anti_siren = 100,
+	damage = "152 x 4",
+	base = 15300,
+	weapon_id = {
+		15311
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[15312] = {
+	id = 15312,
+	anti_siren = 200,
+	damage = "152 x 4",
+	base = 15300,
+	weapon_id = {
+		15312
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[15313] = {
+	id = 15313,
+	anti_siren = 300,
+	damage = "152 x 4",
+	base = 15300,
+	weapon_id = {
+		15313
 	},
 	hidden_skill_id = {}
 }
@@ -48244,7 +48622,7 @@ _G.pg.base.equip_data_statistics[22000] = {
 	type = 2,
 	rarity = 1,
 	ammo = 1,
-	damage = "8 x 3",
+	damage = "10 x 3",
 	nationality = 2,
 	descrip = "0",
 	id = 22000,
@@ -48300,7 +48678,7 @@ _G.pg.base.equip_data_statistics[22000] = {
 
 _G.pg.base.equip_data_statistics[22001] = {
 	id = 22001,
-	damage = "9 x 3",
+	damage = "11 x 3",
 	base = 22000,
 	weapon_id = {
 		22001
@@ -48310,7 +48688,7 @@ _G.pg.base.equip_data_statistics[22001] = {
 
 _G.pg.base.equip_data_statistics[22002] = {
 	id = 22002,
-	damage = "10 x 3",
+	damage = "12 x 3",
 	base = 22000,
 	weapon_id = {
 		22002
@@ -48320,7 +48698,7 @@ _G.pg.base.equip_data_statistics[22002] = {
 
 _G.pg.base.equip_data_statistics[22003] = {
 	id = 22003,
-	damage = "11 x 3",
+	damage = "13 x 3",
 	base = 22000,
 	weapon_id = {
 		22003
@@ -48335,7 +48713,7 @@ _G.pg.base.equip_data_statistics[22020] = {
 	type = 2,
 	descrip = "0",
 	ammo = 1,
-	damage = "9 x 3",
+	damage = "11 x 3",
 	nationality = 2,
 	rarity = 2,
 	id = 22020,
@@ -48392,7 +48770,7 @@ _G.pg.base.equip_data_statistics[22020] = {
 
 _G.pg.base.equip_data_statistics[22021] = {
 	id = 22021,
-	damage = "10 x 3",
+	damage = "12 x 3",
 	base = 22020,
 	weapon_id = {
 		22021
@@ -48402,7 +48780,7 @@ _G.pg.base.equip_data_statistics[22021] = {
 
 _G.pg.base.equip_data_statistics[22022] = {
 	id = 22022,
-	damage = "11 x 3",
+	damage = "13 x 3",
 	base = 22020,
 	weapon_id = {
 		22022
@@ -48412,7 +48790,7 @@ _G.pg.base.equip_data_statistics[22022] = {
 
 _G.pg.base.equip_data_statistics[22023] = {
 	id = 22023,
-	damage = "12 x 3",
+	damage = "14 x 3",
 	base = 22020,
 	weapon_id = {
 		22023
@@ -48427,7 +48805,7 @@ _G.pg.base.equip_data_statistics[22040] = {
 	type = 2,
 	descrip = "0",
 	ammo = 1,
-	damage = "10 x 3",
+	damage = "13 x 3",
 	nationality = 2,
 	rarity = 3,
 	id = 22040,
@@ -48484,7 +48862,7 @@ _G.pg.base.equip_data_statistics[22040] = {
 
 _G.pg.base.equip_data_statistics[22041] = {
 	id = 22041,
-	damage = "11 x 3",
+	damage = "14 x 3",
 	base = 22040,
 	weapon_id = {
 		22041
@@ -48494,7 +48872,7 @@ _G.pg.base.equip_data_statistics[22041] = {
 
 _G.pg.base.equip_data_statistics[22042] = {
 	id = 22042,
-	damage = "12 x 3",
+	damage = "15 x 3",
 	base = 22040,
 	weapon_id = {
 		22042
@@ -48504,7 +48882,7 @@ _G.pg.base.equip_data_statistics[22042] = {
 
 _G.pg.base.equip_data_statistics[22043] = {
 	id = 22043,
-	damage = "13 x 3",
+	damage = "16 x 3",
 	base = 22040,
 	weapon_id = {
 		22043
@@ -48514,7 +48892,7 @@ _G.pg.base.equip_data_statistics[22043] = {
 
 _G.pg.base.equip_data_statistics[22044] = {
 	id = 22044,
-	damage = "14 x 3",
+	damage = "17 x 3",
 	base = 22040,
 	weapon_id = {
 		22044
@@ -48524,7 +48902,7 @@ _G.pg.base.equip_data_statistics[22044] = {
 
 _G.pg.base.equip_data_statistics[22045] = {
 	id = 22045,
-	damage = "15 x 3",
+	damage = "18 x 3",
 	base = 22040,
 	weapon_id = {
 		22045
@@ -48534,7 +48912,7 @@ _G.pg.base.equip_data_statistics[22045] = {
 
 _G.pg.base.equip_data_statistics[22046] = {
 	id = 22046,
-	damage = "16 x 3",
+	damage = "19 x 3",
 	base = 22040,
 	weapon_id = {
 		22046
@@ -48544,7 +48922,7 @@ _G.pg.base.equip_data_statistics[22046] = {
 
 _G.pg.base.equip_data_statistics[22047] = {
 	id = 22047,
-	damage = "16 x 3",
+	damage = "19 x 3",
 	base = 22040,
 	weapon_id = {
 		22047
@@ -48559,7 +48937,7 @@ _G.pg.base.equip_data_statistics[22060] = {
 	type = 2,
 	descrip = "0",
 	ammo = 2,
-	damage = "10 x 4",
+	damage = "13 x 4",
 	nationality = 2,
 	rarity = 3,
 	id = 22060,
@@ -48616,7 +48994,7 @@ _G.pg.base.equip_data_statistics[22060] = {
 
 _G.pg.base.equip_data_statistics[22061] = {
 	id = 22061,
-	damage = "11 x 4",
+	damage = "14 x 4",
 	base = 22060,
 	weapon_id = {
 		22061
@@ -48626,7 +49004,7 @@ _G.pg.base.equip_data_statistics[22061] = {
 
 _G.pg.base.equip_data_statistics[22062] = {
 	id = 22062,
-	damage = "12 x 4",
+	damage = "15 x 4",
 	base = 22060,
 	weapon_id = {
 		22062
@@ -48636,7 +49014,7 @@ _G.pg.base.equip_data_statistics[22062] = {
 
 _G.pg.base.equip_data_statistics[22063] = {
 	id = 22063,
-	damage = "13 x 4",
+	damage = "16 x 4",
 	base = 22060,
 	weapon_id = {
 		22063
@@ -48646,7 +49024,7 @@ _G.pg.base.equip_data_statistics[22063] = {
 
 _G.pg.base.equip_data_statistics[22064] = {
 	id = 22064,
-	damage = "14 x 4",
+	damage = "17 x 4",
 	base = 22060,
 	weapon_id = {
 		22064
@@ -48656,7 +49034,7 @@ _G.pg.base.equip_data_statistics[22064] = {
 
 _G.pg.base.equip_data_statistics[22065] = {
 	id = 22065,
-	damage = "15 x 4",
+	damage = "18 x 4",
 	base = 22060,
 	weapon_id = {
 		22065
@@ -48666,7 +49044,7 @@ _G.pg.base.equip_data_statistics[22065] = {
 
 _G.pg.base.equip_data_statistics[22066] = {
 	id = 22066,
-	damage = "16 x 4",
+	damage = "19 x 4",
 	base = 22060,
 	weapon_id = {
 		22066
@@ -48676,7 +49054,7 @@ _G.pg.base.equip_data_statistics[22066] = {
 
 _G.pg.base.equip_data_statistics[22067] = {
 	id = 22067,
-	damage = "16 x 4",
+	damage = "19 x 4",
 	base = 22060,
 	weapon_id = {
 		22067
@@ -48691,7 +49069,7 @@ _G.pg.base.equip_data_statistics[22100] = {
 	type = 2,
 	descrip = "0",
 	ammo = 1,
-	damage = "8 x 4",
+	damage = "10 x 4",
 	nationality = 2,
 	rarity = 2,
 	id = 22100,
@@ -48748,7 +49126,7 @@ _G.pg.base.equip_data_statistics[22100] = {
 
 _G.pg.base.equip_data_statistics[22101] = {
 	id = 22101,
-	damage = "9 x 4",
+	damage = "11 x 4",
 	base = 22100,
 	weapon_id = {
 		22101
@@ -48758,7 +49136,7 @@ _G.pg.base.equip_data_statistics[22101] = {
 
 _G.pg.base.equip_data_statistics[22102] = {
 	id = 22102,
-	damage = "10 x 4",
+	damage = "12 x 4",
 	base = 22100,
 	weapon_id = {
 		22102
@@ -48768,7 +49146,7 @@ _G.pg.base.equip_data_statistics[22102] = {
 
 _G.pg.base.equip_data_statistics[22103] = {
 	id = 22103,
-	damage = "11 x 4",
+	damage = "13 x 4",
 	base = 22100,
 	weapon_id = {
 		22103
@@ -48783,7 +49161,7 @@ _G.pg.base.equip_data_statistics[22120] = {
 	type = 2,
 	descrip = "0",
 	ammo = 1,
-	damage = "9 x 4",
+	damage = "12 x 4",
 	nationality = 2,
 	rarity = 3,
 	id = 22120,
@@ -48840,7 +49218,7 @@ _G.pg.base.equip_data_statistics[22120] = {
 
 _G.pg.base.equip_data_statistics[22121] = {
 	id = 22121,
-	damage = "10 x 4",
+	damage = "13 x 4",
 	base = 22120,
 	weapon_id = {
 		22121
@@ -48850,7 +49228,7 @@ _G.pg.base.equip_data_statistics[22121] = {
 
 _G.pg.base.equip_data_statistics[22122] = {
 	id = 22122,
-	damage = "11 x 4",
+	damage = "14 x 4",
 	base = 22120,
 	weapon_id = {
 		22122
@@ -48860,7 +49238,7 @@ _G.pg.base.equip_data_statistics[22122] = {
 
 _G.pg.base.equip_data_statistics[22123] = {
 	id = 22123,
-	damage = "12 x 4",
+	damage = "15 x 4",
 	base = 22120,
 	weapon_id = {
 		22123
@@ -48870,7 +49248,7 @@ _G.pg.base.equip_data_statistics[22123] = {
 
 _G.pg.base.equip_data_statistics[22124] = {
 	id = 22124,
-	damage = "13 x 4",
+	damage = "16 x 4",
 	base = 22120,
 	weapon_id = {
 		22124
@@ -48880,7 +49258,7 @@ _G.pg.base.equip_data_statistics[22124] = {
 
 _G.pg.base.equip_data_statistics[22125] = {
 	id = 22125,
-	damage = "14 x 4",
+	damage = "17 x 4",
 	base = 22120,
 	weapon_id = {
 		22125
@@ -48890,7 +49268,7 @@ _G.pg.base.equip_data_statistics[22125] = {
 
 _G.pg.base.equip_data_statistics[22126] = {
 	id = 22126,
-	damage = "15 x 4",
+	damage = "18 x 4",
 	base = 22120,
 	weapon_id = {
 		22126
@@ -48905,7 +49283,7 @@ _G.pg.base.equip_data_statistics[22140] = {
 	type = 2,
 	descrip = "0",
 	ammo = 1,
-	damage = "10 x 4",
+	damage = "15 x 4",
 	nationality = 2,
 	rarity = 4,
 	id = 22140,
@@ -48962,7 +49340,7 @@ _G.pg.base.equip_data_statistics[22140] = {
 
 _G.pg.base.equip_data_statistics[22141] = {
 	id = 22141,
-	damage = "11 x 4",
+	damage = "16 x 4",
 	base = 22140,
 	weapon_id = {
 		22141
@@ -48972,7 +49350,7 @@ _G.pg.base.equip_data_statistics[22141] = {
 
 _G.pg.base.equip_data_statistics[22142] = {
 	id = 22142,
-	damage = "12 x 4",
+	damage = "17 x 4",
 	base = 22140,
 	weapon_id = {
 		22142
@@ -48982,7 +49360,7 @@ _G.pg.base.equip_data_statistics[22142] = {
 
 _G.pg.base.equip_data_statistics[22143] = {
 	id = 22143,
-	damage = "13 x 4",
+	damage = "18 x 4",
 	base = 22140,
 	weapon_id = {
 		22143
@@ -48992,7 +49370,7 @@ _G.pg.base.equip_data_statistics[22143] = {
 
 _G.pg.base.equip_data_statistics[22144] = {
 	id = 22144,
-	damage = "14 x 4",
+	damage = "19 x 4",
 	base = 22140,
 	weapon_id = {
 		22144
@@ -49002,7 +49380,7 @@ _G.pg.base.equip_data_statistics[22144] = {
 
 _G.pg.base.equip_data_statistics[22145] = {
 	id = 22145,
-	damage = "15 x 4",
+	damage = "20 x 4",
 	base = 22140,
 	weapon_id = {
 		22145
@@ -49012,7 +49390,7 @@ _G.pg.base.equip_data_statistics[22145] = {
 
 _G.pg.base.equip_data_statistics[22146] = {
 	id = 22146,
-	damage = "16 x 4",
+	damage = "21 x 4",
 	base = 22140,
 	weapon_id = {
 		22146
@@ -49022,7 +49400,7 @@ _G.pg.base.equip_data_statistics[22146] = {
 
 _G.pg.base.equip_data_statistics[22147] = {
 	id = 22147,
-	damage = "17 x 4",
+	damage = "22 x 4",
 	base = 22140,
 	weapon_id = {
 		22147
@@ -49032,7 +49410,7 @@ _G.pg.base.equip_data_statistics[22147] = {
 
 _G.pg.base.equip_data_statistics[22148] = {
 	id = 22148,
-	damage = "18 x 4",
+	damage = "23 x 4",
 	base = 22140,
 	weapon_id = {
 		22148
@@ -49042,7 +49420,7 @@ _G.pg.base.equip_data_statistics[22148] = {
 
 _G.pg.base.equip_data_statistics[22149] = {
 	id = 22149,
-	damage = "20 x 4",
+	damage = "25 x 4",
 	base = 22140,
 	weapon_id = {
 		22149
@@ -49052,7 +49430,7 @@ _G.pg.base.equip_data_statistics[22149] = {
 
 _G.pg.base.equip_data_statistics[22150] = {
 	id = 22150,
-	damage = "22 x 4",
+	damage = "27 x 4",
 	base = 22140,
 	weapon_id = {
 		22150
@@ -49063,7 +49441,7 @@ _G.pg.base.equip_data_statistics[22150] = {
 _G.pg.base.equip_data_statistics[22151] = {
 	id = 22151,
 	anti_siren = 100,
-	damage = "22 x 4",
+	damage = "27 x 4",
 	base = 22140,
 	weapon_id = {
 		22151
@@ -49078,7 +49456,7 @@ _G.pg.base.equip_data_statistics[22200] = {
 	type = 2,
 	descrip = "0",
 	ammo = 1,
-	damage = "8 x 6",
+	damage = "10 x 6",
 	nationality = 2,
 	rarity = 2,
 	id = 22200,
@@ -49135,7 +49513,7 @@ _G.pg.base.equip_data_statistics[22200] = {
 
 _G.pg.base.equip_data_statistics[22201] = {
 	id = 22201,
-	damage = "9 x 6",
+	damage = "11 x 6",
 	base = 22200,
 	weapon_id = {
 		22201
@@ -49145,7 +49523,7 @@ _G.pg.base.equip_data_statistics[22201] = {
 
 _G.pg.base.equip_data_statistics[22202] = {
 	id = 22202,
-	damage = "10 x 6",
+	damage = "12 x 6",
 	base = 22200,
 	weapon_id = {
 		22202
@@ -49155,7 +49533,7 @@ _G.pg.base.equip_data_statistics[22202] = {
 
 _G.pg.base.equip_data_statistics[22203] = {
 	id = 22203,
-	damage = "11 x 6",
+	damage = "13 x 6",
 	base = 22200,
 	weapon_id = {
 		22203
@@ -49170,7 +49548,7 @@ _G.pg.base.equip_data_statistics[22220] = {
 	type = 2,
 	descrip = "0",
 	ammo = 1,
-	damage = "9 x 6",
+	damage = "12 x 6",
 	nationality = 2,
 	rarity = 3,
 	id = 22220,
@@ -49227,7 +49605,7 @@ _G.pg.base.equip_data_statistics[22220] = {
 
 _G.pg.base.equip_data_statistics[22221] = {
 	id = 22221,
-	damage = "10 x 6",
+	damage = "13 x 6",
 	base = 22220,
 	weapon_id = {
 		22221
@@ -49237,7 +49615,7 @@ _G.pg.base.equip_data_statistics[22221] = {
 
 _G.pg.base.equip_data_statistics[22222] = {
 	id = 22222,
-	damage = "11 x 6",
+	damage = "14 x 6",
 	base = 22220,
 	weapon_id = {
 		22222
@@ -49247,7 +49625,7 @@ _G.pg.base.equip_data_statistics[22222] = {
 
 _G.pg.base.equip_data_statistics[22223] = {
 	id = 22223,
-	damage = "12 x 6",
+	damage = "15 x 6",
 	base = 22220,
 	weapon_id = {
 		22223
@@ -49257,7 +49635,7 @@ _G.pg.base.equip_data_statistics[22223] = {
 
 _G.pg.base.equip_data_statistics[22224] = {
 	id = 22224,
-	damage = "13 x 6",
+	damage = "16 x 6",
 	base = 22220,
 	weapon_id = {
 		22224
@@ -49267,7 +49645,7 @@ _G.pg.base.equip_data_statistics[22224] = {
 
 _G.pg.base.equip_data_statistics[22225] = {
 	id = 22225,
-	damage = "14 x 6",
+	damage = "17 x 6",
 	base = 22220,
 	weapon_id = {
 		22225
@@ -49277,7 +49655,7 @@ _G.pg.base.equip_data_statistics[22225] = {
 
 _G.pg.base.equip_data_statistics[22226] = {
 	id = 22226,
-	damage = "15 x 6",
+	damage = "18 x 6",
 	base = 22220,
 	weapon_id = {
 		22226
@@ -49292,7 +49670,7 @@ _G.pg.base.equip_data_statistics[22240] = {
 	type = 2,
 	descrip = "0",
 	ammo = 1,
-	damage = "10 x 6",
+	damage = "15 x 6",
 	nationality = 2,
 	rarity = 4,
 	id = 22240,
@@ -49349,7 +49727,7 @@ _G.pg.base.equip_data_statistics[22240] = {
 
 _G.pg.base.equip_data_statistics[22241] = {
 	id = 22241,
-	damage = "11 x 6",
+	damage = "16 x 6",
 	base = 22240,
 	weapon_id = {
 		22241
@@ -49359,7 +49737,7 @@ _G.pg.base.equip_data_statistics[22241] = {
 
 _G.pg.base.equip_data_statistics[22242] = {
 	id = 22242,
-	damage = "12 x 6",
+	damage = "17 x 6",
 	base = 22240,
 	weapon_id = {
 		22242
@@ -49369,7 +49747,7 @@ _G.pg.base.equip_data_statistics[22242] = {
 
 _G.pg.base.equip_data_statistics[22243] = {
 	id = 22243,
-	damage = "13 x 6",
+	damage = "18 x 6",
 	base = 22240,
 	weapon_id = {
 		22243
@@ -49379,7 +49757,7 @@ _G.pg.base.equip_data_statistics[22243] = {
 
 _G.pg.base.equip_data_statistics[22244] = {
 	id = 22244,
-	damage = "14 x 6",
+	damage = "19 x 6",
 	base = 22240,
 	weapon_id = {
 		22244
@@ -49389,7 +49767,7 @@ _G.pg.base.equip_data_statistics[22244] = {
 
 _G.pg.base.equip_data_statistics[22245] = {
 	id = 22245,
-	damage = "15 x 6",
+	damage = "20 x 6",
 	base = 22240,
 	weapon_id = {
 		22245
@@ -49399,7 +49777,7 @@ _G.pg.base.equip_data_statistics[22245] = {
 
 _G.pg.base.equip_data_statistics[22246] = {
 	id = 22246,
-	damage = "16 x 6",
+	damage = "21 x 6",
 	base = 22240,
 	weapon_id = {
 		22246
@@ -49409,7 +49787,7 @@ _G.pg.base.equip_data_statistics[22246] = {
 
 _G.pg.base.equip_data_statistics[22247] = {
 	id = 22247,
-	damage = "17 x 6",
+	damage = "22 x 6",
 	base = 22240,
 	weapon_id = {
 		22247
@@ -49419,7 +49797,7 @@ _G.pg.base.equip_data_statistics[22247] = {
 
 _G.pg.base.equip_data_statistics[22248] = {
 	id = 22248,
-	damage = "18 x 6",
+	damage = "23 x 6",
 	base = 22240,
 	weapon_id = {
 		22248
@@ -49429,7 +49807,7 @@ _G.pg.base.equip_data_statistics[22248] = {
 
 _G.pg.base.equip_data_statistics[22249] = {
 	id = 22249,
-	damage = "20 x 6",
+	damage = "25 x 6",
 	base = 22240,
 	weapon_id = {
 		22249
@@ -49439,7 +49817,7 @@ _G.pg.base.equip_data_statistics[22249] = {
 
 _G.pg.base.equip_data_statistics[22250] = {
 	id = 22250,
-	damage = "22 x 6",
+	damage = "27 x 6",
 	base = 22240,
 	weapon_id = {
 		22250
@@ -49450,7 +49828,7 @@ _G.pg.base.equip_data_statistics[22250] = {
 _G.pg.base.equip_data_statistics[22251] = {
 	id = 22251,
 	anti_siren = 100,
-	damage = "22 x 6",
+	damage = "27 x 6",
 	base = 22240,
 	weapon_id = {
 		22251
@@ -49465,7 +49843,7 @@ _G.pg.base.equip_data_statistics[22260] = {
 	type = 2,
 	descrip = "0",
 	ammo = 1,
-	damage = "11 x 3",
+	damage = "16 x 3",
 	nationality = 2,
 	rarity = 5,
 	id = 22260,
@@ -49522,7 +49900,7 @@ _G.pg.base.equip_data_statistics[22260] = {
 
 _G.pg.base.equip_data_statistics[22261] = {
 	id = 22261,
-	damage = "12 x 3",
+	damage = "17 x 3",
 	base = 22260,
 	weapon_id = {
 		22261
@@ -49532,7 +49910,7 @@ _G.pg.base.equip_data_statistics[22261] = {
 
 _G.pg.base.equip_data_statistics[22262] = {
 	id = 22262,
-	damage = "13 x 3",
+	damage = "18 x 3",
 	base = 22260,
 	weapon_id = {
 		22262
@@ -49542,7 +49920,7 @@ _G.pg.base.equip_data_statistics[22262] = {
 
 _G.pg.base.equip_data_statistics[22263] = {
 	id = 22263,
-	damage = "14 x 3",
+	damage = "19 x 3",
 	base = 22260,
 	weapon_id = {
 		22263
@@ -49552,7 +49930,7 @@ _G.pg.base.equip_data_statistics[22263] = {
 
 _G.pg.base.equip_data_statistics[22264] = {
 	id = 22264,
-	damage = "15 x 3",
+	damage = "20 x 3",
 	base = 22260,
 	weapon_id = {
 		22264
@@ -49562,7 +49940,7 @@ _G.pg.base.equip_data_statistics[22264] = {
 
 _G.pg.base.equip_data_statistics[22265] = {
 	id = 22265,
-	damage = "16 x 3",
+	damage = "21 x 3",
 	base = 22260,
 	weapon_id = {
 		22265
@@ -49572,7 +49950,7 @@ _G.pg.base.equip_data_statistics[22265] = {
 
 _G.pg.base.equip_data_statistics[22266] = {
 	id = 22266,
-	damage = "17 x 3",
+	damage = "22 x 3",
 	base = 22260,
 	weapon_id = {
 		22266
@@ -49582,7 +49960,7 @@ _G.pg.base.equip_data_statistics[22266] = {
 
 _G.pg.base.equip_data_statistics[22267] = {
 	id = 22267,
-	damage = "18 x 3",
+	damage = "23 x 3",
 	base = 22260,
 	weapon_id = {
 		22267
@@ -49592,7 +49970,7 @@ _G.pg.base.equip_data_statistics[22267] = {
 
 _G.pg.base.equip_data_statistics[22268] = {
 	id = 22268,
-	damage = "20 x 3",
+	damage = "25 x 3",
 	base = 22260,
 	weapon_id = {
 		22268
@@ -49602,7 +49980,7 @@ _G.pg.base.equip_data_statistics[22268] = {
 
 _G.pg.base.equip_data_statistics[22269] = {
 	id = 22269,
-	damage = "22 x 3",
+	damage = "27 x 3",
 	base = 22260,
 	weapon_id = {
 		22269
@@ -49612,7 +49990,7 @@ _G.pg.base.equip_data_statistics[22269] = {
 
 _G.pg.base.equip_data_statistics[22270] = {
 	id = 22270,
-	damage = "24 x 3",
+	damage = "29 x 3",
 	base = 22260,
 	weapon_id = {
 		22270
@@ -49623,7 +50001,7 @@ _G.pg.base.equip_data_statistics[22270] = {
 _G.pg.base.equip_data_statistics[22271] = {
 	id = 22271,
 	anti_siren = 100,
-	damage = "24 x 3",
+	damage = "29 x 3",
 	base = 22260,
 	weapon_id = {
 		22271
@@ -49634,7 +50012,7 @@ _G.pg.base.equip_data_statistics[22271] = {
 _G.pg.base.equip_data_statistics[22272] = {
 	id = 22272,
 	anti_siren = 200,
-	damage = "24 x 3",
+	damage = "29 x 3",
 	base = 22260,
 	weapon_id = {
 		22272
@@ -49645,7 +50023,7 @@ _G.pg.base.equip_data_statistics[22272] = {
 _G.pg.base.equip_data_statistics[22273] = {
 	id = 22273,
 	anti_siren = 300,
-	damage = "24 x 3",
+	damage = "29 x 3",
 	base = 22260,
 	weapon_id = {
 		22273
@@ -49660,7 +50038,7 @@ _G.pg.base.equip_data_statistics[22280] = {
 	type = 2,
 	descrip = "说明未填写",
 	ammo = 1,
-	damage = "12 x 4",
+	damage = "17 x 4",
 	nationality = 2,
 	rarity = 6,
 	id = 22280,
@@ -49717,7 +50095,7 @@ _G.pg.base.equip_data_statistics[22280] = {
 
 _G.pg.base.equip_data_statistics[22281] = {
 	id = 22281,
-	damage = "13 x 4",
+	damage = "18 x 4",
 	base = 22280,
 	weapon_id = {
 		22281
@@ -49727,7 +50105,7 @@ _G.pg.base.equip_data_statistics[22281] = {
 
 _G.pg.base.equip_data_statistics[22282] = {
 	id = 22282,
-	damage = "14 x 4",
+	damage = "19 x 4",
 	base = 22280,
 	weapon_id = {
 		22282
@@ -49737,7 +50115,7 @@ _G.pg.base.equip_data_statistics[22282] = {
 
 _G.pg.base.equip_data_statistics[22283] = {
 	id = 22283,
-	damage = "15 x 4",
+	damage = "20 x 4",
 	base = 22280,
 	weapon_id = {
 		22283
@@ -49747,7 +50125,7 @@ _G.pg.base.equip_data_statistics[22283] = {
 
 _G.pg.base.equip_data_statistics[22284] = {
 	id = 22284,
-	damage = "16 x 4",
+	damage = "21 x 4",
 	base = 22280,
 	weapon_id = {
 		22284
@@ -49757,7 +50135,7 @@ _G.pg.base.equip_data_statistics[22284] = {
 
 _G.pg.base.equip_data_statistics[22285] = {
 	id = 22285,
-	damage = "17 x 4",
+	damage = "22 x 4",
 	base = 22280,
 	weapon_id = {
 		22285
@@ -49767,7 +50145,7 @@ _G.pg.base.equip_data_statistics[22285] = {
 
 _G.pg.base.equip_data_statistics[22286] = {
 	id = 22286,
-	damage = "18 x 4",
+	damage = "23 x 4",
 	base = 22280,
 	weapon_id = {
 		22286
@@ -49777,7 +50155,7 @@ _G.pg.base.equip_data_statistics[22286] = {
 
 _G.pg.base.equip_data_statistics[22287] = {
 	id = 22287,
-	damage = "19 x 4",
+	damage = "24 x 4",
 	base = 22280,
 	weapon_id = {
 		22287
@@ -49787,7 +50165,7 @@ _G.pg.base.equip_data_statistics[22287] = {
 
 _G.pg.base.equip_data_statistics[22288] = {
 	id = 22288,
-	damage = "21 x 4",
+	damage = "26 x 4",
 	base = 22280,
 	weapon_id = {
 		22288
@@ -49797,7 +50175,7 @@ _G.pg.base.equip_data_statistics[22288] = {
 
 _G.pg.base.equip_data_statistics[22289] = {
 	id = 22289,
-	damage = "23 x 4",
+	damage = "28 x 4",
 	base = 22280,
 	weapon_id = {
 		22289
@@ -49807,7 +50185,7 @@ _G.pg.base.equip_data_statistics[22289] = {
 
 _G.pg.base.equip_data_statistics[22290] = {
 	id = 22290,
-	damage = "25 x 4",
+	damage = "30 x 4",
 	base = 22280,
 	weapon_id = {
 		22290
@@ -49818,7 +50196,7 @@ _G.pg.base.equip_data_statistics[22290] = {
 _G.pg.base.equip_data_statistics[22291] = {
 	id = 22291,
 	anti_siren = 100,
-	damage = "25 x 4",
+	damage = "30 x 4",
 	base = 22280,
 	weapon_id = {
 		22291
@@ -49829,7 +50207,7 @@ _G.pg.base.equip_data_statistics[22291] = {
 _G.pg.base.equip_data_statistics[22292] = {
 	id = 22292,
 	anti_siren = 200,
-	damage = "25 x 4",
+	damage = "30 x 4",
 	base = 22280,
 	weapon_id = {
 		22292
@@ -49840,7 +50218,7 @@ _G.pg.base.equip_data_statistics[22292] = {
 _G.pg.base.equip_data_statistics[22293] = {
 	id = 22293,
 	anti_siren = 300,
-	damage = "25 x 4",
+	damage = "30 x 4",
 	base = 22280,
 	weapon_id = {
 		22293
@@ -53162,7 +53540,8 @@ _G.pg.base.equip_data_statistics[25000] = {
 		"HMS",
 		"ST",
 		"TP",
-		"TRI"
+		"TRI",
+		"SGS"
 	}
 }
 
@@ -53302,7 +53681,8 @@ _G.pg.base.equip_data_statistics[25020] = {
 		"HMS",
 		"ST",
 		"TP",
-		"QUAD"
+		"QUAD",
+		"SGS"
 	}
 }
 
@@ -53483,7 +53863,8 @@ _G.pg.base.equip_data_statistics[25040] = {
 		"HMS",
 		"ST",
 		"TP",
-		"QUINT"
+		"QUINT",
+		"SGS"
 	}
 }
 
@@ -56574,6 +56955,185 @@ _G.pg.base.equip_data_statistics[26371] = {
 	base = 26360,
 	weapon_id = {
 		26371
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[26380] = {
+	tech = 0,
+	name = "20mmエリコン連装高角砲Mk.V",
+	speciality = "近距離",
+	type = 6,
+	descrip = "0",
+	ammo = 5,
+	damage = "24/回",
+	nationality = 2,
+	rarity = 4,
+	id = 26380,
+	value_3 = 0,
+	torpedo_ammo = 0,
+	value_2 = 25,
+	icon = "26380",
+	attribute_2 = "antiaircraft",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		1,
+		2,
+		6,
+		10
+	},
+	weapon_id = {
+		26380
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		2,
+		3,
+		4,
+		5,
+		6,
+		10,
+		12,
+		13,
+		18,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		1,
+		2,
+		3,
+		4,
+		5,
+		6,
+		10,
+		12,
+		13,
+		18,
+		19,
+		20,
+		21
+	},
+	equip_parameters = {},
+	label = {
+		"HMS",
+		"ST",
+		"AA"
+	}
+}
+
+_G.pg.base.equip_data_statistics[26381] = {
+	id = 26381,
+	damage = "26/回",
+	base = 26380,
+	weapon_id = {
+		26381
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[26382] = {
+	id = 26382,
+	damage = "28/回",
+	base = 26380,
+	weapon_id = {
+		26382
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[26383] = {
+	id = 26383,
+	damage = "30/回",
+	base = 26380,
+	weapon_id = {
+		26383
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[26384] = {
+	id = 26384,
+	damage = "32/回",
+	base = 26380,
+	weapon_id = {
+		26384
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[26385] = {
+	id = 26385,
+	damage = "34/回",
+	base = 26380,
+	weapon_id = {
+		26385
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[26386] = {
+	id = 26386,
+	damage = "36/回",
+	base = 26380,
+	weapon_id = {
+		26386
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[26387] = {
+	id = 26387,
+	damage = "36/回",
+	base = 26380,
+	weapon_id = {
+		26387
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[26388] = {
+	id = 26388,
+	damage = "38/回",
+	base = 26380,
+	weapon_id = {
+		26388
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[26389] = {
+	id = 26389,
+	damage = "38/回",
+	base = 26380,
+	weapon_id = {
+		26389
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[26390] = {
+	id = 26390,
+	damage = "40/回",
+	base = 26380,
+	weapon_id = {
+		26390
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[26391] = {
+	id = 26391,
+	anti_siren = 100,
+	damage = "40/回",
+	base = 26380,
+	weapon_id = {
+		26391
 	},
 	hidden_skill_id = {}
 }
@@ -67371,6 +67931,210 @@ _G.pg.base.equip_data_statistics[31071] = {
 	hidden_skill_id = {}
 }
 
+_G.pg.base.equip_data_statistics[31080] = {
+	attribute_3 = "antiaircraft",
+	name = "100mm二連装九八式高角砲改",
+	speciality = "追尾",
+	type = 1,
+	tech = 0,
+	ammo = 2,
+	damage = "4 x 4",
+	nationality = 3,
+	descrip = "说明未填写",
+	rarity = 6,
+	value_3 = 40,
+	id = 31080,
+	value_2 = 25,
+	icon = "31080",
+	torpedo_ammo = 0,
+	attribute_2 = "cannon",
+	property_rate = {},
+	ammo_icon = {
+		3
+	},
+	ammo_info = {
+		{
+			1,
+			1211
+		}
+	},
+	equip_info = {
+		1,
+		2,
+		{
+			3,
+			1211
+		},
+		{
+			4,
+			1001
+		},
+		6,
+		10,
+		11,
+		12
+	},
+	weapon_id = {
+		31080
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {
+		"IJN",
+		"DD",
+		"MG",
+		"HE"
+	}
+}
+
+_G.pg.base.equip_data_statistics[31081] = {
+	id = 31081,
+	base = 31080,
+	weapon_id = {
+		31081
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[31082] = {
+	id = 31082,
+	damage = "7 x 4",
+	base = 31080,
+	weapon_id = {
+		31082
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[31083] = {
+	id = 31083,
+	damage = "7 x 4",
+	base = 31080,
+	weapon_id = {
+		31083
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[31084] = {
+	id = 31084,
+	damage = "8 x 4",
+	base = 31080,
+	weapon_id = {
+		31084
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[31085] = {
+	id = 31085,
+	damage = "9 x 4",
+	base = 31080,
+	weapon_id = {
+		31085
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[31086] = {
+	id = 31086,
+	damage = "9 x 4",
+	base = 31080,
+	weapon_id = {
+		31086
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[31087] = {
+	id = 31087,
+	damage = "10 x 4",
+	base = 31080,
+	weapon_id = {
+		31087
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[31088] = {
+	id = 31088,
+	damage = "10 x 4",
+	base = 31080,
+	weapon_id = {
+		31088
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[31089] = {
+	id = 31089,
+	damage = "11 x 4",
+	base = 31080,
+	weapon_id = {
+		31089
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[31090] = {
+	id = 31090,
+	damage = "12 x 4",
+	base = 31080,
+	weapon_id = {
+		31090
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[31091] = {
+	id = 31091,
+	anti_siren = 100,
+	damage = "12 x 4",
+	base = 31080,
+	weapon_id = {
+		31091
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[31092] = {
+	id = 31092,
+	anti_siren = 200,
+	damage = "12 x 4",
+	base = 31080,
+	weapon_id = {
+		31092
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[31093] = {
+	id = 31093,
+	anti_siren = 300,
+	damage = "12 x 4",
+	base = 31080,
+	weapon_id = {
+		31093
+	},
+	hidden_skill_id = {}
+}
+
 _G.pg.base.equip_data_statistics[31100] = {
 	tech = 1,
 	name = "120mm単装砲",
@@ -68765,7 +69529,7 @@ _G.pg.base.equip_data_statistics[32000] = {
 	type = 2,
 	rarity = 1,
 	ammo = 3,
-	damage = "5 x 3",
+	damage = "6 x 3",
 	nationality = 3,
 	descrip = "0",
 	id = 32000,
@@ -68820,7 +69584,7 @@ _G.pg.base.equip_data_statistics[32000] = {
 
 _G.pg.base.equip_data_statistics[32001] = {
 	id = 32001,
-	damage = "6 x 3",
+	damage = "7 x 3",
 	base = 32000,
 	weapon_id = {
 		32001
@@ -68830,7 +69594,7 @@ _G.pg.base.equip_data_statistics[32001] = {
 
 _G.pg.base.equip_data_statistics[32002] = {
 	id = 32002,
-	damage = "7 x 3",
+	damage = "8 x 3",
 	base = 32000,
 	weapon_id = {
 		32002
@@ -68840,7 +69604,7 @@ _G.pg.base.equip_data_statistics[32002] = {
 
 _G.pg.base.equip_data_statistics[32003] = {
 	id = 32003,
-	damage = "8 x 3",
+	damage = "9 x 3",
 	base = 32000,
 	weapon_id = {
 		32003
@@ -68855,7 +69619,7 @@ _G.pg.base.equip_data_statistics[32020] = {
 	type = 2,
 	descrip = "0",
 	ammo = 3,
-	damage = "6 x 3",
+	damage = "8 x 3",
 	nationality = 3,
 	rarity = 2,
 	id = 32020,
@@ -68911,7 +69675,7 @@ _G.pg.base.equip_data_statistics[32020] = {
 
 _G.pg.base.equip_data_statistics[32021] = {
 	id = 32021,
-	damage = "7 x 3",
+	damage = "9 x 3",
 	base = 32020,
 	weapon_id = {
 		32021
@@ -68921,7 +69685,7 @@ _G.pg.base.equip_data_statistics[32021] = {
 
 _G.pg.base.equip_data_statistics[32022] = {
 	id = 32022,
-	damage = "8 x 3",
+	damage = "10 x 3",
 	base = 32020,
 	weapon_id = {
 		32022
@@ -68931,7 +69695,7 @@ _G.pg.base.equip_data_statistics[32022] = {
 
 _G.pg.base.equip_data_statistics[32023] = {
 	id = 32023,
-	damage = "9 x 3",
+	damage = "11 x 3",
 	base = 32020,
 	weapon_id = {
 		32023
@@ -68946,7 +69710,7 @@ _G.pg.base.equip_data_statistics[32040] = {
 	type = 2,
 	descrip = "0",
 	ammo = 2,
-	damage = "7 x 3",
+	damage = "10 x 3",
 	nationality = 3,
 	rarity = 3,
 	id = 32040,
@@ -69002,7 +69766,7 @@ _G.pg.base.equip_data_statistics[32040] = {
 
 _G.pg.base.equip_data_statistics[32041] = {
 	id = 32041,
-	damage = "8 x 3",
+	damage = "11 x 3",
 	base = 32040,
 	weapon_id = {
 		32041
@@ -69012,7 +69776,7 @@ _G.pg.base.equip_data_statistics[32041] = {
 
 _G.pg.base.equip_data_statistics[32042] = {
 	id = 32042,
-	damage = "9 x 3",
+	damage = "12 x 3",
 	base = 32040,
 	weapon_id = {
 		32042
@@ -69022,7 +69786,7 @@ _G.pg.base.equip_data_statistics[32042] = {
 
 _G.pg.base.equip_data_statistics[32043] = {
 	id = 32043,
-	damage = "10 x 3",
+	damage = "13 x 3",
 	base = 32040,
 	weapon_id = {
 		32043
@@ -69032,7 +69796,7 @@ _G.pg.base.equip_data_statistics[32043] = {
 
 _G.pg.base.equip_data_statistics[32044] = {
 	id = 32044,
-	damage = "11 x 3",
+	damage = "14 x 3",
 	base = 32040,
 	weapon_id = {
 		32044
@@ -69042,7 +69806,7 @@ _G.pg.base.equip_data_statistics[32044] = {
 
 _G.pg.base.equip_data_statistics[32045] = {
 	id = 32045,
-	damage = "12 x 3",
+	damage = "15 x 3",
 	base = 32040,
 	weapon_id = {
 		32045
@@ -69052,7 +69816,7 @@ _G.pg.base.equip_data_statistics[32045] = {
 
 _G.pg.base.equip_data_statistics[32046] = {
 	id = 32046,
-	damage = "13 x 3",
+	damage = "16 x 3",
 	base = 32040,
 	weapon_id = {
 		32046
@@ -69062,7 +69826,7 @@ _G.pg.base.equip_data_statistics[32046] = {
 
 _G.pg.base.equip_data_statistics[32047] = {
 	id = 32047,
-	damage = "13 x 3",
+	damage = "16 x 3",
 	base = 32040,
 	weapon_id = {
 		32047
@@ -69077,7 +69841,7 @@ _G.pg.base.equip_data_statistics[32060] = {
 	type = 2,
 	descrip = "0",
 	ammo = 2,
-	damage = "6 x 3",
+	damage = "9 x 3",
 	nationality = 3,
 	rarity = 3,
 	id = 32060,
@@ -69134,7 +69898,7 @@ _G.pg.base.equip_data_statistics[32060] = {
 
 _G.pg.base.equip_data_statistics[32061] = {
 	id = 32061,
-	damage = "8 x 3",
+	damage = "11 x 3",
 	base = 32060,
 	weapon_id = {
 		32061
@@ -69144,7 +69908,7 @@ _G.pg.base.equip_data_statistics[32061] = {
 
 _G.pg.base.equip_data_statistics[32062] = {
 	id = 32062,
-	damage = "10 x 3",
+	damage = "13 x 3",
 	base = 32060,
 	weapon_id = {
 		32062
@@ -69154,7 +69918,7 @@ _G.pg.base.equip_data_statistics[32062] = {
 
 _G.pg.base.equip_data_statistics[32063] = {
 	id = 32063,
-	damage = "12 x 3",
+	damage = "15 x 3",
 	base = 32060,
 	weapon_id = {
 		32063
@@ -69164,7 +69928,7 @@ _G.pg.base.equip_data_statistics[32063] = {
 
 _G.pg.base.equip_data_statistics[32064] = {
 	id = 32064,
-	damage = "14 x 3",
+	damage = "17 x 3",
 	base = 32060,
 	weapon_id = {
 		32064
@@ -69174,7 +69938,7 @@ _G.pg.base.equip_data_statistics[32064] = {
 
 _G.pg.base.equip_data_statistics[32065] = {
 	id = 32065,
-	damage = "15 x 3",
+	damage = "18 x 3",
 	base = 32060,
 	weapon_id = {
 		32065
@@ -69184,7 +69948,7 @@ _G.pg.base.equip_data_statistics[32065] = {
 
 _G.pg.base.equip_data_statistics[32066] = {
 	id = 32066,
-	damage = "16 x 3",
+	damage = "19 x 3",
 	base = 32060,
 	weapon_id = {
 		32066
@@ -69194,7 +69958,7 @@ _G.pg.base.equip_data_statistics[32066] = {
 
 _G.pg.base.equip_data_statistics[32067] = {
 	id = 32067,
-	damage = "16 x 3",
+	damage = "19 x 3",
 	base = 32060,
 	weapon_id = {
 		32067
@@ -69209,7 +69973,7 @@ _G.pg.base.equip_data_statistics[32100] = {
 	type = 2,
 	descrip = "0",
 	ammo = 3,
-	damage = "5 x 4",
+	damage = "6 x 4",
 	nationality = 3,
 	rarity = 2,
 	id = 32100,
@@ -69265,7 +70029,7 @@ _G.pg.base.equip_data_statistics[32100] = {
 
 _G.pg.base.equip_data_statistics[32101] = {
 	id = 32101,
-	damage = "6 x 4",
+	damage = "7 x 4",
 	base = 32100,
 	weapon_id = {
 		32101
@@ -69275,7 +70039,7 @@ _G.pg.base.equip_data_statistics[32101] = {
 
 _G.pg.base.equip_data_statistics[32102] = {
 	id = 32102,
-	damage = "7 x 4",
+	damage = "8 x 4",
 	base = 32100,
 	weapon_id = {
 		32102
@@ -69285,7 +70049,7 @@ _G.pg.base.equip_data_statistics[32102] = {
 
 _G.pg.base.equip_data_statistics[32103] = {
 	id = 32103,
-	damage = "8 x 4",
+	damage = "9 x 4",
 	base = 32100,
 	weapon_id = {
 		32103
@@ -69300,7 +70064,7 @@ _G.pg.base.equip_data_statistics[32120] = {
 	type = 2,
 	descrip = "0",
 	ammo = 2,
-	damage = "6 x 4",
+	damage = "8 x 4",
 	nationality = 3,
 	rarity = 3,
 	id = 32120,
@@ -69356,7 +70120,7 @@ _G.pg.base.equip_data_statistics[32120] = {
 
 _G.pg.base.equip_data_statistics[32121] = {
 	id = 32121,
-	damage = "7 x 4",
+	damage = "9 x 4",
 	base = 32120,
 	weapon_id = {
 		32121
@@ -69366,7 +70130,7 @@ _G.pg.base.equip_data_statistics[32121] = {
 
 _G.pg.base.equip_data_statistics[32122] = {
 	id = 32122,
-	damage = "8 x 4",
+	damage = "10 x 4",
 	base = 32120,
 	weapon_id = {
 		32122
@@ -69376,7 +70140,7 @@ _G.pg.base.equip_data_statistics[32122] = {
 
 _G.pg.base.equip_data_statistics[32123] = {
 	id = 32123,
-	damage = "9 x 4",
+	damage = "11 x 4",
 	base = 32120,
 	weapon_id = {
 		32123
@@ -69386,7 +70150,7 @@ _G.pg.base.equip_data_statistics[32123] = {
 
 _G.pg.base.equip_data_statistics[32124] = {
 	id = 32124,
-	damage = "10 x 4",
+	damage = "12 x 4",
 	base = 32120,
 	weapon_id = {
 		32124
@@ -69396,7 +70160,7 @@ _G.pg.base.equip_data_statistics[32124] = {
 
 _G.pg.base.equip_data_statistics[32125] = {
 	id = 32125,
-	damage = "11 x 4",
+	damage = "13 x 4",
 	base = 32120,
 	weapon_id = {
 		32125
@@ -69406,7 +70170,7 @@ _G.pg.base.equip_data_statistics[32125] = {
 
 _G.pg.base.equip_data_statistics[32126] = {
 	id = 32126,
-	damage = "12 x 4",
+	damage = "14 x 4",
 	base = 32120,
 	weapon_id = {
 		32126
@@ -69421,7 +70185,7 @@ _G.pg.base.equip_data_statistics[32140] = {
 	type = 2,
 	descrip = "0",
 	ammo = 2,
-	damage = "7 x 4",
+	damage = "11 x 4",
 	nationality = 3,
 	rarity = 4,
 	id = 32140,
@@ -69478,7 +70242,7 @@ _G.pg.base.equip_data_statistics[32140] = {
 
 _G.pg.base.equip_data_statistics[32141] = {
 	id = 32141,
-	damage = "8 x 4",
+	damage = "12 x 4",
 	base = 32140,
 	weapon_id = {
 		32141
@@ -69488,7 +70252,7 @@ _G.pg.base.equip_data_statistics[32141] = {
 
 _G.pg.base.equip_data_statistics[32142] = {
 	id = 32142,
-	damage = "9 x 4",
+	damage = "13 x 4",
 	base = 32140,
 	weapon_id = {
 		32142
@@ -69498,7 +70262,7 @@ _G.pg.base.equip_data_statistics[32142] = {
 
 _G.pg.base.equip_data_statistics[32143] = {
 	id = 32143,
-	damage = "10 x 4",
+	damage = "14 x 4",
 	base = 32140,
 	weapon_id = {
 		32143
@@ -69508,7 +70272,7 @@ _G.pg.base.equip_data_statistics[32143] = {
 
 _G.pg.base.equip_data_statistics[32144] = {
 	id = 32144,
-	damage = "11 x 4",
+	damage = "15 x 4",
 	base = 32140,
 	weapon_id = {
 		32144
@@ -69518,7 +70282,7 @@ _G.pg.base.equip_data_statistics[32144] = {
 
 _G.pg.base.equip_data_statistics[32145] = {
 	id = 32145,
-	damage = "12 x 4",
+	damage = "16 x 4",
 	base = 32140,
 	weapon_id = {
 		32145
@@ -69528,7 +70292,7 @@ _G.pg.base.equip_data_statistics[32145] = {
 
 _G.pg.base.equip_data_statistics[32146] = {
 	id = 32146,
-	damage = "13 x 4",
+	damage = "17 x 4",
 	base = 32140,
 	weapon_id = {
 		32146
@@ -69538,7 +70302,7 @@ _G.pg.base.equip_data_statistics[32146] = {
 
 _G.pg.base.equip_data_statistics[32147] = {
 	id = 32147,
-	damage = "14 x 4",
+	damage = "18 x 4",
 	base = 32140,
 	weapon_id = {
 		32147
@@ -69548,7 +70312,7 @@ _G.pg.base.equip_data_statistics[32147] = {
 
 _G.pg.base.equip_data_statistics[32148] = {
 	id = 32148,
-	damage = "15 x 4",
+	damage = "19 x 4",
 	base = 32140,
 	weapon_id = {
 		32148
@@ -69558,7 +70322,7 @@ _G.pg.base.equip_data_statistics[32148] = {
 
 _G.pg.base.equip_data_statistics[32149] = {
 	id = 32149,
-	damage = "16 x 4",
+	damage = "20 x 4",
 	base = 32140,
 	weapon_id = {
 		32149
@@ -69568,7 +70332,7 @@ _G.pg.base.equip_data_statistics[32149] = {
 
 _G.pg.base.equip_data_statistics[32150] = {
 	id = 32150,
-	damage = "17 x 4",
+	damage = "21 x 4",
 	base = 32140,
 	weapon_id = {
 		32150
@@ -69579,7 +70343,7 @@ _G.pg.base.equip_data_statistics[32150] = {
 _G.pg.base.equip_data_statistics[32151] = {
 	id = 32151,
 	anti_siren = 100,
-	damage = "17 x 4",
+	damage = "21 x 4",
 	base = 32140,
 	weapon_id = {
 		32151
@@ -69594,7 +70358,7 @@ _G.pg.base.equip_data_statistics[32200] = {
 	type = 2,
 	descrip = "0",
 	ammo = 3,
-	damage = "6 x 6",
+	damage = "8 x 6",
 	nationality = 3,
 	rarity = 3,
 	id = 32200,
@@ -69650,7 +70414,7 @@ _G.pg.base.equip_data_statistics[32200] = {
 
 _G.pg.base.equip_data_statistics[32201] = {
 	id = 32201,
-	damage = "7 x 6",
+	damage = "9 x 6",
 	base = 32200,
 	weapon_id = {
 		32201
@@ -69660,7 +70424,7 @@ _G.pg.base.equip_data_statistics[32201] = {
 
 _G.pg.base.equip_data_statistics[32202] = {
 	id = 32202,
-	damage = "8 x 6",
+	damage = "10 x 6",
 	base = 32200,
 	weapon_id = {
 		32202
@@ -69670,7 +70434,7 @@ _G.pg.base.equip_data_statistics[32202] = {
 
 _G.pg.base.equip_data_statistics[32203] = {
 	id = 32203,
-	damage = "9 x 6",
+	damage = "11 x 6",
 	base = 32200,
 	weapon_id = {
 		32203
@@ -69680,7 +70444,7 @@ _G.pg.base.equip_data_statistics[32203] = {
 
 _G.pg.base.equip_data_statistics[32204] = {
 	id = 32204,
-	damage = "10 x 6",
+	damage = "12 x 6",
 	base = 32200,
 	weapon_id = {
 		32204
@@ -69690,7 +70454,7 @@ _G.pg.base.equip_data_statistics[32204] = {
 
 _G.pg.base.equip_data_statistics[32205] = {
 	id = 32205,
-	damage = "11 x 6",
+	damage = "13 x 6",
 	base = 32200,
 	weapon_id = {
 		32205
@@ -69700,7 +70464,7 @@ _G.pg.base.equip_data_statistics[32205] = {
 
 _G.pg.base.equip_data_statistics[32206] = {
 	id = 32206,
-	damage = "12 x 6",
+	damage = "14 x 6",
 	base = 32200,
 	weapon_id = {
 		32206
@@ -69715,7 +70479,7 @@ _G.pg.base.equip_data_statistics[32220] = {
 	type = 2,
 	descrip = "0",
 	ammo = 2,
-	damage = "7 x 6",
+	damage = "11 x 6",
 	nationality = 3,
 	rarity = 4,
 	id = 32220,
@@ -69772,7 +70536,7 @@ _G.pg.base.equip_data_statistics[32220] = {
 
 _G.pg.base.equip_data_statistics[32221] = {
 	id = 32221,
-	damage = "8 x 6",
+	damage = "12 x 6",
 	base = 32220,
 	weapon_id = {
 		32221
@@ -69782,7 +70546,7 @@ _G.pg.base.equip_data_statistics[32221] = {
 
 _G.pg.base.equip_data_statistics[32222] = {
 	id = 32222,
-	damage = "9 x 6",
+	damage = "13 x 6",
 	base = 32220,
 	weapon_id = {
 		32222
@@ -69792,7 +70556,7 @@ _G.pg.base.equip_data_statistics[32222] = {
 
 _G.pg.base.equip_data_statistics[32223] = {
 	id = 32223,
-	damage = "10 x 6",
+	damage = "14 x 6",
 	base = 32220,
 	weapon_id = {
 		32223
@@ -69802,7 +70566,7 @@ _G.pg.base.equip_data_statistics[32223] = {
 
 _G.pg.base.equip_data_statistics[32224] = {
 	id = 32224,
-	damage = "11 x 6",
+	damage = "15 x 6",
 	base = 32220,
 	weapon_id = {
 		32224
@@ -69812,7 +70576,7 @@ _G.pg.base.equip_data_statistics[32224] = {
 
 _G.pg.base.equip_data_statistics[32225] = {
 	id = 32225,
-	damage = "12 x 6",
+	damage = "16 x 6",
 	base = 32220,
 	weapon_id = {
 		32225
@@ -69822,7 +70586,7 @@ _G.pg.base.equip_data_statistics[32225] = {
 
 _G.pg.base.equip_data_statistics[32226] = {
 	id = 32226,
-	damage = "13 x 6",
+	damage = "17 x 6",
 	base = 32220,
 	weapon_id = {
 		32226
@@ -69832,7 +70596,7 @@ _G.pg.base.equip_data_statistics[32226] = {
 
 _G.pg.base.equip_data_statistics[32227] = {
 	id = 32227,
-	damage = "14 x 6",
+	damage = "18 x 6",
 	base = 32220,
 	weapon_id = {
 		32227
@@ -69842,7 +70606,7 @@ _G.pg.base.equip_data_statistics[32227] = {
 
 _G.pg.base.equip_data_statistics[32228] = {
 	id = 32228,
-	damage = "15 x 6",
+	damage = "19 x 6",
 	base = 32220,
 	weapon_id = {
 		32228
@@ -69852,7 +70616,7 @@ _G.pg.base.equip_data_statistics[32228] = {
 
 _G.pg.base.equip_data_statistics[32229] = {
 	id = 32229,
-	damage = "16 x 6",
+	damage = "20 x 6",
 	base = 32220,
 	weapon_id = {
 		32229
@@ -69862,7 +70626,7 @@ _G.pg.base.equip_data_statistics[32229] = {
 
 _G.pg.base.equip_data_statistics[32230] = {
 	id = 32230,
-	damage = "17 x 6",
+	damage = "21 x 6",
 	base = 32220,
 	weapon_id = {
 		32230
@@ -69877,7 +70641,7 @@ _G.pg.base.equip_data_statistics[32240] = {
 	type = 2,
 	descrip = "0",
 	ammo = 2,
-	damage = "8 x 6",
+	damage = "12 x 6",
 	nationality = 3,
 	rarity = 5,
 	id = 32240,
@@ -69934,7 +70698,7 @@ _G.pg.base.equip_data_statistics[32240] = {
 
 _G.pg.base.equip_data_statistics[32241] = {
 	id = 32241,
-	damage = "9 x 6",
+	damage = "13 x 6",
 	base = 32240,
 	weapon_id = {
 		32241
@@ -69944,7 +70708,7 @@ _G.pg.base.equip_data_statistics[32241] = {
 
 _G.pg.base.equip_data_statistics[32242] = {
 	id = 32242,
-	damage = "10 x 6",
+	damage = "14 x 6",
 	base = 32240,
 	weapon_id = {
 		32242
@@ -69954,7 +70718,7 @@ _G.pg.base.equip_data_statistics[32242] = {
 
 _G.pg.base.equip_data_statistics[32243] = {
 	id = 32243,
-	damage = "11 x 6",
+	damage = "15 x 6",
 	base = 32240,
 	weapon_id = {
 		32243
@@ -69964,7 +70728,7 @@ _G.pg.base.equip_data_statistics[32243] = {
 
 _G.pg.base.equip_data_statistics[32244] = {
 	id = 32244,
-	damage = "12 x 6",
+	damage = "16 x 6",
 	base = 32240,
 	weapon_id = {
 		32244
@@ -69974,7 +70738,7 @@ _G.pg.base.equip_data_statistics[32244] = {
 
 _G.pg.base.equip_data_statistics[32245] = {
 	id = 32245,
-	damage = "13 x 6",
+	damage = "17 x 6",
 	base = 32240,
 	weapon_id = {
 		32245
@@ -69984,7 +70748,7 @@ _G.pg.base.equip_data_statistics[32245] = {
 
 _G.pg.base.equip_data_statistics[32246] = {
 	id = 32246,
-	damage = "14 x 6",
+	damage = "18 x 6",
 	base = 32240,
 	weapon_id = {
 		32246
@@ -69994,7 +70758,7 @@ _G.pg.base.equip_data_statistics[32246] = {
 
 _G.pg.base.equip_data_statistics[32247] = {
 	id = 32247,
-	damage = "15 x 6",
+	damage = "19 x 6",
 	base = 32240,
 	weapon_id = {
 		32247
@@ -70004,7 +70768,7 @@ _G.pg.base.equip_data_statistics[32247] = {
 
 _G.pg.base.equip_data_statistics[32248] = {
 	id = 32248,
-	damage = "16 x 6",
+	damage = "20 x 6",
 	base = 32240,
 	weapon_id = {
 		32248
@@ -70014,7 +70778,7 @@ _G.pg.base.equip_data_statistics[32248] = {
 
 _G.pg.base.equip_data_statistics[32249] = {
 	id = 32249,
-	damage = "17 x 6",
+	damage = "21 x 6",
 	base = 32240,
 	weapon_id = {
 		32249
@@ -70024,7 +70788,7 @@ _G.pg.base.equip_data_statistics[32249] = {
 
 _G.pg.base.equip_data_statistics[32250] = {
 	id = 32250,
-	damage = "18 x 6",
+	damage = "22 x 6",
 	base = 32240,
 	weapon_id = {
 		32250
@@ -70035,7 +70799,7 @@ _G.pg.base.equip_data_statistics[32250] = {
 _G.pg.base.equip_data_statistics[32251] = {
 	id = 32251,
 	anti_siren = 100,
-	damage = "18 x 6",
+	damage = "22 x 6",
 	base = 32240,
 	weapon_id = {
 		32251
@@ -70046,7 +70810,7 @@ _G.pg.base.equip_data_statistics[32251] = {
 _G.pg.base.equip_data_statistics[32252] = {
 	id = 32252,
 	anti_siren = 200,
-	damage = "18 x 6",
+	damage = "22 x 6",
 	base = 32240,
 	weapon_id = {
 		32252
@@ -70057,7 +70821,7 @@ _G.pg.base.equip_data_statistics[32252] = {
 _G.pg.base.equip_data_statistics[32253] = {
 	id = 32253,
 	anti_siren = 300,
-	damage = "18 x 6",
+	damage = "22 x 6",
 	base = 32240,
 	weapon_id = {
 		32253
@@ -70072,7 +70836,7 @@ _G.pg.base.equip_data_statistics[32260] = {
 	type = 2,
 	descrip = "0",
 	ammo = 2,
-	damage = "9 x 6",
+	damage = "13 x 6",
 	nationality = 3,
 	rarity = 5,
 	id = 32260,
@@ -70129,7 +70893,7 @@ _G.pg.base.equip_data_statistics[32260] = {
 
 _G.pg.base.equip_data_statistics[32261] = {
 	id = 32261,
-	damage = "10 x 6",
+	damage = "14 x 6",
 	base = 32260,
 	weapon_id = {
 		32261
@@ -70139,7 +70903,7 @@ _G.pg.base.equip_data_statistics[32261] = {
 
 _G.pg.base.equip_data_statistics[32262] = {
 	id = 32262,
-	damage = "11 x 6",
+	damage = "15 x 6",
 	base = 32260,
 	weapon_id = {
 		32262
@@ -70149,7 +70913,7 @@ _G.pg.base.equip_data_statistics[32262] = {
 
 _G.pg.base.equip_data_statistics[32263] = {
 	id = 32263,
-	damage = "12 x 6",
+	damage = "16 x 6",
 	base = 32260,
 	weapon_id = {
 		32263
@@ -70159,7 +70923,7 @@ _G.pg.base.equip_data_statistics[32263] = {
 
 _G.pg.base.equip_data_statistics[32264] = {
 	id = 32264,
-	damage = "13 x 6",
+	damage = "17 x 6",
 	base = 32260,
 	weapon_id = {
 		32264
@@ -70169,7 +70933,7 @@ _G.pg.base.equip_data_statistics[32264] = {
 
 _G.pg.base.equip_data_statistics[32265] = {
 	id = 32265,
-	damage = "14 x 6",
+	damage = "18 x 6",
 	base = 32260,
 	weapon_id = {
 		32265
@@ -70179,7 +70943,7 @@ _G.pg.base.equip_data_statistics[32265] = {
 
 _G.pg.base.equip_data_statistics[32266] = {
 	id = 32266,
-	damage = "15 x 6",
+	damage = "19 x 6",
 	base = 32260,
 	weapon_id = {
 		32266
@@ -70189,7 +70953,7 @@ _G.pg.base.equip_data_statistics[32266] = {
 
 _G.pg.base.equip_data_statistics[32267] = {
 	id = 32267,
-	damage = "16 x 6",
+	damage = "20 x 6",
 	base = 32260,
 	weapon_id = {
 		32267
@@ -70199,7 +70963,7 @@ _G.pg.base.equip_data_statistics[32267] = {
 
 _G.pg.base.equip_data_statistics[32268] = {
 	id = 32268,
-	damage = "17 x 6",
+	damage = "21 x 6",
 	base = 32260,
 	weapon_id = {
 		32268
@@ -70209,7 +70973,7 @@ _G.pg.base.equip_data_statistics[32268] = {
 
 _G.pg.base.equip_data_statistics[32269] = {
 	id = 32269,
-	damage = "18 x 6",
+	damage = "22 x 6",
 	base = 32260,
 	weapon_id = {
 		32269
@@ -70219,7 +70983,7 @@ _G.pg.base.equip_data_statistics[32269] = {
 
 _G.pg.base.equip_data_statistics[32270] = {
 	id = 32270,
-	damage = "19 x 6",
+	damage = "23 x 6",
 	base = 32260,
 	weapon_id = {
 		32270
@@ -70230,7 +70994,7 @@ _G.pg.base.equip_data_statistics[32270] = {
 _G.pg.base.equip_data_statistics[32271] = {
 	id = 32271,
 	anti_siren = 100,
-	damage = "19 x 6",
+	damage = "23 x 6",
 	base = 32260,
 	weapon_id = {
 		32271
@@ -70241,7 +71005,7 @@ _G.pg.base.equip_data_statistics[32271] = {
 _G.pg.base.equip_data_statistics[32272] = {
 	id = 32272,
 	anti_siren = 200,
-	damage = "19 x 6",
+	damage = "23 x 6",
 	base = 32260,
 	weapon_id = {
 		32272
@@ -70252,7 +71016,7 @@ _G.pg.base.equip_data_statistics[32272] = {
 _G.pg.base.equip_data_statistics[32273] = {
 	id = 32273,
 	anti_siren = 300,
-	damage = "19 x 6",
+	damage = "23 x 6",
 	base = 32260,
 	weapon_id = {
 		32273
@@ -70267,7 +71031,7 @@ _G.pg.base.equip_data_statistics[32300] = {
 	type = 2,
 	descrip = "0",
 	ammo = 3,
-	damage = "6 x 4",
+	damage = "8 x 4",
 	nationality = 3,
 	rarity = 2,
 	id = 32300,
@@ -70323,7 +71087,7 @@ _G.pg.base.equip_data_statistics[32300] = {
 
 _G.pg.base.equip_data_statistics[32301] = {
 	id = 32301,
-	damage = "7 x 4",
+	damage = "9 x 4",
 	base = 32300,
 	weapon_id = {
 		32301
@@ -70333,7 +71097,7 @@ _G.pg.base.equip_data_statistics[32301] = {
 
 _G.pg.base.equip_data_statistics[32302] = {
 	id = 32302,
-	damage = "8 x 4",
+	damage = "10 x 4",
 	base = 32300,
 	weapon_id = {
 		32302
@@ -70343,7 +71107,7 @@ _G.pg.base.equip_data_statistics[32302] = {
 
 _G.pg.base.equip_data_statistics[32303] = {
 	id = 32303,
-	damage = "9 x 4",
+	damage = "11 x 4",
 	base = 32300,
 	weapon_id = {
 		32303
@@ -70358,7 +71122,7 @@ _G.pg.base.equip_data_statistics[32320] = {
 	type = 2,
 	descrip = "0",
 	ammo = 2,
-	damage = "7 x 4",
+	damage = "10 x 4",
 	nationality = 3,
 	rarity = 3,
 	id = 32320,
@@ -70415,7 +71179,7 @@ _G.pg.base.equip_data_statistics[32320] = {
 
 _G.pg.base.equip_data_statistics[32321] = {
 	id = 32321,
-	damage = "8 x 4",
+	damage = "11 x 4",
 	base = 32320,
 	weapon_id = {
 		32321
@@ -70425,7 +71189,7 @@ _G.pg.base.equip_data_statistics[32321] = {
 
 _G.pg.base.equip_data_statistics[32322] = {
 	id = 32322,
-	damage = "9 x 4",
+	damage = "12 x 4",
 	base = 32320,
 	weapon_id = {
 		32322
@@ -70435,7 +71199,7 @@ _G.pg.base.equip_data_statistics[32322] = {
 
 _G.pg.base.equip_data_statistics[32323] = {
 	id = 32323,
-	damage = "10 x 4",
+	damage = "13 x 4",
 	base = 32320,
 	weapon_id = {
 		32323
@@ -70445,7 +71209,7 @@ _G.pg.base.equip_data_statistics[32323] = {
 
 _G.pg.base.equip_data_statistics[32324] = {
 	id = 32324,
-	damage = "11 x 4",
+	damage = "14 x 4",
 	base = 32320,
 	weapon_id = {
 		32324
@@ -70455,7 +71219,7 @@ _G.pg.base.equip_data_statistics[32324] = {
 
 _G.pg.base.equip_data_statistics[32325] = {
 	id = 32325,
-	damage = "12 x 4",
+	damage = "15 x 4",
 	base = 32320,
 	weapon_id = {
 		32325
@@ -70465,7 +71229,7 @@ _G.pg.base.equip_data_statistics[32325] = {
 
 _G.pg.base.equip_data_statistics[32326] = {
 	id = 32326,
-	damage = "13 x 4",
+	damage = "16 x 4",
 	base = 32320,
 	weapon_id = {
 		32326
@@ -70480,7 +71244,7 @@ _G.pg.base.equip_data_statistics[32340] = {
 	type = 2,
 	descrip = "0",
 	ammo = 2,
-	damage = "8 x 4",
+	damage = "12 x 4",
 	nationality = 3,
 	rarity = 4,
 	id = 32340,
@@ -70537,7 +71301,7 @@ _G.pg.base.equip_data_statistics[32340] = {
 
 _G.pg.base.equip_data_statistics[32341] = {
 	id = 32341,
-	damage = "9 x 4",
+	damage = "13 x 4",
 	base = 32340,
 	weapon_id = {
 		32341
@@ -70547,7 +71311,7 @@ _G.pg.base.equip_data_statistics[32341] = {
 
 _G.pg.base.equip_data_statistics[32342] = {
 	id = 32342,
-	damage = "10 x 4",
+	damage = "14 x 4",
 	base = 32340,
 	weapon_id = {
 		32342
@@ -70557,7 +71321,7 @@ _G.pg.base.equip_data_statistics[32342] = {
 
 _G.pg.base.equip_data_statistics[32343] = {
 	id = 32343,
-	damage = "11 x 4",
+	damage = "15 x 4",
 	base = 32340,
 	weapon_id = {
 		32343
@@ -70567,7 +71331,7 @@ _G.pg.base.equip_data_statistics[32343] = {
 
 _G.pg.base.equip_data_statistics[32344] = {
 	id = 32344,
-	damage = "12 x 4",
+	damage = "16 x 4",
 	base = 32340,
 	weapon_id = {
 		32344
@@ -70577,7 +71341,7 @@ _G.pg.base.equip_data_statistics[32344] = {
 
 _G.pg.base.equip_data_statistics[32345] = {
 	id = 32345,
-	damage = "13 x 4",
+	damage = "17 x 4",
 	base = 32340,
 	weapon_id = {
 		32345
@@ -70587,7 +71351,7 @@ _G.pg.base.equip_data_statistics[32345] = {
 
 _G.pg.base.equip_data_statistics[32346] = {
 	id = 32346,
-	damage = "14 x 4",
+	damage = "18 x 4",
 	base = 32340,
 	weapon_id = {
 		32346
@@ -70597,7 +71361,7 @@ _G.pg.base.equip_data_statistics[32346] = {
 
 _G.pg.base.equip_data_statistics[32347] = {
 	id = 32347,
-	damage = "15 x 4",
+	damage = "19 x 4",
 	base = 32340,
 	weapon_id = {
 		32347
@@ -70607,7 +71371,7 @@ _G.pg.base.equip_data_statistics[32347] = {
 
 _G.pg.base.equip_data_statistics[32348] = {
 	id = 32348,
-	damage = "16 x 4",
+	damage = "20 x 4",
 	base = 32340,
 	weapon_id = {
 		32348
@@ -70617,7 +71381,7 @@ _G.pg.base.equip_data_statistics[32348] = {
 
 _G.pg.base.equip_data_statistics[32349] = {
 	id = 32349,
-	damage = "17 x 4",
+	damage = "21 x 4",
 	base = 32340,
 	weapon_id = {
 		32349
@@ -70627,7 +71391,7 @@ _G.pg.base.equip_data_statistics[32349] = {
 
 _G.pg.base.equip_data_statistics[32350] = {
 	id = 32350,
-	damage = "18 x 4",
+	damage = "22 x 4",
 	base = 32340,
 	weapon_id = {
 		32350
@@ -70638,7 +71402,7 @@ _G.pg.base.equip_data_statistics[32350] = {
 _G.pg.base.equip_data_statistics[32351] = {
 	id = 32351,
 	anti_siren = 100,
-	damage = "18 x 4",
+	damage = "22 x 4",
 	base = 32340,
 	weapon_id = {
 		32351
@@ -91421,7 +92185,7 @@ _G.pg.base.equip_data_statistics[42000] = {
 	type = 2,
 	descrip = "150mmSKC28主砲。軽巡洋艦と一部の駆逐艦に装備可能",
 	ammo = 1,
-	damage = "7 x 1",
+	damage = "9 x 1",
 	nationality = 4,
 	rarity = 2,
 	id = 42000,
@@ -91478,7 +92242,7 @@ _G.pg.base.equip_data_statistics[42000] = {
 
 _G.pg.base.equip_data_statistics[42001] = {
 	id = 42001,
-	damage = "8 x 1",
+	damage = "10 x 1",
 	base = 42000,
 	weapon_id = {
 		42001
@@ -91488,7 +92252,7 @@ _G.pg.base.equip_data_statistics[42001] = {
 
 _G.pg.base.equip_data_statistics[42002] = {
 	id = 42002,
-	damage = "9 x 1",
+	damage = "11 x 1",
 	base = 42000,
 	weapon_id = {
 		42002
@@ -91498,7 +92262,7 @@ _G.pg.base.equip_data_statistics[42002] = {
 
 _G.pg.base.equip_data_statistics[42003] = {
 	id = 42003,
-	damage = "10 x 1",
+	damage = "12 x 1",
 	base = 42000,
 	weapon_id = {
 		42003
@@ -91513,7 +92277,7 @@ _G.pg.base.equip_data_statistics[42020] = {
 	type = 2,
 	descrip = "150mmSKC28主砲。軽巡洋艦と一部の駆逐艦に装備可能",
 	ammo = 1,
-	damage = "8 x 1",
+	damage = "11 x 1",
 	nationality = 4,
 	rarity = 3,
 	id = 42020,
@@ -91570,7 +92334,7 @@ _G.pg.base.equip_data_statistics[42020] = {
 
 _G.pg.base.equip_data_statistics[42021] = {
 	id = 42021,
-	damage = "9 x 1",
+	damage = "12 x 1",
 	base = 42020,
 	weapon_id = {
 		42021
@@ -91580,7 +92344,7 @@ _G.pg.base.equip_data_statistics[42021] = {
 
 _G.pg.base.equip_data_statistics[42022] = {
 	id = 42022,
-	damage = "10 x 1",
+	damage = "13 x 1",
 	base = 42020,
 	weapon_id = {
 		42022
@@ -91590,7 +92354,7 @@ _G.pg.base.equip_data_statistics[42022] = {
 
 _G.pg.base.equip_data_statistics[42023] = {
 	id = 42023,
-	damage = "11 x 1",
+	damage = "14 x 1",
 	base = 42020,
 	weapon_id = {
 		42023
@@ -91600,7 +92364,7 @@ _G.pg.base.equip_data_statistics[42023] = {
 
 _G.pg.base.equip_data_statistics[42024] = {
 	id = 42024,
-	damage = "12 x 1",
+	damage = "15 x 1",
 	base = 42020,
 	weapon_id = {
 		42024
@@ -91610,7 +92374,7 @@ _G.pg.base.equip_data_statistics[42024] = {
 
 _G.pg.base.equip_data_statistics[42025] = {
 	id = 42025,
-	damage = "13 x 1",
+	damage = "16 x 1",
 	base = 42020,
 	weapon_id = {
 		42025
@@ -91620,7 +92384,7 @@ _G.pg.base.equip_data_statistics[42025] = {
 
 _G.pg.base.equip_data_statistics[42026] = {
 	id = 42026,
-	damage = "14 x 1",
+	damage = "17 x 1",
 	base = 42020,
 	weapon_id = {
 		42026
@@ -91635,7 +92399,7 @@ _G.pg.base.equip_data_statistics[42040] = {
 	type = 2,
 	descrip = "150mmSKC28主砲。軽巡洋艦と一部の駆逐艦に装備可能",
 	ammo = 1,
-	damage = "9 x 1",
+	damage = "14 x 1",
 	nationality = 4,
 	rarity = 4,
 	id = 42040,
@@ -91692,7 +92456,7 @@ _G.pg.base.equip_data_statistics[42040] = {
 
 _G.pg.base.equip_data_statistics[42041] = {
 	id = 42041,
-	damage = "10 x 1",
+	damage = "15 x 1",
 	base = 42040,
 	weapon_id = {
 		42041
@@ -91702,7 +92466,7 @@ _G.pg.base.equip_data_statistics[42041] = {
 
 _G.pg.base.equip_data_statistics[42042] = {
 	id = 42042,
-	damage = "11 x 1",
+	damage = "16 x 1",
 	base = 42040,
 	weapon_id = {
 		42042
@@ -91712,7 +92476,7 @@ _G.pg.base.equip_data_statistics[42042] = {
 
 _G.pg.base.equip_data_statistics[42043] = {
 	id = 42043,
-	damage = "12 x 1",
+	damage = "17 x 1",
 	base = 42040,
 	weapon_id = {
 		42043
@@ -91722,7 +92486,7 @@ _G.pg.base.equip_data_statistics[42043] = {
 
 _G.pg.base.equip_data_statistics[42044] = {
 	id = 42044,
-	damage = "13 x 1",
+	damage = "18 x 1",
 	base = 42040,
 	weapon_id = {
 		42044
@@ -91732,7 +92496,7 @@ _G.pg.base.equip_data_statistics[42044] = {
 
 _G.pg.base.equip_data_statistics[42045] = {
 	id = 42045,
-	damage = "14 x 1",
+	damage = "19 x 1",
 	base = 42040,
 	weapon_id = {
 		42045
@@ -91742,7 +92506,7 @@ _G.pg.base.equip_data_statistics[42045] = {
 
 _G.pg.base.equip_data_statistics[42046] = {
 	id = 42046,
-	damage = "15 x 1",
+	damage = "20 x 1",
 	base = 42040,
 	weapon_id = {
 		42046
@@ -91752,7 +92516,7 @@ _G.pg.base.equip_data_statistics[42046] = {
 
 _G.pg.base.equip_data_statistics[42047] = {
 	id = 42047,
-	damage = "16 x 1",
+	damage = "21 x 1",
 	base = 42040,
 	weapon_id = {
 		42047
@@ -91762,7 +92526,7 @@ _G.pg.base.equip_data_statistics[42047] = {
 
 _G.pg.base.equip_data_statistics[42048] = {
 	id = 42048,
-	damage = "17 x 1",
+	damage = "22 x 1",
 	base = 42040,
 	weapon_id = {
 		42048
@@ -91772,7 +92536,7 @@ _G.pg.base.equip_data_statistics[42048] = {
 
 _G.pg.base.equip_data_statistics[42049] = {
 	id = 42049,
-	damage = "19 x 1",
+	damage = "24 x 1",
 	base = 42040,
 	weapon_id = {
 		42049
@@ -91782,7 +92546,7 @@ _G.pg.base.equip_data_statistics[42049] = {
 
 _G.pg.base.equip_data_statistics[42050] = {
 	id = 42050,
-	damage = "21 x 1",
+	damage = "26 x 1",
 	base = 42040,
 	weapon_id = {
 		42050
@@ -91793,7 +92557,7 @@ _G.pg.base.equip_data_statistics[42050] = {
 _G.pg.base.equip_data_statistics[42051] = {
 	id = 42051,
 	anti_siren = 100,
-	damage = "21 x 1",
+	damage = "26 x 1",
 	base = 42040,
 	weapon_id = {
 		42051
@@ -91808,7 +92572,7 @@ _G.pg.base.equip_data_statistics[42060] = {
 	type = 2,
 	descrip = "0",
 	ammo = 1,
-	damage = "9 x 4",
+	damage = "14 x 4",
 	nationality = 4,
 	rarity = 4,
 	id = 42060,
@@ -91865,7 +92629,7 @@ _G.pg.base.equip_data_statistics[42060] = {
 
 _G.pg.base.equip_data_statistics[42061] = {
 	id = 42061,
-	damage = "10 x 4",
+	damage = "15 x 4",
 	base = 42060,
 	weapon_id = {
 		42061
@@ -91875,7 +92639,7 @@ _G.pg.base.equip_data_statistics[42061] = {
 
 _G.pg.base.equip_data_statistics[42062] = {
 	id = 42062,
-	damage = "11 x 4",
+	damage = "16 x 4",
 	base = 42060,
 	weapon_id = {
 		42062
@@ -91885,7 +92649,7 @@ _G.pg.base.equip_data_statistics[42062] = {
 
 _G.pg.base.equip_data_statistics[42063] = {
 	id = 42063,
-	damage = "12 x 4",
+	damage = "17 x 4",
 	base = 42060,
 	weapon_id = {
 		42063
@@ -91895,7 +92659,7 @@ _G.pg.base.equip_data_statistics[42063] = {
 
 _G.pg.base.equip_data_statistics[42064] = {
 	id = 42064,
-	damage = "13 x 4",
+	damage = "18 x 4",
 	base = 42060,
 	weapon_id = {
 		42064
@@ -91905,7 +92669,7 @@ _G.pg.base.equip_data_statistics[42064] = {
 
 _G.pg.base.equip_data_statistics[42065] = {
 	id = 42065,
-	damage = "14 x 4",
+	damage = "19 x 4",
 	base = 42060,
 	weapon_id = {
 		42065
@@ -91915,7 +92679,7 @@ _G.pg.base.equip_data_statistics[42065] = {
 
 _G.pg.base.equip_data_statistics[42066] = {
 	id = 42066,
-	damage = "15 x 4",
+	damage = "20 x 4",
 	base = 42060,
 	weapon_id = {
 		42066
@@ -91925,7 +92689,7 @@ _G.pg.base.equip_data_statistics[42066] = {
 
 _G.pg.base.equip_data_statistics[42067] = {
 	id = 42067,
-	damage = "16 x 4",
+	damage = "21 x 4",
 	base = 42060,
 	weapon_id = {
 		42067
@@ -91935,7 +92699,7 @@ _G.pg.base.equip_data_statistics[42067] = {
 
 _G.pg.base.equip_data_statistics[42068] = {
 	id = 42068,
-	damage = "17 x 4",
+	damage = "22 x 4",
 	base = 42060,
 	weapon_id = {
 		42068
@@ -91945,7 +92709,7 @@ _G.pg.base.equip_data_statistics[42068] = {
 
 _G.pg.base.equip_data_statistics[42069] = {
 	id = 42069,
-	damage = "19 x 4",
+	damage = "24 x 4",
 	base = 42060,
 	weapon_id = {
 		42069
@@ -91955,7 +92719,7 @@ _G.pg.base.equip_data_statistics[42069] = {
 
 _G.pg.base.equip_data_statistics[42070] = {
 	id = 42070,
-	damage = "21 x 4",
+	damage = "26 x 4",
 	base = 42060,
 	weapon_id = {
 		42070
@@ -91966,7 +92730,7 @@ _G.pg.base.equip_data_statistics[42070] = {
 _G.pg.base.equip_data_statistics[42071] = {
 	id = 42071,
 	anti_siren = 100,
-	damage = "21 x 4",
+	damage = "26 x 4",
 	base = 42060,
 	weapon_id = {
 		42071
@@ -91981,7 +92745,7 @@ _G.pg.base.equip_data_statistics[42080] = {
 	type = 2,
 	descrip = "",
 	ammo = 1,
-	damage = "10 x 6",
+	damage = "15 x 6",
 	nationality = 4,
 	rarity = 5,
 	id = 42080,
@@ -92038,7 +92802,7 @@ _G.pg.base.equip_data_statistics[42080] = {
 
 _G.pg.base.equip_data_statistics[42081] = {
 	id = 42081,
-	damage = "12 x 6",
+	damage = "17 x 6",
 	base = 42080,
 	weapon_id = {
 		42081
@@ -92048,7 +92812,7 @@ _G.pg.base.equip_data_statistics[42081] = {
 
 _G.pg.base.equip_data_statistics[42082] = {
 	id = 42082,
-	damage = "14 x 6",
+	damage = "19 x 6",
 	base = 42080,
 	weapon_id = {
 		42082
@@ -92058,7 +92822,7 @@ _G.pg.base.equip_data_statistics[42082] = {
 
 _G.pg.base.equip_data_statistics[42083] = {
 	id = 42083,
-	damage = "15 x 6",
+	damage = "20 x 6",
 	base = 42080,
 	weapon_id = {
 		42083
@@ -92068,7 +92832,7 @@ _G.pg.base.equip_data_statistics[42083] = {
 
 _G.pg.base.equip_data_statistics[42084] = {
 	id = 42084,
-	damage = "16 x 6",
+	damage = "21 x 6",
 	base = 42080,
 	weapon_id = {
 		42084
@@ -92078,7 +92842,7 @@ _G.pg.base.equip_data_statistics[42084] = {
 
 _G.pg.base.equip_data_statistics[42085] = {
 	id = 42085,
-	damage = "17 x 6",
+	damage = "22 x 6",
 	base = 42080,
 	weapon_id = {
 		42085
@@ -92088,7 +92852,7 @@ _G.pg.base.equip_data_statistics[42085] = {
 
 _G.pg.base.equip_data_statistics[42086] = {
 	id = 42086,
-	damage = "18 x 6",
+	damage = "23 x 6",
 	base = 42080,
 	weapon_id = {
 		42086
@@ -92098,7 +92862,7 @@ _G.pg.base.equip_data_statistics[42086] = {
 
 _G.pg.base.equip_data_statistics[42087] = {
 	id = 42087,
-	damage = "19 x 6",
+	damage = "24 x 6",
 	base = 42080,
 	weapon_id = {
 		42087
@@ -92108,7 +92872,7 @@ _G.pg.base.equip_data_statistics[42087] = {
 
 _G.pg.base.equip_data_statistics[42088] = {
 	id = 42088,
-	damage = "20 x 6",
+	damage = "25 x 6",
 	base = 42080,
 	weapon_id = {
 		42088
@@ -92118,7 +92882,7 @@ _G.pg.base.equip_data_statistics[42088] = {
 
 _G.pg.base.equip_data_statistics[42089] = {
 	id = 42089,
-	damage = "21 x 6",
+	damage = "26 x 6",
 	base = 42080,
 	weapon_id = {
 		42089
@@ -92128,7 +92892,7 @@ _G.pg.base.equip_data_statistics[42089] = {
 
 _G.pg.base.equip_data_statistics[42090] = {
 	id = 42090,
-	damage = "22 x 6",
+	damage = "27 x 6",
 	base = 42080,
 	weapon_id = {
 		42090
@@ -92139,7 +92903,7 @@ _G.pg.base.equip_data_statistics[42090] = {
 _G.pg.base.equip_data_statistics[42091] = {
 	id = 42091,
 	anti_siren = 100,
-	damage = "22 x 6",
+	damage = "27 x 6",
 	base = 42080,
 	weapon_id = {
 		42091
@@ -92150,7 +92914,7 @@ _G.pg.base.equip_data_statistics[42091] = {
 _G.pg.base.equip_data_statistics[42092] = {
 	id = 42092,
 	anti_siren = 200,
-	damage = "22 x 6",
+	damage = "27 x 6",
 	base = 42080,
 	weapon_id = {
 		42092
@@ -92161,7 +92925,7 @@ _G.pg.base.equip_data_statistics[42092] = {
 _G.pg.base.equip_data_statistics[42093] = {
 	id = 42093,
 	anti_siren = 300,
-	damage = "22 x 6",
+	damage = "27 x 6",
 	base = 42080,
 	weapon_id = {
 		42093
@@ -92176,7 +92940,7 @@ _G.pg.base.equip_data_statistics[42100] = {
 	type = 2,
 	descrip = "三連装150mmSKC25主砲。軽巡洋艦と一部の駆逐艦が装備可能",
 	ammo = 1,
-	damage = "7 x 3",
+	damage = "9 x 3",
 	nationality = 4,
 	rarity = 2,
 	id = 42100,
@@ -92233,7 +92997,7 @@ _G.pg.base.equip_data_statistics[42100] = {
 
 _G.pg.base.equip_data_statistics[42101] = {
 	id = 42101,
-	damage = "8 x 3",
+	damage = "10 x 3",
 	base = 42100,
 	weapon_id = {
 		42101
@@ -92243,7 +93007,7 @@ _G.pg.base.equip_data_statistics[42101] = {
 
 _G.pg.base.equip_data_statistics[42102] = {
 	id = 42102,
-	damage = "9 x 3",
+	damage = "11 x 3",
 	base = 42100,
 	weapon_id = {
 		42102
@@ -92253,7 +93017,7 @@ _G.pg.base.equip_data_statistics[42102] = {
 
 _G.pg.base.equip_data_statistics[42103] = {
 	id = 42103,
-	damage = "10 x 3",
+	damage = "12 x 3",
 	base = 42100,
 	weapon_id = {
 		42103
@@ -92268,7 +93032,7 @@ _G.pg.base.equip_data_statistics[42120] = {
 	type = 2,
 	descrip = "三連装150mmSKC25主砲。軽巡洋艦と一部の駆逐艦が装備可能",
 	ammo = 1,
-	damage = "8 x 3",
+	damage = "11 x 3",
 	nationality = 4,
 	rarity = 3,
 	id = 42120,
@@ -92325,7 +93089,7 @@ _G.pg.base.equip_data_statistics[42120] = {
 
 _G.pg.base.equip_data_statistics[42121] = {
 	id = 42121,
-	damage = "9 x 3",
+	damage = "12 x 3",
 	base = 42120,
 	weapon_id = {
 		42121
@@ -92335,7 +93099,7 @@ _G.pg.base.equip_data_statistics[42121] = {
 
 _G.pg.base.equip_data_statistics[42122] = {
 	id = 42122,
-	damage = "10 x 3",
+	damage = "13 x 3",
 	base = 42120,
 	weapon_id = {
 		42122
@@ -92345,7 +93109,7 @@ _G.pg.base.equip_data_statistics[42122] = {
 
 _G.pg.base.equip_data_statistics[42123] = {
 	id = 42123,
-	damage = "11 x 3",
+	damage = "14 x 3",
 	base = 42120,
 	weapon_id = {
 		42123
@@ -92355,7 +93119,7 @@ _G.pg.base.equip_data_statistics[42123] = {
 
 _G.pg.base.equip_data_statistics[42124] = {
 	id = 42124,
-	damage = "12 x 3",
+	damage = "15 x 3",
 	base = 42120,
 	weapon_id = {
 		42124
@@ -92365,7 +93129,7 @@ _G.pg.base.equip_data_statistics[42124] = {
 
 _G.pg.base.equip_data_statistics[42125] = {
 	id = 42125,
-	damage = "13 x 3",
+	damage = "16 x 3",
 	base = 42120,
 	weapon_id = {
 		42125
@@ -92375,7 +93139,7 @@ _G.pg.base.equip_data_statistics[42125] = {
 
 _G.pg.base.equip_data_statistics[42126] = {
 	id = 42126,
-	damage = "14 x 3",
+	damage = "17 x 3",
 	base = 42120,
 	weapon_id = {
 		42126
@@ -92390,7 +93154,7 @@ _G.pg.base.equip_data_statistics[42140] = {
 	type = 2,
 	descrip = "三連装150mmSKC25主砲。軽巡洋艦と一部の駆逐艦が装備可能",
 	ammo = 1,
-	damage = "9 x 3",
+	damage = "14 x 3",
 	nationality = 4,
 	rarity = 4,
 	id = 42140,
@@ -92447,7 +93211,7 @@ _G.pg.base.equip_data_statistics[42140] = {
 
 _G.pg.base.equip_data_statistics[42141] = {
 	id = 42141,
-	damage = "10 x 3",
+	damage = "15 x 3",
 	base = 42140,
 	weapon_id = {
 		42141
@@ -92457,7 +93221,7 @@ _G.pg.base.equip_data_statistics[42141] = {
 
 _G.pg.base.equip_data_statistics[42142] = {
 	id = 42142,
-	damage = "11 x 3",
+	damage = "16 x 3",
 	base = 42140,
 	weapon_id = {
 		42142
@@ -92467,7 +93231,7 @@ _G.pg.base.equip_data_statistics[42142] = {
 
 _G.pg.base.equip_data_statistics[42143] = {
 	id = 42143,
-	damage = "12 x 3",
+	damage = "17 x 3",
 	base = 42140,
 	weapon_id = {
 		42143
@@ -92477,7 +93241,7 @@ _G.pg.base.equip_data_statistics[42143] = {
 
 _G.pg.base.equip_data_statistics[42144] = {
 	id = 42144,
-	damage = "13 x 3",
+	damage = "18 x 3",
 	base = 42140,
 	weapon_id = {
 		42144
@@ -92487,7 +93251,7 @@ _G.pg.base.equip_data_statistics[42144] = {
 
 _G.pg.base.equip_data_statistics[42145] = {
 	id = 42145,
-	damage = "14 x 3",
+	damage = "19 x 3",
 	base = 42140,
 	weapon_id = {
 		42145
@@ -92497,7 +93261,7 @@ _G.pg.base.equip_data_statistics[42145] = {
 
 _G.pg.base.equip_data_statistics[42146] = {
 	id = 42146,
-	damage = "15 x 3",
+	damage = "20 x 3",
 	base = 42140,
 	weapon_id = {
 		42146
@@ -92507,7 +93271,7 @@ _G.pg.base.equip_data_statistics[42146] = {
 
 _G.pg.base.equip_data_statistics[42147] = {
 	id = 42147,
-	damage = "16 x 3",
+	damage = "21 x 3",
 	base = 42140,
 	weapon_id = {
 		42147
@@ -92517,7 +93281,7 @@ _G.pg.base.equip_data_statistics[42147] = {
 
 _G.pg.base.equip_data_statistics[42148] = {
 	id = 42148,
-	damage = "17 x 3",
+	damage = "22 x 3",
 	base = 42140,
 	weapon_id = {
 		42148
@@ -92527,7 +93291,7 @@ _G.pg.base.equip_data_statistics[42148] = {
 
 _G.pg.base.equip_data_statistics[42149] = {
 	id = 42149,
-	damage = "19 x 3",
+	damage = "24 x 3",
 	base = 42140,
 	weapon_id = {
 		42149
@@ -92537,7 +93301,7 @@ _G.pg.base.equip_data_statistics[42149] = {
 
 _G.pg.base.equip_data_statistics[42150] = {
 	id = 42150,
-	damage = "21 x 3",
+	damage = "26 x 3",
 	base = 42140,
 	weapon_id = {
 		42150
@@ -92548,7 +93312,7 @@ _G.pg.base.equip_data_statistics[42150] = {
 _G.pg.base.equip_data_statistics[42151] = {
 	id = 42151,
 	anti_siren = 100,
-	damage = "21 x 3",
+	damage = "26 x 3",
 	base = 42140,
 	weapon_id = {
 		42151
@@ -92563,7 +93327,7 @@ _G.pg.base.equip_data_statistics[42200] = {
 	type = 2,
 	descrip = "1936A駆逐艦に装備された150mmTbtsKC36連装砲。軽巡洋艦と一部の駆逐艦に装備可能",
 	ammo = 1,
-	damage = "7 x 4",
+	damage = "9 x 4",
 	nationality = 4,
 	rarity = 2,
 	id = 42200,
@@ -92620,7 +93384,7 @@ _G.pg.base.equip_data_statistics[42200] = {
 
 _G.pg.base.equip_data_statistics[42201] = {
 	id = 42201,
-	damage = "8 x 4",
+	damage = "10 x 4",
 	base = 42200,
 	weapon_id = {
 		42201
@@ -92630,7 +93394,7 @@ _G.pg.base.equip_data_statistics[42201] = {
 
 _G.pg.base.equip_data_statistics[42202] = {
 	id = 42202,
-	damage = "9 x 4",
+	damage = "11 x 4",
 	base = 42200,
 	weapon_id = {
 		42202
@@ -92640,7 +93404,7 @@ _G.pg.base.equip_data_statistics[42202] = {
 
 _G.pg.base.equip_data_statistics[42203] = {
 	id = 42203,
-	damage = "10 x 4",
+	damage = "12 x 4",
 	base = 42200,
 	weapon_id = {
 		42203
@@ -92655,7 +93419,7 @@ _G.pg.base.equip_data_statistics[42220] = {
 	type = 2,
 	descrip = "1936A駆逐艦に装備された150mmTbtsKC36連装砲。軽巡洋艦と一部の駆逐艦に装備可能",
 	ammo = 1,
-	damage = "8 x 4",
+	damage = "11 x 4",
 	nationality = 4,
 	rarity = 3,
 	id = 42220,
@@ -92712,7 +93476,7 @@ _G.pg.base.equip_data_statistics[42220] = {
 
 _G.pg.base.equip_data_statistics[42221] = {
 	id = 42221,
-	damage = "9 x 4",
+	damage = "12 x 4",
 	base = 42220,
 	weapon_id = {
 		42221
@@ -92722,7 +93486,7 @@ _G.pg.base.equip_data_statistics[42221] = {
 
 _G.pg.base.equip_data_statistics[42222] = {
 	id = 42222,
-	damage = "10 x 4",
+	damage = "13 x 4",
 	base = 42220,
 	weapon_id = {
 		42222
@@ -92732,7 +93496,7 @@ _G.pg.base.equip_data_statistics[42222] = {
 
 _G.pg.base.equip_data_statistics[42223] = {
 	id = 42223,
-	damage = "11 x 4",
+	damage = "14 x 4",
 	base = 42220,
 	weapon_id = {
 		42223
@@ -92742,7 +93506,7 @@ _G.pg.base.equip_data_statistics[42223] = {
 
 _G.pg.base.equip_data_statistics[42224] = {
 	id = 42224,
-	damage = "12 x 4",
+	damage = "15 x 4",
 	base = 42220,
 	weapon_id = {
 		42224
@@ -92752,7 +93516,7 @@ _G.pg.base.equip_data_statistics[42224] = {
 
 _G.pg.base.equip_data_statistics[42225] = {
 	id = 42225,
-	damage = "13 x 4",
+	damage = "16 x 4",
 	base = 42220,
 	weapon_id = {
 		42225
@@ -92762,7 +93526,7 @@ _G.pg.base.equip_data_statistics[42225] = {
 
 _G.pg.base.equip_data_statistics[42226] = {
 	id = 42226,
-	damage = "14 x 4",
+	damage = "17 x 4",
 	base = 42220,
 	weapon_id = {
 		42226
@@ -92777,7 +93541,7 @@ _G.pg.base.equip_data_statistics[42240] = {
 	type = 2,
 	descrip = "1936A駆逐艦に装備された150mmTbtsKC36連装砲。軽巡洋艦と一部の駆逐艦に装備可能",
 	ammo = 1,
-	damage = "9 x 4",
+	damage = "14 x 4",
 	nationality = 4,
 	rarity = 4,
 	id = 42240,
@@ -92834,7 +93598,7 @@ _G.pg.base.equip_data_statistics[42240] = {
 
 _G.pg.base.equip_data_statistics[42241] = {
 	id = 42241,
-	damage = "10 x 4",
+	damage = "15 x 4",
 	base = 42240,
 	weapon_id = {
 		42241
@@ -92844,7 +93608,7 @@ _G.pg.base.equip_data_statistics[42241] = {
 
 _G.pg.base.equip_data_statistics[42242] = {
 	id = 42242,
-	damage = "11 x 4",
+	damage = "16 x 4",
 	base = 42240,
 	weapon_id = {
 		42242
@@ -92854,7 +93618,7 @@ _G.pg.base.equip_data_statistics[42242] = {
 
 _G.pg.base.equip_data_statistics[42243] = {
 	id = 42243,
-	damage = "12 x 4",
+	damage = "17 x 4",
 	base = 42240,
 	weapon_id = {
 		42243
@@ -92864,7 +93628,7 @@ _G.pg.base.equip_data_statistics[42243] = {
 
 _G.pg.base.equip_data_statistics[42244] = {
 	id = 42244,
-	damage = "13 x 4",
+	damage = "18 x 4",
 	base = 42240,
 	weapon_id = {
 		42244
@@ -92874,7 +93638,7 @@ _G.pg.base.equip_data_statistics[42244] = {
 
 _G.pg.base.equip_data_statistics[42245] = {
 	id = 42245,
-	damage = "14 x 4",
+	damage = "19 x 4",
 	base = 42240,
 	weapon_id = {
 		42245
@@ -92884,7 +93648,7 @@ _G.pg.base.equip_data_statistics[42245] = {
 
 _G.pg.base.equip_data_statistics[42246] = {
 	id = 42246,
-	damage = "15 x 4",
+	damage = "20 x 4",
 	base = 42240,
 	weapon_id = {
 		42246
@@ -92894,7 +93658,7 @@ _G.pg.base.equip_data_statistics[42246] = {
 
 _G.pg.base.equip_data_statistics[42247] = {
 	id = 42247,
-	damage = "16 x 4",
+	damage = "21 x 4",
 	base = 42240,
 	weapon_id = {
 		42247
@@ -92904,7 +93668,7 @@ _G.pg.base.equip_data_statistics[42247] = {
 
 _G.pg.base.equip_data_statistics[42248] = {
 	id = 42248,
-	damage = "17 x 4",
+	damage = "22 x 4",
 	base = 42240,
 	weapon_id = {
 		42248
@@ -92914,7 +93678,7 @@ _G.pg.base.equip_data_statistics[42248] = {
 
 _G.pg.base.equip_data_statistics[42249] = {
 	id = 42249,
-	damage = "19 x 4",
+	damage = "24 x 4",
 	base = 42240,
 	weapon_id = {
 		42249
@@ -92924,7 +93688,7 @@ _G.pg.base.equip_data_statistics[42249] = {
 
 _G.pg.base.equip_data_statistics[42250] = {
 	id = 42250,
-	damage = "21 x 4",
+	damage = "26 x 4",
 	base = 42240,
 	weapon_id = {
 		42250
@@ -92935,7 +93699,7 @@ _G.pg.base.equip_data_statistics[42250] = {
 _G.pg.base.equip_data_statistics[42251] = {
 	id = 42251,
 	anti_siren = 100,
-	damage = "21 x 4",
+	damage = "26 x 4",
 	base = 42240,
 	weapon_id = {
 		42251
@@ -92950,7 +93714,7 @@ _G.pg.base.equip_data_statistics[42300] = {
 	type = 2,
 	descrip = "1936A駆逐艦に装備された150mmTbtsKC36単装砲。軽巡洋艦と一部の駆逐艦に装備可能",
 	ammo = 1,
-	damage = "7 x 3",
+	damage = "9 x 3",
 	nationality = 4,
 	rarity = 2,
 	id = 42300,
@@ -93007,7 +93771,7 @@ _G.pg.base.equip_data_statistics[42300] = {
 
 _G.pg.base.equip_data_statistics[42301] = {
 	id = 42301,
-	damage = "8 x 3",
+	damage = "10 x 3",
 	base = 42300,
 	weapon_id = {
 		42301
@@ -93017,7 +93781,7 @@ _G.pg.base.equip_data_statistics[42301] = {
 
 _G.pg.base.equip_data_statistics[42302] = {
 	id = 42302,
-	damage = "9 x 3",
+	damage = "11 x 3",
 	base = 42300,
 	weapon_id = {
 		42302
@@ -93027,7 +93791,7 @@ _G.pg.base.equip_data_statistics[42302] = {
 
 _G.pg.base.equip_data_statistics[42303] = {
 	id = 42303,
-	damage = "10 x 3",
+	damage = "12 x 3",
 	base = 42300,
 	weapon_id = {
 		42303
@@ -93042,7 +93806,7 @@ _G.pg.base.equip_data_statistics[42340] = {
 	type = 2,
 	descrip = "0",
 	ammo = 1,
-	damage = "6 x 3",
+	damage = "9 x 3",
 	nationality = 4,
 	rarity = 4,
 	id = 42340,
@@ -93108,7 +93872,7 @@ _G.pg.base.equip_data_statistics[42341] = {
 
 _G.pg.base.equip_data_statistics[42342] = {
 	id = 42342,
-	damage = "7 x 3",
+	damage = "10 x 3",
 	base = 42340,
 	weapon_id = {
 		42342
@@ -93118,7 +93882,7 @@ _G.pg.base.equip_data_statistics[42342] = {
 
 _G.pg.base.equip_data_statistics[42343] = {
 	id = 42343,
-	damage = "8 x 3",
+	damage = "11 x 3",
 	base = 42340,
 	weapon_id = {
 		42343
@@ -93128,7 +93892,7 @@ _G.pg.base.equip_data_statistics[42343] = {
 
 _G.pg.base.equip_data_statistics[42344] = {
 	id = 42344,
-	damage = "9 x 3",
+	damage = "12 x 3",
 	base = 42340,
 	weapon_id = {
 		42344
@@ -93138,7 +93902,7 @@ _G.pg.base.equip_data_statistics[42344] = {
 
 _G.pg.base.equip_data_statistics[42345] = {
 	id = 42345,
-	damage = "10 x 3",
+	damage = "13 x 3",
 	base = 42340,
 	weapon_id = {
 		42345
@@ -93148,7 +93912,7 @@ _G.pg.base.equip_data_statistics[42345] = {
 
 _G.pg.base.equip_data_statistics[42346] = {
 	id = 42346,
-	damage = "11 x 3",
+	damage = "14 x 3",
 	base = 42340,
 	weapon_id = {
 		42346
@@ -93158,7 +93922,7 @@ _G.pg.base.equip_data_statistics[42346] = {
 
 _G.pg.base.equip_data_statistics[42347] = {
 	id = 42347,
-	damage = "12 x 3",
+	damage = "15 x 3",
 	base = 42340,
 	weapon_id = {
 		42347
@@ -93168,7 +93932,7 @@ _G.pg.base.equip_data_statistics[42347] = {
 
 _G.pg.base.equip_data_statistics[42348] = {
 	id = 42348,
-	damage = "13 x 3",
+	damage = "16 x 3",
 	base = 42340,
 	weapon_id = {
 		42348
@@ -93178,7 +93942,7 @@ _G.pg.base.equip_data_statistics[42348] = {
 
 _G.pg.base.equip_data_statistics[42349] = {
 	id = 42349,
-	damage = "14 x 3",
+	damage = "17 x 3",
 	base = 42340,
 	weapon_id = {
 		42349
@@ -93188,7 +93952,7 @@ _G.pg.base.equip_data_statistics[42349] = {
 
 _G.pg.base.equip_data_statistics[42350] = {
 	id = 42350,
-	damage = "15 x 3",
+	damage = "18 x 3",
 	base = 42340,
 	weapon_id = {
 		42350
@@ -93199,7 +93963,7 @@ _G.pg.base.equip_data_statistics[42350] = {
 _G.pg.base.equip_data_statistics[42351] = {
 	id = 42351,
 	anti_siren = 100,
-	damage = "15 x 3",
+	damage = "18 x 3",
 	base = 42340,
 	weapon_id = {
 		42351
@@ -102854,6 +103618,423 @@ _G.pg.base.equip_data_statistics[47173] = {
 	},
 	weapon_id = {
 		47173
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[47180] = {
+	rarity = 5,
+	name = "試作型FW-190 A-6/R6（艦載機型）",
+	speciality = "航空",
+	type = 7,
+	tech = 0,
+	ammo = 5,
+	nationality = 4,
+	descrip = "Wfr.Gr.21ロケット弾を搭載したFW-190戦闘機の艦載機型",
+	id = 47180,
+	torpedo_ammo = 0,
+	value_3 = 0,
+	value_2 = 45,
+	icon = "47180",
+	attribute_2 = "air",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {
+		{
+			6,
+			59040
+		},
+		{
+			6,
+			59440
+		},
+		{
+			6,
+			59900
+		},
+		{
+			5,
+			59920
+		}
+	},
+	equip_info = {
+		6,
+		7,
+		8,
+		9
+	},
+	weapon_id = {
+		47180
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		6,
+		7
+	},
+	part_sub = {
+		6,
+		7
+	},
+	equip_parameters = {},
+	label = {
+		"KMS",
+		"CV",
+		"FT",
+		"HERK"
+	}
+}
+
+_G.pg.base.equip_data_statistics[47181] = {
+	id = 47181,
+	base = 47180,
+	ammo_info = {
+		{
+			6,
+			59041
+		},
+		{
+			6,
+			59441
+		},
+		{
+			6,
+			59901
+		},
+		{
+			5,
+			59921
+		}
+	},
+	weapon_id = {
+		47181
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[47182] = {
+	id = 47182,
+	base = 47180,
+	ammo_info = {
+		{
+			6,
+			59042
+		},
+		{
+			6,
+			59442
+		},
+		{
+			6,
+			59902
+		},
+		{
+			5,
+			59922
+		}
+	},
+	weapon_id = {
+		47182
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[47183] = {
+	id = 47183,
+	base = 47180,
+	ammo_info = {
+		{
+			6,
+			59043
+		},
+		{
+			6,
+			59443
+		},
+		{
+			6,
+			59903
+		},
+		{
+			5,
+			59923
+		}
+	},
+	weapon_id = {
+		47183
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[47184] = {
+	id = 47184,
+	base = 47180,
+	ammo_info = {
+		{
+			6,
+			59044
+		},
+		{
+			6,
+			59444
+		},
+		{
+			6,
+			59904
+		},
+		{
+			5,
+			59924
+		}
+	},
+	weapon_id = {
+		47184
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[47185] = {
+	id = 47185,
+	base = 47180,
+	ammo_info = {
+		{
+			6,
+			59045
+		},
+		{
+			6,
+			59445
+		},
+		{
+			6,
+			59905
+		},
+		{
+			5,
+			59925
+		}
+	},
+	weapon_id = {
+		47185
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[47186] = {
+	id = 47186,
+	base = 47180,
+	ammo_info = {
+		{
+			6,
+			59046
+		},
+		{
+			6,
+			59446
+		},
+		{
+			6,
+			59906
+		},
+		{
+			5,
+			59926
+		}
+	},
+	weapon_id = {
+		47186
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[47187] = {
+	id = 47187,
+	base = 47180,
+	ammo_info = {
+		{
+			6,
+			59047
+		},
+		{
+			6,
+			59447
+		},
+		{
+			6,
+			59907
+		},
+		{
+			5,
+			59927
+		}
+	},
+	weapon_id = {
+		47187
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[47188] = {
+	id = 47188,
+	base = 47180,
+	ammo_info = {
+		{
+			6,
+			59048
+		},
+		{
+			6,
+			59448
+		},
+		{
+			6,
+			59908
+		},
+		{
+			5,
+			59928
+		}
+	},
+	weapon_id = {
+		47188
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[47189] = {
+	id = 47189,
+	base = 47180,
+	ammo_info = {
+		{
+			6,
+			59049
+		},
+		{
+			6,
+			59449
+		},
+		{
+			6,
+			59909
+		},
+		{
+			5,
+			59929
+		}
+	},
+	weapon_id = {
+		47189
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[47190] = {
+	id = 47190,
+	base = 47180,
+	ammo_info = {
+		{
+			6,
+			59050
+		},
+		{
+			6,
+			59450
+		},
+		{
+			6,
+			59910
+		},
+		{
+			5,
+			59930
+		}
+	},
+	weapon_id = {
+		47190
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[47191] = {
+	id = 47191,
+	anti_siren = 100,
+	base = 47180,
+	ammo_info = {
+		{
+			6,
+			59051
+		},
+		{
+			6,
+			59451
+		},
+		{
+			6,
+			59911
+		},
+		{
+			5,
+			59931
+		}
+	},
+	weapon_id = {
+		47191
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[47192] = {
+	id = 47192,
+	anti_siren = 200,
+	base = 47180,
+	ammo_info = {
+		{
+			6,
+			59052
+		},
+		{
+			6,
+			59452
+		},
+		{
+			6,
+			59912
+		},
+		{
+			5,
+			59932
+		}
+	},
+	weapon_id = {
+		47192
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[47193] = {
+	id = 47193,
+	anti_siren = 300,
+	base = 47180,
+	ammo_info = {
+		{
+			6,
+			59053
+		},
+		{
+			6,
+			59453
+		},
+		{
+			6,
+			59913
+		},
+		{
+			5,
+			59933
+		}
+	},
+	weapon_id = {
+		47193
 	},
 	hidden_skill_id = {}
 }
@@ -119890,6 +121071,59 @@ _G.pg.base.equip_data_statistics[80002] = {
 	hidden_skill_id = {}
 }
 
+_G.pg.base.equip_data_statistics[80011] = {
+	type = 1,
+	name = "专属弹幕-阿尔及利亚.METAI",
+	speciality = "无",
+	tech = 1,
+	rarity = 1,
+	ammo = 10,
+	nationality = 0,
+	descrip = "技能弹幕",
+	id = 80011,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		170091
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.base.equip_data_statistics[80012] = {
+	id = 80012,
+	name = "专属弹幕-阿尔及利亚.METAII",
+	base = 80011,
+	weapon_id = {
+		170092
+	},
+	hidden_skill_id = {}
+}
+
 _G.pg.base.equip_data_statistics[85000] = {
 	tech = 1,
 	name = "B-13 130mm連装砲B-2LM",
@@ -120358,7 +121592,7 @@ _G.pg.base.equip_data_statistics[85120] = {
 	type = 2,
 	descrip = "0",
 	ammo = 3,
-	damage = "5 x 6",
+	damage = "7 x 6",
 	nationality = 7,
 	rarity = 3,
 	id = 85120,
@@ -120414,7 +121648,6 @@ _G.pg.base.equip_data_statistics[85120] = {
 
 _G.pg.base.equip_data_statistics[85121] = {
 	id = 85121,
-	damage = "5 x 6",
 	base = 85120,
 	weapon_id = {
 		85121
@@ -120424,7 +121657,7 @@ _G.pg.base.equip_data_statistics[85121] = {
 
 _G.pg.base.equip_data_statistics[85122] = {
 	id = 85122,
-	damage = "6 x 6",
+	damage = "8 x 6",
 	base = 85120,
 	weapon_id = {
 		85122
@@ -120434,7 +121667,7 @@ _G.pg.base.equip_data_statistics[85122] = {
 
 _G.pg.base.equip_data_statistics[85123] = {
 	id = 85123,
-	damage = "7 x 6",
+	damage = "9 x 6",
 	base = 85120,
 	weapon_id = {
 		85123
@@ -120444,7 +121677,7 @@ _G.pg.base.equip_data_statistics[85123] = {
 
 _G.pg.base.equip_data_statistics[85124] = {
 	id = 85124,
-	damage = "8 x 6",
+	damage = "10 x 6",
 	base = 85120,
 	weapon_id = {
 		85124
@@ -120454,7 +121687,7 @@ _G.pg.base.equip_data_statistics[85124] = {
 
 _G.pg.base.equip_data_statistics[85125] = {
 	id = 85125,
-	damage = "9 x 6",
+	damage = "11 x 6",
 	base = 85120,
 	weapon_id = {
 		85125
@@ -120464,7 +121697,7 @@ _G.pg.base.equip_data_statistics[85125] = {
 
 _G.pg.base.equip_data_statistics[85126] = {
 	id = 85126,
-	damage = "10 x 6",
+	damage = "12 x 6",
 	base = 85120,
 	weapon_id = {
 		85126
@@ -120479,7 +121712,7 @@ _G.pg.base.equip_data_statistics[85140] = {
 	type = 2,
 	descrip = "0",
 	ammo = 2,
-	damage = "6 x 6",
+	damage = "9 x 6",
 	nationality = 7,
 	rarity = 4,
 	id = 85140,
@@ -120536,7 +121769,6 @@ _G.pg.base.equip_data_statistics[85140] = {
 
 _G.pg.base.equip_data_statistics[85141] = {
 	id = 85141,
-	damage = "6 x 6",
 	base = 85140,
 	weapon_id = {
 		85141
@@ -120546,7 +121778,7 @@ _G.pg.base.equip_data_statistics[85141] = {
 
 _G.pg.base.equip_data_statistics[85142] = {
 	id = 85142,
-	damage = "7 x 6",
+	damage = "10 x 6",
 	base = 85140,
 	weapon_id = {
 		85142
@@ -120556,7 +121788,7 @@ _G.pg.base.equip_data_statistics[85142] = {
 
 _G.pg.base.equip_data_statistics[85143] = {
 	id = 85143,
-	damage = "8 x 6",
+	damage = "11 x 6",
 	base = 85140,
 	weapon_id = {
 		85143
@@ -120566,7 +121798,7 @@ _G.pg.base.equip_data_statistics[85143] = {
 
 _G.pg.base.equip_data_statistics[85144] = {
 	id = 85144,
-	damage = "9 x 6",
+	damage = "12 x 6",
 	base = 85140,
 	weapon_id = {
 		85144
@@ -120576,7 +121808,7 @@ _G.pg.base.equip_data_statistics[85144] = {
 
 _G.pg.base.equip_data_statistics[85145] = {
 	id = 85145,
-	damage = "10 x 6",
+	damage = "13 x 6",
 	base = 85140,
 	weapon_id = {
 		85145
@@ -120586,7 +121818,7 @@ _G.pg.base.equip_data_statistics[85145] = {
 
 _G.pg.base.equip_data_statistics[85146] = {
 	id = 85146,
-	damage = "11 x 6",
+	damage = "14 x 6",
 	base = 85140,
 	weapon_id = {
 		85146
@@ -120596,7 +121828,7 @@ _G.pg.base.equip_data_statistics[85146] = {
 
 _G.pg.base.equip_data_statistics[85147] = {
 	id = 85147,
-	damage = "12 x 6",
+	damage = "15 x 6",
 	base = 85140,
 	weapon_id = {
 		85147
@@ -120606,7 +121838,7 @@ _G.pg.base.equip_data_statistics[85147] = {
 
 _G.pg.base.equip_data_statistics[85148] = {
 	id = 85148,
-	damage = "13 x 6",
+	damage = "16 x 6",
 	base = 85140,
 	weapon_id = {
 		85148
@@ -120616,7 +121848,7 @@ _G.pg.base.equip_data_statistics[85148] = {
 
 _G.pg.base.equip_data_statistics[85149] = {
 	id = 85149,
-	damage = "14 x 6",
+	damage = "17 x 6",
 	base = 85140,
 	weapon_id = {
 		85149
@@ -120626,7 +121858,7 @@ _G.pg.base.equip_data_statistics[85149] = {
 
 _G.pg.base.equip_data_statistics[85150] = {
 	id = 85150,
-	damage = "15 x 6",
+	damage = "18 x 6",
 	base = 85140,
 	weapon_id = {
 		85150
@@ -120641,7 +121873,7 @@ _G.pg.base.equip_data_statistics[85160] = {
 	type = 2,
 	descrip = "0",
 	ammo = 2,
-	damage = "7 x 6",
+	damage = "10 x 6",
 	nationality = 7,
 	rarity = 5,
 	id = 85160,
@@ -120698,7 +121930,6 @@ _G.pg.base.equip_data_statistics[85160] = {
 
 _G.pg.base.equip_data_statistics[85161] = {
 	id = 85161,
-	damage = "7 x 6",
 	base = 85160,
 	weapon_id = {
 		85161
@@ -120708,7 +121939,7 @@ _G.pg.base.equip_data_statistics[85161] = {
 
 _G.pg.base.equip_data_statistics[85162] = {
 	id = 85162,
-	damage = "8 x 6",
+	damage = "11 x 6",
 	base = 85160,
 	weapon_id = {
 		85162
@@ -120718,7 +121949,7 @@ _G.pg.base.equip_data_statistics[85162] = {
 
 _G.pg.base.equip_data_statistics[85163] = {
 	id = 85163,
-	damage = "9 x 6",
+	damage = "12 x 6",
 	base = 85160,
 	weapon_id = {
 		85163
@@ -120728,7 +121959,7 @@ _G.pg.base.equip_data_statistics[85163] = {
 
 _G.pg.base.equip_data_statistics[85164] = {
 	id = 85164,
-	damage = "10 x 6",
+	damage = "13 x 6",
 	base = 85160,
 	weapon_id = {
 		85164
@@ -120738,7 +121969,7 @@ _G.pg.base.equip_data_statistics[85164] = {
 
 _G.pg.base.equip_data_statistics[85165] = {
 	id = 85165,
-	damage = "11 x 6",
+	damage = "14 x 6",
 	base = 85160,
 	weapon_id = {
 		85165
@@ -120748,7 +121979,7 @@ _G.pg.base.equip_data_statistics[85165] = {
 
 _G.pg.base.equip_data_statistics[85166] = {
 	id = 85166,
-	damage = "12 x 6",
+	damage = "15 x 6",
 	base = 85160,
 	weapon_id = {
 		85166
@@ -120758,7 +121989,7 @@ _G.pg.base.equip_data_statistics[85166] = {
 
 _G.pg.base.equip_data_statistics[85167] = {
 	id = 85167,
-	damage = "13 x 6",
+	damage = "16 x 6",
 	base = 85160,
 	weapon_id = {
 		85167
@@ -120768,7 +121999,7 @@ _G.pg.base.equip_data_statistics[85167] = {
 
 _G.pg.base.equip_data_statistics[85168] = {
 	id = 85168,
-	damage = "14 x 6",
+	damage = "17 x 6",
 	base = 85160,
 	weapon_id = {
 		85168
@@ -120778,7 +122009,7 @@ _G.pg.base.equip_data_statistics[85168] = {
 
 _G.pg.base.equip_data_statistics[85169] = {
 	id = 85169,
-	damage = "15 x 6",
+	damage = "18 x 6",
 	base = 85160,
 	weapon_id = {
 		85169
@@ -120788,7 +122019,7 @@ _G.pg.base.equip_data_statistics[85169] = {
 
 _G.pg.base.equip_data_statistics[85170] = {
 	id = 85170,
-	damage = "16 x 6",
+	damage = "19 x 6",
 	base = 85160,
 	weapon_id = {
 		85170
@@ -120799,7 +122030,7 @@ _G.pg.base.equip_data_statistics[85170] = {
 _G.pg.base.equip_data_statistics[85171] = {
 	id = 85171,
 	anti_siren = 100,
-	damage = "16 x 6",
+	damage = "19 x 6",
 	base = 85160,
 	weapon_id = {
 		85171
@@ -120810,7 +122041,7 @@ _G.pg.base.equip_data_statistics[85171] = {
 _G.pg.base.equip_data_statistics[85172] = {
 	id = 85172,
 	anti_siren = 200,
-	damage = "16 x 6",
+	damage = "19 x 6",
 	base = 85160,
 	weapon_id = {
 		85172
@@ -120821,7 +122052,7 @@ _G.pg.base.equip_data_statistics[85172] = {
 _G.pg.base.equip_data_statistics[85173] = {
 	id = 85173,
 	anti_siren = 300,
-	damage = "16 x 6",
+	damage = "19 x 6",
 	base = 85160,
 	weapon_id = {
 		85173
@@ -122347,7 +123578,7 @@ _G.pg.base.equip_data_statistics[85440] = {
 	type = 2,
 	descrip = "0",
 	ammo = 3,
-	damage = "8 x 4",
+	damage = "11 x 4",
 	nationality = 7,
 	rarity = 3,
 	id = 85440,
@@ -122403,7 +123634,7 @@ _G.pg.base.equip_data_statistics[85440] = {
 
 _G.pg.base.equip_data_statistics[85441] = {
 	id = 85441,
-	damage = "9 x 4",
+	damage = "12 x 4",
 	base = 85440,
 	weapon_id = {
 		85441
@@ -122413,7 +123644,7 @@ _G.pg.base.equip_data_statistics[85441] = {
 
 _G.pg.base.equip_data_statistics[85442] = {
 	id = 85442,
-	damage = "10 x 4",
+	damage = "13 x 4",
 	base = 85440,
 	weapon_id = {
 		85442
@@ -122423,7 +123654,7 @@ _G.pg.base.equip_data_statistics[85442] = {
 
 _G.pg.base.equip_data_statistics[85443] = {
 	id = 85443,
-	damage = "11 x 4",
+	damage = "14 x 4",
 	base = 85440,
 	weapon_id = {
 		85443
@@ -122433,7 +123664,7 @@ _G.pg.base.equip_data_statistics[85443] = {
 
 _G.pg.base.equip_data_statistics[85444] = {
 	id = 85444,
-	damage = "12 x 4",
+	damage = "15 x 4",
 	base = 85440,
 	weapon_id = {
 		85444
@@ -122443,7 +123674,7 @@ _G.pg.base.equip_data_statistics[85444] = {
 
 _G.pg.base.equip_data_statistics[85445] = {
 	id = 85445,
-	damage = "13 x 4",
+	damage = "16 x 4",
 	base = 85440,
 	weapon_id = {
 		85445
@@ -122453,7 +123684,7 @@ _G.pg.base.equip_data_statistics[85445] = {
 
 _G.pg.base.equip_data_statistics[85446] = {
 	id = 85446,
-	damage = "14 x 4",
+	damage = "17 x 4",
 	base = 85440,
 	weapon_id = {
 		85446
@@ -122463,7 +123694,7 @@ _G.pg.base.equip_data_statistics[85446] = {
 
 _G.pg.base.equip_data_statistics[85447] = {
 	id = 85447,
-	damage = "14 x 4",
+	damage = "17 x 4",
 	base = 85440,
 	weapon_id = {
 		85447
@@ -122478,7 +123709,7 @@ _G.pg.base.equip_data_statistics[85460] = {
 	type = 2,
 	descrip = "優秀な射程を持つ北方連合開発の三連装主砲。",
 	ammo = 1,
-	damage = "16 x 3",
+	damage = "21 x 3",
 	nationality = 7,
 	rarity = 3,
 	id = 85460,
@@ -122544,7 +123775,7 @@ _G.pg.base.equip_data_statistics[85461] = {
 
 _G.pg.base.equip_data_statistics[85462] = {
 	id = 85462,
-	damage = "17 x 3",
+	damage = "22 x 3",
 	base = 85460,
 	weapon_id = {
 		85462
@@ -122554,7 +123785,7 @@ _G.pg.base.equip_data_statistics[85462] = {
 
 _G.pg.base.equip_data_statistics[85463] = {
 	id = 85463,
-	damage = "18 x 3",
+	damage = "23 x 3",
 	base = 85460,
 	weapon_id = {
 		85463
@@ -122564,7 +123795,7 @@ _G.pg.base.equip_data_statistics[85463] = {
 
 _G.pg.base.equip_data_statistics[85464] = {
 	id = 85464,
-	damage = "19 x 3",
+	damage = "24 x 3",
 	base = 85460,
 	weapon_id = {
 		85464
@@ -122574,7 +123805,7 @@ _G.pg.base.equip_data_statistics[85464] = {
 
 _G.pg.base.equip_data_statistics[85465] = {
 	id = 85465,
-	damage = "20 x 3",
+	damage = "25 x 3",
 	base = 85460,
 	weapon_id = {
 		85465
@@ -122584,7 +123815,7 @@ _G.pg.base.equip_data_statistics[85465] = {
 
 _G.pg.base.equip_data_statistics[85466] = {
 	id = 85466,
-	damage = "21 x 3",
+	damage = "26 x 3",
 	base = 85460,
 	weapon_id = {
 		85466
@@ -122599,7 +123830,7 @@ _G.pg.base.equip_data_statistics[85480] = {
 	type = 2,
 	descrip = "優秀な射程を持つ北方連合開発の三連装主砲。",
 	ammo = 1,
-	damage = "17 x 3",
+	damage = "23 x 3",
 	nationality = 7,
 	rarity = 4,
 	id = 85480,
@@ -122665,7 +123896,7 @@ _G.pg.base.equip_data_statistics[85481] = {
 
 _G.pg.base.equip_data_statistics[85482] = {
 	id = 85482,
-	damage = "19 x 3",
+	damage = "25 x 3",
 	base = 85480,
 	weapon_id = {
 		85482
@@ -122675,7 +123906,7 @@ _G.pg.base.equip_data_statistics[85482] = {
 
 _G.pg.base.equip_data_statistics[85483] = {
 	id = 85483,
-	damage = "20 x 3",
+	damage = "26 x 3",
 	base = 85480,
 	weapon_id = {
 		85483
@@ -122685,7 +123916,7 @@ _G.pg.base.equip_data_statistics[85483] = {
 
 _G.pg.base.equip_data_statistics[85484] = {
 	id = 85484,
-	damage = "21 x 3",
+	damage = "27 x 3",
 	base = 85480,
 	weapon_id = {
 		85484
@@ -122695,7 +123926,7 @@ _G.pg.base.equip_data_statistics[85484] = {
 
 _G.pg.base.equip_data_statistics[85485] = {
 	id = 85485,
-	damage = "22 x 3",
+	damage = "28 x 3",
 	base = 85480,
 	weapon_id = {
 		85485
@@ -122705,7 +123936,7 @@ _G.pg.base.equip_data_statistics[85485] = {
 
 _G.pg.base.equip_data_statistics[85486] = {
 	id = 85486,
-	damage = "23 x 3",
+	damage = "29 x 3",
 	base = 85480,
 	weapon_id = {
 		85486
@@ -122715,7 +123946,7 @@ _G.pg.base.equip_data_statistics[85486] = {
 
 _G.pg.base.equip_data_statistics[85487] = {
 	id = 85487,
-	damage = "24 x 3",
+	damage = "30 x 3",
 	base = 85480,
 	weapon_id = {
 		85487
@@ -122725,7 +123956,7 @@ _G.pg.base.equip_data_statistics[85487] = {
 
 _G.pg.base.equip_data_statistics[85488] = {
 	id = 85488,
-	damage = "25 x 3",
+	damage = "31 x 3",
 	base = 85480,
 	weapon_id = {
 		85488
@@ -122735,7 +123966,7 @@ _G.pg.base.equip_data_statistics[85488] = {
 
 _G.pg.base.equip_data_statistics[85489] = {
 	id = 85489,
-	damage = "26 x 3",
+	damage = "32 x 3",
 	base = 85480,
 	weapon_id = {
 		85489
@@ -122745,7 +123976,7 @@ _G.pg.base.equip_data_statistics[85489] = {
 
 _G.pg.base.equip_data_statistics[85490] = {
 	id = 85490,
-	damage = "27 x 3",
+	damage = "33 x 3",
 	base = 85480,
 	weapon_id = {
 		85490
@@ -129056,7 +130287,7 @@ _G.pg.base.equip_data_statistics[90200] = {
 	type = 2,
 	rarity = 1,
 	ammo = 3,
-	damage = "7 x 6",
+	damage = "9 x 6",
 	nationality = 8,
 	descrip = "说明未填写",
 	id = 90200,
@@ -129111,7 +130342,7 @@ _G.pg.base.equip_data_statistics[90200] = {
 
 _G.pg.base.equip_data_statistics[90201] = {
 	id = 90201,
-	damage = "8 x 6",
+	damage = "10 x 6",
 	base = 90200,
 	weapon_id = {
 		90201
@@ -129121,7 +130352,7 @@ _G.pg.base.equip_data_statistics[90201] = {
 
 _G.pg.base.equip_data_statistics[90202] = {
 	id = 90202,
-	damage = "9 x 6",
+	damage = "11 x 6",
 	base = 90200,
 	weapon_id = {
 		90202
@@ -129131,7 +130362,7 @@ _G.pg.base.equip_data_statistics[90202] = {
 
 _G.pg.base.equip_data_statistics[90203] = {
 	id = 90203,
-	damage = "10 x 6",
+	damage = "12 x 6",
 	base = 90200,
 	weapon_id = {
 		90203
@@ -129146,7 +130377,7 @@ _G.pg.base.equip_data_statistics[90220] = {
 	type = 2,
 	descrip = "说明未填写",
 	ammo = 3,
-	damage = "8 x 6",
+	damage = "10 x 6",
 	nationality = 8,
 	rarity = 2,
 	id = 90220,
@@ -129202,7 +130433,7 @@ _G.pg.base.equip_data_statistics[90220] = {
 
 _G.pg.base.equip_data_statistics[90221] = {
 	id = 90221,
-	damage = "9 x 6",
+	damage = "11 x 6",
 	base = 90220,
 	weapon_id = {
 		90221
@@ -129212,7 +130443,7 @@ _G.pg.base.equip_data_statistics[90221] = {
 
 _G.pg.base.equip_data_statistics[90222] = {
 	id = 90222,
-	damage = "10 x 6",
+	damage = "12 x 6",
 	base = 90220,
 	weapon_id = {
 		90222
@@ -129222,7 +130453,7 @@ _G.pg.base.equip_data_statistics[90222] = {
 
 _G.pg.base.equip_data_statistics[90223] = {
 	id = 90223,
-	damage = "11 x 6",
+	damage = "13 x 6",
 	base = 90220,
 	weapon_id = {
 		90223
@@ -129237,7 +130468,7 @@ _G.pg.base.equip_data_statistics[90240] = {
 	type = 2,
 	descrip = "说明未填写",
 	ammo = 1,
-	damage = "9 x 6",
+	damage = "12 x 6",
 	nationality = 8,
 	rarity = 3,
 	id = 90240,
@@ -129294,7 +130525,7 @@ _G.pg.base.equip_data_statistics[90240] = {
 
 _G.pg.base.equip_data_statistics[90241] = {
 	id = 90241,
-	damage = "10 x 6",
+	damage = "13 x 6",
 	base = 90240,
 	weapon_id = {
 		90241
@@ -129304,7 +130535,7 @@ _G.pg.base.equip_data_statistics[90241] = {
 
 _G.pg.base.equip_data_statistics[90242] = {
 	id = 90242,
-	damage = "11 x 6",
+	damage = "14 x 6",
 	base = 90240,
 	weapon_id = {
 		90242
@@ -129314,7 +130545,7 @@ _G.pg.base.equip_data_statistics[90242] = {
 
 _G.pg.base.equip_data_statistics[90243] = {
 	id = 90243,
-	damage = "12 x 6",
+	damage = "15 x 6",
 	base = 90240,
 	weapon_id = {
 		90243
@@ -129324,7 +130555,7 @@ _G.pg.base.equip_data_statistics[90243] = {
 
 _G.pg.base.equip_data_statistics[90244] = {
 	id = 90244,
-	damage = "13 x 6",
+	damage = "16 x 6",
 	base = 90240,
 	weapon_id = {
 		90244
@@ -129334,7 +130565,7 @@ _G.pg.base.equip_data_statistics[90244] = {
 
 _G.pg.base.equip_data_statistics[90245] = {
 	id = 90245,
-	damage = "14 x 6",
+	damage = "17 x 6",
 	base = 90240,
 	weapon_id = {
 		90245
@@ -129344,7 +130575,7 @@ _G.pg.base.equip_data_statistics[90245] = {
 
 _G.pg.base.equip_data_statistics[90246] = {
 	id = 90246,
-	damage = "15 x 6",
+	damage = "18 x 6",
 	base = 90240,
 	weapon_id = {
 		90246
@@ -129354,7 +130585,7 @@ _G.pg.base.equip_data_statistics[90246] = {
 
 _G.pg.base.equip_data_statistics[90247] = {
 	id = 90247,
-	damage = "15 x 6",
+	damage = "18 x 6",
 	base = 90240,
 	weapon_id = {
 		90247
@@ -132040,7 +133271,7 @@ _G.pg.base.equip_data_statistics[90780] = {
 	type = 2,
 	descrip = "说明未填写",
 	ammo = 3,
-	damage = "10 x 4",
+	damage = "14 x 4",
 	nationality = 8,
 	rarity = 3,
 	id = 90780,
@@ -132097,7 +133328,7 @@ _G.pg.base.equip_data_statistics[90780] = {
 
 _G.pg.base.equip_data_statistics[90781] = {
 	id = 90781,
-	damage = "12 x 4",
+	damage = "16 x 4",
 	base = 90780,
 	weapon_id = {
 		90781
@@ -132107,7 +133338,7 @@ _G.pg.base.equip_data_statistics[90781] = {
 
 _G.pg.base.equip_data_statistics[90782] = {
 	id = 90782,
-	damage = "14 x 4",
+	damage = "18 x 4",
 	base = 90780,
 	weapon_id = {
 		90782
@@ -132117,7 +133348,7 @@ _G.pg.base.equip_data_statistics[90782] = {
 
 _G.pg.base.equip_data_statistics[90783] = {
 	id = 90783,
-	damage = "16 x 4",
+	damage = "20 x 4",
 	base = 90780,
 	weapon_id = {
 		90783
@@ -132127,7 +133358,7 @@ _G.pg.base.equip_data_statistics[90783] = {
 
 _G.pg.base.equip_data_statistics[90784] = {
 	id = 90784,
-	damage = "17 x 4",
+	damage = "21 x 4",
 	base = 90780,
 	weapon_id = {
 		90784
@@ -132137,7 +133368,7 @@ _G.pg.base.equip_data_statistics[90784] = {
 
 _G.pg.base.equip_data_statistics[90785] = {
 	id = 90785,
-	damage = "18 x 4",
+	damage = "22 x 4",
 	base = 90780,
 	weapon_id = {
 		90785
@@ -132147,7 +133378,7 @@ _G.pg.base.equip_data_statistics[90785] = {
 
 _G.pg.base.equip_data_statistics[90786] = {
 	id = 90786,
-	damage = "19 x 4",
+	damage = "23 x 4",
 	base = 90780,
 	weapon_id = {
 		90786
@@ -132157,7 +133388,7 @@ _G.pg.base.equip_data_statistics[90786] = {
 
 _G.pg.base.equip_data_statistics[90787] = {
 	id = 90787,
-	damage = "19 x 4",
+	damage = "23 x 4",
 	base = 90780,
 	weapon_id = {
 		90787
@@ -132172,7 +133403,7 @@ _G.pg.base.equip_data_statistics[90800] = {
 	type = 2,
 	descrip = "说明未填写",
 	ammo = 3,
-	damage = "10 x 4",
+	damage = "14 x 4",
 	nationality = 8,
 	rarity = 3,
 	id = 90800,
@@ -132229,7 +133460,7 @@ _G.pg.base.equip_data_statistics[90800] = {
 
 _G.pg.base.equip_data_statistics[90801] = {
 	id = 90801,
-	damage = "12 x 4",
+	damage = "16 x 4",
 	base = 90800,
 	weapon_id = {
 		90801
@@ -132239,7 +133470,7 @@ _G.pg.base.equip_data_statistics[90801] = {
 
 _G.pg.base.equip_data_statistics[90802] = {
 	id = 90802,
-	damage = "14 x 4",
+	damage = "18 x 4",
 	base = 90800,
 	weapon_id = {
 		90802
@@ -132249,7 +133480,7 @@ _G.pg.base.equip_data_statistics[90802] = {
 
 _G.pg.base.equip_data_statistics[90803] = {
 	id = 90803,
-	damage = "16 x 4",
+	damage = "20 x 4",
 	base = 90800,
 	weapon_id = {
 		90803
@@ -132259,7 +133490,7 @@ _G.pg.base.equip_data_statistics[90803] = {
 
 _G.pg.base.equip_data_statistics[90804] = {
 	id = 90804,
-	damage = "17 x 4",
+	damage = "21 x 4",
 	base = 90800,
 	weapon_id = {
 		90804
@@ -132269,7 +133500,7 @@ _G.pg.base.equip_data_statistics[90804] = {
 
 _G.pg.base.equip_data_statistics[90805] = {
 	id = 90805,
-	damage = "18 x 4",
+	damage = "22 x 4",
 	base = 90800,
 	weapon_id = {
 		90805
@@ -132279,7 +133510,7 @@ _G.pg.base.equip_data_statistics[90805] = {
 
 _G.pg.base.equip_data_statistics[90806] = {
 	id = 90806,
-	damage = "19 x 4",
+	damage = "23 x 4",
 	base = 90800,
 	weapon_id = {
 		90806
@@ -132289,7 +133520,7 @@ _G.pg.base.equip_data_statistics[90806] = {
 
 _G.pg.base.equip_data_statistics[90807] = {
 	id = 90807,
-	damage = "19 x 4",
+	damage = "23 x 4",
 	base = 90800,
 	weapon_id = {
 		90807
@@ -137939,7 +139170,7 @@ _G.pg.base.equip_data_statistics[95600] = {
 	type = 2,
 	descrip = "サディア帝国製の改良型軽巡洋艦主砲 ",
 	ammo = 1,
-	damage = "5 x 6",
+	damage = "7 x 6",
 	nationality = 6,
 	rarity = 3,
 	id = 95600,
@@ -137996,7 +139227,7 @@ _G.pg.base.equip_data_statistics[95600] = {
 
 _G.pg.base.equip_data_statistics[95601] = {
 	id = 95601,
-	damage = "5 x 6",
+	damage = "7 x 6",
 	base = 95600,
 	weapon_id = {
 		95601
@@ -138006,7 +139237,7 @@ _G.pg.base.equip_data_statistics[95601] = {
 
 _G.pg.base.equip_data_statistics[95602] = {
 	id = 95602,
-	damage = "6 x 6",
+	damage = "8 x 6",
 	base = 95600,
 	weapon_id = {
 		95602
@@ -138016,7 +139247,7 @@ _G.pg.base.equip_data_statistics[95602] = {
 
 _G.pg.base.equip_data_statistics[95603] = {
 	id = 95603,
-	damage = "7 x 6",
+	damage = "9 x 6",
 	base = 95600,
 	weapon_id = {
 		95603
@@ -138026,7 +139257,7 @@ _G.pg.base.equip_data_statistics[95603] = {
 
 _G.pg.base.equip_data_statistics[95604] = {
 	id = 95604,
-	damage = "8 x 6",
+	damage = "10 x 6",
 	base = 95600,
 	weapon_id = {
 		95604
@@ -138036,7 +139267,7 @@ _G.pg.base.equip_data_statistics[95604] = {
 
 _G.pg.base.equip_data_statistics[95605] = {
 	id = 95605,
-	damage = "9 x 6",
+	damage = "11 x 6",
 	base = 95600,
 	weapon_id = {
 		95605
@@ -138046,7 +139277,7 @@ _G.pg.base.equip_data_statistics[95605] = {
 
 _G.pg.base.equip_data_statistics[95606] = {
 	id = 95606,
-	damage = "10 x 6",
+	damage = "12 x 6",
 	base = 95600,
 	weapon_id = {
 		95606
@@ -138061,7 +139292,7 @@ _G.pg.base.equip_data_statistics[95640] = {
 	type = 2,
 	descrip = "サディア帝国製の改良型軽巡洋艦主砲 ",
 	ammo = 1,
-	damage = "6 x 6",
+	damage = "9 x 6",
 	nationality = 6,
 	rarity = 5,
 	id = 95640,
@@ -138118,7 +139349,7 @@ _G.pg.base.equip_data_statistics[95640] = {
 
 _G.pg.base.equip_data_statistics[95641] = {
 	id = 95641,
-	damage = "6 x 6",
+	damage = "9 x 6",
 	base = 95640,
 	weapon_id = {
 		95641
@@ -138128,7 +139359,7 @@ _G.pg.base.equip_data_statistics[95641] = {
 
 _G.pg.base.equip_data_statistics[95642] = {
 	id = 95642,
-	damage = "7 x 6",
+	damage = "10 x 6",
 	base = 95640,
 	weapon_id = {
 		95642
@@ -138138,7 +139369,7 @@ _G.pg.base.equip_data_statistics[95642] = {
 
 _G.pg.base.equip_data_statistics[95643] = {
 	id = 95643,
-	damage = "8 x 6",
+	damage = "11 x 6",
 	base = 95640,
 	weapon_id = {
 		95643
@@ -138148,7 +139379,7 @@ _G.pg.base.equip_data_statistics[95643] = {
 
 _G.pg.base.equip_data_statistics[95644] = {
 	id = 95644,
-	damage = "9 x 6",
+	damage = "12 x 6",
 	base = 95640,
 	weapon_id = {
 		95644
@@ -138158,7 +139389,7 @@ _G.pg.base.equip_data_statistics[95644] = {
 
 _G.pg.base.equip_data_statistics[95645] = {
 	id = 95645,
-	damage = "10 x 6",
+	damage = "13 x 6",
 	base = 95640,
 	weapon_id = {
 		95645
@@ -138168,7 +139399,7 @@ _G.pg.base.equip_data_statistics[95645] = {
 
 _G.pg.base.equip_data_statistics[95646] = {
 	id = 95646,
-	damage = "11 x 6",
+	damage = "14 x 6",
 	base = 95640,
 	weapon_id = {
 		95646
@@ -138178,7 +139409,7 @@ _G.pg.base.equip_data_statistics[95646] = {
 
 _G.pg.base.equip_data_statistics[95647] = {
 	id = 95647,
-	damage = "12 x 6",
+	damage = "15 x 6",
 	base = 95640,
 	weapon_id = {
 		95647
@@ -138188,7 +139419,7 @@ _G.pg.base.equip_data_statistics[95647] = {
 
 _G.pg.base.equip_data_statistics[95648] = {
 	id = 95648,
-	damage = "13 x 6",
+	damage = "16 x 6",
 	base = 95640,
 	weapon_id = {
 		95648
@@ -138198,7 +139429,7 @@ _G.pg.base.equip_data_statistics[95648] = {
 
 _G.pg.base.equip_data_statistics[95649] = {
 	id = 95649,
-	damage = "14 x 6",
+	damage = "17 x 6",
 	base = 95640,
 	weapon_id = {
 		95649
@@ -138208,7 +139439,7 @@ _G.pg.base.equip_data_statistics[95649] = {
 
 _G.pg.base.equip_data_statistics[95650] = {
 	id = 95650,
-	damage = "15 x 6",
+	damage = "18 x 6",
 	base = 95640,
 	weapon_id = {
 		95650
@@ -138219,7 +139450,7 @@ _G.pg.base.equip_data_statistics[95650] = {
 _G.pg.base.equip_data_statistics[95651] = {
 	id = 95651,
 	anti_siren = 100,
-	damage = "15 x 6",
+	damage = "18 x 6",
 	base = 95640,
 	weapon_id = {
 		95651
@@ -138230,7 +139461,7 @@ _G.pg.base.equip_data_statistics[95651] = {
 _G.pg.base.equip_data_statistics[95652] = {
 	id = 95652,
 	anti_siren = 200,
-	damage = "15 x 6",
+	damage = "18 x 6",
 	base = 95640,
 	weapon_id = {
 		95652
@@ -138241,7 +139472,7 @@ _G.pg.base.equip_data_statistics[95652] = {
 _G.pg.base.equip_data_statistics[95653] = {
 	id = 95653,
 	anti_siren = 300,
-	damage = "15 x 6",
+	damage = "18 x 6",
 	base = 95640,
 	weapon_id = {
 		95653

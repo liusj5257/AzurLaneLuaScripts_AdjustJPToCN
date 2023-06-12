@@ -1722,6 +1722,10 @@ pg.memory_template = setmetatable({
 		2164,
 		2165,
 		2166,
+		2167,
+		2168,
+		2169,
+		2170,
 		2181,
 		2182,
 		2183,
@@ -1820,6 +1824,7 @@ pg.memory_template = setmetatable({
 		2743,
 		2744,
 		2751,
+		2781,
 		10011,
 		10012,
 		10013,
@@ -20782,6 +20787,50 @@ pg.base.memory_template = {
 		icon = "memory_lingshiguangting",
 		is_open = 0
 	},
+	[2167] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "體驗茶室",
+		condition = "解鎖「合雅之宴」DAY1",
+		story = "HEYAZHIYAN1",
+		id = 2167,
+		icon = "memory_heyazhiyan",
+		is_open = 0
+	},
+	[2168] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "紀錄者",
+		condition = "解鎖「合雅之宴」DAY3",
+		story = "HEYAZHIYAN2",
+		id = 2168,
+		icon = "memory_heyazhiyan",
+		is_open = 0
+	},
+	[2169] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "琴與笛",
+		condition = "解鎖「合雅之宴」DAY5",
+		story = "HEYAZHIYAN3",
+		id = 2169,
+		icon = "memory_heyazhiyan",
+		is_open = 0
+	},
+	[2170] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "晚宴",
+		condition = "解鎖「合雅之宴」DAY7",
+		story = "HEYAZHIYAN4",
+		id = 2170,
+		icon = "memory_heyazhiyan",
+		is_open = 0
+	},
 	[2181] = {
 		type = 1,
 		subtitle = "",
@@ -21858,6 +21907,17 @@ pg.base.memory_template = {
 		story = "QINGCHAYINYUN1",
 		id = 2751,
 		icon = "memory_qingchayinyun",
+		is_open = 0
+	},
+	[2781] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "翩若飛仙 ",
+		condition = "完成「翩若飛仙」任務",
+		story = "PIANRUOFEIXIAN1",
+		id = 2781,
+		icon = "memory_pianruofeixian",
 		is_open = 0
 	},
 	[10011] = {

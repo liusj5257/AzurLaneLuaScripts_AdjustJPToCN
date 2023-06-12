@@ -7387,10 +7387,10 @@ _G.pg.base.item_data_statistics[15009] = {
 }
 
 _G.pg.base.item_data_statistics[15010] = {
-	display = "Can be used to increase Signal Sensitivity by 1. ",
-	name = "Distress Signal Receiver ",
+	display = "A device that was once used to amplify the receptibility of incoming distress signals. Can be used to randomly obtain one of the following gear designs: Mark 16 Submarine Torpedo T3 Design, Type 95 Submarine Torpedo T3 Design, G7e Acoustic Homing Submarine Torpedo T3 Design",
+	name = "Distress Signal Reception Device (Obsolete)",
 	max_num = 0,
-	type = 1,
+	type = 17,
 	time_limit = 0,
 	rarity = 4,
 	shop_id = -1,
@@ -10124,6 +10124,29 @@ _G.pg.base.item_data_statistics[21022] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[21023] = {
+	display = "An item that increases the potential of Algérie META. Used in the META Lab during Somatic Activation.",
+	name = "META Crystal – Algérie",
+	max_num = 0,
+	type = 4,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/21023",
+	id = 21023,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[21101] = {
 	display = "Rare equipment used to improve the firepower capabilities of META ships during Restoration.",
 	name = "Crystallized Heat-Resistant Steel",
@@ -10439,6 +10462,29 @@ _G.pg.base.item_data_statistics[21910] = {
 	is_world = 0,
 	icon = "Props/21910",
 	id = 21910,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[21911] = {
+	display = "Sync Points for Algérie META.",
+	name = "Synchronization Point – Algérie META",
+	max_num = 0,
+	type = 4,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/21911",
+	id = 21911,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -24330,7 +24376,7 @@ _G.pg.base.item_data_statistics[40925] = {
 }
 
 _G.pg.base.item_data_statistics[40926] = {
-	display = "Contains one random Summer 2023 dress skin, 2x Special General Blueprint - Series 5, 2023 Gems, 50x Cognitive Chips, 20x Wisdom Cubes, 100x Decor Tokens, and 10x Quick Finishers.",
+	display = "Contains one random Summer 2023 swimsuit skin, 2x Special General Blueprint - Series 5, 2023 Gems, 50x Cognitive Chips, 20x Wisdom Cubes, 100x Decor Tokens, and 10x Quick Finishers.",
 	name = "Swimsuit Lucky Bag 2023",
 	max_num = 0,
 	type = 17,
@@ -24343,12 +24389,71 @@ _G.pg.base.item_data_statistics[40926] = {
 	link_id = 0,
 	virtual_type = 0,
 	is_world = 0,
-	icon = "Props/lihecn6ss",
+	icon = "Props/liheus6lf",
 	id = 40926,
 	display_icon = {
 		{
 			2,
 			69926,
+			1
+		},
+		{
+			1,
+			4,
+			2023
+		},
+		{
+			2,
+			42046,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40927] = {
+	display = "Contains one random Summer 2023 dress skin, 2x Special General Blueprint - Series 5, 2023 Gems, 50x Cognitive Chips, 20x Wisdom Cubes, 100x Decor Tokens, and 10x Quick Finishers.",
+	name = "Exquisite Lucky Box 2023",
+	max_num = 0,
+	type = 17,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/lihecn6lf",
+	id = 40927,
+	display_icon = {
+		{
+			2,
+			69927,
 			1
 		},
 		{
@@ -188401,6 +188506,52 @@ _G.pg.base.item_data_statistics[59012] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[59015] = {
+	display = "A currency for use in the Arcade. Use it while playing minigames to earn Game Tickets.",
+	name = "Credits",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/gamecoin",
+	id = 59015,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59016] = {
+	display = "A currency for use in the Arcade's Prize Shop. Can be obtained by playing minigames while using Credits at the Arcade.",
+	name = "Game Ticket",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/gameticket",
+	id = 59016,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[59100] = {
 	display = "Increase Depot capacity by 20 slots",
 	name = "Depot Expansion",
@@ -194792,6 +194943,29 @@ _G.pg.base.item_data_statistics[59457] = {
 	is_world = 0,
 	icon = "props/island_invitation_pt",
 	id = 59457,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59458] = {
+	display = "\"Passionate Confession Practice\" event currency, used to raise Trust during the corresponding event. Will be removed when the event ends.",
+	name = "Practice Love Letter",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/little_taihou_pt",
+	id = 59458,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -205992,6 +206166,282 @@ _G.pg.base.item_data_statistics[60324] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[60401] = {
+	display = "前端不显示，道具看不到",
+	name = "海天活动道具1",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4889,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/puzzle",
+	id = 60401,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[60402] = {
+	display = "前端不显示，道具看不到",
+	name = "海天活动道具2",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4889,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/puzzle",
+	id = 60402,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[60403] = {
+	display = "前端不显示，道具看不到",
+	name = "海天活动道具3",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4889,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/puzzle",
+	id = 60403,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[60404] = {
+	display = "前端不显示，道具看不到",
+	name = "海天活动道具4",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4889,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/puzzle",
+	id = 60404,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[60405] = {
+	display = "前端不显示，道具看不到",
+	name = "海天活动道具5",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4889,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/puzzle",
+	id = 60405,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[60406] = {
+	display = "前端不显示，道具看不到",
+	name = "海天活动道具6",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4889,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/puzzle",
+	id = 60406,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[60407] = {
+	display = "前端不显示，道具看不到",
+	name = "海天活动道具7",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4889,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/puzzle",
+	id = 60407,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[60408] = {
+	display = "前端不显示，道具看不到",
+	name = "海天活动道具8",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4889,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/puzzle",
+	id = 60408,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[60409] = {
+	display = "前端不显示，道具看不到",
+	name = "海天活动道具9",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4889,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/puzzle",
+	id = 60409,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[60410] = {
+	display = "前端不显示，道具看不到",
+	name = "海天活动道具10",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4889,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/puzzle",
+	id = 60410,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[60411] = {
+	display = "前端不显示，道具看不到",
+	name = "海天活动道具11",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4889,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/puzzle",
+	id = 60411,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[60412] = {
+	display = "前端不显示，道具看不到",
+	name = "海天活动道具12",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4889,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/puzzle",
+	id = 60412,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[69000] = {
 	display = "Damage Rating from Guild battles and is also counted for Guild boss damage total",
 	name = "Damage Rating ",
@@ -206934,6 +207384,58 @@ The available outfits and their rarities are as follows:
 		{
 			202092,
 			950
+		}
+	}
+}
+
+_G.pg.base.item_data_statistics[69927] = {
+	display = "不会被看到",
+	name = "Random Skin",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/clothIcon",
+	id = 69927,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {
+		{
+			304052,
+			1200
+		},
+		{
+			131172,
+			1200
+		},
+		{
+			207036,
+			1600
+		},
+		{
+			403094,
+			1600
+		},
+		{
+			702034,
+			1600
+		},
+		{
+			236030,
+			1400
+		},
+		{
+			331056,
+			1400
 		}
 	}
 }
@@ -211410,6 +211912,29 @@ _G.pg.base.item_data_statistics[99974] = {
 	is_world = 0,
 	icon = "Props/54003",
 	id = 99974,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[99995] = {
+	display = "Compensation for rewards that were not properly granted while clearing HT6 in the \"Confluence of Nothingness\" event.",
+	name = "\"Confluence of Nothingness\" Compensation",
+	max_num = 0,
+	type = 17,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "props/giftbox",
+	id = 99995,
 	display_icon = {},
 	price = {},
 	index = {},

@@ -39,7 +39,7 @@ function slot0.Adjustion(slot0)
 end
 
 function slot1(slot0)
-	if PlayerPrefs.GetInt(BATTLERESULT_SKIP_DISPAY_PAINTING, 0) <= 0 then
+	if getProxy(SettingsProxy):IsDisplayResultPainting() then
 		return
 	end
 
@@ -143,11 +143,13 @@ function slot0.willExit(slot0)
 		slot0.backSceneHandler = nil
 	end
 
-	for slot4, slot5 in ipairs(slot0.history) do
-		slot5:Destroy()
-	end
+	if slot0.history then
+		for slot4, slot5 in ipairs(slot0.history) do
+			slot5:Destroy()
+		end
 
-	slot0.history = nil
+		slot0.history = nil
+	end
 end
 
 return slot0

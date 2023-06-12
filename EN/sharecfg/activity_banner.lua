@@ -72,18 +72,20 @@ pg.activity_banner = {
 	},
 	{
 		id = 3,
-		pic = "temp3",
+		pic = "temp6",
 		type = 2,
 		param = {
-			"scene skinshop",
-			{}
+			"scene charge",
+			{
+				wrap = 2
+			}
 		},
 		time = {
 			{
 				{
 					2023,
-					5,
-					25
+					6,
+					1
 				},
 				{
 					0,
@@ -106,16 +108,18 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "4871",
 		id = 4,
-		pic = "temp4",
-		type = 3,
+		pic = "temp3",
+		type = 2,
+		param = {
+			"equip transform"
+		},
 		time = {
 			{
 				{
 					2023,
-					5,
-					25
+					6,
+					8
 				},
 				{
 					0,
@@ -127,7 +131,7 @@ pg.activity_banner = {
 				{
 					2023,
 					6,
-					14
+					20
 				},
 				{
 					23,
@@ -138,7 +142,7 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "4874",
+		param = "4888",
 		id = 5,
 		pic = "temp5",
 		type = 3,
@@ -146,8 +150,42 @@ pg.activity_banner = {
 			{
 				{
 					2023,
-					5,
-					25
+					6,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					6,
+					20
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		id = 6,
+		pic = "temp7",
+		type = 2,
+		param = {
+			"scene level"
+		},
+		time = {
+			{
+				{
+					2023,
+					6,
+					8
 				},
 				{
 					0,
@@ -170,8 +208,8 @@ pg.activity_banner = {
 		}
 	},
 	{
-		id = 6,
-		pic = "temp6",
+		id = 7,
+		pic = "temp4",
 		type = 2,
 		param = {
 			"scene charge",
@@ -183,8 +221,8 @@ pg.activity_banner = {
 			{
 				{
 					2023,
-					5,
-					25
+					6,
+					8
 				},
 				{
 					0,
@@ -207,55 +245,16 @@ pg.activity_banner = {
 		}
 	},
 	{
-		id = 7,
-		pic = "temp7",
-		type = 2,
-		param = {
-			"scene court yard"
-		},
-		time = {
-			{
-				{
-					2023,
-					5,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					6,
-					14
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
+		param = "4883",
 		id = 8,
 		pic = "temp8",
-		type = 2,
-		param = {
-			"scene shop",
-			{
-				warp = "shopstreet"
-			}
-		},
+		type = 3,
 		time = {
 			{
 				{
 					2023,
-					5,
-					25
+					6,
+					1
 				},
 				{
 					0,
@@ -391,15 +390,15 @@ pg.activity_banner = {
 	get_id_list_by_type = {
 		[3] = {
 			1,
-			4,
-			5
+			5,
+			8
 		},
 		[2] = {
 			2,
 			3,
+			4,
 			6,
 			7,
-			8,
 			9
 		},
 		[9] = {

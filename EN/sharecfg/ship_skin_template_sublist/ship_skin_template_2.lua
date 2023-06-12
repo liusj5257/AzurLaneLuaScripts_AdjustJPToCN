@@ -1,114 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_2 = {
-	[101470] = {
-		ship_group = 10147,
-		name = "Morrison",
-		bullet_skin_secondary = "",
-		hand_id = 13,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 101470,
-		group_index = 0,
-		prefab = "molisen",
-		painting = "molisen",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 0,
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		spine_action_offset = false,
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "Fletcher-class destroyer – Morrison, Hull Number DD-560.",
-		voice_actor = 277,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.02,
-					1.12,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.99,
-					1.09,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.755,
-							2.437,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[101471] = {
 		ship_group = 10147,
 		name = "Sleeping Bunny",
@@ -3575,6 +3467,123 @@ pg.base.ship_skin_template_2 = {
 		main_UI_FX = "",
 		special_effects = "",
 		desc = "Isn't it real exciting visiting a place you don't normally get to go? We don't often get opportunities to travel like this, so let's go look for delicious food and spectacular scenery!",
+		voice_actor = 40,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.127,
+					0.986,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.103,
+					0.955,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.012,
+					0.024,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.168,
+					1.209,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.536,
+							2.334,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[102096] = {
+		ship_group = 10209,
+		name = "Golden Conductor",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "146",
+		id = 102096,
+		group_index = 6,
+		prefab = "kelifulan_7",
+		painting = "kelifulan_7",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 7,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		spine_action_offset = "",
+		skin_type = 0,
+		bg_sp = "1102",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Ahem... I, Cleveland, am your conductor for tonight! Whoa, the echo really IS faint! How did I not know we had such a fancy concert hall at the port? ...Oh, you wanna shout something too, Commander?",
 		voice_actor = 40,
 		spine_offset = "",
 		gyro = 0,
@@ -10910,6 +10919,127 @@ pg.base.ship_skin_template_2 = {
 							-0.465,
 							2.504,
 							-1.14
+						}
+					}
+				}
+			}
+		}
+	},
+	[103070] = {
+		ship_group = 10307,
+		name = "Indianapolis",
+		bullet_skin_secondary = "",
+		hand_id = 7,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 103070,
+		group_index = 0,
+		prefab = "bolisi",
+		painting = "bolisi",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 0,
+		illustrator = 10,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		spine_action_offset = false,
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Portland-class Heavy Cruiser – Indianapolis, Hull Number CA-35!",
+		voice_actor = 7,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.876,
+					1.689,
+					0
+				}
+			},
+			vicegun = {
+				{
+					-0.034,
+					2.917,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					-0.034,
+					2.917,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-1.18,
+							1.53,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							1.16,
+							1.21,
+							0
 						}
 					}
 				}

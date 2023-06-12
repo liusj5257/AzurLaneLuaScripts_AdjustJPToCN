@@ -1,7 +1,7 @@
 slot0 = class("NewBattleResultDataExtender")
 
 function slot0.NeedCloseCamera(slot0)
-	return slot0 ~= SYSTEM_BOSS_RUSH and slot0 ~= SYSTEM_BOSS_RUSH_EX and slot0 ~= SYSTEM_ACT_BOSS
+	return slot0 ~= SYSTEM_BOSS_RUSH and slot0 ~= SYSTEM_BOSS_RUSH_EX and slot0 ~= SYSTEM_ACT_BOSS and slot0 ~= SYSTEM_WORLD_BOSS
 end
 
 function slot0.NeedVibrate(slot0)
@@ -38,14 +38,14 @@ function slot0.GetExpBuffs(slot0)
 	return slot1
 end
 
-function slot0.GetShipBuffs()
-	slot0 = nil
+function slot0.GetShipBuffs(slot0)
+	slot1 = nil
 
-	if system == SYSTEM_SCENARIO or system == SYSTEM_ROUTINE or system == SYSTEM_ACT_BOSS or system == SYSTEM_HP_SHARE_ACT_BOSS or system == SYSTEM_SUB_ROUTINE or system == SYSTEM_WORLD then
-		slot0 = getProxy(ActivityProxy):getBuffShipList()
+	if slot0 == SYSTEM_SCENARIO or slot0 == SYSTEM_ROUTINE or slot0 == SYSTEM_ACT_BOSS or slot0 == SYSTEM_HP_SHARE_ACT_BOSS or slot0 == SYSTEM_SUB_ROUTINE or slot0 == SYSTEM_WORLD then
+		slot1 = getProxy(ActivityProxy):getBuffShipList()
 	end
 
-	return slot0
+	return slot1
 end
 
 function slot1()
@@ -135,6 +135,15 @@ function slot6(slot0)
 end
 
 function slot7(slot0)
+	slot1 = {}
+
+	table.insertto(slot1, getProxy(BayProxy):getShipsByFleet(getProxy(FleetProxy):getFleetById(FleetProxy.CHALLENGE_FLEET_ID)))
+	table.insertto(slot1, getProxy(BayProxy):getShipsByFleet(getProxy(FleetProxy):getFleetById(FleetProxy.CHALLENGE_SUB_FLEET_ID)))
+
+	return slot1
+end
+
+function slot8(slot0)
 	return getProxy(BayProxy):getShipsByFleet(getProxy(FleetProxy):getFleetById(slot0.mainFleetId))
 end
 
@@ -154,8 +163,12 @@ function slot0.GetNewMainShips(slot0)
 	elseif slot1 == SYSTEM_BOSS_RUSH or slot1 == SYSTEM_BOSS_RUSH_EX then
 		slot2 = uv5(slot0)
 	elseif slot1 ~= SYSTEM_DODGEM and slot1 ~= SYSTEM_SUBMARINE_RUN and slot1 ~= SYSTEM_REWARD_PERFORM and slot1 ~= SYSTEM_AIRFIGHT then
-		if slot1 ~= SYSTEM_CHALLENGE then
+		if slot1 == SYSTEM_CHALLENGE then
+			-- Nothing
+		elseif slot1 == SYSTEM_LIMIT_CHALLENGE then
 			slot2 = uv6(slot0)
+		else
+			slot2 = uv7(slot0)
 		end
 	end
 

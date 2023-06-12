@@ -11689,9 +11689,9 @@ _G.pg.base.task_data_template[5194] = {
 	guild_coin_award = 0,
 	award = 5152,
 	type = 5,
-	desc = "完成1次求救信號",
+	desc = "速科夫上陣完成一次破交作戰",
 	count_inherit = 0,
-	sub_type = 21,
+	sub_type = 19,
 	target_id_2 = "",
 	story_icon = "xukufu",
 	is_head = 0,
@@ -11703,23 +11703,15 @@ _G.pg.base.task_data_template[5194] = {
 	level = 1,
 	ryza_icon = "",
 	priority_type = 0,
+	story_id = "XUKUFU4",
+	target_id = "80801",
 	next_task = "5195",
 	auto_commit = 0,
-	story_id = "XUKUFU4",
+	scene = "",
 	id = 5194,
 	target_num = 1,
 	fix_task = 0,
 	added_tip = 1,
-	target_id = {
-		305,
-		405,
-		505,
-		605,
-		705,
-		805,
-		905,
-		1005
-	},
 	open_need = {},
 	award_display = {
 		{
@@ -11727,9 +11719,6 @@ _G.pg.base.task_data_template[5194] = {
 			1,
 			100
 		}
-	},
-	scene = {
-		"LEVEL"
 	}
 }
 
@@ -13190,9 +13179,9 @@ _G.pg.base.task_data_template[5244] = {
 	guild_coin_award = 0,
 	award = 5187,
 	type = 5,
-	desc = "完成1次求救信號關卡 ",
+	desc = "大青花魚上陣完成一次破交作戰 ",
 	count_inherit = 0,
-	sub_type = 21,
+	sub_type = 19,
 	target_id_2 = "",
 	story_icon = "daqinghuayu",
 	is_head = 0,
@@ -13204,23 +13193,15 @@ _G.pg.base.task_data_template[5244] = {
 	level = 1,
 	ryza_icon = "",
 	priority_type = 0,
+	story_id = "DAQINGHUAYU4",
+	target_id = "10802",
 	next_task = "5245",
 	auto_commit = 0,
-	story_id = "DAQINGHUAYU4",
+	scene = "",
 	id = 5244,
 	target_num = 1,
 	fix_task = 0,
 	added_tip = 1,
-	target_id = {
-		305,
-		405,
-		505,
-		605,
-		705,
-		805,
-		905,
-		1005
-	},
 	open_need = {},
 	award_display = {
 		{
@@ -13228,9 +13209,6 @@ _G.pg.base.task_data_template[5244] = {
 			1,
 			100
 		}
-	},
-	scene = {
-		"LEVEL"
 	}
 }
 
@@ -19459,9 +19437,9 @@ _G.pg.base.task_data_template[5464] = {
 	guild_coin_award = 0,
 	award = 5341,
 	type = 5,
-	desc = "完成1次求救信號關卡",
+	desc = "U-556上陣完成一次破交作戰",
 	count_inherit = 0,
-	sub_type = 21,
+	sub_type = 19,
 	target_id_2 = "",
 	story_icon = "u556",
 	is_head = 0,
@@ -19473,23 +19451,15 @@ _G.pg.base.task_data_template[5464] = {
 	level = 1,
 	ryza_icon = "",
 	priority_type = 0,
+	story_id = "U556STORY4",
+	target_id = "40804",
 	next_task = "5465",
 	auto_commit = 0,
-	story_id = "U556STORY4",
+	scene = "",
 	id = 5464,
 	target_num = 1,
 	fix_task = 0,
 	added_tip = 1,
-	target_id = {
-		305,
-		405,
-		505,
-		605,
-		705,
-		805,
-		905,
-		1005
-	},
 	open_need = {},
 	award_display = {
 		{
@@ -19497,9 +19467,6 @@ _G.pg.base.task_data_template[5464] = {
 			1,
 			100
 		}
-	},
-	scene = {
-		"LEVEL"
 	}
 }
 
@@ -19768,9 +19735,9 @@ _G.pg.base.task_data_template[5474] = {
 	guild_coin_award = 0,
 	award = 5348,
 	type = 5,
-	desc = "完成1次求救信號關卡",
+	desc = "棘鰭上陣完成一次破交作戰",
 	count_inherit = 0,
-	sub_type = 21,
+	sub_type = 19,
 	target_id_2 = "",
 	story_icon = "jiqi",
 	is_head = 0,
@@ -19782,23 +19749,15 @@ _G.pg.base.task_data_template[5474] = {
 	level = 1,
 	ryza_icon = "",
 	priority_type = 0,
+	story_id = "JIQI4",
+	target_id = "10803",
 	next_task = "5475",
 	auto_commit = 0,
-	story_id = "JIQI4",
+	scene = "",
 	id = 5474,
 	target_num = 1,
 	fix_task = 0,
 	added_tip = 1,
-	target_id = {
-		305,
-		405,
-		505,
-		605,
-		705,
-		805,
-		905,
-		1005
-	},
 	open_need = {},
 	award_display = {
 		{
@@ -19806,9 +19765,6 @@ _G.pg.base.task_data_template[5474] = {
 			1,
 			100
 		}
-	},
-	scene = {
-		"LEVEL"
 	}
 }
 
@@ -24547,9 +24503,9 @@ _G.pg.base.task_data_template[5634] = {
 	guild_coin_award = 0,
 	award = 5460,
 	type = 5,
-	desc = "完成1次求救訊號關卡 ",
+	desc = "U-47上陣完成一次破交作戰",
 	count_inherit = 0,
-	sub_type = 21,
+	sub_type = 19,
 	target_id_2 = "",
 	story_icon = "u47",
 	is_head = 0,
@@ -24561,23 +24517,15 @@ _G.pg.base.task_data_template[5634] = {
 	level = 1,
 	ryza_icon = "",
 	priority_type = 0,
+	story_id = "U474",
+	target_id = "40802",
 	next_task = "5635",
 	auto_commit = 0,
-	story_id = "U474",
+	scene = "",
 	id = 5634,
 	target_num = 1,
 	fix_task = 0,
 	added_tip = 1,
-	target_id = {
-		305,
-		405,
-		505,
-		605,
-		705,
-		805,
-		905,
-		1005
-	},
 	open_need = {},
 	award_display = {
 		{
@@ -24585,9 +24533,6 @@ _G.pg.base.task_data_template[5634] = {
 			1,
 			100
 		}
-	},
-	scene = {
-		"LEVEL"
 	}
 }
 
@@ -24944,7 +24889,7 @@ _G.pg.base.task_data_template[5646] = {
 	type = 5,
 	desc = "納爾遜突破至滿星",
 	count_inherit = 0,
-	sub_type = 35,
+	sub_type = 33,
 	target_id_2 = "",
 	story_icon = "naerxun",
 	is_head = 0,
@@ -24957,12 +24902,12 @@ _G.pg.base.task_data_template[5646] = {
 	ryza_icon = "",
 	priority_type = 0,
 	story_id = "NAERXUN6",
-	target_id = "205034",
+	target_id = "20503",
 	next_task = "5647",
 	auto_commit = 0,
 	scene = "",
 	id = 5646,
-	target_num = 1,
+	target_num = 5,
 	fix_task = 0,
 	added_tip = 1,
 	open_need = {},
@@ -134620,6 +134565,580 @@ _G.pg.base.task_data_template[17716] = {
 	}
 }
 
+_G.pg.base.task_data_template[17718] = {
+	name = "『国服五周年』第二弹登录送皮肤体验券活动",
+	guild_coin_award = 0,
+	award = 97585,
+	type = 6,
+	desc = "登入遊戲",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17718,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			261,
+			3
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17719] = {
+	name = "『勒马尔礼服』七日任务1",
+	guild_coin_award = 0,
+	award = 97586,
+	type = 26,
+	desc = "艦隊出擊，以S評價通關10次",
+	count_inherit = 0,
+	sub_type = 24,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17719,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17720] = {
+	name = "『勒马尔礼服』七日任务1",
+	guild_coin_award = 0,
+	award = 97587,
+	type = 26,
+	desc = "登入遊戲",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17720,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54049,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17721] = {
+	name = "『勒马尔礼服』七日任务2",
+	guild_coin_award = 0,
+	award = 97588,
+	type = 26,
+	desc = "進行2次演習",
+	count_inherit = 0,
+	sub_type = 27,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17721,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54049,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17722] = {
+	name = "『勒马尔礼服』七日任务2",
+	guild_coin_award = 0,
+	award = 97589,
+	type = 26,
+	desc = "完成軍事委託2次",
+	count_inherit = 0,
+	sub_type = 80,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17722,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17723] = {
+	name = "『勒马尔礼服』七日任务3",
+	guild_coin_award = 0,
+	award = 97590,
+	type = 26,
+	desc = "艦船退役2次",
+	count_inherit = 0,
+	sub_type = 31,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17723,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54015,
+			5
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17724] = {
+	name = "『勒马尔礼服』七日任务3",
+	guild_coin_award = 0,
+	award = 97591,
+	type = 26,
+	desc = "完成3次每日挑戰",
+	count_inherit = 0,
+	sub_type = 26,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17724,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17725] = {
+	name = "『勒马尔礼服』七日任务4",
+	guild_coin_award = 0,
+	award = 97592,
+	type = 26,
+	desc = "艦船強化5次",
+	count_inherit = 0,
+	sub_type = 34,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17725,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54033,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17726] = {
+	name = "『勒马尔礼服』七日任务4",
+	guild_coin_award = 0,
+	award = 97593,
+	type = 26,
+	desc = "進行戰術訓練2次",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17726,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17727] = {
+	name = "『勒马尔礼服』七日任务5",
+	guild_coin_award = 0,
+	award = 97594,
+	type = 26,
+	desc = "擊沉任意敵人20艘",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17727,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17728] = {
+	name = "『勒马尔礼服』七日任务5",
+	guild_coin_award = 0,
+	award = 97595,
+	type = 26,
+	desc = "後宅補充食物5次",
+	count_inherit = 0,
+	sub_type = 61,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17728,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			17003,
+			10
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17729] = {
+	name = "『勒马尔礼服』七日任务6",
+	guild_coin_award = 0,
+	award = 97596,
+	type = 26,
+	desc = "建造艦船2次",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17729,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54006,
+			5
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17730] = {
+	name = "『勒马尔礼服』七日任务6",
+	guild_coin_award = 0,
+	award = 97597,
+	type = 26,
+	desc = "打開任意科技箱1個",
+	count_inherit = 0,
+	sub_type = 50,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17730,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17731] = {
+	name = "『勒马尔礼服』七日任务7",
+	guild_coin_award = 0,
+	award = 97598,
+	type = 26,
+	desc = "進行2次戰術訓練",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17731,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17732] = {
+	name = "『勒马尔礼服』七日任务7",
+	guild_coin_award = 0,
+	award = 97599,
+	type = 26,
+	desc = "擊敗旗艦3次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17732,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			7,
+			901013,
+			1
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
 _G.pg.base.task_data_template[17733] = {
 	name = "特殊兵装支援活动任务1",
 	guild_coin_award = 0,
@@ -145904,6 +146423,502 @@ _G.pg.base.task_data_template[18823] = {
 		"SHOP",
 		{
 			warp = "shopstreet"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18884] = {
+	name = "小大凤",
+	guild_coin_award = 0,
+	award = 99873,
+	type = 6,
+	desc = "不该看到",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18884,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			4,
+			307131,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18891] = {
+	name = "海天皮肤活动1",
+	guild_coin_award = 0,
+	award = 99901,
+	type = 26,
+	desc = "艦隊出擊，以S評價通關10次",
+	count_inherit = 0,
+	sub_type = 24,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18891,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			5,
+			251,
+			1
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[18892] = {
+	name = "海天皮肤活动2",
+	guild_coin_award = 0,
+	award = 99902,
+	type = 26,
+	desc = "登入遊戲",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18892,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54049,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18893] = {
+	name = "海天皮肤活动3",
+	guild_coin_award = 0,
+	award = 99903,
+	type = 26,
+	desc = "完成軍事委託2次",
+	count_inherit = 0,
+	sub_type = 80,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18893,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18894] = {
+	name = "海天皮肤活动4",
+	guild_coin_award = 0,
+	award = 99904,
+	type = 26,
+	desc = "進行2次演習",
+	count_inherit = 0,
+	sub_type = 27,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18894,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54049,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18895] = {
+	name = "海天皮肤活动5",
+	guild_coin_award = 0,
+	award = 99905,
+	type = 26,
+	desc = "完成3次每日挑戰",
+	count_inherit = 0,
+	sub_type = 26,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18895,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18896] = {
+	name = "海天皮肤活动6",
+	guild_coin_award = 0,
+	award = 99906,
+	type = 26,
+	desc = "艦船退役2次",
+	count_inherit = 0,
+	sub_type = 31,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18896,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54015,
+			5
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18897] = {
+	name = "海天皮肤活动7",
+	guild_coin_award = 0,
+	award = 99907,
+	type = 26,
+	desc = "進行戰術訓練2次",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18897,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18898] = {
+	name = "海天皮肤活动8",
+	guild_coin_award = 0,
+	award = 99908,
+	type = 26,
+	desc = "艦船強化5次",
+	count_inherit = 0,
+	sub_type = 34,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18898,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54033,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18899] = {
+	name = "海天皮肤活动9",
+	guild_coin_award = 0,
+	award = 99909,
+	type = 26,
+	desc = "擊沉任意敵人20艘",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18899,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18900] = {
+	name = "海天皮肤活动10",
+	guild_coin_award = 0,
+	award = 99910,
+	type = 26,
+	desc = "後宅補充食物5次",
+	count_inherit = 0,
+	sub_type = 61,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18900,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			17003,
+			10
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18901] = {
+	name = "海天皮肤活动11",
+	guild_coin_award = 0,
+	award = 99911,
+	type = 26,
+	desc = "打開任意科技箱1個",
+	count_inherit = 0,
+	sub_type = 50,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18901,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18902] = {
+	name = "海天皮肤活动12",
+	guild_coin_award = 0,
+	award = 99912,
+	type = 26,
+	desc = "建造艦船2次",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18902,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54006,
+			2
 		}
 	}
 }

@@ -93,7 +93,7 @@ function slot0.DoEnter(slot0, slot1)
 	slot0.timer = Timer.New(function ()
 		uv0 = uv0 - 1
 
-		if count == 3 then
+		if uv0 == 3 then
 			pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_STEP_PILE_COUNTDOWN)
 		end
 
@@ -242,7 +242,7 @@ function slot0.ShowQuitPanel(slot0)
 	slot0:ActivePanel(slot0.quitPanel, true)
 	onButton(slot0, slot0.quitPanelCconfirmBtn, function ()
 		uv0:ActivePanel(uv0.quitPanel, false)
-		uv0.controller:ExitGame()
+		uv0.controller:EndGame()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.quitPanelCancelBtn, function ()
 		uv0:ActivePanel(uv0.quitPanel, false)

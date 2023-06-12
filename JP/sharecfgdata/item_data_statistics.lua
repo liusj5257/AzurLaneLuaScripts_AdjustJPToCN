@@ -7365,10 +7365,10 @@ _G.pg.base.item_data_statistics[15009] = {
 }
 
 _G.pg.base.item_data_statistics[15010] = {
-	display = "救助信号の受信感度を向上させる。使用すると受信数が+1になる。",
-	name = "救助信号受信装置",
+	display = "信号の受信感度を向上できる装置。倉庫で使用すると、【潜水艦用Mark16魚雷T3設計図】【潜水艦用九五式酸素魚雷T3設計図】【潜水艦用G7e音響追跡魚雷T3設計図】からランダム1個入手可能",
+	name = "救助信号受信装置（陳腐化）",
 	max_num = 0,
-	type = 1,
+	type = 17,
 	time_limit = 0,
 	rarity = 4,
 	shop_id = -1,
@@ -10102,6 +10102,29 @@ _G.pg.base.item_data_statistics[21022] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[21023] = {
+	display = "アルジェリー(META)の能力を上昇させるアイテム。メタラボの限界突破に使用可能",
+	name = "結晶：アルジェリー(META)",
+	max_num = 0,
+	type = 4,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/21023",
+	id = 21023,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[21101] = {
 	display = "艤装の火力を強化できるレア素材。「メタラボ」の「強化」で使用可能",
 	name = "耐熱強化結晶鋼",
@@ -10417,6 +10440,29 @@ _G.pg.base.item_data_statistics[21910] = {
 	is_world = 0,
 	icon = "Props/21910",
 	id = 21910,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[21911] = {
+	display = "アルジェリー(META)の解析ポイント",
+	name = "アルジェリー(META)解析Pt",
+	max_num = 0,
+	type = 4,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/21911",
+	id = 21911,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -24806,6 +24852,65 @@ _G.pg.base.item_data_statistics[40926] = {
 		{
 			2,
 			69926,
+			1
+		},
+		{
+			1,
+			4,
+			2023
+		},
+		{
+			2,
+			42046,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40927] = {
+	display = "ランダムな（ドレス夏2023シリーズ）の着せ替え衣装、上級指向型強化ユニット・五期目×2、ダイヤ×2023、メンタルユニット×50、キューブ×20、家具コイン×100、高速建造材×10が入手できます",
+	name = "福袋(夏2023)",
+	max_num = 0,
+	type = 17,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/lihecn6lf",
+	id = 40927,
+	display_icon = {
+		{
+			2,
+			69927,
 			1
 		},
 		{
@@ -195857,6 +195962,52 @@ _G.pg.base.item_data_statistics[59012] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[59015] = {
+	display = "ゲームロビーで入手できるコイン。ミニゲームをプレイする際、コインを消費すると報酬交換チケットを入手できます",
+	name = "ゲームコイン",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/gamecoin",
+	id = 59015,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59016] = {
+	display = "ゲームロビーで入手できるチケット。ミニゲームをプレイする際、ゲームコインを消費して入手可能。ショップの「チケット」で報酬と交換できます",
+	name = "報酬交換チケット",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/gameticket",
+	id = 59016,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[59100] = {
 	display = "倉庫を20枠拡張する",
 	name = "倉庫拡張",
@@ -202455,6 +202606,29 @@ _G.pg.base.item_data_statistics[59457] = {
 	is_world = 0,
 	icon = "props/island_invitation_pt",
 	id = 59457,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59458] = {
+	display = "「熱烈の告白演習」で入手できるイベントPt。イベント画面の「受取」をタップすると信頼度に変換できます",
+	name = "大鳳のらぶれたー",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/little_taihou_pt",
+	id = 59458,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -214314,6 +214488,282 @@ _G.pg.base.item_data_statistics[60324] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[60401] = {
+	display = "前端不显示，道具看不到",
+	name = "海天活动道具1",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4889,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/puzzle",
+	id = 60401,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[60402] = {
+	display = "前端不显示，道具看不到",
+	name = "海天活动道具2",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4889,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/puzzle",
+	id = 60402,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[60403] = {
+	display = "前端不显示，道具看不到",
+	name = "海天活动道具3",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4889,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/puzzle",
+	id = 60403,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[60404] = {
+	display = "前端不显示，道具看不到",
+	name = "海天活动道具4",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4889,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/puzzle",
+	id = 60404,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[60405] = {
+	display = "前端不显示，道具看不到",
+	name = "海天活动道具5",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4889,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/puzzle",
+	id = 60405,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[60406] = {
+	display = "前端不显示，道具看不到",
+	name = "海天活动道具6",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4889,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/puzzle",
+	id = 60406,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[60407] = {
+	display = "前端不显示，道具看不到",
+	name = "海天活动道具7",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4889,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/puzzle",
+	id = 60407,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[60408] = {
+	display = "前端不显示，道具看不到",
+	name = "海天活动道具8",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4889,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/puzzle",
+	id = 60408,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[60409] = {
+	display = "前端不显示，道具看不到",
+	name = "海天活动道具9",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4889,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/puzzle",
+	id = 60409,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[60410] = {
+	display = "前端不显示，道具看不到",
+	name = "海天活动道具10",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4889,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/puzzle",
+	id = 60410,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[60411] = {
+	display = "前端不显示，道具看不到",
+	name = "海天活动道具11",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4889,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/puzzle",
+	id = 60411,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[60412] = {
+	display = "前端不显示，道具看不到",
+	name = "海天活动道具12",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4889,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/puzzle",
+	id = 60412,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[69000] = {
 	display = "大舰队作战伤害数值，仅用于大舰队BOSS伤害结算",
 	name = "伤害值",
@@ -215361,6 +215811,58 @@ _G.pg.base.item_data_statistics[69926] = {
 		{
 			202092,
 			950
+		}
+	}
+}
+
+_G.pg.base.item_data_statistics[69927] = {
+	display = "不会被看到",
+	name = "ランダム2023夏ドレス衣装",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/clothIcon",
+	id = 69927,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {
+		{
+			304052,
+			1200
+		},
+		{
+			131172,
+			1200
+		},
+		{
+			207036,
+			1600
+		},
+		{
+			403094,
+			1600
+		},
+		{
+			702034,
+			1600
+		},
+		{
+			236030,
+			1400
+		},
+		{
+			331056,
+			1400
 		}
 	}
 }
@@ -218761,6 +219263,29 @@ _G.pg.base.item_data_statistics[99994] = {
 	is_world = 0,
 	icon = "props/giftbox",
 	id = 99994,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[99995] = {
+	display = "「覆天せし万象の塵」で正常に付与されなかったHT6クリア時報酬の補填",
+	name = "「覆天せし万象の塵」補填",
+	max_num = 0,
+	type = 17,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "props/giftbox",
+	id = 99995,
 	display_icon = {},
 	price = {},
 	index = {},

@@ -28,9 +28,13 @@ function slot0.Execute(slot0)
 		if slot0:CheckBossRushSystem(slot1) then
 			slot0:ResultRushBossSystem(slot1)
 		end
+	elseif slot2 == SYSTEM_LIMIT_CHALLENGE then
+		slot0:ExitLimitChallengeSystem(slot1)
 	else
 		slot0:ExitCommonSystem(slot1)
 	end
+
+	getProxy(MetaCharacterProxy):clearLastMetaSkillExpInfoList()
 end
 
 function slot0.ExitDuelSystem(slot0, slot1)
@@ -68,11 +72,11 @@ function slot0.ExitScenarioSystem(slot0, slot1)
 		getProxy(ChapterProxy):StopAutoFight()
 	end
 
-	if getProxy(ContextProxy):getContextByMediator(LevelMediator2):getContextByMediator(ChapterPreCombatMediator) then
+	if getProxy(ContextProxy):getContextByMediator(LevelMediator2) and slot3:getContextByMediator(ChapterPreCombatMediator) then
 		slot3:removeChild(slot4)
 	end
 
-	if slot1.score > 1 then
+	if ys.Battle.BattleConst.BattleScore.C < slot1.score then
 		slot0:ShowExtraChapterActSocre(slot1)
 	end
 
@@ -109,6 +113,9 @@ function slot0.ExitWorldBossSystem(slot0, slot1)
 		slot3:removeChild(slot4)
 	end
 
+	pg.m02:sendNotification(GAME.WORLD_BOSS_BATTLE_QUIT, {
+		id = slot1.bossId
+	})
 	pg.m02:sendNotification(GAME.GO_BACK)
 end
 
@@ -166,9 +173,17 @@ function slot0.ExitRushBossSystem(slot0, slot1, slot2)
 	pg.m02:sendNotification(GAME.GO_BACK)
 end
 
+function slot0.ExitLimitChallengeSystem(slot0, slot1)
+	if getProxy(ContextProxy):getContextByMediator(LimitChallengeMediator) and slot3:getContextByMediator(LimitChallengePreCombatMediator) then
+		slot3:removeChild(slot4)
+	end
+
+	pg.m02:sendNotification(GAME.GO_BACK)
+end
+
 function slot0.ExitCommonSystem(slot0, slot1)
-	if getProxy(ContextProxy):getContextByMediator(LevelMediator2) then
-		slot3:removeChild(slot3:getContextByMediator(PreCombatMediator))
+	if getProxy(ContextProxy):getContextByMediator(LevelMediator2) and slot3:getContextByMediator(PreCombatMediator) then
+		slot3:removeChild(slot4)
 	end
 
 	pg.m02:sendNotification(GAME.GO_BACK)
@@ -229,13 +244,13 @@ function slot2(slot0)
 		uv4 = uv4 + slot1
 	end)()
 	(function ()
-		slot1 = uv0[self.contextData.mainFleetId + 10]:GetCostSum().oil
+		slot1 = uv0[uv1.mainFleetId + 10]:GetCostSum().oil
 
-		if uv1 and uv2[2] > 0 then
-			slot1 = math.min(slot1, uv2[2])
+		if uv2 and uv3[2] > 0 then
+			slot1 = math.min(slot1, uv3[2])
 		end
 
-		uv3 = uv3 + slot1
+		uv4 = uv4 + slot1
 	end)()
 
 	return 0
@@ -283,12 +298,14 @@ function slot0.CheckActBossSystem(slot0, slot1)
 		return
 	end
 
-	if #_.map(_.values(actFleet[slot1.mainFleetId].ships), function (slot0)
+	slot2 = getProxy(FleetProxy)
+
+	if #_.map(_.values(slot2:getActivityFleets()[slot1.actId][slot1.mainFleetId].ships), function (slot0)
 		if getProxy(BayProxy):getShipById(slot0) and slot1.energy == Ship.ENERGY_LOW then
 			return slot1
 		end
 	end) > 0 then
-		uv1(slot1, i18n("multiple_sorties_stop_reason2", Fleet.DEFAULT_NAME_BOSS_ACT[slot1.mainFleetId], table.concat(_.map(slot3, function (slot0)
+		uv1(slot1, i18n("multiple_sorties_stop_reason2", Fleet.DEFAULT_NAME_BOSS_ACT[slot1.mainFleetId], table.concat(_.map(slot5, function (slot0)
 			return "「" .. slot0:getConfig("name") .. "」"
 		end), "")))
 
@@ -303,7 +320,9 @@ function slot0.CheckActBossSystem(slot0, slot1)
 
 	uv2()
 
-	if contextProxy:getCurrentContext():getContextByMediator(ContinuousOperationMediator) and not slot4.data.autoFlag then
+	slot6 = getProxy(ContextProxy)
+
+	if getProxy(ContextProxy):getCurrentContext():getContextByMediator(ContinuousOperationMediator) and not slot7.data.autoFlag then
 		uv1(slot1)
 
 		return
@@ -345,6 +364,9 @@ end
 function slot0.CheckBossRushSystem(slot0, slot1)
 	slot3 = ys.Battle.BattleConst.BattleScore.C < slot1.score
 	slot6 = getProxy(ActivityProxy):getActivityById(slot1.actId):GetSeriesData()
+
+	assert(slot6)
+
 	slot7 = slot6:GetStaegLevel() + 1
 	slot8 = slot6:GetExpeditionIds()
 
@@ -420,21 +442,21 @@ function slot0.handleNotification(slot0, slot1)
 	end
 end
 
-function slot0.addSubLayers(slot0)
-	assert(isa(context, Context), "should be an instance of Context")
+function slot0.addSubLayers(slot0, slot1, slot2, slot3)
+	assert(isa(slot1, Context), "should be an instance of Context")
 
-	slot3 = getProxy(ContextProxy):getCurrentContext():getContextByMediator(NewBattleResultMediator)
+	slot6 = getProxy(ContextProxy):getCurrentContext():getContextByMediator(NewBattleResultMediator)
 
-	if attachToScene then
-		while slot3.parent do
-			slot3 = slot3.parent
+	if slot2 then
+		while slot6.parent do
+			slot6 = slot6.parent
 		end
 	end
 
 	slot0:sendNotification(GAME.LOAD_LAYERS, {
-		parentContext = slot3,
-		context = context,
-		callback = callback
+		parentContext = slot6,
+		context = slot1,
+		callback = slot3
 	})
 end
 

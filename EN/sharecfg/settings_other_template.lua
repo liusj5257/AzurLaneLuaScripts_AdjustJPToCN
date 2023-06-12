@@ -170,13 +170,13 @@ The Detection Gauge will not decrease in Exercise Battles. Additionally, once th
 		desc = "When toggled ON, changes the font color of the names of oathed ships."
 	},
 	{
-		default = 0,
-		name = "BATTLERESULT_SKIP_DISPAY_PAINTING",
+		default = 1,
+		name = "BATTLERESULT_DISPAY_PAINTING",
 		type = 0,
 		alignment = 0,
 		id = 17,
-		title = "Fast Combat Results Screen",
-		desc = "When toggled ON, part of the combat results screen will be skipped."
+		title = "Display Battle Result Cutscene",
+		desc = "When toggled ON, battle result screen will show extra cutscene."
 	},
 	all = {
 		1,

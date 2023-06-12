@@ -7223,10 +7223,10 @@ _G.pg.base.item_data_statistics[15009] = {
 }
 
 _G.pg.base.item_data_statistics[15010] = {
-	display = "增強信號接收的靈敏度、使用後求救信號+1",
-	name = "信號增強裝置",
+	display = "曾經擁有某種功能的分析設備，現在使用後可以從【潛艇用Mark16魚雷T3設計圖】【潛艇用95式純氧魚雷T3設計圖】【潛艇用G7e聲導魚雷T3設計圖】中隨機獲得一張",
+	name = "信號增強裝置（已失效）",
 	max_num = 0,
-	type = 1,
+	type = 17,
 	time_limit = 0,
 	rarity = 4,
 	shop_id = -1,
@@ -20492,6 +20492,65 @@ _G.pg.base.item_data_statistics[40921] = {
 			2,
 			59900,
 			1000
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40927] = {
+	display = "購買禮包可獲得隨機換裝*1，鑽石*2023，高級定向藍圖・五期*2，心智單元*50，心智魔方*20，快速完成工具*10，傢俱幣*100",
+	name = "夏日禮盒（2023）",
+	max_num = 0,
+	type = 17,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/lihejp6lf",
+	id = 40927,
+	display_icon = {
+		{
+			2,
+			69927,
+			1
+		},
+		{
+			1,
+			4,
+			2023
+		},
+		{
+			2,
+			42046,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
 		}
 	},
 	price = {},
@@ -153485,6 +153544,52 @@ _G.pg.base.item_data_statistics[59012] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[59015] = {
+	display = "游戏室的通用代币，只有游戏币进行游戏才能获得游戏奖券！",
+	name = "游戏币",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/gamecoin",
+	id = 59015,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59016] = {
+	display = "在游戏屋游玩游戏的奖励，需要投入游戏币才能获取。累计到一定数量后可在奖券商店兑换物品。",
+	name = "游戏奖券",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/gameticket",
+	id = 59016,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[59100] = {
 	display = "擴充倉庫20格",
 	name = "擴充倉庫",
@@ -158013,6 +158118,29 @@ _G.pg.base.item_data_statistics[59457] = {
 	is_world = 0,
 	icon = "props/island_invitation_pt",
 	id = 59457,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59458] = {
+	display = "用於「熱烈的告白練習」活動提升角色好感，活動結束後將會消失",
+	name = "練習情書",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/little_taihou_pt",
+	id = 59458,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -166617,6 +166745,282 @@ _G.pg.base.item_data_statistics[60324] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[60401] = {
+	display = "前端不显示，道具看不到",
+	name = "壁畫1",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4889,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/puzzle",
+	id = 60401,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[60402] = {
+	display = "前端不显示，道具看不到",
+	name = "壁畫2",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4889,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/puzzle",
+	id = 60402,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[60403] = {
+	display = "前端不显示，道具看不到",
+	name = "壁畫3",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4889,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/puzzle",
+	id = 60403,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[60404] = {
+	display = "前端不显示，道具看不到",
+	name = "壁畫4",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4889,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/puzzle",
+	id = 60404,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[60405] = {
+	display = "前端不显示，道具看不到",
+	name = "壁畫5",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4889,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/puzzle",
+	id = 60405,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[60406] = {
+	display = "前端不显示，道具看不到",
+	name = "壁畫6",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4889,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/puzzle",
+	id = 60406,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[60407] = {
+	display = "前端不显示，道具看不到",
+	name = "壁畫7",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4889,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/puzzle",
+	id = 60407,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[60408] = {
+	display = "前端不显示，道具看不到",
+	name = "壁畫8",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4889,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/puzzle",
+	id = 60408,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[60409] = {
+	display = "前端不显示，道具看不到",
+	name = "壁畫9",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4889,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/puzzle",
+	id = 60409,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[60410] = {
+	display = "前端不显示，道具看不到",
+	name = "壁畫10",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4889,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/puzzle",
+	id = 60410,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[60411] = {
+	display = "前端不显示，道具看不到",
+	name = "壁畫11",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4889,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/puzzle",
+	id = 60411,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[60412] = {
+	display = "前端不显示，道具看不到",
+	name = "壁畫12",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4889,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/puzzle",
+	id = 60412,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[69001] = {
 	display = [[
 可以獲得以下裝備：
@@ -166810,6 +167214,68 @@ _G.pg.base.item_data_statistics[69911] = {
 	index = {},
 	shiptrans_id = {},
 	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[69927] = {
+	display = [[
+從如下換裝中隨機獲得1件換裝(如果該換裝已擁有，則會自動轉化為該換裝等價的鑽石) 
+包含的換裝和機率如下：
+（<color=#92fc63>13.0%</color>）羅恩換裝 蒼翠的安眠曲<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>15.0%</color>）豪換裝 奢華之夜宴；
+（<color=#92fc63>15.0%</color>）鐵必制換裝 獨秀的冰華；
+（<color=#92fc63>15.0%</color>）華盛頓換裝 微笑嘉年華；
+（<color=#92fc63>14.0%</color>）波夕換裝 翠玉的海人魚；
+（<color=#92fc63>14.0%</color>）{namecode:103}換裝 水墨麗色；
+（<color=#92fc63>14.0%</color>）威嚴換裝 別樣的品茶時光；
+ ]],
+	name = "隨機換裝",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/clothIcon",
+	id = 69927,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {
+		{
+			304052,
+			1200
+		},
+		{
+			131172,
+			1200
+		},
+		{
+			207036,
+			1600
+		},
+		{
+			403094,
+			1600
+		},
+		{
+			702034,
+			1600
+		},
+		{
+			236030,
+			1400
+		},
+		{
+			331056,
+			1400
+		}
+	}
 }
 
 _G.pg.base.item_data_statistics[69930] = {
@@ -170626,7 +171092,36 @@ _G.pg.base.item_data_statistics[86003] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {
+		{
+			499012,
+			1300
+		},
+		{
+			205093,
+			1500
+		},
+		{
+			405024,
+			1500
+		},
+		{
+			105131,
+			1500
+		},
+		{
+			102293,
+			1400
+		},
+		{
+			306082,
+			1400
+		},
+		{
+			701024,
+			1400
+		}
+	}
 }
 
 _G.pg.base.item_data_statistics[86004] = {

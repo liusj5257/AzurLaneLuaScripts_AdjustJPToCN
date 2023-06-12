@@ -1481,6 +1481,7 @@ pg.skill_data_display = setmetatable({
 		16770,
 		16780,
 		16781,
+		16792,
 		18010,
 		18040,
 		18041,
@@ -2427,6 +2428,13 @@ pg.skill_data_display = setmetatable({
 		800820,
 		800821,
 		800830,
+		800851,
+		800863,
+		800872,
+		800881,
+		800882,
+		800885,
+		800887,
 		902201,
 		1010140,
 		1010143,
@@ -2496,6 +2504,8 @@ pg.skill_data_display = setmetatable({
 		200457,
 		200458,
 		200459,
+		200461,
+		200463,
 		1011540,
 		1011541,
 		1090010,
@@ -8457,6 +8467,10 @@ pg.base.skill_data_display = {
 		id = 16781,
 		name = "Reborn Temple of Iron"
 	},
+	[16792] = {
+		id = 16792,
+		name = "Taihou-chan's Talisman of Hardening"
+	},
 	[18010] = {
 		id = 18010,
 		name = "MKV-Class AP Shells 194/160+"
@@ -12241,6 +12255,34 @@ pg.base.skill_data_display = {
 		id = 800830,
 		name = "Structural Tuning: Activation"
 	},
+	[800851] = {
+		id = 800851,
+		name = "Sinner's Pursuit"
+	},
+	[800863] = {
+		id = 800863,
+		name = "Sinner's Whispers"
+	},
+	[800872] = {
+		id = 800872,
+		name = "Cinders of the Exiled"
+	},
+	[800881] = {
+		id = 800881,
+		name = "Cinders of Hope - Algérie I"
+	},
+	[800882] = {
+		id = 800882,
+		name = "Cinders of Hope - Algérie II"
+	},
+	[800885] = {
+		id = 800885,
+		name = "Cinders of Hope - Algérie I"
+	},
+	[800887] = {
+		id = 800887,
+		name = "Cinders of Hope - Algérie II"
+	},
 	[902201] = {
 		id = 902201,
 		name = "Fantastic Loop"
@@ -12516,6 +12558,14 @@ pg.base.skill_data_display = {
 	[200459] = {
 		id = 200459,
 		name = "IX-XV Support Protocol Engaged"
+	},
+	[200461] = {
+		id = 200461,
+		name = "Expurgating Flame"
+	},
+	[200463] = {
+		id = 200463,
+		name = "Pillar of Sin"
 	},
 	[1011540] = {
 		id = 1011540,

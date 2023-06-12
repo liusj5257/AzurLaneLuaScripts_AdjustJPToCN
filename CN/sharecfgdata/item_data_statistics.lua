@@ -7648,10 +7648,10 @@ _G.pg.base.item_data_statistics[15009] = {
 }
 
 _G.pg.base.item_data_statistics[15010] = {
-	display = "增强信号接收的灵敏度、使用后求救信号+1",
-	name = "信号增强装置",
+	display = "曾经拥有某种功能的分析设备，现在使用后可以从【潜艇用Mark16鱼雷T3设计图】【潜艇用95式纯氧鱼雷T3设计图】【潜艇用G7e声导鱼雷T3设计图】中随机获得一张",
+	name = "信号增强装置（已失效）",
 	max_num = 0,
-	type = 1,
+	type = 17,
 	time_limit = 0,
 	rarity = 4,
 	shop_id = -1,
@@ -10385,6 +10385,29 @@ _G.pg.base.item_data_statistics[21022] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[21023] = {
+	display = "阿尔及利亚·META的专用性能提升装置，可在「META研究室」-「能量激活」中使用。",
+	name = "结晶：阿尔及利亚·META",
+	max_num = 0,
+	type = 4,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/21023",
+	id = 21023,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[21101] = {
 	display = "用于提升舰装火炮性能的稀有材料，可在「META研究室」-「舰装强化」中使用。",
 	name = "结晶化热强钢",
@@ -10700,6 +10723,29 @@ _G.pg.base.item_data_statistics[21910] = {
 	is_world = 0,
 	icon = "Props/21910",
 	id = 21910,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[21911] = {
+	display = "于「信标·META」战斗中收集的数据，可以提升阿尔及利亚·META同步率。",
+	name = "同步值：阿尔及利亚·META",
+	max_num = 0,
+	type = 4,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/21911",
+	id = 21911,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -25485,6 +25531,65 @@ _G.pg.base.item_data_statistics[40926] = {
 		{
 			2,
 			69926,
+			1
+		},
+		{
+			1,
+			4,
+			2023
+		},
+		{
+			2,
+			42046,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40927] = {
+	display = "购买礼包可获得随机换装*1，钻石*2023，心智单元*50，心智魔方*20，高级定向蓝图五期*2，快速完成工具*10，家具币*100",
+	name = "六周年礼盒",
+	max_num = 0,
+	type = 17,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/lihecn6lf",
+	id = 40927,
+	display_icon = {
+		{
+			2,
+			69927,
 			1
 		},
 		{
@@ -197255,6 +197360,52 @@ _G.pg.base.item_data_statistics[59012] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[59015] = {
+	display = "游戏室的通用代币，只有游戏币进行游戏才能获得游戏奖券！",
+	name = "游戏币",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/gamecoin",
+	id = 59015,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59016] = {
+	display = "在游戏屋游玩游戏的奖励，需要投入游戏币才能获取。累计到一定数量后可在奖券商店兑换物品。",
+	name = "游戏奖券",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/gameticket",
+	id = 59016,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[59100] = {
 	display = "扩展仓库20格",
 	name = "扩展仓库",
@@ -203922,6 +204073,29 @@ _G.pg.base.item_data_statistics[59457] = {
 	is_world = 0,
 	icon = "props/island_invitation_pt",
 	id = 59457,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59458] = {
+	display = "用于「热烈的告白练习」活动提升角色好感，活动结束后将会消失",
+	name = "练习情书",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/little_taihou_pt",
+	id = 59458,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -215940,6 +216114,282 @@ _G.pg.base.item_data_statistics[60324] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[60401] = {
+	display = "前端不显示，道具看不到",
+	name = "海天活动道具1",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4889,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/puzzle",
+	id = 60401,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[60402] = {
+	display = "前端不显示，道具看不到",
+	name = "海天活动道具2",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4889,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/puzzle",
+	id = 60402,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[60403] = {
+	display = "前端不显示，道具看不到",
+	name = "海天活动道具3",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4889,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/puzzle",
+	id = 60403,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[60404] = {
+	display = "前端不显示，道具看不到",
+	name = "海天活动道具4",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4889,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/puzzle",
+	id = 60404,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[60405] = {
+	display = "前端不显示，道具看不到",
+	name = "海天活动道具5",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4889,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/puzzle",
+	id = 60405,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[60406] = {
+	display = "前端不显示，道具看不到",
+	name = "海天活动道具6",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4889,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/puzzle",
+	id = 60406,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[60407] = {
+	display = "前端不显示，道具看不到",
+	name = "海天活动道具7",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4889,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/puzzle",
+	id = 60407,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[60408] = {
+	display = "前端不显示，道具看不到",
+	name = "海天活动道具8",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4889,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/puzzle",
+	id = 60408,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[60409] = {
+	display = "前端不显示，道具看不到",
+	name = "海天活动道具9",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4889,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/puzzle",
+	id = 60409,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[60410] = {
+	display = "前端不显示，道具看不到",
+	name = "海天活动道具10",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4889,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/puzzle",
+	id = 60410,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[60411] = {
+	display = "前端不显示，道具看不到",
+	name = "海天活动道具11",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4889,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/puzzle",
+	id = 60411,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[60412] = {
+	display = "前端不显示，道具看不到",
+	name = "海天活动道具12",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4889,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/puzzle",
+	id = 60412,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[69000] = {
 	display = "大舰队作战伤害数值，仅用于大舰队BOSS伤害结算",
 	name = "伤害值",
@@ -216951,6 +217401,58 @@ _G.pg.base.item_data_statistics[69926] = {
 		{
 			202092,
 			950
+		}
+	}
+}
+
+_G.pg.base.item_data_statistics[69927] = {
+	display = "不会被看到",
+	name = "随机六周年换装",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/clothIcon",
+	id = 69927,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {
+		{
+			304052,
+			1200
+		},
+		{
+			131172,
+			1200
+		},
+		{
+			207036,
+			1600
+		},
+		{
+			403094,
+			1600
+		},
+		{
+			702034,
+			1600
+		},
+		{
+			236030,
+			1400
+		},
+		{
+			331056,
+			1400
 		}
 	}
 }
@@ -220237,6 +220739,29 @@ _G.pg.base.item_data_statistics[99994] = {
 	is_world = 0,
 	icon = "props/giftbox",
 	id = 99994,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[99995] = {
+	display = "领取后可获得作战档案-「空相交汇点HT6」中未正常获得的额外通关奖励",
+	name = "空相交汇点HT6额外奖励补偿",
+	max_num = 0,
+	type = 17,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "props/giftbox",
+	id = 99995,
 	display_icon = {},
 	price = {},
 	index = {},

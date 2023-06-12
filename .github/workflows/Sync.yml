@@ -1,0 +1,24 @@
+name: Sync Fork
+
+on:
+  schedule:
+    - cron: '20 0 * * *'
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+      with:
+        ref: main
+    - name: Fetch upstream
+      run: |
+        git remote add upstream https://github.com/AzurLaneTools/AzurLaneLuaScripts.git # 上游仓库的 URL
+        git fetch upstream
+    - name: Merge upstream
+      run: |
+        git merge upstream/main # 您要同步的上游分支
+    - name: Push to fork
+      run: |
+        git push

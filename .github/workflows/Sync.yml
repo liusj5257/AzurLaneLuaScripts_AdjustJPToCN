@@ -18,6 +18,7 @@ jobs:
         ls
         git remote add upstream https://github.com/AzurLaneTools/AzurLaneLuaScripts.git
         git fetch upstream
-        git log
+        git log --all
+        git merge-base main upstream/main
         git merge upstream/main
         git push

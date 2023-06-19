@@ -10,16 +10,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
       with:
         ref: main
     - name: Fetch upstream
       run: |
-        git remote add upstream https://github.com/AzurLaneTools/AzurLaneLuaScripts.git # 上游仓库的 URL
+        git remote add upstream https://github.com/AzurLaneTools/AzurLaneLuaScripts.git
         git fetch upstream
     - name: Merge upstream
       run: |
-        git merge upstream/main # 您要同步的上游分支
+        git merge upstream/main
     - name: Push to fork
       run: |
         git push

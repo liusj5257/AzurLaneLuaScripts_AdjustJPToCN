@@ -5,7 +5,7 @@ project(cmaketest VERSION 0.1.0)
 add_compile_options(-fstandalone-debug -v)
 
 # 设置exe输出目录
-set(EXECUTABLE_OUTPUT_PATH ${CMAKE_CURRENT_SOURCE_DIR}/build/bin)
+set(EXECUTABLE_OUTPUT_PATH ${CMAKE_CURRENT_SOURCE_DIR}/Output/bin)
 
 # 设置静态lib输出目录
 set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/Adjust/lib)
@@ -35,7 +35,6 @@ file(
   "${CMAKE_CURRENT_SOURCE_DIR}/Adjust/*.cpp"
 )
 
-# 要先生成lib再添加下方代码
 foreach(mainfile IN LISTS mains)
   # Get file name without directory
   get_filename_component(mainname ${mainfile} NAME_WE)

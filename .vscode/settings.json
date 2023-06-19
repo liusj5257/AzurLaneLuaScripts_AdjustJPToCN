@@ -1,6 +1,5 @@
 {
-  "cmake.cmakePath": "C:\\Users\\Aqeqqq\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\cmake.exe",
-  "cmake.debugConfig": {
+"cmake.debugConfig": {
     //"cwd": "${workspaceFolder}\\build\\bin",
     "debuggerArgs": [
       "--working-directory=${workspaceFolder}/build/bin",

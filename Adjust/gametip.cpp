@@ -10,29 +10,23 @@
 using namespace std;
 
 #define attr "tip"
-string currentFileName = __FILE__;
+#define filename(x) strrchr(x, '\\') ? strrchr(x, '\\') + 1 : x
+string currentFileName = filename(__FILE__);
 ofstream output_file;
 
 void readJP(vector<string> &allArray);
 void output(string id, char *attribute, string str);
 void writeCN(vector<string> &allArray, char *attribute);
 int main() {
-  int lastSlash = currentFileName.rfind('/');
-  if (lastSlash != string::npos) {
-    currentFileName = currentFileName.substr(
-        lastSlash + 1);  // get the filename without the path
-  }
   int lastDot = currentFileName.rfind('.');
   if (lastDot != string::npos) {
     currentFileName =
         currentFileName.substr(0, lastDot);  // remove the file extension
   }
-  string OutputFileName = "..\\..\\Output\\" + currentFileName;
+  string OutputFileName = "..\\..\\Output\\" + currentFileName + ".h";
   cout << OutputFileName << endl;
   output_file.open(OutputFileName);
-
   vector<string> allArray;
-
   // readJP();
   readJP(allArray);
   writeCN(allArray, attr);
@@ -104,7 +98,7 @@ void writeCN(vector<string> &allArray, char *attribute) {
               output(allArray[i], attribute, name);
               break;
             }
-            //info
+            // info
             break;
           }
           break;

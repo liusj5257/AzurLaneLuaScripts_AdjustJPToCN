@@ -234,8 +234,6 @@ replaceByAttribute(L,STR("common_no_dorm_gold"),STR("tip"),STR("<color=#92fc63>�
 replaceByAttribute(L,STR("common_no_resource"),STR("tip"),STR("资源不够啦！"));\
 replaceByAttribute(L,STR("common_no_item"),STR("tip"),STR("道具<color=#92fc63>[$1]</color>不足"));\
 replaceByAttribute(L,STR("common_no_item_1"),STR("tip"),STR("道具不足"));\
-replaceByAttribute(L,STR("common_use_item_sos_max"),STR("tip"),STR("信号已满"));\
-replaceByAttribute(L,STR("common_use_item_sos_used"),STR("tip"),STR("信号次数+$1"));\
 replaceByAttribute(L,STR("common_no_x"),STR("tip"),STR("<color=#92fc63>$1</color>不够啦！"));\
 replaceByAttribute(L,STR("common_limit_cmd"),STR("tip"),STR("指挥官，现在的条件不足以执行这个命令哟~TAT"));\
 replaceByAttribute(L,STR("common_limit_type"),STR("tip"),STR("指挥官，所选择的类型不能执行此命令哟~TAT"));\
@@ -823,10 +821,6 @@ replaceByAttribute(L,STR("levelScene_chapter_level_limit"),STR("tip"),STR("指�
 replaceByAttribute(L,STR("levelScene_chapter_count_tip"),STR("tip"),STR("今日次数："));\
 replaceByAttribute(L,STR("levelScene_tracking_error_retry"),STR("tip"),STR("激活关卡失败，请重试"));\
 replaceByAttribute(L,STR("levelScene_destroy_torpedo"),STR("tip"),STR("成功拆除水雷"));\
-replaceByAttribute(L,STR("levelScene_sub_refresh_count_not_enough"),STR("tip"),STR("还没有收到过求救信号…"));\
-replaceByAttribute(L,STR("levelScene_jump_to_sub_confirm"),STR("tip"),STR("搜索完毕，信号源来自：$1海域(第$2章)，是否前往？"));\
-replaceByAttribute(L,STR("levelScene_signal_help_tip"),STR("tip"),STR("信号提示"));\
-replaceByAttribute(L,STR("levelScene_search_area"),STR("tip"),STR("【搜索范围：$1章海域】"));\
 replaceByAttribute(L,STR("levelScene_new_chapter_coming"),STR("tip"),STR("新章开放："));\
 replaceByAttribute(L,STR("levelScene_chapter_open_count_down"),STR("tip"),STR("开放时间："));\
 replaceByAttribute(L,STR("levelScene_chapter_not_open"),STR("tip"),STR("未开放"));\
@@ -838,7 +832,6 @@ replaceByAttribute(L,STR("levelScene_select_SP_OP"),STR("tip"),STR("点击选择
 replaceByAttribute(L,STR("levelScene_unselect_SP_OP"),STR("tip"),STR("不使用作战道具"));\
 replaceByAttribute(L,STR("levelScene_select_SP_OP_reminder"),STR("tip"),STR("是否使用高效作战指令书？\n使用后关卡中的战斗石油消耗增加100%;\n同时战斗结算时指挥官、指挥喵、角色经验获取提高100%，额外获得一次掉落;\n"));\
 replaceByAttribute(L,STR("tack_tickets_max_warning"),STR("tip"),STR("所持<color=#ffde38>档案密钥</color>数量达到上限，完成任务后只能获得<color=#ff5c5c>$1</color>份<color=#ffde38>档案密钥</color>，是否确认领取？"));\
-replaceByAttribute(L,STR("error_refresh_sub_chapter"),STR("tip"),STR("未搜索到新的求救信号"));\
 replaceByAttribute(L,STR("world_battle_count"),STR("tip"),STR("交战次数说明文本占坑"));\
 replaceByAttribute(L,STR("world_fleetName1"),STR("tip"),STR("第 一 舰 队"));\
 replaceByAttribute(L,STR("world_fleetName2"),STR("tip"),STR("第 二 舰 队"));\
@@ -1000,6 +993,11 @@ replaceByAttribute(L,STR("shopStreet_refresh_max_count"),STR("tip"),STR("今天�
 replaceByAttribute(L,STR("buy_countLimit"),STR("tip"),STR("购买的次数已达上限"));\
 replaceByAttribute(L,STR("buy_item_quest"),STR("tip"),STR("是否购买该商品？"));\
 replaceByAttribute(L,STR("refresh_shopStreet_question"),STR("tip"),STR("是否花费$1<color=#92fc63>$2</color>刷新商品列表\n\n <size=22>( 今日已经购买 <size=25><color=#ff5c5c>$3</color></size> 次 )</size>"));\
+replaceByAttribute(L,STR("quota_shop_title"),STR("tip"),STR("「核心兑换·限定」"));\
+replaceByAttribute(L,STR("quota_shop_description"),STR("tip"),STR("可兑换部分活动限定奖励，兑换不可超过<color=#fd8a62>持有上限</color>"));\
+replaceByAttribute(L,STR("quota_shop_owned"),STR("tip"),STR("持有上限"));\
+replaceByAttribute(L,STR("quota_shop_good_limit"),STR("tip"),STR("已达上限"));\
+replaceByAttribute(L,STR("quota_shop_limit_error"),STR("tip"),STR("该道具已经达到持有上限，无法兑换"));\
 replaceByAttribute(L,STR("event_start_success"),STR("tip"),STR("开始委托成功"));\
 replaceByAttribute(L,STR("event_start_fail"),STR("tip"),STR("开始委托失败"));\
 replaceByAttribute(L,STR("event_finish_success"),STR("tip"),STR("完成委托成功"));\
@@ -1482,6 +1480,7 @@ replaceByAttribute(L,STR("ship_remould_warning_201514"),STR("tip"),STR("此次�
 replaceByAttribute(L,STR("ship_remould_warning_203114"),STR("tip"),STR("此次改造操作将导致<color=#92fc63>【鱼雷】栏位</color>变更为<color=#92fc63>【副武器】栏位</color><color=#92fc63>\n<material=underline c=#92fc63 event=clickDetail>查看详情</material></color>\n是否确认继续操作？"));\
 replaceByAttribute(L,STR("ship_remould_warning_203124"),STR("tip"),STR("此次改造操作将导致<color=#92fc63>【鱼雷】栏位</color>变更为<color=#92fc63>【副武器】栏位</color><color=#92fc63>\n<material=underline c=#92fc63 event=clickDetail>查看详情</material></color>\n是否确认继续操作？"));\
 replaceByAttribute(L,STR("ship_remould_warning_205124"),STR("tip"),STR("此次改造操作将消耗<color=#92fc63>战士的心得</color>\n是否确认继续操作？"));\
+replaceByAttribute(L,STR("ship_remould_warning_205154"),STR("tip"),STR("此次改造操作后<color=#92fc63>【BIG SEVEN】</color>技能\n将升级为<color=#92fc63>【BIG SEVEN·纳尔逊】</color>"));\
 replaceByAttribute(L,STR("ship_remould_warning_206134"),STR("tip"),STR("此次改造操作后<color=#92fc63>【所有战斗机+1】</color>，\n<color=#92fc63>【支援空母】</color>技能\n将升级为<color=#92fc63>【独角兽的应援】</color>是否确认继续操作？"));\
 replaceByAttribute(L,STR("ship_remould_warning_301534"),STR("tip"),STR("此次改造操作后<color=#92fc63>【霞光之绊】</color>技能\n将升级为<color=#92fc63>【霞光之绊·改】</color>"));\
 replaceByAttribute(L,STR("ship_remould_warning_301874"),STR("tip"),STR("此次改造操作将消耗<color=#92fc63>烤肉味香水</color>\n是否确认继续操作？\n改造后<color=#92fc63>【鱼雷底座-1】</color> <color=#92fc63>【主炮底座+1】</color>\n技能<color=#92fc63>【所罗门的噩梦】</color>将升级为<color=#92fc63>【所罗门的噩梦.改】</color>\n"));\
@@ -1670,9 +1669,10 @@ replaceByAttribute(L,STR("sec_floor_limit_tip"),STR("tip"),STR("后宅一层扩�
 replaceByAttribute(L,STR("guild_shop_flash_success"),STR("tip"),STR("刷新成功"));\
 replaceByAttribute(L,STR("destroy_high_rarity_tip"),STR("tip"),STR("<color=#92fc63>精锐以上</color>"));\
 replaceByAttribute(L,STR("destroy_high_level_tip"),STR("tip"),STR("<color=#92fc63>$1等级不为1</color>"));\
-replaceByAttribute(L,STR("destroy_eliteequipment_tip"),STR("tip"),STR("拆解装备中有$1的装备\n是否确认?"));\
+replaceByAttribute(L,STR("destroy_eliteequipment_tip"),STR("tip"),STR("拆解装备中有$1的装备"));\
 replaceByAttribute(L,STR("destroy_high_intensify_tip"),STR("tip"),STR("<color=#92fc63>$1经过强化</color>"));\
 replaceByAttribute(L,STR("destroy_inHardFormation_tip"),STR("tip"),STR("<color=#92fc63>困难编队中</color>"));\
+replaceByAttribute(L,STR("destroy_equip_rarity_tip"),STR("tip"),STR("请输入<color=#92fc63>$1</color>进行确认"));\
 replaceByAttribute(L,STR("ship_quick_change_noequip"),STR("tip"),STR("缺少可替换的装备"));\
 replaceByAttribute(L,STR("ship_quick_change_nofreeequip"),STR("tip"),STR("没有空闲的对应装备"));\
 replaceByAttribute(L,STR("word_nowenergy"),STR("tip"),STR("当前心情值"));\
@@ -1708,7 +1708,6 @@ replaceByAttribute(L,STR("word_status_inTactics"),STR("tip"),STR("进修中"));\
 replaceByAttribute(L,STR("word_status_inClass"),STR("tip"),STR("上课中"));\
 replaceByAttribute(L,STR("word_status_rest"),STR("tip"),STR("休息中"));\
 replaceByAttribute(L,STR("word_status_train"),STR("tip"),STR("训练中"));\
-replaceByAttribute(L,STR("word_status_challenge"),STR("tip"),STR("活动编队中"));\
 replaceByAttribute(L,STR("word_status_world"),STR("tip"),STR("大型作战中"));\
 replaceByAttribute(L,STR("word_status_inHardFormation"),STR("tip"),STR("困难编队中"));\
 replaceByAttribute(L,STR("word_status_series_enemy"),STR("tip"),STR("特别行动中"));\
@@ -1816,7 +1815,6 @@ replaceByAttribute(L,STR("anniversary_task_title_11"),STR("tip"),STR("在她的�
 replaceByAttribute(L,STR("anniversary_task_title_12"),STR("tip"),STR("越来越多的人开始为我加油，我好想背对他们，藏起那些泪水"));\
 replaceByAttribute(L,STR("anniversary_task_title_13"),STR("tip"),STR("你的背影，就在前方，只要再走一小步，我就能搭上你的肩膀"));\
 replaceByAttribute(L,STR("anniversary_task_title_14"),STR("tip"),STR("很荣幸能与你相遇。很期待，我们在下一个蝉鸣之时，可以再见"));\
-replaceByAttribute(L,STR("sos_lock"),STR("tip"),STR("救援关卡尚未开放"));\
 replaceByAttribute(L,STR("charge_scene_buy_confirm"),STR("tip"),STR("是否使用<color=#92fc63FF>$1钻石</color>购买<color=#92fc63FF>$2</color>"));\
 replaceByAttribute(L,STR("charge_scene_buy_confirm_gold"),STR("tip"),STR("是否使用<color=#92fc63FF>$1物资</color>购买<color=#92fc63FF>$2</color>"));\
 replaceByAttribute(L,STR("charge_scene_batch_buy_tip"),STR("tip"),STR("是否使用<color=#92fc63><icon name=diamond w=0.7 h=0.7/>$1</color>钻石购买<color=$3>$2</color>个$4"));\
@@ -1913,10 +1911,10 @@ replaceByAttribute(L,STR("commander_material_is_maxLevel"),STR("tip"),STR("指�
 replaceByAttribute(L,STR("charge_commander_bag_max"),STR("tip"),STR("猫窝扩展容量已经达到上限，不能继续购买！"));\
 replaceByAttribute(L,STR("shop_extendcommander_success"),STR("tip"),STR("猫窝容量扩展成功"));\
 replaceByAttribute(L,STR("commander_skill_point_noengough"),STR("tip"),STR("天赋点不足"));\
-replaceByAttribute(L,STR("buildship_new_tip"),STR("tip"),STR("库尔斯克、伏罗希洛夫等角色 建造概率UP!"));\
-replaceByAttribute(L,STR("buildship_heavy_tip"),STR("tip"),STR("苏维埃罗西亚 建造追加！"));\
-replaceByAttribute(L,STR("buildship_light_tip"),STR("tip"),STR("塔什干、恰巴耶夫等角色 建造追加！"));\
-replaceByAttribute(L,STR("buildship_special_tip"),STR("tip"),STR("镇海 建造追加！"));\
+replaceByAttribute(L,STR("buildship_new_tip"),STR("tip"),STR("每累计建造200次可获得海上传奇舰船 {namecode:514}(最多4次)"));\
+replaceByAttribute(L,STR("buildship_heavy_tip"),STR("tip"),STR("豪、英勇 建造追加！"));\
+replaceByAttribute(L,STR("buildship_light_tip"),STR("tip"),STR("赫敏 建造追加！"));\
+replaceByAttribute(L,STR("buildship_special_tip"),STR("tip"),STR("英仙座、鹰 建造追加！"));\
 replaceByAttribute(L,STR("open_skill_pos"),STR("tip"),STR("开启栏位需要消耗<icon name=diamond w=0.7 h=0.7 y=0.3 /><color=#ffde38>$1</color>\n是否确认开启？"));\
 replaceByAttribute(L,STR("open_skill_pos_discount"),STR("tip"),STR("开启栏位需要消耗<icon name=diamond w=0.7 h=0.7 y=0.3 /><color=grey>$1</color> <color=#ffde38>$2</color>\n是否确认开启？"));\
 replaceByAttribute(L,STR("event_recommend_fail"),STR("tip"),STR("远征条件无法满足"));\
@@ -2006,6 +2004,7 @@ replaceByAttribute(L,STR("school_title_xiaomaibu"),STR("tip"),STR("小卖部"));
 replaceByAttribute(L,STR("school_title_shangdian"),STR("tip"),STR("补给商店"));\
 replaceByAttribute(L,STR("school_title_xueyuan"),STR("tip"),STR("战术学院"));\
 replaceByAttribute(L,STR("school_title_shoucang"),STR("tip"),STR("收藏室"));\
+replaceByAttribute(L,STR("school_title_xiaoyouxiting"),STR("tip"),STR("游戏屋"));\
 replaceByAttribute(L,STR("tag_level_fighting"),STR("tip"),STR("攻略中"));\
 replaceByAttribute(L,STR("tag_level_oni"),STR("tip"),STR("特殊单位"));\
 replaceByAttribute(L,STR("tag_level_bomb"),STR("tip"),STR("英系轰炸"));\
@@ -2367,6 +2366,7 @@ replaceByAttribute(L,STR("index_no_limit"),STR("tip"),STR("无限制"));\
 replaceByAttribute(L,STR("index_awakening"),STR("tip"),STR("<size=36>可认知觉醒</size>"));\
 replaceByAttribute(L,STR("index_not_lvmax"),STR("tip"),STR("未满级"));\
 replaceByAttribute(L,STR("index_spweapon"),STR("tip"),STR("专属兵装"));\
+replaceByAttribute(L,STR("index_marry"),STR("tip"),STR("已誓约"));\
 replaceByAttribute(L,STR("indexsort_sort"),STR("tip"),STR("排序"));\
 replaceByAttribute(L,STR("indexsort_index"),STR("tip"),STR("索引"));\
 replaceByAttribute(L,STR("indexsort_camp"),STR("tip"),STR("阵营"));\
@@ -2733,7 +2733,7 @@ replaceByAttribute(L,STR("hand_account_tip"),STR("tip"),STR("完成周边收集�
 replaceByAttribute(L,STR("hand_account_resetting_tip"),STR("tip"),STR("是否重置手账页面？"));\
 replaceByAttribute(L,STR("award_overflow_tip"),STR("tip"),STR("部分的奖励将超出资源上限，请手动领取。"));\
 replaceByAttribute(L,STR("venusvolleyball_rule_tip"),STR("tip"),STR("先得$1分"));\
-replaceByAttribute(L,STR("venusvolleyball_return_tip"),STR("tip"),STR("是否退出游戏？退出游戏不会视为完成该场比赛"));\
+replaceByAttribute(L,STR("venusvolleyball_return_tip"),STR("tip"),STR("是否退出游戏？"));\
 replaceByAttribute(L,STR("venusvolleyball_suspend_tip"),STR("tip"),STR("是否继续游戏？"));\
 replaceByAttribute(L,STR("doa_pt_complete"),STR("tip"),STR("强化已完成"));\
 replaceByAttribute(L,STR("doa_pt_up"),STR("tip"),STR("是否对$1进行强化?"));\
@@ -2986,17 +2986,12 @@ replaceByAttribute(L,STR("setting_story_speed_4"),STR("tip"),STR("特快"));\
 replaceByAttribute(L,STR("story_autoplay_setting_label"),STR("tip"),STR("剧情自动播放"));\
 replaceByAttribute(L,STR("story_autoplay_setting_1"),STR("tip"),STR("关闭"));\
 replaceByAttribute(L,STR("story_autoplay_setting_2"),STR("tip"),STR("开启"));\
-replaceByAttribute(L,STR("meta_shop_exchange_limit"),STR("tip"),STR("尚未获得舰船"));\
+replaceByAttribute(L,STR("meta_shop_exchange_limit"),STR("tip"),STR("未拥有角色"));\
 replaceByAttribute(L,STR("meta_shop_unexchange_label"),STR("tip"),STR("尚未获得舰船"));\
 replaceByAttribute(L,STR("daily_level_quick_battle_label2"),STR("tip"),STR("挑战"));\
 replaceByAttribute(L,STR("daily_level_quick_battle_label1"),STR("tip"),STR("快速挑战<color=$2>$1</color>次"));\
 replaceByAttribute(L,STR("dailyLevel_quickfinish"),STR("tip"),STR("是否进行快速挑战？\n快速挑战可以直接获得每日挑战关卡中应得的全部掉落奖励。\n<color=#92fc63>不消耗</color>石油，不会获得任何指挥官经验、舰船经验，也不会影响舰船的心情与好感度。"));\
 replaceByAttribute(L,STR("daily_level_quick_battle_label3"),STR("tip"),STR("快速挑战"));\
-replaceByAttribute(L,STR("LevelSignal"),STR("tip"),STR("海域救援"));\
-replaceByAttribute(L,STR("LevelSignal_go"),STR("tip"),STR("前往"));\
-replaceByAttribute(L,STR("LevelSignal_search"),STR("tip"),STR("搜索信号"));\
-replaceByAttribute(L,STR("LevelSignal_times"),STR("tip"),STR("可进行海域救援的次数："));\
-replaceByAttribute(L,STR("LevelSignal_intensity"),STR("tip"),STR("信号强度："));\
 replaceByAttribute(L,STR("backyard_longpress_ship_tip"),STR("tip"),STR("※长按可以跳转至角色养成界面"));\
 replaceByAttribute(L,STR("common_npc_formation_tip"),STR("tip"),STR("NPC角色无法加入当前编队！"));\
 replaceByAttribute(L,STR("guild_task_autoaccept_1"),STR("tip"),STR("本次作战自动领取任务：$1"));\
@@ -3303,7 +3298,6 @@ replaceByAttribute(L,STR("shipchange_alert_inguildbossevent"),STR("tip"),STR("�
 replaceByAttribute(L,STR("shipchange_alert_indiff"),STR("tip"),STR("舰船在已保存的舰队编成中，是否移出编队？"));\
 replaceByAttribute(L,STR("shipmodechange_reject_1stfleet_only"),STR("tip"),STR("舰船为第一舰队先锋/主力舰队的唯一角色，请调整编队阵容后重试"));\
 replaceByAttribute(L,STR("shipmodechange_reject_worldfleet_only"),STR("tip"),STR("舰船为大世界舰队先锋/主力舰队的唯一角色，请调整编队阵容后重试"));\
-replaceByAttribute(L,STR("shipmodechange_reject_inactivity"),STR("tip"),STR("舰船在限界挑战/共斗/连战活动编成中，请调整编队阵容后重试"));\
 replaceByAttribute(L,STR("monopoly3thre_tip"),STR("tip"),STR("※重复获得限定换装会自动折算为物资"));\
 replaceByAttribute(L,STR("battlepass_main_tip_2202"),STR("tip"),STR("2022.2.1-2022.3.31期间，完成巡游任务累计<icon name=pt w=0.5 h=0.5/>可获取<color=#854747>「鸢·META」</color>在内的丰富奖励"));\
 replaceByAttribute(L,STR("battlepass_main_tip_2204"),STR("tip"),STR("2022.4.1-2022.5.31期间，完成巡游任务累计<icon name=pt w=0.5 h=0.5/>可获取<color=#854747>「鲼·META」</color>在内的丰富奖励"));\
@@ -3313,6 +3307,7 @@ replaceByAttribute(L,STR("battlepass_main_tip_2210"),STR("tip"),STR("2022.10.1-2
 replaceByAttribute(L,STR("battlepass_main_tip_2212"),STR("tip"),STR("2022.12.1-2023.1.31期间，完成巡游任务累计<icon name=pt w=0.5 h=0.5/>可获取<color=#854747>「命运女神·META」</color>在内的丰富奖励"));\
 replaceByAttribute(L,STR("battlepass_main_tip_2302"),STR("tip"),STR("2023.2.1-2023.3.31期间，完成巡游任务累计<icon name=pt w=0.5 h=0.5/>可获取<color=#854747>「谢菲尔德·META」</color>在内的丰富奖励"));\
 replaceByAttribute(L,STR("battlepass_main_tip_2304"),STR("tip"),STR("4/1-5/31期间，完成巡游任务累计<icon name=pt w=0.5 h=0.5/>可获取<color=#854747>「拉·加利索尼埃·META」</color>在内的丰富奖励"));\
+replaceByAttribute(L,STR("battlepass_main_tip_2306"),STR("tip"),STR("6/1-7/31期间，完成巡游任务累计<icon name=pt w=0.5 h=0.5/>可获取<color=#854747>「女灶神·META」</color>在内的丰富奖励"));\
 replaceByAttribute(L,STR("attrset_reset"),STR("tip"),STR("全部重置"));\
 replaceByAttribute(L,STR("attrset_save"),STR("tip"),STR("保存修改"));\
 replaceByAttribute(L,STR("attrset_ask_save"),STR("tip"),STR("是否保存当前页面修改?"));\
@@ -3576,6 +3571,10 @@ replaceByAttribute(L,STR("ryza_task_tag_explore"),STR("tip"),STR("探索"));\
 replaceByAttribute(L,STR("ryza_task_tag_battle"),STR("tip"),STR("讨伐"));\
 replaceByAttribute(L,STR("ryza_task_tag_dalegate"),STR("tip"),STR("委托"));\
 replaceByAttribute(L,STR("ryza_task_tag_develop"),STR("tip"),STR("研究"));\
+replaceByAttribute(L,STR("ryza_task_tag_adventure"),STR("tip"),STR("探险"));\
+replaceByAttribute(L,STR("ryza_task_tag_build"),STR("tip"),STR("建设"));\
+replaceByAttribute(L,STR("ryza_task_tag_create"),STR("tip"),STR("制造"));\
+replaceByAttribute(L,STR("ryza_task_tag_daily"),STR("tip"),STR("每日"));\
 replaceByAttribute(L,STR("ryza_task_detail_content"),STR("tip"),STR("内容"));\
 replaceByAttribute(L,STR("ryza_task_detail_award"),STR("tip"),STR("报酬"));\
 replaceByAttribute(L,STR("ryza_task_go"),STR("tip"),STR("前往"));\
@@ -3724,6 +3723,16 @@ replaceByAttribute(L,STR("battle_text_yingxiv4_7"),STR("tip"),STR("战争骑士�
 replaceByAttribute(L,STR("battle_text_yingxiv4_8"),STR("tip"),STR("战争骑士开始用特殊装置<color=#f1f102>锁定</color>我方主力舰队"));\
 replaceByAttribute(L,STR("battle_text_yingxiv4_9"),STR("tip"),STR("引导对方的<color=#f1f102>主炮攻击</color>破坏这些装置"));\
 replaceByAttribute(L,STR("battle_text_yingxiv4_10"),STR("tip"),STR("战争骑士陷入了<color=#f1f102>瘫痪状态</color>，舰队可以随意开火"));\
+replaceByAttribute(L,STR("battle_text_bisimaiz_1"),STR("tip"),STR("当前空间侵蚀等级为<color=#92fc63>0</color>"));\
+replaceByAttribute(L,STR("battle_text_bisimaiz_2"),STR("tip"),STR("当前空间侵蚀等级为<color=#f1f102>1</color>"));\
+replaceByAttribute(L,STR("battle_text_bisimaiz_3"),STR("tip"),STR("当前空间侵蚀等级为<color=#f1f102>2</color>"));\
+replaceByAttribute(L,STR("battle_text_bisimaiz_4"),STR("tip"),STR("当前空间侵蚀等级为<color=#ffc038>3</color>"));\
+replaceByAttribute(L,STR("battle_text_bisimaiz_5"),STR("tip"),STR("当前空间侵蚀等级为<color=#ffc038>4</color>"));\
+replaceByAttribute(L,STR("battle_text_bisimaiz_6"),STR("tip"),STR("当前空间侵蚀等级为<color=#ff5c5c>5</color>"));\
+replaceByAttribute(L,STR("battle_text_bisimaiz_7"),STR("tip"),STR("革律翁成功完成净化，当前空间侵蚀等级变为<color=#92fc63>0</color>"));\
+replaceByAttribute(L,STR("battle_text_bisimaiz_8"),STR("tip"),STR("「<color=#ffc038>嵌载结合</color>」-革律翁拥有<color=#f1f102>高额防御</color>并替{namecode:435}承受部分伤害"));\
+replaceByAttribute(L,STR("battle_text_bisimaiz_9"),STR("tip"),STR("「<color=#92fc63>舰装分离</color>」-革律翁的<color=#f1f102>防御大幅度下降</color>，请尽快将其击破！"));\
+replaceByAttribute(L,STR("battle_text_bisimaiz_10"),STR("tip"),STR("革律翁已被击破——等等，侦测到强烈的<color=#ffc038>META</color>化波动！"));\
 replaceByAttribute(L,STR("series_enemy_mood"),STR("tip"),STR("心情不足"));\
 replaceByAttribute(L,STR("series_enemy_mood_error"),STR("tip"),STR("单队连战模式下，队伍中有舰船心情<=30无法出战 "));\
 replaceByAttribute(L,STR("series_enemy_reward_tip1"),STR("tip"),STR("基础通关奖励 "));\
@@ -3749,6 +3758,13 @@ replaceByAttribute(L,STR("series_enemy_team_notenough"),STR("tip"),STR("存在�
 replaceByAttribute(L,STR("series_enemy_empty_commander_main"),STR("tip"),STR("暂无司令"));\
 replaceByAttribute(L,STR("series_enemy_empty_commander_assistant"),STR("tip"),STR("暂无参谋"));\
 replaceByAttribute(L,STR("limit_team_character_tips"),STR("tip"),STR("※参战的舰队中不可出现同名角色"));\
+replaceByAttribute(L,STR("game_cannot_go"),STR("tip"),STR("本游戏目前不在开放时间内"));\
+replaceByAttribute(L,STR("game_ticket_notenough"),STR("tip"),STR("游戏奖券数量不足，是否前往游戏屋获取？"));\
+replaceByAttribute(L,STR("game_ticket_max_all"),STR("tip"),STR("当前游戏奖券持有数量即将达到上限，继续游玩可能会有部分奖券无法获得，是否继续游玩"));\
+replaceByAttribute(L,STR("game_ticket_max_month"),STR("tip"),STR("本月可获取游戏奖券数量即将达到上限，继续游玩可能会有部分奖券无法获得，是否继续游玩？"));\
+replaceByAttribute(L,STR("game_icon_notenough"),STR("tip"),STR("当前游戏币不足（），是否消耗物资兑换X枚游戏币？"));\
+replaceByAttribute(L,STR("game_goldbyicon"),STR("tip"),STR("是否消耗$1物资兑换$2游戏币 "));\
+replaceByAttribute(L,STR("game_icon_max"),STR("tip"),STR("当前游戏币即将到达上限，领取后超出上限的部分将会消失，是否继续领取？"));\
 replaceByAttribute(L,STR("caibulin_tip1"),STR("tip"),STR("从作战中搜寻线索，目标1-2Burin！"));\
 replaceByAttribute(L,STR("caibulin_tip2"),STR("tip"),STR("仓库……很可疑，是一个适合藏匿线索的好地方Burin！"));\
 replaceByAttribute(L,STR("caibulin_tip3"),STR("tip"),STR("从作战中搜寻线索，目标2-2Burin！"));\
@@ -3761,3 +3777,100 @@ replaceByAttribute(L,STR("caibulin_tip9"),STR("tip"),STR("小卖部……很可�
 replaceByAttribute(L,STR("caibulin_tip10"),STR("tip"),STR("建造台……很可疑，是一个适合藏匿线索的好地方Burin！"));\
 replaceByAttribute(L,STR("caibulin_tip11"),STR("tip"),STR("神器线索收集完成即可解锁特别关卡~"));\
 replaceByAttribute(L,STR("event_recommend_level1"),STR("tip"),STR("无符合推荐规则的角色，是否自动添加处于锁定状态且等级为1的角色？"));\
+replaceByAttribute(L,STR("doa_minigame_Luna"),STR("tip"),STR("露娜"));\
+replaceByAttribute(L,STR("doa_minigame_Misaki"),STR("tip"),STR("海咲"));\
+replaceByAttribute(L,STR("doa_minigame_Marie"),STR("tip"),STR("玛莉萝丝"));\
+replaceByAttribute(L,STR("doa_minigame_Tamaki"),STR("tip"),STR("环"));\
+replaceByAttribute(L,STR("doa_character_select_confirm"),STR("tip"),STR("将消耗<color=#92fc63>「假日航线」角色自选道具</color>兑换角色<color=#92fc63> $1 </color>\n是否确定兑换？"));\
+replaceByAttribute(L,STR("blueprint_combatperformance"),STR("tip"),STR("作战性能"));\
+replaceByAttribute(L,STR("blueprint_shipperformance"),STR("tip"),STR("舰船性能"));\
+replaceByAttribute(L,STR("blueprint_researching"),STR("tip"),STR("研究进行中..."));\
+replaceByAttribute(L,STR("sculpture_drawline_tip"),STR("tip"),STR("*沿虚线裁剪设计图"));\
+replaceByAttribute(L,STR("sculpture_drawline_done"),STR("tip"),STR("一番忙碌后，所有部件都按照设计图制作完了！"));\
+replaceByAttribute(L,STR("sculpture_drawline_exit"),STR("tip"),STR("中途退出进度不保存，是否退出？\n退出后再次进入不消耗额外材料"));\
+replaceByAttribute(L,STR("sculpture_puzzle_tip"),STR("tip"),STR("*点击部件进行选中，将部件拖动至虚线区域内进行拼接"));\
+replaceByAttribute(L,STR("sculpture_gratitude_tip"),STR("tip"),STR("*拖动礼物赠送给舰船"));\
+replaceByAttribute(L,STR("sculpture_close_tip"),STR("tip"),STR("*点击空白关闭"));\
+replaceByAttribute(L,STR("gift_act_tips"),STR("tip"),STR("$1不足"));\
+replaceByAttribute(L,STR("expedition_award_tip"),STR("tip"),STR("指挥官不在的这段时间探险队带回来了一些材料："));\
+replaceByAttribute(L,STR("island_act_tips1"),STR("tip"),STR("点击空白处关闭弹窗"));\
+replaceByAttribute(L,STR("haidaojudian_building_tip"),STR("tip"),STR("建筑升级所需材料不足"));\
+replaceByAttribute(L,STR("workbench_need_materials"),STR("tip"),STR("消耗材料"));\
+replaceByAttribute(L,STR("workbench_tips1"),STR("tip"),STR("制作次数已用完"));\
+replaceByAttribute(L,STR("workbench_tips2"),STR("tip"),STR("材料不足"));\
+replaceByAttribute(L,STR("workbench_tips3"),STR("tip"),STR("当前已达到最大可制作数量"));\
+replaceByAttribute(L,STR("workbench_tips4"),STR("tip"),STR("海岛制作台Lv.$1解锁"));\
+replaceByAttribute(L,STR("workbench_tips5"),STR("tip"),STR("- 暂无可制作清单 - "));\
+replaceByAttribute(L,STR("workbench_tips6"),STR("tip"),STR("已达最大等级"));\
+replaceByAttribute(L,STR("workbench_tips7"),STR("tip"),STR("素材"));\
+replaceByAttribute(L,STR("workbench_tips8"),STR("tip"),STR("制作数量"));\
+replaceByAttribute(L,STR("workbench_tips9"),STR("tip"),STR("所需材料"));\
+replaceByAttribute(L,STR("workbench_tips10"),STR("tip"),STR("仅显示可制造"));\
+replaceByAttribute(L,STR("islandnode_tips1"),STR("tip"),STR("刷新时间"));\
+replaceByAttribute(L,STR("islandnode_tips2"),STR("tip"),STR("提示"));\
+replaceByAttribute(L,STR("islandnode_tips3"),STR("tip"),STR("*只能选择一次哦"));\
+replaceByAttribute(L,STR("islandnode_tips4"),STR("tip"),STR("Bingo~恭喜你猜对咯！"));\
+replaceByAttribute(L,STR("islandnode_tips5"),STR("tip"),STR("好可惜，没能猜对呢……下次一定能猜对！"));\
+replaceByAttribute(L,STR("islandnode_tips6"),STR("tip"),STR("指挥官现在还不能收获哦~"));\
+replaceByAttribute(L,STR("islandnode_tips7"),STR("tip"),STR("指挥官不在的这段期间，$1帮忙照顾了田地"));\
+replaceByAttribute(L,STR("islandnode_tips8"),STR("tip"),STR("事件未解锁，指挥官可以通过升级海岛据点、推进主线事件来解锁"));\
+replaceByAttribute(L,STR("islandnode_tips9"),STR("tip"),STR("请指挥官提高海岛据点等级以解锁更多后续主线事件~！"));\
+replaceByAttribute(L,STR("islandshop_tips1"),STR("tip"),STR("兑换剩余时间"));\
+replaceByAttribute(L,STR("islandshop_tips2"),STR("tip"),STR("限购"));\
+replaceByAttribute(L,STR("islandshop_tips3"),STR("tip"),STR("消耗"));\
+replaceByAttribute(L,STR("islandshop_tips4"),STR("tip"),STR("$1不足"));\
+replaceByAttribute(L,STR("island_shop_limit_error"),STR("tip"),STR("该道具已经达到持有上限，无法兑换"));\
+replaceByAttribute(L,STR("haidaojudian_upgrade_limit"),STR("tip"),STR("当前建筑暂时不能继续升级，指挥官先去升级其他建筑吧~"));\
+replaceByAttribute(L,STR("chargetip_monthcard_1"),STR("tip"),STR("贸易许可证购买成功，恭喜获得"));\
+replaceByAttribute(L,STR("chargetip_monthcard_2"),STR("tip"),STR("贸易许可证每日奖励已通过邮件发放"));\
+replaceByAttribute(L,STR("chargetip_crusing"),STR("tip"),STR("特许巡游凭证已解锁"));\
+replaceByAttribute(L,STR("chargetip_giftpackage"),STR("tip"),STR("购买成功！放入邮箱中"));\
+replaceByAttribute(L,STR("package_view_1"),STR("tip"),STR("贸易许可证购买成功，已获取"));\
+replaceByAttribute(L,STR("package_view_2"),STR("tip"),STR("贸易许可证期间每日可通过邮件领取奖励"));\
+replaceByAttribute(L,STR("package_view_3"),STR("tip"),STR("特许巡游凭证已解锁"));\
+replaceByAttribute(L,STR("package_view_4"),STR("tip"),STR("已获取："));\
+replaceByAttribute(L,STR("probabilityskinshop_tip"),STR("tip"),STR("如果该换装已拥有，则会转化为等价钻石"));\
+replaceByAttribute(L,STR("skin_gift_desc"),STR("tip"),STR("从如下换装中随机获得1件换装(如果该换装已拥有，则会自动转化为该换装等价的钻石) \n包含的换装和概率如下：\n $1"));\
+replaceByAttribute(L,STR("springtask_tip"),STR("tip"),STR("完成无人岛侦察后，众人发现了一处修建温泉浴场的理想场所。不过要完成建设，还缺少一些必要材料……\n每日0点解锁1个温泉建设任务，全部完成后即可解锁露天温泉功能！"));\
+replaceByAttribute(L,STR("island_build_desc"),STR("tip"),STR("*升级据点建筑可以提高据点等级"));\
+replaceByAttribute(L,STR("island_history_desc"),STR("tip"),STR("*探索完当前区域所有节点可解锁隐藏宝藏的线索！"));\
+replaceByAttribute(L,STR("island_build_level"),STR("tip"),STR("据点等级"));\
+replaceByAttribute(L,STR("island_game_limit_help"),STR("tip"),STR("每日0点后进入无人岛可获得$1张许可证"));\
+replaceByAttribute(L,STR("island_game_limit_num"),STR("tip"),STR("拥有:$1"));\
+replaceByAttribute(L,STR("meta_shop_exchange_limit_2"),STR("tip"),STR("尚未解锁"));\
+replaceByAttribute(L,STR("meta_shop_tip"),STR("tip"),STR("结晶商品可兑换次数随已获得结晶数量变化"));\
+replaceByAttribute(L,STR("pt_shop_tran_tip"),STR("tip"),STR("由于<color=#92fc63>「$2」</color>已达到获取上限，最终将获得$1个<color=#92fc63>「$2」</color>，剩余<color=#92fc63>「$2」</color>将会转换为$3个<color=#92fc63>「$4」</color>，是否确认兑换？"));\
+replaceByAttribute(L,STR("urdraw_tip"),STR("tip"),STR("当前存在尚未领取的累计建造奖励，请及时领取"));\
+replaceByAttribute(L,STR("urdraw_complement"),STR("tip"),STR("当前累计建造：<color=#92fc63>$1</color>\n剩余时间：<color=#ff5c5c>$2</color>"));\
+replaceByAttribute(L,STR("meta_class_t_level_1"),STR("tip"),STR("破敌之炬"));\
+replaceByAttribute(L,STR("meta_class_t_level_2"),STR("tip"),STR("构造之理"));\
+replaceByAttribute(L,STR("meta_class_t_level_3"),STR("tip"),STR("逐光之焰"));\
+replaceByAttribute(L,STR("meta_class_t_level_4"),STR("tip"),STR("摇曳之火"));\
+replaceByAttribute(L,STR("meta_shop_exchange_limit_tip"),STR("tip"),STR("尚未获得角色$1"));\
+replaceByAttribute(L,STR("meta_shop_exchange_limit_2_tip"),STR("tip"),STR("该道具于$1年$2月$3日$4时$5分$6秒后可购买"));\
+replaceByAttribute(L,STR("charge_tip_crusing_label"),STR("tip"),STR("恭喜获得"));\
+replaceByAttribute(L,STR("mktea_1"),STR("tip"),STR("从采摘开始的精挑细选，是一盏好茶的基础。"));\
+replaceByAttribute(L,STR("mktea_2"),STR("tip"),STR("摊放茶叶，蒸掉茶叶里的水分，让叶质变软。"));\
+replaceByAttribute(L,STR("mktea_3"),STR("tip"),STR("为了保持茶的香韵，杀青是必不可少的一步。"));\
+replaceByAttribute(L,STR("mktea_4"),STR("tip"),STR("将杀青后的茶叶放置于阴凉处，进行薄摊回潮。待凉后筛去其茶末、簸去碎片。"));\
+replaceByAttribute(L,STR("mktea_5"),STR("tip"),STR("最后是辉锅，将茶叶的香气和形态炒至最理想的状态，使其色泽绿润，叶片扁平光滑。"));\
+replaceByAttribute(L,STR("random_skin_list_item_desc_label"),STR("tip"),STR("换装 "));\
+replaceByAttribute(L,STR("notice_input_desc"),STR("tip"),STR("最多输入40字......"));\
+replaceByAttribute(L,STR("notice_label_send"),STR("tip"),STR("发送消息"));\
+replaceByAttribute(L,STR("notice_label_room"),STR("tip"),STR("接收消息"));\
+replaceByAttribute(L,STR("notice_label_recv"),STR("tip"),STR("聊天室房间"));\
+replaceByAttribute(L,STR("notice_label_tip"),STR("tip"),STR("聊天人数达到上限,则不能进入该房间"));\
+replaceByAttribute(L,STR("disassemble_selected"),STR("tip"),STR("已选中"));\
+replaceByAttribute(L,STR("disassemble_available"),STR("tip"),STR("可获得"));\
+replaceByAttribute(L,STR("ship_formationUI_fleetName_challenge"),STR("tip"),STR("限界挑战舰队"));\
+replaceByAttribute(L,STR("ship_formationUI_fleetName_challenge_sub"),STR("tip"),STR("限界挑战舰队"));\
+replaceByAttribute(L,STR("word_status_activity"),STR("tip"),STR("活动编队中"));\
+replaceByAttribute(L,STR("word_status_challenge"),STR("tip"),STR("限界挑战编队中"));\
+replaceByAttribute(L,STR("shipmodechange_reject_inactivity"),STR("tip"),STR("舰船在共斗/连战活动编成中，请调整编队阵容后重试"));\
+replaceByAttribute(L,STR("shipmodechange_reject_inchallenge"),STR("tip"),STR("舰船在限界挑战编成中，请调整编队阵容后重试"));\
+replaceByAttribute(L,STR("battle_result_total_time"),STR("tip"),STR("通关时间："));\
+replaceByAttribute(L,STR("charge_game_room_coin_tip"),STR("tip"),STR("是否消耗<color=#92fc63><icon name=res_gold w=0.5 h=0.5/>$1</color>物资兑换<icon name=res_coin w=0.5 h=0.5/><color=$3>$2</color>个$4"));\
+replaceByAttribute(L,STR("game_room_shooting_tip"),STR("tip"),STR("当前积分："));\
+replaceByAttribute(L,STR("mini_game_shop_ticked_not_enough"),STR("tip"),STR("游戏奖券数量不足，是否前往游戏屋获取？"));\
+replaceByAttribute(L,STR("game_ticket_current_month"),STR("tip"),STR("本月上限"));\
+replaceByAttribute(L,STR("game_icon_max_full"),STR("tip"),STR("当前游戏币到达上限,无法继续领取"));\

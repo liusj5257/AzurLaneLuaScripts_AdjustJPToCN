@@ -17,9 +17,5 @@ jobs:
       run: |
         git remote add upstream https://github.com/AzurLaneTools/AzurLaneLuaScripts.git
         git fetch upstream
-    - name: Merge upstream
-      run: |
         git merge upstream/main
-    - name: Push to fork
-      run: |
         git push

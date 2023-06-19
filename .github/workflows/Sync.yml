@@ -15,7 +15,9 @@ jobs:
         ref: main
     - name: Fetch upstream
       run: |
+        ls
         git remote add upstream https://github.com/AzurLaneTools/AzurLaneLuaScripts.git
         git fetch upstream
+        git log
         git merge upstream/main
         git push

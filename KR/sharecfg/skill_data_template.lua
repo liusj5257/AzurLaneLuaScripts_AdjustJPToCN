@@ -988,6 +988,8 @@ pg.skill_data_template = setmetatable({
 		16760,
 		16770,
 		16780,
+		16790,
+		16800,
 		18010,
 		18040,
 		18050,
@@ -78803,6 +78805,164 @@ pg.base.skill_data_template = {
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[16790] = {
+		desc_get = "",
+		name = "{namecode:291}의 가드 아머",
+		id = 16790,
+		type = 2,
+		max_level = 10,
+		desc = "전투 중 자신이 입은 피해 $1 감소. 전투 중 기함이 피해를 입을 때마다 전투가 종료될 때까지 자신의 항공 속성 $2 증가, 최대 3회 중복 가능",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"3.5%",
+				"8.0%"
+			},
+			{
+				"1.5%",
+				"5.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%",
+					"+0.5%"
+				},
+				{
+					"7.5%",
+					"+0.5%"
+				},
+				{
+					"8.0%"
+				}
+			},
+			{
+				{
+					"1.5%",
+					"+0.3%"
+				},
+				{
+					"1.8%",
+					"+0.3%"
+				},
+				{
+					"2.1%",
+					"+0.4%"
+				},
+				{
+					"2.5%",
+					"+0.3%"
+				},
+				{
+					"2.8%",
+					"+0.3%"
+				},
+				{
+					"3.1%",
+					"+0.4%"
+				},
+				{
+					"3.5%",
+					"+0.4%"
+				},
+				{
+					"3.9%",
+					"+0.4%"
+				},
+				{
+					"4.3%",
+					"+0.7%"
+				},
+				{
+					"5.0%"
+				}
+			}
+		}
+	},
+	[16800] = {
+		desc_get = "",
+		name = "{namecode:291}의 주사위 게임",
+		id = 16800,
+		type = 1,
+		max_level = 10,
+		desc = "전투 중 20초마다 발동된다. 사이운으로 정찰하고 이후 초당 렛푸, 스이세이, 류세이 편대 중 랜덤으로 하나를 이용해 $1을(를) 공격한다.류세이 편대를 사용하거나 총 6회의 함재기 공격을 소환할 때까지 계속된다. (위력은 스킬 레벨에 따라 상이. 사이운 편대는 탄약을 소지하지 않으며, 발동 시 8초간 아군 주력 함대의 공격 데미지를 10% 증가시킨다.)",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
 	[18010] = {
 		desc_get = "",
 		name = "MKV 철갑탄 +",
@@ -107299,7 +107459,7 @@ pg.base.skill_data_template = {
 	},
 	[800121] = {
 		desc_get = "",
-		name = "격멸의 횃불·헬레나I",
+		name = "섬멸의 횃불·헬레나I",
 		id = 800121,
 		type = 3,
 		max_level = 1,
@@ -107315,7 +107475,7 @@ pg.base.skill_data_template = {
 	},
 	[800122] = {
 		desc_get = "",
-		name = "격멸의 횃불·헬레나II",
+		name = "섬멸의 횃불·헬레나II",
 		id = 800122,
 		type = 3,
 		max_level = 1,
@@ -107331,7 +107491,7 @@ pg.base.skill_data_template = {
 	},
 	[800125] = {
 		desc_get = "",
-		name = "격멸의 횃불·헬레나I",
+		name = "섬멸의 횃불·헬레나I",
 		id = 800125,
 		type = 3,
 		max_level = 1,
@@ -107347,7 +107507,7 @@ pg.base.skill_data_template = {
 	},
 	[800127] = {
 		desc_get = "",
-		name = "격멸의 횃불·헬레나II",
+		name = "섬멸의 횃불·헬레나II",
 		id = 800127,
 		type = 3,
 		max_level = 1,
@@ -109240,7 +109400,7 @@ pg.base.skill_data_template = {
 	},
 	[800411] = {
 		desc_get = "",
-		name = "요동치는 불꽃·{namecode:79}I",
+		name = "일렁이는 불꽃·{namecode:79}I",
 		id = 800411,
 		type = 1,
 		max_level = 1,
@@ -109256,7 +109416,7 @@ pg.base.skill_data_template = {
 	},
 	[800412] = {
 		desc_get = "",
-		name = "요동치는 불꽃·{namecode:79}II",
+		name = "일렁이는 불꽃·{namecode:79}II",
 		id = 800412,
 		type = 1,
 		max_level = 1,
@@ -109272,7 +109432,7 @@ pg.base.skill_data_template = {
 	},
 	[800415] = {
 		desc_get = "",
-		name = "요동치는 불꽃·{namecode:79}I",
+		name = "일렁이는 불꽃·{namecode:79}I",
 		id = 800415,
 		type = 1,
 		max_level = 1,
@@ -109288,7 +109448,7 @@ pg.base.skill_data_template = {
 	},
 	[800417] = {
 		desc_get = "",
-		name = "요동치는 불꽃·{namecode:79}II",
+		name = "일렁이는 불꽃·{namecode:79}II",
 		id = 800417,
 		type = 1,
 		max_level = 1,
@@ -110332,7 +110492,7 @@ pg.base.skill_data_template = {
 	},
 	[800531] = {
 		desc_get = "",
-		name = "흔들리는 불빛·트렌토I",
+		name = "일렁이는 불꽃·트렌토I",
 		id = 800531,
 		type = 1,
 		max_level = 1,
@@ -110348,7 +110508,7 @@ pg.base.skill_data_template = {
 	},
 	[800532] = {
 		desc_get = "",
-		name = "흔들리는 불빛·트렌토II",
+		name = "일렁이는 불꽃·트렌토II",
 		id = 800532,
 		type = 1,
 		max_level = 1,
@@ -110364,7 +110524,7 @@ pg.base.skill_data_template = {
 	},
 	[800535] = {
 		desc_get = "",
-		name = "흔들리는 불빛·트렌토I",
+		name = "일렁이는 불꽃·트렌토I",
 		id = 800535,
 		type = 1,
 		max_level = 1,
@@ -110380,7 +110540,7 @@ pg.base.skill_data_template = {
 	},
 	[800537] = {
 		desc_get = "",
-		name = "흔들리는 불빛·트렌토II",
+		name = "일렁이는 불꽃·트렌토II",
 		id = 800537,
 		type = 1,
 		max_level = 1,
@@ -112988,7 +113148,7 @@ pg.base.skill_data_template = {
 	},
 	[800811] = {
 		desc_get = "",
-		name = "흔들리는 불·U-556 I",
+		name = "일렁이는 불꽃·U-556 I",
 		id = 800811,
 		type = 3,
 		max_level = 1,
@@ -113004,7 +113164,7 @@ pg.base.skill_data_template = {
 	},
 	[800812] = {
 		desc_get = "",
-		name = "흔들리는 불·U-556 II",
+		name = "일렁이는 불꽃·U-556 II",
 		id = 800812,
 		type = 3,
 		max_level = 1,
@@ -113020,7 +113180,7 @@ pg.base.skill_data_template = {
 	},
 	[800815] = {
 		desc_get = "",
-		name = "흔들리는 불·U-556 I",
+		name = "일렁이는 불꽃·U-556 I",
 		id = 800815,
 		type = 3,
 		max_level = 1,
@@ -113036,7 +113196,7 @@ pg.base.skill_data_template = {
 	},
 	[800817] = {
 		desc_get = "",
-		name = "흔들리는 불·U-556 II",
+		name = "일렁이는 불꽃·U-556 II",
 		id = 800817,
 		type = 3,
 		max_level = 1,
@@ -113264,7 +113424,7 @@ pg.base.skill_data_template = {
 	},
 	[800841] = {
 		desc_get = "",
-		name = "구조의 원리·베스탈I",
+		name = "구조의 이치·베스탈I",
 		id = 800841,
 		type = 3,
 		max_level = 1,
@@ -113280,7 +113440,7 @@ pg.base.skill_data_template = {
 	},
 	[800842] = {
 		desc_get = "",
-		name = "구조의 원리·베스탈II",
+		name = "구조의 이치·베스탈II",
 		id = 800842,
 		type = 3,
 		max_level = 1,
@@ -113296,7 +113456,7 @@ pg.base.skill_data_template = {
 	},
 	[800845] = {
 		desc_get = "",
-		name = "구조의 원리·베스탈I",
+		name = "구조의 이치·베스탈I",
 		id = 800845,
 		type = 3,
 		max_level = 1,
@@ -113312,7 +113472,7 @@ pg.base.skill_data_template = {
 	},
 	[800847] = {
 		desc_get = "",
-		name = "구조의 원리·베스탈II",
+		name = "구조의 이치·베스탈II",
 		id = 800847,
 		type = 3,
 		max_level = 1,

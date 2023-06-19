@@ -12,5 +12,6 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           owner: AzurLaneTools
+          repo: AzurLaneLuaScripts
           head: main
           base: main

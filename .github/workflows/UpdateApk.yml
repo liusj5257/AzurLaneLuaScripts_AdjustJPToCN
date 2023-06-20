@@ -23,7 +23,8 @@ jobs:
           ref: JP
       - name: Run scripts
         run: |
-            ls
-            ./gametip.exe
-            ./ship_data_statistics.exe
+            dir
+            gametip.exe
+            ship_data_statistics.exe
         working-directory: Output/bin
+        shell: cmd

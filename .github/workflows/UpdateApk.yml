@@ -1,0 +1,48 @@
+
+name: UpdateApk
+
+on:
+  push: # push 时触发, 主要是为了测试配置有没有问题
+  workflow_dispatch:
+jobs:
+  repo-sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: szenius/set-timezone@v1.2
+        with:
+          timezoneLinux: "Asia/Singapore"
+          timezoneMacos: "Asia/Singapore"
+          timezoneWindows: "Singapore Standard Time"    
+      - uses: actions/checkout@v3
+#       - name: Checkout AzurLaneApk
+#         uses: actions/checkout@v3
+#         with:
+#           repository: ${{ secrets.TOOLS_REPOSITORY }}
+#           token: ${{ secrets.TOKEN }}
+#           path: AzurLaneApk
+#           ref: JP
+#       - name: Install Clang
+#         uses: egor-tensin/setup-clang@v1.4
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y build-essential cmake clang
+
+      - name: Create build directory
+        run: mkdir build
+
+      - name: Configure CMake
+        working-directory: build
+        run: |
+          cmake .. -DCMAKE_C_COMPILER=clang -DCMAKE_CXX_COMPILER=clang++
+
+      - name: Build project
+        working-directory: build
+        run: make          
+#       - name: Run scripts
+#         run: |
+#             dir
+#             gametip.exe
+#             ship_data_statistics.exe
+#         working-directory: Output/bin
+

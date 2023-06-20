@@ -1,5 +1,6 @@
 #include <unistd.h>
 
+#include <cstring>
 #include <fstream>
 #include <iostream>
 #include <regex>

@@ -4,6 +4,8 @@
 #include <string>
 #include <unistd.h>
 #include <vector>
+#include <cstring>
+
 using namespace std;
 
 #define attr "name"

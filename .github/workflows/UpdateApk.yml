@@ -93,6 +93,7 @@ jobs:
           # Use the local job cache on top of the runner tool cache
           local-cache: true
       - name: Cache NDK build
+        if: steps.check_changes_1.outputs.has_changes == 'true'
         uses: actions/cache@v2
         with:
           path: AzurLaneApk/obj
@@ -131,11 +132,7 @@ jobs:
           repository: liusj5257/azurlane-JP
           token: ${{ secrets.TOKEN }}
           path: azurlane-JP
-      - name: Setup Java JDK
-        uses: actions/setup-java@v3.3.0
-        with:
-          java-version: "17"
-          distribution: "adopt"
+
 
       - name: move libs file
         run: |
@@ -157,6 +154,12 @@ jobs:
           fi
         working-directory: azurlane-JP
 
+      - name: Setup Java JDK
+        if: steps.check_changes_2.outputs.libs_changes == 'true'
+        uses: actions/setup-java@v3.3.0
+        with:
+          java-version: "17"
+          distribution: "adopt"
 
       - name: Build Perseus APK
         if: steps.check_changes_2.outputs.libs_changes == 'true'

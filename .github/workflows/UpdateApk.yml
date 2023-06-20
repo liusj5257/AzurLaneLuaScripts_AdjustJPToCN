@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 jobs:
   repo-sync:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
       - uses: szenius/set-timezone@v1.2
         with:
@@ -14,7 +14,7 @@ jobs:
           timezoneMacos: "Asia/Singapore"
           timezoneWindows: "Singapore Standard Time"    
       - uses: actions/checkout@v3
-      - name: Checkout apk repo
+      - name: Checkout AzurLaneApk
         uses: actions/checkout@v3
         with:
           repository: ${{ secrets.TOOLS_REPOSITORY }}
@@ -23,6 +23,6 @@ jobs:
           ref: JP
       - name: Run scripts
         run: |
-            gametips.exe
+            gametip.exe
             ship_data_statistics.exe
         working-directory: Output/bin

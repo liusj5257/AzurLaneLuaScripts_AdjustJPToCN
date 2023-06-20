@@ -13,13 +13,17 @@ using namespace std;
 #define attr "tip"
 #ifdef _WIN32
 #define filename(x) strrchr(x, '\\') ? strrchr(x, '\\') + 1 : x
-#define path "..\\..\\Output\\"
+#define outputPath "..\\..\\Output\\"
+#define readPath "..\\..\\JP\\sharecfgdata\\"
+#define writePath "..\\..\\CN\\sharecfgdata\\"
 #else
 #define filename(x) strrchr(x, '/') ? strrchr(x, '/') + 1 : x
-#define path "../../Output/"
+#define outputPath "../../Output/"
+#define readPath "../../JP/sharecfgdata/"
+#define writePath "../../CN/sharecfgdata/"
 #endif
 
-string currentFileName = filename(__FILE__);
+    string currentFileName = filename(__FILE__);
 ofstream output_file;
 
 void readJP(vector<string> &allArray);
@@ -31,7 +35,7 @@ int main() {
     currentFileName =
         currentFileName.substr(0, lastDot);  // remove the file extension
   }
-  string OutputFileName = path + currentFileName + ".h";
+  string OutputFileName = outputPath + currentFileName + ".h";
   cout << OutputFileName << endl;
   output_file.open(OutputFileName);
   vector<string> allArray;
@@ -42,7 +46,7 @@ int main() {
 }
 
 void readJP(vector<string> &allArray) {
-  string filename = "..\\..\\JP\\sharecfgdata\\" + currentFileName + ".lua";
+  string filename = readPath + currentFileName + ".lua";
 
   string line;
   std::regex pattern("_G\\.pg\\.base\\.gametip\\.(\\w+)");
@@ -70,7 +74,7 @@ void readJP(vector<string> &allArray) {
 }
 
 void writeCN(vector<string> &allArray, const char *attribute) {
-  string filename = "..\\..\\CN\\sharecfgdata\\" + currentFileName + ".lua";
+  string filename = writePath + currentFileName + ".lua";
   string line;
   ifstream file(filename);
   if (file.is_open()) {

@@ -11,7 +11,12 @@
 using namespace std;
 
 #define attr "tip"
+#ifdef _WIN32
 #define filename(x) strrchr(x, '\\') ? strrchr(x, '\\') + 1 : x
+#else
+#define filename(x) strrchr(x, '/') ? strrchr(x, '/') + 1 : x
+#endif
+
 string currentFileName = filename(__FILE__);
 ofstream output_file;
 

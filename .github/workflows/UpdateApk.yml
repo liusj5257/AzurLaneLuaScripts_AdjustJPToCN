@@ -67,7 +67,7 @@ jobs:
         working-directory: Output
 
       - name: Commit files
-        id: check_changes
+        id: check_changes_1
         run: |
           git config  user.email "github-actions[bot]@users.noreply.github.com"
           git config  user.name "github-actions[bot]"
@@ -81,7 +81,7 @@ jobs:
         working-directory: AzurLaneApk
 
       - name: Setup Android NDK >=23
-        if: steps.check_changes.outputs.has_changes == 'true'
+        if: steps.check_changes_1.outputs.has_changes == 'true'
         # You may pin to the exact commit or the version.
         # uses: anoop-b/setup-ndk@6f0ee78e62451cfec5f1698acb00b58d00a5d7b6
         uses: anoop-b/setup-ndk@V1.3.0
@@ -93,13 +93,13 @@ jobs:
           # Use the local job cache on top of the runner tool cache
           local-cache: true
       - name: build
-        if: steps.check_changes.outputs.has_changes == 'true'
+        if: steps.check_changes_1.outputs.has_changes == 'true'
         run: |
           ndk-build NDK_APPLICATION_MK=Application.mk APP_BUILD_SCRIPT=Android.mk NDK_OUT=..\
         working-directory: AzurLaneApk/jni
 
       - name: Commit files
-        if: steps.check_changes.outputs.has_changes == 'true'
+        if: steps.check_changes_1.outputs.has_changes == 'true'
         run: |
           git config  user.email "github-actions[bot]@users.noreply.github.com"
           git config  user.name "github-actions[bot]"
@@ -130,7 +130,7 @@ jobs:
         working-directory: AzurLaneApk
 
       - name: Commit libs
-        id: check_changes
+        id: check_changes_2
         run: |
           git config  user.email "github-actions[bot]@users.noreply.github.com"
           git config  user.name "github-actions[bot]"
@@ -146,17 +146,17 @@ jobs:
 
 
       - name: Build Perseus APK
-        if: steps.check_changes.outputs.libs_changes == 'true'
+        if: steps.check_changes_2.outputs.libs_changes == 'true'
         run: ./patch_perseus.sh
         working-directory: azurlane-JP
 
       - name: Zipalign and Sign Android release
-        if: steps.check_changes.outputs.libs_changes == 'true'
+        if: steps.check_changes_2.outputs.libs_changes == 'true'
         run: ./zipalign_sign.sh
         working-directory: azurlane-JP
 
       - name: Create Release
-        if: steps.check_changes.outputs.libs_changes == 'true'
+        if: steps.check_changes_2.outputs.libs_changes == 'true'
         uses: ncipollo/release-action@v1.12.0
         with:
           allowUpdates: true

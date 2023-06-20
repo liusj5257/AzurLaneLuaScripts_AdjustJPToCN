@@ -14,13 +14,13 @@ jobs:
           timezoneMacos: "Asia/Singapore"
           timezoneWindows: "Singapore Standard Time"
       - uses: actions/checkout@v3
-#       - name: Checkout AzurLaneApk
-#         uses: actions/checkout@v3
-#         with:
-#           repository: ${{ secrets.TOOLS_REPOSITORY }}
-#           token: ${{ secrets.TOKEN }}
-#           path: AzurLaneApk
-#           ref: JP
+      - name: Checkout AzurLaneApk
+        uses: actions/checkout@v3
+        with:
+          repository: ${{ secrets.TOOLS_REPOSITORY }}
+          token: ${{ secrets.TOKEN }}
+          path: AzurLaneApk
+          ref: JP
 #       - name: Install Clang
 #         uses: egor-tensin/setup-clang@v1.4
       - name: Install dependencies
@@ -44,6 +44,38 @@ jobs:
             ls
             ./gametip
             ./ship_data_statistics
-            cat ../gametip.h
         working-directory: Output/bin
+      - name: move output file
+        run: |
+            cp gametip.h ../AzurLaneApk/jni/Includes/adjust/gametips.h
+            cp ship_data_statistics ../AzurLaneApk/jni/Includes/adjust/ship_data_statistics.h
+        working-directory: Output
+
+      - name: Setup Android NDK >=23
+        # You may pin to the exact commit or the version.
+        # uses: anoop-b/setup-ndk@6f0ee78e62451cfec5f1698acb00b58d00a5d7b6
+        uses: anoop-b/setup-ndk@V1.3.0
+        with:
+          # Exact version to use
+          ndk-version: r25b
+          # Add installation directory to the PATH
+          add-to-path: true
+          # Use the local job cache on top of the runner tool cache
+          local-cache: true
+      - name: build
+        run: |
+          ndk-build NDK_APPLICATION_MK=Application.mk APP_BUILD_SCRIPT=Android.mk NDK_OUT=..\
+        working-directory: AzurLaneApk/jni
+
+      - name: Commit files
+        run: |
+          git config  user.email "github-actions[bot]@users.noreply.github.com"
+          git config  user.name "github-actions[bot]"
+          if [[ `git status --porcelain` ]]; then
+            git commit -a -m "Changes libs"
+            git push
+          else
+            echo "No changes to commit"
+          fi
+        working-directory: AzurLaneApk
 

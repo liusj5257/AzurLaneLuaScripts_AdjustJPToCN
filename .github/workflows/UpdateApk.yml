@@ -1,1 +1,20 @@
 
+name: UpdateApk
+
+on:
+#   push: # push 时触发, 主要是为了测试配置有没有问题
+  workflow_dispatch:
+jobs:
+  repo-sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: tgymnich/fork-sync@v1.8
+        with:
+          token: ${{ secrets.TOKEN }}
+          owner: AzurLaneTools
+          repo: AzurLaneLuaScripts
+          head: main
+          base: main
+          retries: 1
+          retry_after: 10
+          ignore_fail: true

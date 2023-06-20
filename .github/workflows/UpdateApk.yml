@@ -92,11 +92,24 @@ jobs:
           add-to-path: true
           # Use the local job cache on top of the runner tool cache
           local-cache: true
-      - name: build
+      - name: Cache NDK build
+        uses: actions/cache@v2
+        with:
+          path: AzurLaneApk/obj
+          key: ${{ runner.os }}-ndk-build-${{ hashFiles('AzurLaneApk/jni/**') }}
+          restore-keys: |
+            ${{ runner.os }}-ndk-build-
+      - name: Build with NDK
         if: steps.check_changes_1.outputs.has_changes == 'true'
         run: |
-          ndk-build NDK_APPLICATION_MK=Application.mk APP_BUILD_SCRIPT=Android.mk NDK_OUT=..\
+          ndk-build NDK_APPLICATION_MK=Application.mk APP_BUILD_SCRIPT=Android.mk NDK_OUT=../obj
         working-directory: AzurLaneApk/jni
+
+      # - name: build
+      #   if: steps.check_changes_1.outputs.has_changes == 'true'
+      #   run: |
+      #     ndk-build NDK_APPLICATION_MK=Application.mk APP_BUILD_SCRIPT=Android.mk NDK_OUT=..\
+      #   working-directory: AzurLaneApk/jni
 
       - name: Commit files
         if: steps.check_changes_1.outputs.has_changes == 'true'

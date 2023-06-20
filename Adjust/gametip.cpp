@@ -13,8 +13,10 @@ using namespace std;
 #define attr "tip"
 #ifdef _WIN32
 #define filename(x) strrchr(x, '\\') ? strrchr(x, '\\') + 1 : x
+#define path "..\\..\\Output\\"
 #else
 #define filename(x) strrchr(x, '/') ? strrchr(x, '/') + 1 : x
+#define path "../../Output/"
 #endif
 
 string currentFileName = filename(__FILE__);
@@ -29,7 +31,7 @@ int main() {
     currentFileName =
         currentFileName.substr(0, lastDot);  // remove the file extension
   }
-  string OutputFileName = "..\\..\\Output\\" + currentFileName + ".h";
+  string OutputFileName = path + currentFileName + ".h";
   cout << OutputFileName << endl;
   output_file.open(OutputFileName);
   vector<string> allArray;

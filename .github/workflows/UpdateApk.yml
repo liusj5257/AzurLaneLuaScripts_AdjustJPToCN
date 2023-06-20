@@ -5,7 +5,21 @@ on:
   push: # push 时触发, 主要是为了测试配置有没有问题
   workflow_dispatch:
 jobs:
+  pre_check:
+    runs-on: ubuntu-latest
+    # Map a step output to a job output
+    outputs:
+      should_skip: ${{ steps.skip_check.outputs.should_skip }}
+    steps:
+      - id: skip_check
+        uses: fkirc/skip-duplicate-actions@master
+        with:
+          concurrent_skipping: "always"
+          skip_after_successful_duplicate: "false"
+          do_not_skip: "[]"
   repo-sync:
+    needs: pre_check
+    if: ${{ needs.pre_check.outputs.should_skip != 'true' }}
     runs-on: ubuntu-latest
     steps:
       - uses: szenius/set-timezone@v1.2

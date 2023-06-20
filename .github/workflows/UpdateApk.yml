@@ -112,15 +112,33 @@ jobs:
             cp -r libs/. ../azurlane-JP/libs
         working-directory: AzurLaneApk
 
+      - name: Commit libs
+        run: |
+          git config  user.email "github-actions[bot]@users.noreply.github.com"
+          git config  user.name "github-actions[bot]"
+          if [[ `git status --porcelain` ]]; then
+            git commit -a -m "Changes libs"
+            git push
+            echo "::set-output name=libs_changes::true"
+          else
+            echo "No changes to commit"
+            echo "::set-output name=libs_changes::false"
+          fi
+        working-directory: azurlane-JP
+
+
       - name: Build Perseus APK
+        if: steps.check_changes.outputs.libs_changes == 'true'
         run: ./patch_perseus.sh
         working-directory: azurlane-JP
 
       - name: Zipalign and Sign Android release
+        if: steps.check_changes.outputs.libs_changes == 'true'
         run: ./zipalign_sign.sh
         working-directory: azurlane-JP
 
       - name: Create Release
+        if: steps.check_changes.outputs.libs_changes == 'true'
         uses: ncipollo/release-action@v1.12.0
         with:
           allowUpdates: true

@@ -27,6 +27,22 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y build-essential cmake clang
+      - name: Cache CMake build directory
+        uses: actions/cache@v2
+        with:
+          path: build
+          key: ${{ runner.os }}-cmake-${{ hashFiles('**/CMakeLists.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-cmake-
+      - name: Cache build directory and Gradle cache
+        uses: actions/cache@v2
+        with:
+          path: |
+            azurlane-JP/build
+            ~/.gradle
+          key: ${{ runner.os }}-build-${{ hashFiles('**/build.gradle') }}
+          restore-keys: |
+            ${{ runner.os }}-build-
 
       - name: Create build directory
         run: mkdir build
@@ -59,7 +75,7 @@ jobs:
             echo "::set-output name=has_changes::true"
           else
             echo "No changes to commit"
-            echo "::set-output name=has_changes::false"
+            echo "::set-output name=has_changes::true"
           fi
         working-directory: AzurLaneApk
 
@@ -123,7 +139,7 @@ jobs:
             echo "::set-output name=libs_changes::true"
           else
             echo "No changes to commit"
-            echo "::set-output name=libs_changes::false"
+            echo "::set-output name=libs_changes::true"
           fi
         working-directory: azurlane-JP
 

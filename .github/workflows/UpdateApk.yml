@@ -45,7 +45,7 @@ jobs:
             ${{ runner.os }}-build-
 
       - name: Create build directory
-        run: mkdir build
+        run: mkdir -p build
 
       - name: Configure CMake
         working-directory: build

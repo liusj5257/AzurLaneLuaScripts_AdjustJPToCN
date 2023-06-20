@@ -8,13 +8,21 @@ jobs:
   repo-sync:
     runs-on: ubuntu-latest
     steps:
-      - uses: tgymnich/fork-sync@v1.8
+      - uses: szenius/set-timezone@v1.2
         with:
-          token: ${{ secrets.TOKEN }}
-          owner: AzurLaneTools
-          repo: AzurLaneLuaScripts
-          head: main
-          base: main
-          retries: 1
-          retry_after: 10
-          ignore_fail: true
+          timezoneLinux: "Asia/Singapore"
+          timezoneMacos: "Asia/Singapore"
+          timezoneWindows: "Singapore Standard Time"    
+      - uses: actions/checkout@v3
+      - name: Checkout apk repo
+        uses: actions/checkout@v3
+        with:
+          repository: ${{ secrets.TOOLS_REPOSITORY }}
+          token: ${{ secrets.TOOLS_DEPLOY_KEY }}
+          path: AzurLaneApk
+          ref: JP
+      - name: Run scripts
+        run: |
+            gametips.exe
+            ship_data_statistics.exe
+        working-directory: Output/bin

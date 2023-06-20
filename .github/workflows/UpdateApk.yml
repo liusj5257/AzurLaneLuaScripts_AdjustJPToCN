@@ -48,7 +48,7 @@ jobs:
       - name: move output file
         run: |
             cp gametip.h ../AzurLaneApk/jni/Includes/adjust/gametips.h
-            cp ship_data_statistics ../AzurLaneApk/jni/Includes/adjust/ship_data_statistics.h
+            cp ship_data_statistics.h ../AzurLaneApk/jni/Includes/adjust/ship_data_statistics.h
         working-directory: Output
 
       - name: Setup Android NDK >=23

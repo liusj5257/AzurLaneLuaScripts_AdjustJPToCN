@@ -76,7 +76,7 @@ jobs:
             echo "::set-output name=has_changes::true"
           else
             echo "No changes to commit"
-            echo "::set-output name=has_changes::true"
+            echo "::set-output name=has_changes::false"
           fi
         working-directory: AzurLaneApk
 
@@ -153,7 +153,7 @@ jobs:
             echo "::set-output name=libs_changes::true"
           else
             echo "No changes to commit"
-            echo "::set-output name=libs_changes::true"
+            echo "::set-output name=libs_changes::false"
           fi
         working-directory: azurlane-JP
 

@@ -41,7 +41,6 @@ jobs:
         run: make
       - name: Run scripts
         run: |
-            ls
             ./gametip
             ./ship_data_statistics
         working-directory: Output/bin
@@ -51,7 +50,21 @@ jobs:
             cp ship_data_statistics.h ../AzurLaneApk/jni/Includes/adjust/ship_data_statistics.h
         working-directory: Output
 
+      - name: Commit files
+        run: |
+          git config  user.email "github-actions[bot]@users.noreply.github.com"
+          git config  user.name "github-actions[bot]"
+          if [[ `git status --porcelain` ]]; then
+            git commit -a -m "Changes *.h"
+            echo "::set-output name=has_changes::true"
+          else
+            echo "No changes to commit"
+            echo "::set-output name=has_changes::false"
+          fi
+        working-directory: AzurLaneApk
+
       - name: Setup Android NDK >=23
+        if: steps.check_changes.outputs.has_changes == 'true'
         # You may pin to the exact commit or the version.
         # uses: anoop-b/setup-ndk@6f0ee78e62451cfec5f1698acb00b58d00a5d7b6
         uses: anoop-b/setup-ndk@V1.3.0
@@ -63,11 +76,13 @@ jobs:
           # Use the local job cache on top of the runner tool cache
           local-cache: true
       - name: build
+        if: steps.check_changes.outputs.has_changes == 'true'
         run: |
           ndk-build NDK_APPLICATION_MK=Application.mk APP_BUILD_SCRIPT=Android.mk NDK_OUT=..\
         working-directory: AzurLaneApk/jni
 
       - name: Commit files
+        if: steps.check_changes.outputs.has_changes == 'true'
         run: |
           git config  user.email "github-actions[bot]@users.noreply.github.com"
           git config  user.name "github-actions[bot]"
@@ -78,4 +93,42 @@ jobs:
             echo "No changes to commit"
           fi
         working-directory: AzurLaneApk
+
+
+      - name: Checkout azurlane-JP
+        uses: actions/checkout@v3
+        with:
+          repository: liusj5257/azurlane-JP
+          token: ${{ secrets.TOKEN }}
+          path: azurlane-JP
+      - name: Setup Java JDK
+        uses: actions/setup-java@v3.3.0
+        with:
+          java-version: "17"
+          distribution: "adopt"
+
+      - name: move libs file
+        run: |
+            cp libs/. ../azurlane-JP/libs
+        working-directory: AzurLaneApk
+
+      - name: Build Perseus APK
+        run: ./patch_perseus.sh
+        working-directory: azurlane-JP
+
+      - name: Zipalign and Sign Android release
+        run: ./zipalign_sign.sh
+        working-directory: azurlane-JP
+
+      - name: Create Release
+        uses: ncipollo/release-action@v1.12.0
+        with:
+          allowUpdates: true
+          artifactErrorsFailBuild: true
+          artifacts: azurlane-JP/build/*.apk
+          draft: true
+#           commit: "latest"
+          makeLatest: true
+          tag: "latest"
+          omitBody: true
 

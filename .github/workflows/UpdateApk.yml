@@ -39,10 +39,10 @@ jobs:
       - name: Build project
         working-directory: build
         run: make          
-#       - name: Run scripts
-#         run: |
-#             dir
-#             gametip.exe
-#             ship_data_statistics.exe
-#         working-directory: Output/bin
+      - name: Run scripts
+        run: |
+            ls
+            ./gametip.exe
+            ./ship_data_statistics.exe
+        working-directory: Output/bin
 

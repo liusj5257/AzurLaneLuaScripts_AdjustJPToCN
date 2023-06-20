@@ -11,8 +11,14 @@ using namespace std;
 #define attr "name"
 #ifdef _WIN32
 #define filename(x) strrchr(x, '\\') ? strrchr(x, '\\') + 1 : x
+#define outputPath "..\\..\\Output\\"
+#define readPath "..\\..\\JP\\sharecfg\\"
+#define writePath "..\\..\\CN\\sharecfgdata\\"
 #else
 #define filename(x) strrchr(x, '/') ? strrchr(x, '/') + 1 : x
+#define outputPath "../../Output/"
+#define readPath "../../JP/sharecfg/"
+#define writePath "../../CN/sharecfgdata/"
 #endif
 
 string currentFileName = filename(__FILE__);
@@ -28,7 +34,7 @@ int main()
     {
         currentFileName = currentFileName.substr(0, lastDot); // remove the file extension
     }
-    string OutputFileName = "..\\..\\Output\\" + currentFileName + ".h";
+    string OutputFileName = outputPath + currentFileName + ".h";
     cout << OutputFileName << endl;
     output_file.open(OutputFileName);
 
@@ -42,7 +48,7 @@ int main()
 
 void readJP(vector<int> &allArray)
 {
-    string filename = "..\\..\\JP\\sharecfg\\" + currentFileName + ".lua";
+    string filename = readPath + currentFileName + ".lua";
 
     string line;
     ifstream file(filename);
@@ -86,7 +92,7 @@ void readJP(vector<int> &allArray)
 
 void writeCN(vector<int> &allArray, const char *attribute)
 {
-    string filename = "..\\..\\CN\\sharecfgdata\\" + currentFileName + ".lua";
+    string filename = writePath + currentFileName + ".lua";
     string line;
     ifstream file(filename);
     if (file.is_open())

@@ -12,7 +12,7 @@ jobs:
         with:
           timezoneLinux: "Asia/Singapore"
           timezoneMacos: "Asia/Singapore"
-          timezoneWindows: "Singapore Standard Time"    
+          timezoneWindows: "Singapore Standard Time"
       - uses: actions/checkout@v3
 #       - name: Checkout AzurLaneApk
 #         uses: actions/checkout@v3
@@ -38,11 +38,12 @@ jobs:
 
       - name: Build project
         working-directory: build
-        run: make          
+        run: make
       - name: Run scripts
         run: |
             ls
             ./gametip
             ./ship_data_statistics
+            cat ../gametip.h
         working-directory: Output/bin
 

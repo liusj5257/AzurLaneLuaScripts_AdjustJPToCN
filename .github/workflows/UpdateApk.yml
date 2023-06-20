@@ -109,7 +109,7 @@ jobs:
 
       - name: move libs file
         run: |
-            cp libs/. ../azurlane-JP/libs
+            cp -r libs/. ../azurlane-JP/libs
         working-directory: AzurLaneApk
 
       - name: Build Perseus APK

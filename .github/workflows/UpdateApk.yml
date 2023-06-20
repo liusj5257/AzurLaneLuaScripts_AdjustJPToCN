@@ -42,7 +42,7 @@ jobs:
       - name: Run scripts
         run: |
             ls
-            ./gametip.exe
-            ./ship_data_statistics.exe
+            ./gametip
+            ./ship_data_statistics
         working-directory: Output/bin
 

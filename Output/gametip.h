@@ -3874,3 +3874,4 @@ replaceByAttribute(L,STR("game_room_shooting_tip"),STR("tip"),STR("当前积分�
 replaceByAttribute(L,STR("mini_game_shop_ticked_not_enough"),STR("tip"),STR("游戏奖券数量不足，是否前往游戏屋获取？"));\
 replaceByAttribute(L,STR("game_ticket_current_month"),STR("tip"),STR("本月上限"));\
 replaceByAttribute(L,STR("game_icon_max_full"),STR("tip"),STR("当前游戏币到达上限,无法继续领取"));\
+replaceByAttribute(L,STR("pre_combat_consume"),STR("tip"),STR("消耗："));\

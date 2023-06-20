@@ -15,8 +15,8 @@ string currentFileName = filename(__FILE__);
 ofstream output_file;
 
 void readJP(vector<string> &allArray);
-void output(string id, char *attribute, string str);
-void writeCN(vector<string> &allArray, char *attribute);
+void output(string id, const char *attribute, string str);
+void writeCN(vector<string> &allArray, const char *attribute);
 int main() {
   int lastDot = currentFileName.rfind('.');
   if (lastDot != string::npos) {
@@ -61,7 +61,7 @@ void readJP(vector<string> &allArray) {
   cout << "读取完毕" << endl;
 }
 
-void writeCN(vector<string> &allArray, char *attribute) {
+void writeCN(vector<string> &allArray, const char *attribute) {
   string filename = "..\\..\\CN\\sharecfgdata\\" + currentFileName + ".lua";
   string line;
   ifstream file(filename);
@@ -117,7 +117,7 @@ void writeCN(vector<string> &allArray, char *attribute) {
   //  return 1;
 }
 
-void output(string id, char *attribute, string str) {
+void output(string id, const char *attribute, string str) {
   static bool first = true;
   if (first) {
     first = false;

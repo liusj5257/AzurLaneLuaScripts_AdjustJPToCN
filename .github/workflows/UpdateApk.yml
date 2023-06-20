@@ -2,7 +2,7 @@
 name: UpdateApk
 
 on:
-#   push: # push 时触发, 主要是为了测试配置有没有问题
+  push: # push 时触发, 主要是为了测试配置有没有问题
   workflow_dispatch:
 jobs:
   repo-sync:
@@ -24,6 +24,6 @@ jobs:
       - name: Run scripts
         run: |
             ls
-            gametip.exe
-            ship_data_statistics.exe
+            ./gametip.exe
+            ./ship_data_statistics.exe
         working-directory: Output/bin

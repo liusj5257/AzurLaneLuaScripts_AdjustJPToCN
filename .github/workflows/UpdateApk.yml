@@ -106,6 +106,20 @@ jobs:
           add-to-path: true
           # Use the local job cache on top of the runner tool cache
           local-cache: true
+
+      - name: Cache ccache files
+        uses: actions/cache@v2
+        if: steps.check_changes_1.outputs.has_changes == 'true'
+        with:
+          path: ~/.ccache
+          key: ${{ runner.os }}-ccache-${{ env.cache-name }}
+          restore-keys: |
+            ${{ runner.os }}-ccache-${{ env.cache-name }}
+
+      - name: Install ccache
+        if: steps.check_changes_1.outputs.has_changes == 'true'
+        run: sudo apt-get update && sudo apt-get install -y ccache
+
       - name: Cache NDK build
         if: steps.check_changes_1.outputs.has_changes == 'true'
         uses: actions/cache@v2

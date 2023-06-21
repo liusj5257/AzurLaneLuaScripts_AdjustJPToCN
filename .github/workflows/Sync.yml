@@ -12,6 +12,7 @@ jobs:
   repo-sync:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v3.3.0
       - uses: tgymnich/fork-sync@v1.8
         with:
           token: ${{ secrets.TOKEN }}

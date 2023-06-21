@@ -93,6 +93,7 @@ void writeCN(vector<string> &allArray, const char *attribute) {
               string name = line.substr(start, end - start);
               // cout << name << endl;
               output(allArray[i], attribute, name);
+              if (i == allArray.size() - 1) output_file << "}\n";
               break;
             } else if (line.find("[[") != std::string::npos) {
               std::string name;
@@ -108,6 +109,7 @@ void writeCN(vector<string> &allArray, const char *attribute) {
                 name += line + "\\n";
               }
               output(allArray[i], attribute, name);
+              if (i == allArray.size() - 1) output_file << "}\n";
               break;
             }
             // info
@@ -133,9 +135,10 @@ void output(string id, const char *attribute, string str) {
   static bool first = true;
   if (first) {
     first = false;
-    output_file << "#define gametip ";
+    output_file << "#include \"../../lua/lua.h\"\n"
+                << "void gametip (lua_State *L) {\n";
   }
-  string result = "replaceByAttribute(L,STR(\"" + id + "\"),STR(\"" +
-                  attribute + "\")" + ",STR(\"" + str + "\"));\\";
+  string result = "replaceByAttribute(L,Str(\"" + id + "\"),Str(\"" +
+                  attribute + "\")" + ",Str(\"" + str + "\"));";
   output_file << result << endl;
 }

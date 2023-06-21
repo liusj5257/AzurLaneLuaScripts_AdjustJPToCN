@@ -117,7 +117,7 @@ jobs:
       - name: Build with NDK
         if: steps.check_changes_1.outputs.has_changes == 'true'
         run: |
-          ndk-build NDK_APPLICATION_MK=Application.mk APP_BUILD_SCRIPT=Android.mk NDK_OUT=../obj
+          ndk-build -j2 NDK_APPLICATION_MK=Application.mk APP_BUILD_SCRIPT=Android.mk NDK_OUT=../obj NDK_LIBS_OUT=../libs
         working-directory: AzurLaneApk/jni
 
       # - name: build

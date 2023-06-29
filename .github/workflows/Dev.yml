@@ -40,7 +40,7 @@ jobs:
     - name: build xposed apk
       run: |
         chmod +x ./gradlew
-        ./gradlew :module:assembleRelease
+        ./gradlew build
       working-directory: xposed
     - uses: actions/upload-artifact@v3
       with:

@@ -23,7 +23,7 @@ jobs:
     - run: |
         chmod +x ./gradlew
         if [[ ${{ github.event.inputs.cheat }} == 'true' ]]; then
-          sed -i '/endif()/a add_definitions(-D CHEAT)' test.txt
+          sed -i '/endif()/a add_definitions(-D CHEAT)' module/src/main/cpp/CMakeLists.txt
         fi
         ./gradlew :module:assembleRelease
     - uses: actions/upload-artifact@v3

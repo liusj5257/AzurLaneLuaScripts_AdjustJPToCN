@@ -1,0 +1,32 @@
+name: Build
+on:
+  workflow_dispatch:
+      inputs:
+        cheat:
+          description: "module name:"
+          required: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        repository: liusj5257/Zygisk-Azurlane
+        token: ${{ secrets.TOKEN }}
+        ref: main
+    - uses: actions/setup-java@v3
+      with:
+        distribution: temurin
+        java-version: 11
+        cache: gradle
+    - run: |
+        chmod +x ./gradlew
+        if [[ ${{ github.event.inputs.cheat }} == 'true' ]]; then
+          sed -i '/endif()/a add_definitions(-D CHEAT)' test.txt
+        fi
+        ./gradlew :module:assembleRelease
+    - uses: actions/upload-artifact@v3
+      with:
+        name: zygisk-il2cppdumper
+        path: lib

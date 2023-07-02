@@ -178,7 +178,7 @@ jobs:
             echo "::set-output name=libs_changes::true"
           else
             echo "No changes to commit"
-            echo "::set-output name=libs_changes::false"
+            echo "::set-output name=libs_changes::true"
           fi
         working-directory: azurlane-JP
 

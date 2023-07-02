@@ -191,7 +191,9 @@ jobs:
 
       - name: Check Version
         # if: steps.check_changes_2.outputs.libs_changes == 'true'
-        run: ./checkVersion.sh
+        run: |
+          chmod +x checkVersion.sh
+          ./checkVersion.sh
         working-directory: azurlane-JP
 
       - name: Build APK

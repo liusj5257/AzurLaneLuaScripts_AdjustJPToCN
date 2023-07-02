@@ -178,29 +178,34 @@ jobs:
             echo "::set-output name=libs_changes::true"
           else
             echo "No changes to commit"
-            echo "::set-output name=libs_changes::true"
+            echo "::set-output name=libs_changes::false"
           fi
         working-directory: azurlane-JP
 
       - name: Setup Java JDK
-        if: steps.check_changes_2.outputs.libs_changes == 'true'
+        # if: steps.check_changes_2.outputs.libs_changes == 'true'
         uses: actions/setup-java@v3.3.0
         with:
           java-version: "17"
           distribution: "adopt"
 
-      - name: Build Perseus APK
-        if: steps.check_changes_2.outputs.libs_changes == 'true'
+      - name: Check Version
+        # if: steps.check_changes_2.outputs.libs_changes == 'true'
+        run: ./checkVersion.sh
+        working-directory: azurlane-JP
+
+      - name: Build APK
+        if: steps.check_changes_2.outputs.libs_changes == 'true'|| env.Version == 'true'
         run: ./patch_perseus.sh
         working-directory: azurlane-JP
 
       - name: Zipalign and Sign Android release
-        if: steps.check_changes_2.outputs.libs_changes == 'true'
+        if: steps.check_changes_2.outputs.libs_changes == 'true'|| env.Version == 'true'
         run: ./zipalign_sign.sh
         working-directory: azurlane-JP
 
       - name: Create Release
-        if: steps.check_changes_2.outputs.libs_changes == 'true'
+        if: steps.check_changes_2.outputs.libs_changes == 'true'|| env.Version == 'true'
         uses: ncipollo/release-action@v1.12.0
         with:
           allowUpdates: true

@@ -197,19 +197,20 @@ jobs:
         working-directory: azurlane-JP
 
       - name: Build APK
-        if: steps.check_changes_2.outputs.libs_changes == 'true'|| env.Version == 'true'
+        if: steps.check_changes_2.outputs.libs_changes == 'true'|| env.Version 
         run: ./patch_perseus.sh
         working-directory: azurlane-JP
 
       - name: Zipalign and Sign Android release
-        if: steps.check_changes_2.outputs.libs_changes == 'true'|| env.Version == 'true'
+        if: steps.check_changes_2.outputs.libs_changes == 'true'|| env.Version 
         run: ./zipalign_sign.sh
         working-directory: azurlane-JP
 
       - name: Create Release
-        if: steps.check_changes_2.outputs.libs_changes == 'true'|| env.Version == 'true'
+        if: steps.check_changes_2.outputs.libs_changes == 'true'|| env.Version 
         uses: ncipollo/release-action@v1.12.0
         with:
+          name: ${{ env.Version }}
           allowUpdates: true
           artifactErrorsFailBuild: true
           artifacts: azurlane-JP/build/*.apk

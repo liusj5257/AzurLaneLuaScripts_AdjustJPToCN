@@ -214,7 +214,7 @@ jobs:
           allowUpdates: true
           artifactErrorsFailBuild: true
           artifacts: azurlane-JP/build/*.apk
-          draft: true
+          draft: false
 #           commit: "latest"
           makeLatest: true
           tag: "latest"

@@ -153,6 +153,7 @@ jobs:
         run: |
           git config  user.email "github-actions[bot]@users.noreply.github.com"
           git config  user.name "github-actions[bot]"
+          git add jni/Includes/adjust/
           if [[ `git status --porcelain` ]]; then
             git commit -a -m "Changes libs"
             git push

@@ -78,8 +78,9 @@ jobs:
         working-directory: Output/bin
       - name: move output file
         run: |
-            cp gametip.h ../AzurLaneApk/jni/Includes/adjust/gametips.h
-            cp ship_data_statistics.h ../AzurLaneApk/jni/Includes/adjust/ship_data_statistics.h
+            cp *.h ../AzurLaneApk/jni/Includes/adjust/
+            # cp gametip.h ../AzurLaneApk/jni/Includes/adjust/gametips.h
+            # cp ship_data_statistics.h ../AzurLaneApk/jni/Includes/adjust/ship_data_statistics.h
         working-directory: Output
 
       - name: Commit files

@@ -92,7 +92,7 @@ void writeCN(vector<int> &allArray, const char *attribute) {
       bool foundAttribute = false;
       string searchString =
           "_G.pg.base.ship_skin_words[" + to_string(allArray[i]) + "]";
-      output_file << "getByList(L," + to_string(allArray[i]) + ");\n";
+      bool first = true;
       while (getline(file, line)) {
         if (line.find(searchString) != string::npos) {
           foundAttribute = true;
@@ -107,12 +107,17 @@ void writeCN(vector<int> &allArray, const char *attribute) {
                 attribute.erase(
                     remove(attribute.begin(), attribute.end(), '\t'),
                     attribute.end());
+                if (first) {
+                  output_file
+                      << "getByList(L," + to_string(allArray[i]) + ");\n";
+                  first = false;
+                }
                 output(allArray[i], attribute.c_str(), name.c_str());
                 if (i == allArray.size() - 1) output_file << "}\n";
               }
             }
           }
-          output_file << "lua_pop(L,1);\n";
+          if (!first) output_file << "lua_pop(L,1);\n";
           if (i == allArray.size() - 1) output_file << "}\n";
           break;
         }

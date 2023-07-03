@@ -100,7 +100,7 @@ void writeCN(vector<int> &allArray, const char *attribute) {
             size_t start = line.find("\"") + 1;
             size_t end = line.find("\"", start);
             string name = line.substr(start, end - start);
-            if (!name.empty()) {  // 添加的 if 语句
+            if (!name.empty()) {
               size_t equalSignPos = line.find(" = \"");
               if (equalSignPos != std::string::npos) {
                 string attribute = line.substr(0, equalSignPos);

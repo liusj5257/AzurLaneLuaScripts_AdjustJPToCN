@@ -4,6 +4,7 @@
 #include <cstring>
 #include <fstream>
 #include <iostream>
+#include <iterator>
 #include <sstream>
 #include <string>
 #include <vector>
@@ -85,13 +86,13 @@ void writeCN(vector<int> &allArray, const char *attribute) {
   string line;
   ifstream file(filename);
   output_file << "#include \"../../lua/lua.h\"\n"
-              << "void spweapon_data_statistics(lua_State *L) {\n";
+              << "void world_chapter_template(lua_State *L) {\n";
 
   if (file.is_open()) {
     for (int i = 0; i < allArray.size(); i++) {
       bool foundAttribute = false;
       string searchString =
-          "_G.pg.base.spweapon_data_statistics[" + to_string(allArray[i]) + "]";
+          "_G.pg.base.world_chapter_template[" + to_string(allArray[i]) + "]";
       bool first = true;
       while (getline(file, line)) {
         if (line.find(searchString) != string::npos) {
@@ -107,14 +108,13 @@ void writeCN(vector<int> &allArray, const char *attribute) {
                 attribute.erase(
                     remove(attribute.begin(), attribute.end(), '\t'),
                     attribute.end());
-                if (attribute == "name" || attribute == "descrip") {
+                if (attribute == "name" || attribute == "port_name") {
                   if (first) {
                     output_file
                         << "getByList(L," + to_string(allArray[i]) + ");\n";
-                    first=false;
+                    first = false;
                   }
                   output(allArray[i], attribute.c_str(), name.c_str());
-                  if (i == allArray.size() - 1) output_file << "}\n";
                 }
               }
             }
@@ -145,7 +145,7 @@ void output(int id, const char *attribute, string str) {
   // if (first) {
   //   first = false;
   //   output_file << "#include \"../../lua/lua.h\"\n"
-  //               << "void spweapon_data_statistics(lua_State *L) {\n";
+  //               << "void world_chapter_template(lua_State *L) {\n";
   // }
 
   string result = string("replaceString2(Str(\"") + attribute + "\"),Str(\"" +

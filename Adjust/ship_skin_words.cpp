@@ -112,6 +112,7 @@ void writeCN(vector<int> &allArray, const char *attribute) {
               }
             }
           }
+          output_file << "lua_pop(L,1);\n";
           break;
         }
       }

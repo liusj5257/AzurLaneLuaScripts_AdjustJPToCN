@@ -1,12 +1,12 @@
 #include <unistd.h>
 
+#include <algorithm>
 #include <cstring>
 #include <fstream>
 #include <iostream>
 #include <sstream>
 #include <string>
 #include <vector>
-
 
 using namespace std;
 
@@ -81,6 +81,8 @@ void readJP(vector<int> &allArray) {
 }
 
 void writeCN(vector<int> &allArray, const char *attribute) {
+  output_file << "#include \"../../lua/lua.h\"\n"
+              << "void ship_skin_template(lua_State *L) {\n";
   for (int j = 1; j <= 20; j++) {
     string filename = writePath + currentFileName + "_" + to_string(j) + ".lua";
     string line;
@@ -89,25 +91,38 @@ void writeCN(vector<int> &allArray, const char *attribute) {
       for (int i = 0; i < allArray.size(); i++) {
         bool foundAttribute = false;
         string searchString = "[" + to_string(allArray[i]) + "]";
+        bool first = true;
         while (getline(file, line)) {
           if (line.find(searchString) != string::npos) {
             foundAttribute = true;
-            while (getline(file, line) && !line.empty()) {
-              string add = " = ";
-              string attr_add = attribute + add;
-              if (line.find(attr_add) != std::string::npos) {
-                size_t start = line.find("\"") + 1;
-                size_t end = line.find("\"", start);
-                string name = line.substr(start, end - start);
-                // cout << name << endl;
-                output(allArray[i], attribute, name);
-                if (i == allArray.size() - 1) output_file << "}\n";
-                break;
+            while (getline(file, line) && line != "	},") {
+              size_t start = line.find("\"") + 1;
+              size_t end = line.find("\"", start);
+              string name = line.substr(start, end - start);
+              if (!name.empty()) {
+                size_t equalSignPos = line.find(" = \"");
+                if (equalSignPos != std::string::npos) {
+                  string attribute = line.substr(0, equalSignPos);
+                  attribute.erase(
+                      remove(attribute.begin(), attribute.end(), '\t'),
+                      attribute.end());
+                  if (attribute == "name" || attribute == "desc") {
+                    if (first) {
+                      output_file
+                          << "getByList(L," + to_string(allArray[i]) + ");\n";
+                      first = false;
+                    }
+                    output(allArray[i], attribute.c_str(), name.c_str());
+                  }
+                }
               }
             }
+            if (!first) output_file << "lua_pop(L,1);\n";
+            if (i == allArray.size() - 1) output_file << "}\n";
             break;
           }
         }
+
         if (!foundAttribute) {
           file.clear();
           file.seekg(0, ios::beg);
@@ -118,50 +133,19 @@ void writeCN(vector<int> &allArray, const char *attribute) {
       cout << "Unable to open file" << filename << endl;
       // return 0;
     }
-    if (file.is_open()) {
-      for (int i = 0; i < allArray.size(); i++) {
-        bool foundAttribute = false;
-        string searchString = "[" + to_string(allArray[i]) + "]";
-        while (getline(file, line)) {
-          if (line.find(searchString) != string::npos) {
-            foundAttribute = true;
-            while (getline(file, line) && !line.empty()) {
-              string add = " = ";
-              string attr_add = "desc" + add;
-              if (line.find(attr_add) != std::string::npos) {
-                size_t start = line.find("\"") + 1;
-                size_t end = line.find("\"", start);
-                string name = line.substr(start, end - start);
-                // cout << name << endl;
-                output(allArray[i], "desc", name);
-                if (i == allArray.size() - 1) output_file << "}\n";
-                break;
-              }
-            }
-            break;
-          }
-        }
-        if (!foundAttribute) {
-          file.clear();
-          file.seekg(0, ios::beg);
-        }
-      }
-      // file.close();
-    } else {
-      cout << "Unable to open file" << filename << endl;
-    }
     file.close();
   }
 }
 
 void output(int id, const char *attribute, string str) {
-  static bool first = true;
-  if (first) {
-    first = false;
-    output_file << "#include \"../../lua/lua.h\"\n"
-                << "void ship_skin_template(lua_State *L) {\n";
-  }
-  string result = "replaceString(L," + to_string(id) + ",Str(\"" + attribute +
-                  "\")" + ",Str(\"" + str + "\"));";
+  // static bool first = true;
+  // if (first) {
+  //   first = false;
+  //   output_file << "#include \"../../lua/lua.h\"\n"
+  //               << "void equip_data_statistics(lua_State *L) {\n";
+  // }
+
+  string result = string("replaceString2(L,Str(\"") + attribute + "\"),Str(\"" +
+                  str + "\"));";
   output_file << result << endl;
 }

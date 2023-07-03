@@ -113,28 +113,25 @@ void writeCN(vector<int> &allArray, const char *attribute) {
                   first = false;
                 }
                 output(allArray[i], attribute.c_str(), name.c_str());
-                if (i == allArray.size() - 1) output_file << "}\n";
+                // if (i == allArray.size() - 1) output_file << "}\n";
               }
             }
           }
           if (!first) output_file << "lua_pop(L,1);\n";
-          if (i == allArray.size() - 1) output_file << "}\n";
+          // if (i == allArray.size() - 1) output_file << "}\n";
           break;
         }
       }
-
       if (!foundAttribute) {
         file.clear();
         file.seekg(0, ios::beg);
       }
     }
-    // file.close();
   } else {
     cout << "Unable to open file" << endl;
     // return 0;
   }
-
-  //  return 1;
+  output_file << "}\n";
   file.close();
 }
 
@@ -146,7 +143,7 @@ void output(int id, const char *attribute, string str) {
   //               << "void ship_skin_words(lua_State *L) {\n";
   // }
 
-  string result = string("replaceString2(Str(\"") + attribute + "\"),Str(\"" +
+  string result = string("replaceString2(L,Str(\"") + attribute + "\"),Str(\"" +
                   str + "\"));";
   output_file << result << endl;
 }

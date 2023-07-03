@@ -20,7 +20,7 @@ using namespace std;
 #define filename(x) strrchr(x, '/') ? strrchr(x, '/') + 1 : x
 #define outputPath "../../Output/"
 #define readPath "../../JP/sharecfg/"
-#define writePath "../../CN/sharecfgdata/"
+#define writePath "../../CN/sharecfg/ship_skin_template_sublist/"
 #endif
 
 string currentFileName = filename(__FILE__);

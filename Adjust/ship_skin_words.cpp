@@ -1,5 +1,4 @@
 #include <unistd.h>
-
 #include <algorithm>
 #include <cstring>
 #include <fstream>
@@ -140,7 +139,7 @@ void output(int id, const char *attribute, string str) {
   //               << "void ship_skin_words(lua_State *L) {\n";
   // }
 
-  string result = string("replaceString2(L,STR(\"") + attribute + "\"),Str(\"" +
+  string result = string("replaceString2(Str(\"") + attribute + "\"),Str(\"" +
                   str + "\"));";
   output_file << result << endl;
 }

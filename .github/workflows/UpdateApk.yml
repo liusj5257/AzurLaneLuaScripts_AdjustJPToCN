@@ -73,8 +73,13 @@ jobs:
         run: make
       - name: Run scripts
         run: |
-            ./gametip
-            ./ship_data_statistics
+          for file in *; do
+              if [ -x "$file" ]; then
+                  ./"$file"
+              fi
+          done
+            # ./gametip
+            # ./ship_data_statistics
         working-directory: Output/bin
       - name: move output file
         run: |

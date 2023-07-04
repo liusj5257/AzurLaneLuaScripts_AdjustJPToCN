@@ -148,7 +148,7 @@ void output(int id, const char *attribute, string str) {
   //               << "void spweapon_data_statistics(lua_State *L) {\n";
   // }
 
-  string result = string("replaceString2(Str(\"") + attribute + "\"),Str(\"" +
+  string result = string("replaceString2(L,Str(\"") + attribute + "\"),Str(\"" +
                   str + "\"));";
   output_file << result << endl;
 }

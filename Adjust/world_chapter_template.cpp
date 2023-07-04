@@ -120,7 +120,7 @@ void writeCN(vector<int> &allArray, const char *attribute) {
             }
           }
           if (!first) output_file << "lua_pop(L,1);\n";
-          if (i == allArray.size() - 1) output_file << "}\n";
+
           break;
         }
       }
@@ -135,20 +135,13 @@ void writeCN(vector<int> &allArray, const char *attribute) {
     cout << "Unable to open file" << endl;
     // return 0;
   }
-
-  //  return 1;
+  output_file << "}\n";
   file.close();
 }
 
 void output(int id, const char *attribute, string str) {
-  // static bool first = true;
-  // if (first) {
-  //   first = false;
-  //   output_file << "#include \"../../lua/lua.h\"\n"
-  //               << "void world_chapter_template(lua_State *L) {\n";
-  // }
 
-  string result = string("replaceString2(Str(\"") + attribute + "\"),Str(\"" +
+  string result = string("replaceString2(L,Str(\"") + attribute + "\"),Str(\"" +
                   str + "\"));";
   output_file << result << endl;
 }

@@ -1219,7 +1219,7 @@ replaceByAttribute(L,Str("charge_time_out"),Str("tip"),Str("支付进行中，�
 replaceByAttribute(L,Str("help_build"),Str("tip"),Str("					   <size=25>$1建造概率分布</size>\n\n							<color=#ffde38>超稀有舰船</color>：$2%\n							 <color=#d797ff>精锐舰船</color>：$3%\n							 <color=#3dc6ff>稀有舰船</color>：$4%\n"));
 replaceByAttribute(L,Str("help_build_1"),Str("tip"),Str("					   <size=25>$1建造概率分布</size>\n\n							<color=#ffde38>超稀有舰船</color>：$2%\n							 <color=#d797ff>精锐舰船</color>：$3%\n							 <color=#3dc6ff>稀有舰船</color>：$4%\n"));
 replaceByAttribute(L,Str("help_build_2"),Str("tip"),Str("					   <size=25>$1建造概率分布</size>\n\n							<color=#ffde38>超稀有舰船</color>：$2%\n							 <color=#d797ff>精锐舰船</color>：$3%\n							 <color=#3dc6ff>稀有舰船</color>：$4%\n"));
-replaceByAttribute(L,Str("help_build_4"),Str("tip"),Str("<size=19>							<color=#ffde38>超稀有舰船</color>：$2%\n							 <color=#d797ff>精锐舰船</color>：$3%\n							 <color=#3dc6ff>稀有舰船</color>：$4%\n							 普通舰船：$5%\n\n							  【限时建造】\n							<color=#ffde38>      {namecode:435}</color>：2%<color=#92fc63>(up!)</color>\n					<color=#ffde38>        英王乔治五世</color>：0.5%\n						<color=#d797ff>{namecode:416}</color>：2.5%<color=#92fc63>(up!)</color>\n						<color=#d797ff>{namecode:417}</color>：2.5%<color=#92fc63>(up!)</color>\n"));
+replaceByAttribute(L,Str("help_build_4"),Str("tip"),Str("<size=19>							<color=#ffde38>超稀有舰船</color>：$2%\n							 <color=#d797ff>精锐舰船</color>：$3%\n							 <color=#3dc6ff>稀有舰船</color>：$4%\n							 普通舰船：$5%\n\n							  【限时建造】\n							<color=#ffde38>      俾斯麦</color>：2%<color=#92fc63>(up!)</color>\n					<color=#ffde38>        英王乔治五世</color>：0.5%\n						<color=#d797ff>U-556</color>：2.5%<color=#92fc63>(up!)</color>\n						<color=#d797ff>U-73</color>：2.5%<color=#92fc63>(up!)</color>\n"));
 replaceByAttribute(L,Str("help_build_5"),Str("tip"),Str("<size=19>							<color=#ffde38>超稀有舰船</color>：$2%\n							 <color=#d797ff>精锐舰船</color>：$3%\n							 <color=#3dc6ff>稀有舰船</color>：$4%\n							 普通舰船：$5%\n\n							  【限时建造】\n			<color=#ffde38>圣黑之心</color>：2.25%<color=#92fc63FF>(up!)</color>    <color=#ffde38>翡绿之心</color>：2.25%<color=#92fc63FF>(up!)</color>\n			<color=#ffde38>绀紫之心</color>：0.75%           <color=#ffde38>群白之心</color>：0.75%\n"));
 replaceByAttribute(L,Str("shop_extendship_success"),Str("tip"),Str("船坞扩展成功"));
 replaceByAttribute(L,Str("shop_extendequip_success"),Str("tip"),Str("装备栏位扩展成功"));
@@ -2224,7 +2224,7 @@ replaceByAttribute(L,Str("vote_get_book"),Str("tip"),Str("获得了应援资格"
 replaceByAttribute(L,Str("vote_book_is_over"),Str("tip"),Str("本轮投票已结束，无法再获取应援资格"));
 replaceByAttribute(L,Str("vote_fame_tip"),Str("tip"),Str("※观赏完殿堂角色特别小故事，可解锁角色专属头像框：$1,$2,$3"));
 replaceByAttribute(L,Str("word_maintain"),Str("tip"),Str("维护后"));
-replaceByAttribute(L,Str("name_zhanliejahe"),Str("tip"),Str("{namecode:92}(战列)"));
+replaceByAttribute(L,Str("name_zhanliejahe"),Str("tip"),Str("加贺(战列)"));
 replaceByAttribute(L,Str("change_skin_secretary_ship_success"),Str("tip"),Str("更换时装并设为秘书舰成功"));
 replaceByAttribute(L,Str("change_skin_secretary_ship"),Str("tip"),Str("更换同时设为秘书舰"));
 replaceByAttribute(L,Str("word_billboard"),Str("tip"),Str("排行榜"));
@@ -2387,8 +2387,8 @@ replaceByAttribute(L,Str("fight_strengthen"),Str("tip"),Str("是否退出本次�
 replaceByAttribute(L,Str("fightfail_noequip"),Str("tip"),Str("当前没有装备任何装备，无法强化"));
 replaceByAttribute(L,Str("fightfail_choiceequip"),Str("tip"),Str("请点击出击舰船以对其进行<color=#92fc63>装备强化</color>"));
 replaceByAttribute(L,Str("fightfail_choicestrengthen"),Str("tip"),Str("请点击出击舰船以对其进行<color=#92fc63>强化和突破</color>"));
-replaceByAttribute(L,Str("sofmapsd_1"),Str("tip"),Str("呼喵？！准备好的礼品券丢了喵！\n指挥官，快帮帮{namecode:98}喵！"));
-replaceByAttribute(L,Str("sofmapsd_2"),Str("tip"),Str("快帮{namecode:98}投放礼品券喵！\n会给指挥官报酬的喵！"));
+replaceByAttribute(L,Str("sofmapsd_1"),Str("tip"),Str("呼喵？！准备好的礼品券丢了喵！\n指挥官，快帮帮明石喵！"));
+replaceByAttribute(L,Str("sofmapsd_2"),Str("tip"),Str("快帮明石投放礼品券喵！\n会给指挥官报酬的喵！"));
 replaceByAttribute(L,Str("sofmapsd_3"),Str("tip"),Str("呼喵！营业额提升了喵！\n感谢指挥官喵！"));
 replaceByAttribute(L,Str("sofmapsd_4"),Str("tip"),Str("营业额目标达成喵！\n感谢指挥官喵！"));
 replaceByAttribute(L,Str("inform_level_limit"),Str("tip"),Str("举报将在指挥官等级达到20级后开放"));
@@ -3715,7 +3715,7 @@ replaceByAttribute(L,Str("sort_energy"),Str("tip"),Str("心情值"));
 replaceByAttribute(L,Str("dockyard_search_holder"),Str("tip"),Str("搜索角色名"));
 replaceByAttribute(L,Str("loveletter_exchange_tip1"),Str("tip"),Str("没有符合条件的邮件，请联系客服"));
 replaceByAttribute(L,Str("loveletter_exchange_tip2"),Str("tip"),Str("情人节邮件有奖励未领取，请领取后再作尝试"));
-replaceByAttribute(L,Str("loveletter_exchange_confirm"),Str("tip"),Str("是否确认更换情人节邮件与礼物，更换后将\n删除此<color=#ff5c5c>{namecode:98}的情人节礼物与邮箱内对应的情人节邮件</color>\n同时发放一封<color=#92fc63>新的谢菲尔德·META情人节邮件</color>(包含谢菲尔德·META情人节礼物)"));
+replaceByAttribute(L,Str("loveletter_exchange_confirm"),Str("tip"),Str("是否确认更换情人节邮件与礼物，更换后将\n删除此<color=#ff5c5c>明石的情人节礼物与邮箱内对应的情人节邮件</color>\n同时发放一封<color=#92fc63>新的谢菲尔德·META情人节邮件</color>(包含谢菲尔德·META情人节礼物)"));
 replaceByAttribute(L,Str("loveletter_exchange_button"),Str("tip"),Str("更换"));
 replaceByAttribute(L,Str("loveletter_exchange_tip3"),Str("tip"),Str("更换成功，请前往邮件查看"));
 replaceByAttribute(L,Str("battle_text_yingxiv4_1"),Str("tip"),Str("战争骑士似乎在向<color=#f1f102>左前方</color>向蓄势"));
@@ -3735,7 +3735,7 @@ replaceByAttribute(L,Str("battle_text_bisimaiz_4"),Str("tip"),Str("当前空间�
 replaceByAttribute(L,Str("battle_text_bisimaiz_5"),Str("tip"),Str("当前空间侵蚀等级为<color=#ffc038>4</color>"));
 replaceByAttribute(L,Str("battle_text_bisimaiz_6"),Str("tip"),Str("当前空间侵蚀等级为<color=#ff5c5c>5</color>"));
 replaceByAttribute(L,Str("battle_text_bisimaiz_7"),Str("tip"),Str("革律翁成功完成净化，当前空间侵蚀等级变为<color=#92fc63>0</color>"));
-replaceByAttribute(L,Str("battle_text_bisimaiz_8"),Str("tip"),Str("「<color=#ffc038>嵌载结合</color>」-革律翁拥有<color=#f1f102>高额防御</color>并替{namecode:435}承受部分伤害"));
+replaceByAttribute(L,Str("battle_text_bisimaiz_8"),Str("tip"),Str("「<color=#ffc038>嵌载结合</color>」-革律翁拥有<color=#f1f102>高额防御</color>并替俾斯麦承受部分伤害"));
 replaceByAttribute(L,Str("battle_text_bisimaiz_9"),Str("tip"),Str("「<color=#92fc63>舰装分离</color>」-革律翁的<color=#f1f102>防御大幅度下降</color>，请尽快将其击破！"));
 replaceByAttribute(L,Str("battle_text_bisimaiz_10"),Str("tip"),Str("革律翁已被击破——等等，侦测到强烈的<color=#ffc038>META</color>化波动！"));
 replaceByAttribute(L,Str("series_enemy_mood"),Str("tip"),Str("心情不足"));

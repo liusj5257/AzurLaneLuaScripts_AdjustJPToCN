@@ -1,0 +1,81 @@
+
+name: UpdateApk
+
+on:
+  push: # push 时触发, 主要是为了测试配置有没有问题
+  workflow_dispatch:
+#   schedule:
+#    - cron: '*/60 * * * *'
+jobs:
+  pre_check:
+    runs-on: ubuntu-latest
+    # Map a step output to a job output
+    outputs:
+      should_skip: ${{ steps.skip_check.outputs.should_skip }}
+    steps:
+      - id: skip_check
+        uses: fkirc/skip-duplicate-actions@master
+        with:
+          concurrent_skipping: "always"
+          skip_after_successful_duplicate: "false"
+          do_not_skip: "[]"
+  repo-sync:
+    needs: pre_check
+    if: ${{ needs.pre_check.outputs.should_skip != 'true' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: szenius/set-timezone@v1.2
+        with:
+          timezoneLinux: "Asia/Singapore"
+          timezoneMacos: "Asia/Singapore"
+          timezoneWindows: "Singapore Standard Time"
+      - uses: actions/checkout@v3
+      - name: Checkout AzurLaneApk
+        uses: actions/checkout@v3
+        with:
+          repository: ${{ secrets.TOOLS_REPOSITORY }}
+          token: ${{ secrets.TOKEN }}
+          path: AzurLaneApk
+          ref: JP
+      - name: Setup Android NDK >=23
+        if: steps.check_changes_1.outputs.has_changes == 'true'
+        uses: anoop-b/setup-ndk@V1.3.0
+        with:
+          ndk-version: r25b
+          add-to-path: true
+          local-cache: true
+
+      - name: Checkout azurlane-JP
+        uses: actions/checkout@v3
+        with:
+          repository: liusj5257/azurlane-JP
+          token: ${{ secrets.TOKEN }}
+          path: azurlane-JP
+
+      - name: Setup Java JDK
+        uses: actions/setup-java@v3.3.0
+        with:
+          java-version: "17"
+          distribution: "adopt"
+
+      - name: Check Version
+        run: |
+          chmod +x checkVersion.sh
+          ./checkVersion.sh
+        working-directory: azurlane-JP
+
+
+      - name: Create Release
+        uses: ncipollo/release-action@v1.12.0
+        with:
+          name: Obb
+          allowUpdates: true
+          artifactErrorsFailBuild: true
+          artifacts: azurlane-JP/AzurLane/Android/obb/com.YoStarJP.AzurLane/*.obb  
+          draft: false
+#           commit: "latest"
+          makeLatest: true
+          tag: "Obb"
+          omitBody: true
+          prerelease: true
+

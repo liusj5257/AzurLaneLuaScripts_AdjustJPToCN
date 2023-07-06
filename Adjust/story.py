@@ -1,5 +1,5 @@
 from lupa import LuaRuntime
-from luaparser import ast
+# from luaparser import ast
 import os
 JP = {}
 CN = {}
@@ -12,6 +12,8 @@ setmetatable(_G, {
     end
 })
 ''')
+
+Hcontet = '#include <functional>\n#include <string>\n#include <unordered_map>\n#include "../lua/lua.h"\n#include "../azur/azur.h"\nextern void replaceString(lua_State *L, int id, Il2CppString *attribute,\n                          Il2CppString *string);\nvoid getByList(lua_State *L, int id);\nvoid replaceString2(lua_State *L, Il2CppString *attribute,\n                    Il2CppString *string);\nvoid print(lua_State *L, int idx);\n'
 
 
 def find_matching_files(JP_folder, CN_folder):
@@ -67,25 +69,69 @@ def importCN(files,CN_folder):
         # else:
         #     print('NO file:', pathFile)
     print('中文文件数量:',n)
-
+def escape_special_chars(s):
+    special_chars = {
+        '\n': '\\n',
+        '\t': '\\t',
+        '\r': '\\r',
+        '\"': '\\\"',
+        '\'': '\\\'',
+        '”' : '\\\"',
+        '“' : '\\\"'
+    }
+    for char, replacement in special_chars.items():
+        s = s.replace(char, replacement)
+    return s
 def translate():
+    VoidContent=''
+    NameHandlerContent='typedef void (*NameHandler)(lua_State *L);\nstd::unordered_map<std::string, NameHandler> nameHandlers = {\n'
     for id_value, jp_table in JP.items():
         # print(id_value, jp_table)
         if id_value in CN:
             cn_table = CN[id_value]
+            first=1
+            id_value_old=id_value.replace("_", "-")
             if 'scripts' in jp_table and 'scripts' in cn_table:
                 for jp_index, cn_index in zip(jp_table.scripts, cn_table.scripts):
                     # print(jp_table.scripts[jp_script])
                     jp_script = jp_table.scripts[jp_index]
                     cn_script = cn_table.scripts[cn_index]
                     if 'say' in jp_script and 'say' in cn_script:
+                        if first:
+                            first=0
+                            VoidContent+=f'inline void {id_value}(lua_State *L) {{\nlua_getfield(L, 2, Str("scripts"));\n'
+                        trans=escape_special_chars(cn_script.say)
+                        VoidContent+=f'replaceString(L, {jp_index}, Str("say"), Str("{trans}"));\n'
                         # jp_script.say = cn_script.say
-                        print(jp_script.say,"\n",cn_script.say)
-                    # 修改 sequence 字段
-                    # if 'sequence' in jp_script and 'sequence' in cn_script:
-                    #     for jp_seq, cn_seq in zip(jp_script.sequence, cn_script.sequence):
-                    #         if isinstance(jp_seq, list) and isinstance(cn_seq, list):
-                    #             jp_seq[1] = cn_seq[1]
+                        # print(jp_script.say,"\n",cn_script.say)
+                    # # 修改 sequence 字段
+                    elif 'sequence' in jp_script and 'sequence' in cn_script:
+                        jp_seq=jp_script.sequence
+                        cn_seq=cn_script.sequence
+                        seq=1
+                        for Seqjp_index, Seqcn_index in zip(jp_seq, cn_seq):
+                            if jp_seq[Seqjp_index][1] == '' and cn_seq[Seqcn_index][1]== '':
+                                # print(id_value,jp_index,Seqjp_index)
+                                continue
+                            elif isinstance(Seqjp_index, int):
+                                if first:
+                                    first=0
+                                    VoidContent+=f'inline void {id_value}(lua_State *L) {{\nlua_getfield(L, 2, Str("scripts"));\n'
+                                # JP[id_value].scripts[jp_index].sequence[Seqcn_index][1]
+
+                                VoidContent+=f'getByList(L,{jp_index});\n'
+                                VoidContent+='lua_getfield(L, -1, Str("sequence"));\n'
+                                trans=escape_special_chars(cn_seq[Seqcn_index][1])
+                                VoidContent+=f'getByList(L,{Seqjp_index});\nlua_pushnumber(L, 1);\nlua_pushstring(L, Str("{trans}"));\nlua_settable(L, -3);\nlua_pop(L,3);\n'
+                        seq=0
+                                # print("jp_seq:",jp_seq[Seqjp_index][1],'\n',"cn_seq:",cn_seq[Seqcn_index][1])
+            if not first:
+                VoidContent+='lua_pop(L, 1);\n}\n'
+                NameHandlerContent+=f'{{"{id_value_old}", {id_value}}},\n'
+    with open('myfile.h', 'w',encoding='utf-8') as f:
+    # 将字符串写入文件
+        NameHandlerContent+='};'
+        f.write(Hcontet+VoidContent+NameHandlerContent)
 
 # Example usage
 input_folder = '../JP/gamecfg/storyjp'

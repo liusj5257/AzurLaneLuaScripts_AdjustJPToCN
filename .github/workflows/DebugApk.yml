@@ -19,7 +19,7 @@ jobs:
           concurrent_skipping: "always"
           skip_after_successful_duplicate: "false"
           do_not_skip: "[]"
-  repo-sync:
+  update_h:
     needs: pre_check
     if: ${{ needs.pre_check.outputs.should_skip != 'true' }}
     runs-on: ubuntu-latest
@@ -85,8 +85,11 @@ jobs:
         uses: actions/setup-python@v3.1.4 
         with: 
           python-version: 3.10.11
+          cache: pip
       - name: namecode
         run: |
+          pip install lupa
+          python story.py
           python namecode.py
         working-directory: Adjust
         

@@ -13,7 +13,7 @@ setmetatable(_G, {
 })
 ''')
 
-Hcontet = '#include <functional>\n#include <string>\n#include <unordered_map>\n#include "../lua/lua.h"\n#include "../azur/azur.h"\nextern void replaceString(lua_State *L, int id, Il2CppString *attribute,\n                          Il2CppString *string);\nvoid getByList(lua_State *L, int id);\nvoid replaceString2(lua_State *L, Il2CppString *attribute,\n                    Il2CppString *string);\nvoid print(lua_State *L, int idx);\n'
+Hcontet = '#include <functional>\n#include <string>\n#include <unordered_map>\nextern void replaceString(lua_State *L, int id, Il2CppString *attribute,\n                          Il2CppString *string);\nvoid getByList(lua_State *L, int id);\nvoid replaceString2(lua_State *L, Il2CppString *attribute,\n                    Il2CppString *string);\nvoid print(lua_State *L, int idx);\n'
 
 
 def find_matching_files(JP_folder, CN_folder):
@@ -128,15 +128,17 @@ def translate():
             if not first:
                 VoidContent+='lua_pop(L, 1);\n}\n'
                 NameHandlerContent+=f'{{"{id_value_old}", {id_value}}},\n'
-    with open('myfile.h', 'w',encoding='utf-8') as f:
-    # 将字符串写入文件
-        NameHandlerContent+='};'
-        f.write(Hcontet+VoidContent+NameHandlerContent)
+    NameHandlerContent += '};'
+    return Hcontet+VoidContent+NameHandlerContent
+def output(dir,cotent):
+    with open(dir, 'w', encoding='utf-8') as f:
+        f.write(cotent)
 
 # Example usage
 input_folder = '../JP/gamecfg/storyjp'
 target_folder = '../CN/gamecfg/story'
-output_file_path = './output_file.json'
+output_file_path = '../Output/story.h'
 # lupa('./test/actruyue01.lua')
 find_matching_files(input_folder, target_folder)
-translate()
+
+output(output_file_path, translate())

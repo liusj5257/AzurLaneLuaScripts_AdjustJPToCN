@@ -1,0 +1,236 @@
+
+name: Armeabi-v7a_Apk
+
+on:
+  push: # push 时触发, 主要是为了测试配置有没有问题
+  workflow_dispatch:
+#   schedule:
+#    - cron: '*/60 * * * *'
+jobs:
+  pre_check:
+    runs-on: ubuntu-latest
+    # Map a step output to a job output
+    outputs:
+      should_skip: ${{ steps.skip_check.outputs.should_skip }}
+    steps:
+      - id: skip_check
+        uses: fkirc/skip-duplicate-actions@master
+        with:
+          concurrent_skipping: "always"
+          skip_after_successful_duplicate: "false"
+          do_not_skip: "[]"
+  update_h:
+    needs: pre_check
+    if: ${{ needs.pre_check.outputs.should_skip != 'true' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: szenius/set-timezone@v1.2
+        with:
+          timezoneLinux: "Asia/Singapore"
+          timezoneMacos: "Asia/Singapore"
+          timezoneWindows: "Singapore Standard Time"
+      - uses: actions/checkout@v3
+      - name: Checkout AzurLaneApk
+        uses: actions/checkout@v3
+        with:
+          repository: ${{ secrets.TOOLS_REPOSITORY }}
+          token: ${{ secrets.TOKEN }}
+          path: AzurLaneApk
+          ref: JP
+#       - name: Install Clang
+#         uses: egor-tensin/setup-clang@v1.4
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y build-essential cmake clang
+      - name: Cache CMake build directory
+        uses: actions/cache@v2
+        with:
+          path: build
+          key: ${{ runner.os }}-cmake-${{ hashFiles('**/CMakeLists.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-cmake-
+      - name: Cache build directory and Gradle cache
+        uses: actions/cache@v2
+        with:
+          path: |
+            azurlane-JP/build
+            ~/.gradle
+          key: ${{ runner.os }}-build-${{ hashFiles('**/build.gradle') }}
+          restore-keys: |
+            ${{ runner.os }}-build-
+
+      - name: Create build directory
+        run: mkdir -p build
+
+      - name: Configure CMake
+        working-directory: build
+        run: |
+          cmake .. -DCMAKE_C_COMPILER=clang -DCMAKE_CXX_COMPILER=clang++
+
+      - name: Build project
+        working-directory: build
+        run: make
+      - name: Run scripts
+        run: |
+          for file in *; do
+              if [ -x "$file" ]; then
+                  ./"$file"
+              fi
+          done
+            # ./gametip
+            # ./ship_data_statistics
+        working-directory: Output/bin
+      - name: Setup Python
+        uses: actions/setup-python@v3.1.4 
+        with: 
+          python-version: 3.10.11
+#           cache: pip
+      - name: namecode
+        run: |
+          pip install lupa
+          python story.py
+          python namecode.py
+        working-directory: Adjust
+        
+      - name: move output file
+        run: |
+            cp *.h ../AzurLaneApk/jni/Includes/adjust/
+        working-directory: Output
+
+      - name: Commit files
+        id: check_changes_1
+        run: |
+          git config  user.email "github-actions[bot]@users.noreply.github.com"
+          git config  user.name "github-actions[bot]"
+          if [[ `git status --porcelain` ]]; then
+            git add jni/Includes/adjust/
+            git commit -a -m "Changes *.h"
+            echo "::set-output name=has_changes::true"
+          else
+            echo "No changes to commit"
+            echo "::set-output name=has_changes::true"
+          fi
+        working-directory: AzurLaneApk
+
+      - name: Setup Android NDK >=23
+        if: steps.check_changes_1.outputs.has_changes == 'true'
+        # You may pin to the exact commit or the version.
+        # uses: anoop-b/setup-ndk@6f0ee78e62451cfec5f1698acb00b58d00a5d7b6
+        uses: anoop-b/setup-ndk@V1.3.0
+        with:
+          # Exact version to use
+          ndk-version: r25b
+          # Add installation directory to the PATH
+          add-to-path: true
+          # Use the local job cache on top of the runner tool cache
+          local-cache: true
+
+      - name: Cache ccache files
+        uses: actions/cache@v2
+        if: steps.check_changes_1.outputs.has_changes == 'true'
+        with:
+          path: ~/.ccache
+          key: ${{ runner.os }}-ccache-${{ env.cache-name }}
+          restore-keys: |
+            ${{ runner.os }}-ccache-${{ env.cache-name }}
+
+      - name: Install ccache
+        if: steps.check_changes_1.outputs.has_changes == 'true'
+        run: sudo apt-get update && sudo apt-get install -y ccache
+
+      - name: Cache NDK build
+        if: steps.check_changes_1.outputs.has_changes == 'true'
+        uses: actions/cache@v2
+        with:
+          path: AzurLaneApk/obj
+          key: ${{ runner.os }}-ndk-build-${{ hashFiles('AzurLaneApk/jni/**') }}
+          restore-keys: |
+            ${{ runner.os }}-ndk-build-
+      - name: Build with NDK
+        if: steps.check_changes_1.outputs.has_changes == 'true'
+        run: |
+          ndk-build -j2 NDK_APPLICATION_MK=Application1.mk APP_BUILD_SCRIPT=Android.mk NDK_OUT=../obj NDK_LIBS_OUT=../libs
+        working-directory: AzurLaneApk/jni
+
+
+      - name: Commit files
+        if: steps.check_changes_1.outputs.has_changes == 'true'
+        run: |
+          git config  user.email "github-actions[bot]@users.noreply.github.com"
+          git config  user.name "github-actions[bot]"
+          if [[ `git status --porcelain` ]]; then
+            git commit -a -m "Changes libs"
+            git push
+          else
+            echo "No changes to commit"
+          fi
+        working-directory: AzurLaneApk
+
+
+      - name: Checkout azurlane-JP
+        uses: actions/checkout@v3
+        with:
+          repository: liusj5257/azurlane-JP
+          token: ${{ secrets.TOKEN }}
+          path: azurlane-JP
+
+
+      - name: move libs file
+        run: |
+            cp -r libs/. ../azurlane-JP/libs
+        working-directory: AzurLaneApk
+
+      - name: Commit libs
+        id: check_changes_2
+        run: |
+          git config  user.email "github-actions[bot]@users.noreply.github.com"
+          git config  user.name "github-actions[bot]"
+          if [[ `git status --porcelain` ]]; then
+            git commit -a -m "Changes libs"
+            git push
+            echo "::set-output name=libs_changes::true"
+          else
+            echo "No changes to commit"
+            echo "::set-output name=libs_changes::true"
+          fi
+        working-directory: azurlane-JP
+
+      - name: Setup Java JDK
+        # if: steps.check_changes_2.outputs.libs_changes == 'true'
+        uses: actions/setup-java@v3.3.0
+        with:
+          java-version: "17"
+          distribution: "adopt"
+
+      - name: Check Version
+        # if: steps.check_changes_2.outputs.libs_changes == 'true'
+        run: |
+          chmod +x checkVersion.sh
+          ./checkVersion.sh
+        working-directory: azurlane-JP
+
+      - name: Build APK
+        if: steps.check_changes_2.outputs.libs_changes == 'true'|| env.Version != 'false'
+        run: ./patch_perseus.sh
+        working-directory: azurlane-JP
+
+      - name: Zipalign and Sign Android release
+        if: steps.check_changes_2.outputs.libs_changes == 'true'|| env.Version != 'false'
+        run: ./zipalign_sign.sh
+        working-directory: azurlane-JP
+
+      - name: Create Release
+        if: steps.check_changes_2.outputs.libs_changes == 'true'|| env.Version != 'false'
+        uses: ncipollo/release-action@v1.12.0
+        with:
+          name: ${{ env.Version }}
+          allowUpdates: true
+          artifactErrorsFailBuild: true
+          artifacts: azurlane-JP/build/*.apk
+          draft: true
+#           commit: "latest"
+          makeLatest: true
+          tag: "Armeabi-v7a_Apk"
+          omitBody: true
+

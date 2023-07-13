@@ -3,6 +3,7 @@ from lupa import LuaRuntime
 import os
 JP = {}
 CN = {}
+NoTranslate=''
 lua = LuaRuntime(unpack_returned_tuples=True)
 lua.execute('''
 setmetatable(_G, {
@@ -17,6 +18,7 @@ Hcontet = '#include <functional>\n#include <string>\n#include <unordered_map>\ne
 
 
 def find_matching_files(JP_folder, CN_folder):
+    global NoTranslate
     CNfiles=[]
     n = 0
     for root, dirs, files in os.walk(JP_folder):
@@ -41,10 +43,12 @@ def find_matching_files(JP_folder, CN_folder):
                 n+=1
                 CNfiles.append(file)
     print('日语文件数量:',n)
+    NoTranslate+=f'//日语文件数量:{n}\n'
     importCN(CNfiles, CN_folder)
 
 def importCN(files,CN_folder):
     n = 0
+    global NoTranslate
     for file in files:
         pathFile = os.path.join(CN_folder, file)
         if os.path.exists(pathFile):
@@ -66,9 +70,8 @@ def importCN(files,CN_folder):
                     # print(CN[id_value].scripts[1])
                 else:
                     print(pathFile,'no scripts')
-        # else:
-        #     print('NO file:', pathFile)
     print('中文文件数量:',n)
+    NoTranslate+=f'//中文文件数量:{n}\n//等待手动翻译:\n'
 def escape_special_chars(s):
     special_chars = {
         '\n': '\\n',
@@ -84,6 +87,7 @@ def escape_special_chars(s):
     return s
 def translate():
     VoidContent=''
+    global NoTranslate
     NameHandlerContent='typedef void (*NameHandler)(lua_State *L);\nstd::unordered_map<std::string, NameHandler> nameHandlers = {\n'
     for id_value, jp_table in JP.items():
         # print(id_value, jp_table)
@@ -128,8 +132,50 @@ def translate():
             if not first:
                 VoidContent+='lua_pop(L, 1);\n}\n'
                 NameHandlerContent+=f'{{"{id_value_old}", {id_value}}},\n'
+        else:
+            jp_table = JP[id_value]
+            first=1
+            id_value_old=id_value.replace("_", "-")
+            if 'scripts' in jp_table and 'scripts' in jp_table:
+                for jp_index, jp_index in zip(jp_table.scripts, jp_table.scripts):
+                    # print(jp_table.scripts[jp_script])
+                    jp_script = jp_table.scripts[jp_index]
+                    jp_script = jp_table.scripts[jp_index]
+                    if 'say' in jp_script and 'say' in jp_script:
+                        if first:
+                            first=0
+                            NoTranslate+=f'inline void {id_value}(lua_State *L) {{\nlua_getfield(L, 2, Str("scripts"));\n'
+                        trans=escape_special_chars(jp_script.say)
+                        NoTranslate+=f'replaceString(L, {jp_index}, Str("say"), Str("{trans}"));\n'
+                        # jp_script.say = jp_script.say
+                        # print(jp_script.say,"\n",jp_script.say)
+                    # # 修改 sequence 字段
+                    elif 'sequence' in jp_script and 'sequence' in jp_script:
+                        jp_seq=jp_script.sequence
+                        jp_seq=jp_script.sequence
+                        seq=1
+                        for Seqjp_index, Seqjp_index in zip(jp_seq, jp_seq):
+                            if jp_seq[Seqjp_index][1] == '' and jp_seq[Seqjp_index][1]== '':
+                                # print(id_value,jp_index,Seqjp_index)
+                                continue
+                            elif isinstance(Seqjp_index, int):
+                                if first:
+                                    first=0
+                                    NoTranslate+=f'inline void {id_value}(lua_State *L) {{\nlua_getfield(L, 2, Str("scripts"));\n'
+                                # JP[id_value].scripts[jp_index].sequence[Seqjp_index][1]
+
+                                NoTranslate+=f'getByList(L,{jp_index});\n'
+                                NoTranslate+='lua_getfield(L, -1, Str("sequence"));\n'
+                                trans=escape_special_chars(jp_seq[Seqjp_index][1])
+                                NoTranslate+=f'getByList(L,{Seqjp_index});\nlua_pushnumber(L, 1);\nlua_pushstring(L, Str("{trans}"));\nlua_settable(L, -3);\nlua_pop(L,3);\n'
+                        seq=0
+                                # print("jp_seq:",jp_seq[Seqjp_index][1],'\n',"jp_seq:",jp_seq[Seqjp_index][1])
+            if not first:
+                NoTranslate+='lua_pop(L, 1);\n}\n'
+                NameHandlerContent+=f'{{"{id_value_old}", {id_value}}},\n'
+
     NameHandlerContent += '};'
-    return Hcontet+VoidContent+NameHandlerContent
+    return Hcontet+NoTranslate+VoidContent+NameHandlerContent
 def output(dir,cotent):
     with open(dir, 'w', encoding='utf-8') as f:
         f.write(cotent)

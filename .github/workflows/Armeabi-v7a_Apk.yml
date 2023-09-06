@@ -234,7 +234,7 @@ jobs:
           artifacts: azurlane-JP/build/*.apk
           draft: true
 #           commit: "latest"
-          makeLatest: true
+          makeLatest: false
           tag: "Armeabi-v7a_Apk"
           omitBody: true
 

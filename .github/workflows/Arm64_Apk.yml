@@ -116,7 +116,7 @@ jobs:
         working-directory: AzurLaneApk
 
       - name: Setup Android NDK >=23
-        if: steps.check_changes_1.outputs.has_changes == 'true'
+        # if: steps.check_changes_1.outputs.has_changes == 'true'
         # You may pin to the exact commit or the version.
         # uses: anoop-b/setup-ndk@6f0ee78e62451cfec5f1698acb00b58d00a5d7b6
         uses: anoop-b/setup-ndk@V1.3.0
@@ -130,7 +130,7 @@ jobs:
 
       - name: Cache ccache files
         uses: actions/cache@v2
-        if: steps.check_changes_1.outputs.has_changes == 'true'
+        # if: steps.check_changes_1.outputs.has_changes == 'true'
         with:
           path: ~/.ccache
           key: ${{ runner.os }}-ccache-${{ env.cache-name }}
@@ -138,11 +138,11 @@ jobs:
             ${{ runner.os }}-ccache-${{ env.cache-name }}
 
       - name: Install ccache
-        if: steps.check_changes_1.outputs.has_changes == 'true'
+        # if: steps.check_changes_1.outputs.has_changes == 'true'
         run: sudo apt-get update && sudo apt-get install -y ccache
 
       - name: Cache NDK build
-        if: steps.check_changes_1.outputs.has_changes == 'true'
+        # if: steps.check_changes_1.outputs.has_changes == 'true'
         uses: actions/cache@v2
         with:
           path: AzurLaneApk/obj
@@ -156,7 +156,7 @@ jobs:
         working-directory: AzurLaneApk/jni
 
       - name: Commit files
-        if: steps.check_changes_1.outputs.has_changes == 'true'
+        # if: steps.check_changes_1.outputs.has_changes == 'true'
         run: |
           git config  user.email "github-actions[bot]@users.noreply.github.com"
           git config  user.name "github-actions[bot]"

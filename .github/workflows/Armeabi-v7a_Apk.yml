@@ -219,12 +219,16 @@ jobs:
         if: steps.check_changes_2.outputs.libs_changes == 'true'|| env.Version != 'false'
         run: ./zipalign_sign.sh
         working-directory: azurlane-JP
-
+        
+      - name: Get current date
+        id: date
+        run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
+        
       - name: Create Release
         if: steps.check_changes_2.outputs.libs_changes == 'true'|| env.Version != 'false'
         uses: ncipollo/release-action@v1.12.0
         with:
-          name: ${{ env.Version }}
+          name: ${{ steps.date.outputs.date }}_Armeabi-v7a
           allowUpdates: true
           artifactErrorsFailBuild: true
           artifacts: azurlane-JP/build/*.apk

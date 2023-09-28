@@ -120,7 +120,7 @@ pg.activity_banner = {
 				{
 					2023,
 					9,
-					21
+					28
 				},
 				{
 					0,
@@ -132,7 +132,7 @@ pg.activity_banner = {
 				{
 					2023,
 					10,
-					4
+					11
 				},
 				{
 					23,
@@ -143,7 +143,7 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "5015",
+		param = "5019",
 		id = 5,
 		pic = "temp8",
 		type = 3,
@@ -152,7 +152,7 @@ pg.activity_banner = {
 				{
 					2023,
 					9,
-					21
+					28
 				},
 				{
 					0,
@@ -164,7 +164,7 @@ pg.activity_banner = {
 				{
 					2023,
 					10,
-					4
+					11
 				},
 				{
 					23,
@@ -175,7 +175,7 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "5017",
+		param = "5020",
 		id = 6,
 		pic = "temp5",
 		type = 3,
@@ -184,7 +184,7 @@ pg.activity_banner = {
 				{
 					2023,
 					9,
-					21
+					28
 				},
 				{
 					0,
@@ -196,7 +196,7 @@ pg.activity_banner = {
 				{
 					2023,
 					10,
-					4
+					12
 				},
 				{
 					23,
@@ -211,14 +211,14 @@ pg.activity_banner = {
 		pic = "temp6",
 		type = 2,
 		param = {
-			"scene court yard"
+			"crusing"
 		},
 		time = {
 			{
 				{
 					2023,
-					9,
-					14
+					10,
+					1
 				},
 				{
 					0,
@@ -230,7 +230,7 @@ pg.activity_banner = {
 				{
 					2023,
 					10,
-					4
+					12
 				},
 				{
 					23,
@@ -245,9 +245,9 @@ pg.activity_banner = {
 		pic = "temp7",
 		type = 2,
 		param = {
-			"scene shop",
+			"scene charge",
 			{
-				warp = "shopstreet"
+				wrap = 2
 			}
 		},
 		time = {
@@ -255,7 +255,7 @@ pg.activity_banner = {
 				{
 					2023,
 					9,
-					14
+					28
 				},
 				{
 					0,
@@ -267,7 +267,7 @@ pg.activity_banner = {
 				{
 					2023,
 					10,
-					4
+					11
 				},
 				{
 					23,
@@ -294,7 +294,7 @@ pg.activity_banner = {
 				{
 					2023,
 					9,
-					14
+					28
 				},
 				{
 					0,
@@ -306,7 +306,7 @@ pg.activity_banner = {
 				{
 					2023,
 					10,
-					4
+					11
 				},
 				{
 					23,
@@ -340,7 +340,7 @@ pg.activity_banner = {
 				{
 					2023,
 					9,
-					14
+					21
 				},
 				{
 					0,

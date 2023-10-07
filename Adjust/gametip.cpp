@@ -23,7 +23,7 @@ using namespace std;
 #define writePath "../../CN/sharecfgdata/"
 #endif
 
-    string currentFileName = filename(__FILE__);
+string currentFileName = filename(__FILE__);
 ofstream output_file;
 
 void readJP(vector<string> &allArray);
@@ -93,7 +93,6 @@ void writeCN(vector<string> &allArray, const char *attribute) {
               string name = line.substr(start, end - start);
               // cout << name << endl;
               output(allArray[i], attribute, name);
-              if (i == allArray.size() - 1) output_file << "}\n";
               break;
             } else if (line.find("[[") != std::string::npos) {
               std::string name;
@@ -123,6 +122,7 @@ void writeCN(vector<string> &allArray, const char *attribute) {
         file.seekg(0, ios::beg);
       }
     }
+    output_file << "}\n";
     file.close();
   } else {
     cout << "Unable to open file" << endl;

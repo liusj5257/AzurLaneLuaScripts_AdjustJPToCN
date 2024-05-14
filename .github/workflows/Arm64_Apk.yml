@@ -30,6 +30,19 @@ jobs:
           timezoneMacos: "Asia/Singapore"
           timezoneWindows: "Singapore Standard Time"
       - uses: actions/checkout@v3
+
+      - name: Checkout OldCN Branch
+        uses: actions/checkout@v3
+        with:
+          # repository: ${{ secrets.TOOLS_REPOSITORY }}
+          # token: ${{ secrets.TOKEN }}
+          path: OldCN
+          ref: OldCN
+          sparse-checkout: CN
+      - name: Move CN directory to current directory
+        run: |
+          mv OldCN/CN .
+        
       - name: Checkout AzurLaneApk
         uses: actions/checkout@v3
         with:

@@ -63,40 +63,40 @@ jobs:
       - name: Create build directory
         run: mkdir -p build
 
-      - name: Configure CMake
-        working-directory: build
-        run: |
-          cmake .. -DCMAKE_C_COMPILER=clang -DCMAKE_CXX_COMPILER=clang++
+      # - name: Configure CMake
+      #   working-directory: build
+      #   run: |
+      #     cmake .. -DCMAKE_C_COMPILER=clang -DCMAKE_CXX_COMPILER=clang++
 
-      - name: Build project
-        working-directory: build
-        run: make
-      - name: Run scripts
-        run: |
-          for file in *; do
-              if [ -x "$file" ]; then
-                  ./"$file"
-              fi
-          done
-            # ./gametip
-            # ./ship_data_statistics
-        working-directory: Output/bin
-      - name: Setup Python
-        uses: actions/setup-python@v3.1.4 
-        with: 
-          python-version: 3.10.11
+      # - name: Build project
+      #   working-directory: build
+      #   run: make
+      # - name: Run scripts
+      #   run: |
+      #     for file in *; do
+      #         if [ -x "$file" ]; then
+      #             ./"$file"
+      #         fi
+      #     done
+      #       # ./gametip
+      #       # ./ship_data_statistics
+      #   working-directory: Output/bin
+      # - name: Setup Python
+      #   uses: actions/setup-python@v3.1.4 
+      #   with: 
+      #     python-version: 3.10.11
 #           cache: pip
-      - name: namecode
-        run: |
-          pip install lupa
-          python story.py
-          python namecode.py
-        working-directory: Adjust
+      # - name: namecode
+      #   run: |
+      #     pip install lupa
+      #     python story.py
+      #     python namecode.py
+      #   working-directory: Adjust
         
-      - name: move output file
-        run: |
-            cp *.h ../AzurLaneApk/jni/Includes/adjust/
-        working-directory: Output
+      # - name: move output file
+      #   run: |
+      #       cp *.h ../AzurLaneApk/jni/Includes/adjust/
+      #   working-directory: Output
 
       - name: Commit files
         id: check_changes_1

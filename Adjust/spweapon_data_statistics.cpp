@@ -114,7 +114,7 @@ void writeCN(vector<int> &allArray, const char *attribute) {
                     first=false;
                   }
                   output(allArray[i], attribute.c_str(), name.c_str());
-                  if (i == allArray.size() - 1) output_file << "}\n";
+                  // if (i == allArray.size() - 1) output_file << "}\n";
                 }
               }
             }
@@ -137,6 +137,7 @@ void writeCN(vector<int> &allArray, const char *attribute) {
   }
 
   //  return 1;
+  output_file << "}\n";
   file.close();
 }
 

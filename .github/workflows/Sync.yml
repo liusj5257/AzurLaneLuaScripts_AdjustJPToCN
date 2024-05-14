@@ -3,8 +3,8 @@ name: Sync Fork
 on:
   # push: # push 时触发, 主要是为了测试配置有没有问题
   workflow_dispatch:
-  schedule:
-    - cron: '*/30 * * * *'
+  # schedule:
+  #   - cron: '*/30 * * * *'
 permissions:
   actions: write
   contents: write

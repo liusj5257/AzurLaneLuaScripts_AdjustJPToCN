@@ -41,6 +41,7 @@ jobs:
           sparse-checkout: CN
       - name: Move CN directory to current directory
         run: |
+          rm -rf ./CN
           mv OldCN/CN .
         
       - name: Checkout AzurLaneApk

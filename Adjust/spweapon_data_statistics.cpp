@@ -114,13 +114,11 @@ void writeCN(vector<int> &allArray, const char *attribute) {
                     first=false;
                   }
                   output(allArray[i], attribute.c_str(), name.c_str());
-                  // if (i == allArray.size() - 1) output_file << "}\n";
                 }
               }
             }
           }
           if (!first) output_file << "lua_pop(L,1);\n";
-          if (i == allArray.size() - 1) output_file << "}\n";
           break;
         }
       }

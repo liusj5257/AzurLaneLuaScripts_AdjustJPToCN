@@ -101,7 +101,6 @@ void writeCN(vector<int> &allArray, const char *attribute) {
               string name = line.substr(start, end - start);
               // cout << name << endl;
               output(allArray[i], attribute, name);
-              if (i == allArray.size() - 1) output_file << "}\n";
               break;
             }
           }
@@ -118,6 +117,7 @@ void writeCN(vector<int> &allArray, const char *attribute) {
     cout << "Unable to open file" << endl;
     // return 0;
   }
+  output_file << "}\n";
   //  return 1;
 }
 

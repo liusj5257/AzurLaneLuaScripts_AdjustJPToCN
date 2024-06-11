@@ -108,7 +108,6 @@ void writeCN(vector<string> &allArray, const char *attribute) {
                 name += line + "\\n";
               }
               output(allArray[i], attribute, name);
-              if (i == allArray.size() - 1) output_file << "}\n";
               break;
             }
             // info

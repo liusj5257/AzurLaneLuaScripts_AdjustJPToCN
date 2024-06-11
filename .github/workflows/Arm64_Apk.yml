@@ -31,19 +31,19 @@ jobs:
           timezoneWindows: "Singapore Standard Time"
       - uses: actions/checkout@v3
 
-      - name: Checkout OldCN Branch
-        uses: actions/checkout@v3
-        with:
-          # repository: ${{ secrets.TOOLS_REPOSITORY }}
-          # token: ${{ secrets.TOKEN }}
-          path: OldCN
-          ref: OldCN
-          sparse-checkout: CN
-      - name: Move CN directory to current directory
-        run: |
-          rm -rf ./CN
-          mv OldCN/CN .
-        
+      # - name: Checkout OldCN Branch
+      #   uses: actions/checkout@v3
+      #   with:
+      #     # repository: ${{ secrets.TOOLS_REPOSITORY }}
+      #     # token: ${{ secrets.TOKEN }}
+      #     path: OldCN
+      #     ref: OldCN
+      #     sparse-checkout: CN
+      # - name: Move CN directory to current directory
+      #   run: |
+      #     rm -rf ./CN
+      #     mv OldCN/CN .
+
       - name: Checkout AzurLaneApk
         uses: actions/checkout@v3
         with:
@@ -164,7 +164,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-ndk-build-
       - name: Build with NDK
-        # if: steps.check_changes_1.outputs.has_changes == 'true' 
+        # if: steps.check_changes_1.outputs.has_changes == 'true'
         run: |
           ndk-build -j2 NDK_APPLICATION_MK=Application.mk APP_BUILD_SCRIPT=Android.mk NDK_OUT=../obj NDK_LIBS_OUT=../libs
         working-directory: AzurLaneApk/jni
@@ -238,7 +238,7 @@ jobs:
       - name: Get current date
         id: date
         run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
-        
+
       - name: Create Release
         if: steps.check_changes_2.outputs.libs_changes == 'true'|| env.Version != 'false'
         uses: ncipollo/release-action@v1.12.0
